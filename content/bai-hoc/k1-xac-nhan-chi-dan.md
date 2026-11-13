@@ -9,7 +9,7 @@ minutes: 15
 objectives:
   - "Sau bài này, bạn có thể hỏi lại đúng ba điểm hay bị thiếu khi nhận việc: kết quả, hạn chót, tiêu chuẩn đạt."
   - "Sau bài này, bạn có thể tóm tắt một chỉ dẫn trong 1–2 câu để người giao xác nhận."
-framework_map: ["WEF: Empathy and active listening", "CSfW: 2a", "LifeComp: S2"]
+framework_map: ["WEF: Empathy and active listening", "CSfW: 2a Communicate for work", "LifeComp: S1 Empathy; S2 Communication"]
 prev: null
 next: k5-ghi-viec-va-bao-som
 updated: 2026-11-13

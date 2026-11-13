@@ -9,7 +9,7 @@ minutes: 20
 objectives:
   - "Sau bài này, bạn có thể ghi mỗi việc được giao thành một dòng gồm 5 cột: việc, kết quả, hạn, người giao, trạng thái."
   - "Sau bài này, bạn có thể viết tin nhắn báo sớm gồm 4 phần: tình trạng, lý do, phương án, đề nghị."
-framework_map: ["CSfW: 3a", "SkillsFuture CCS: Self Management", "NACE: Professionalism"]
+framework_map: ["CSfW: 3a Plan and organise", "SkillsFuture CCS: Self Management", "NACE: Professionalism"]
 prev: k1-xac-nhan-chi-dan
 next: null
 updated: 2026-11-13

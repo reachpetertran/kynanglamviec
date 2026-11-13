@@ -18,7 +18,7 @@ skills:
     cluster: I
     name: Lắng nghe và hiểu đúng
     summary: Nghe hết, hỏi lại phần chưa rõ và xác nhận để làm đúng việc người khác cần.
-    framework_map: ["WEF: Empathy and active listening", "CSfW: 2a", "LifeComp: S2"]
+    framework_map: ["WEF: Empathy and active listening", "CSfW: 2a Communicate for work", "LifeComp: S1 Empathy; S2 Communication"]
     gdpt: Giao tiếp và hợp tác
     levels:
       1: ["Tôi có thể nghe hết một chỉ dẫn ngắn mà không ngắt lời.", "Tôi có thể nhắc lại một chỉ dẫn đơn giản bằng lời của mình.", "Tôi có thể làm đúng theo một chỉ dẫn gồm hai, ba bước."]
@@ -32,7 +32,7 @@ skills:
     cluster: I
     name: Trình bày và viết rõ ràng
     summary: Nói và viết ngắn, đúng mục đích, để người nhận hiểu và biết cần làm gì.
-    framework_map: ["SkillsFuture CCS: Communication", "NACE: Communication", "ILO: core work skills"]
+    framework_map: ["CSfW: 2a Communicate for work", "SkillsFuture CCS: Communication; Influence", "NACE: Communication", "WEF: Service orientation and customer service"]
     gdpt: Giao tiếp và hợp tác
     levels:
       1: ["Tôi có thể giới thiệu ngắn về bản thân hoặc về một công việc.", "Tôi có thể viết tin nhắn công việc có lời chào và nội dung rõ.", "Tôi có thể nói to, rõ trước một nhóm nhỏ."]
@@ -46,7 +46,7 @@ skills:
     cluster: II
     name: Giải quyết vấn đề và ra quyết định
     summary: Xác định đúng vấn đề, tìm nguyên nhân, so sánh phương án và chọn cách làm.
-    framework_map: ["WEF: Analytical thinking", "CSfW: 3b, 3c", "SkillsFuture CCS", "NACE: Critical Thinking"]
+    framework_map: ["WEF: Analytical thinking", "CSfW: 3b Make decisions; 3c Identify and solve problems", "SkillsFuture CCS: Problem Solving; Decision Making; Sense Making", "NACE: Critical Thinking", "LifeComp: L2 Critical thinking"]
     gdpt: Giải quyết vấn đề và sáng tạo
     levels:
       1: ["Tôi có thể nói rõ mình đang gặp khó ở đâu.", "Tôi có thể nhờ giúp đúng người, đúng lúc.", "Tôi có thể làm theo các bước có sẵn khi gặp việc chưa quen."]
@@ -60,7 +60,7 @@ skills:
     cluster: II
     name: Sáng tạo và cải tiến
     summary: Nghĩ ra cách làm mới, thử nhỏ, đo kết quả rồi mới áp dụng rộng.
-    framework_map: ["WEF: Creative thinking", "CSfW: 3d", "SkillsFuture CCS", "EntreComp"]
+    framework_map: ["WEF: Creative thinking", "CSfW: 3d Create and innovate", "SkillsFuture CCS: Creative Thinking", "EntreComp"]
     gdpt: Giải quyết vấn đề và sáng tạo
     levels:
       1: ["Tôi có thể nêu một ý tưởng mới cho nhiệm vụ của nhóm.", "Tôi có thể nhận ra một việc có thể làm nhanh hơn hoặc gọn hơn.", "Tôi có thể hỏi \"còn cách nào khác không?\" khi làm nhiệm vụ."]
@@ -74,7 +74,7 @@ skills:
     cluster: III
     name: Lập kế hoạch và giữ cam kết công việc
     summary: Nhận việc rõ, ghi lại, sắp ưu tiên, làm đúng hạn và báo sớm khi có thể chậm.
-    framework_map: ["CSfW: 3a", "SkillsFuture CCS: Self Management", "NACE: Professionalism"]
+    framework_map: ["CSfW: 3a Plan and organise", "SkillsFuture CCS: Self Management", "NACE: Professionalism"]
     gdpt: Tự chủ và tự học
     crosslink: {site: daynentang.com, url: "https://daynentang.com/", note: "Trách nhiệm như một phẩm chất được bàn ở daynentang.com. Ở đây ta học phần kỹ năng: ghi việc, theo dõi, báo sớm."}
     levels:
@@ -89,7 +89,7 @@ skills:
     cluster: III
     name: Thích ứng và bền bỉ
     summary: Tiếp tục làm tốt khi kế hoạch, công cụ hay môi trường thay đổi.
-    framework_map: ["WEF: Resilience, flexibility and agility", "SkillsFuture CCS: Adaptability", "LifeComp: P2"]
+    framework_map: ["WEF: Resilience, flexibility and agility", "SkillsFuture CCS: Adaptability", "LifeComp: P2 Flexibility"]
     gdpt: Tự chủ và tự học
     crosslink: {site: tamhonkhoe.com, url: "https://tamhonkhoe.com/", note: "Phần tinh thần (thiền, Stoicism) nằm ở tamhonkhoe.com. Ở đây ta học cách làm việc khi có thay đổi."}
     levels:
@@ -104,7 +104,7 @@ skills:
     cluster: III
     name: Tự học và phát triển nghề nghiệp
     summary: Tìm hiểu nghề, tự học việc mới và tự lập lộ trình phát triển.
-    framework_map: ["WEF: Curiosity and lifelong learning", "CSfW: 1a", "SkillsFuture CCS: Learning Agility", "NACE: Career and Self-Development"]
+    framework_map: ["WEF: Curiosity and lifelong learning", "CSfW: 1a Manage career and work life", "SkillsFuture CCS: Learning Agility", "NACE: Career and Self-Development", "LifeComp: L3 Managing learning"]
     gdpt: Tự chủ và tự học
     levels:
       1: ["Tôi có thể kể tên nhiều nghề và việc người làm nghề đó làm.", "Tôi có thể hỏi người lớn về công việc của họ.", "Tôi có thể nói một nghề cần những kỹ năng gì."]
@@ -118,7 +118,7 @@ skills:
     cluster: IV
     name: Làm việc nhóm và tôn trọng khác biệt
     summary: Chia việc, phối hợp và làm tốt cùng người khác tuổi, khác vùng, khác cách nghĩ.
-    framework_map: ["CSfW: 2b, 2c", "SkillsFuture CCS: Collaboration, Building Inclusivity", "NACE: Teamwork"]
+    framework_map: ["CSfW: 2b Connect and work with others; 2c Recognise and utilise diverse perspectives", "SkillsFuture CCS: Collaboration; Building Inclusivity", "NACE: Teamwork; Equity and Inclusion", "LifeComp: S3 Collaboration"]
     gdpt: Giao tiếp và hợp tác
     levels:
       1: ["Tôi có thể làm phần việc của mình trong một nhiệm vụ nhóm.", "Tôi có thể lắng nghe khi bạn trong nhóm nói ý kiến.", "Tôi có thể chia sẻ đồ dùng và thông tin với bạn cùng nhóm."]
@@ -132,7 +132,7 @@ skills:
     cluster: IV
     name: Lãnh đạo và phát triển người khác
     summary: Dẫn dắt việc chung, giao việc, phản hồi và giúp người khác tiến bộ.
-    framework_map: ["WEF: Leadership and social influence; Talent management", "SkillsFuture CCS: Developing People, Influence", "NACE: Leadership"]
+    framework_map: ["WEF: Leadership and social influence; Talent management", "SkillsFuture CCS: Developing People; Influence", "NACE: Leadership"]
     gdpt: "–"
     levels:
       1: ["Tôi có thể chỉ cho bạn mới một việc mình đã biết.", "Tôi có thể nhận một vai trò nhỏ trong nhóm, như giữ giờ hay ghi chép.", "Tôi có thể giúp nhóm giữ trật tự khi làm nhiệm vụ."]
@@ -146,7 +146,7 @@ skills:
     cluster: V
     name: Năng lực số, AI và quy tắc nơi làm việc
     summary: Dùng công cụ số và AI an toàn; hiểu hợp đồng, an toàn, bảo mật ở nơi làm việc.
-    framework_map: ["WEF: Technological literacy; AI and big data", "CSfW: 3e, 1b", "SkillsFuture CCS: Digital Fluency", "DigComp 3.0"]
+    framework_map: ["WEF: Technological literacy; AI and big data", "CSfW: 3e Work in a digital world; 1b Work with roles, rights and protocols", "SkillsFuture CCS: Digital Fluency", "NACE: Technology", "DigComp 3.0"]
     gdpt: (Tin học)
     crosslink: {site: trachnhiemxahoi.com, url: "https://trachnhiemxahoi.com/", note: "Quyền con người và social compliance nằm ở trachnhiemxahoi.com. Ở đây ta học phần kiến thức thực tế khi đi làm."}
     levels:

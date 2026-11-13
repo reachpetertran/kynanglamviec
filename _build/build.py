@@ -452,7 +452,24 @@ của Singapore dùng 3 mức Basic, Intermediate, Advanced.</p>
 <li><a href="https://www.skillsbuilder.uk/universal-framework">Skills Builder Universal Framework</a> (chỉ tham khảo; giấy phép CC BY-NC-ND 4.0)</li>
 <li>Chương trình GDPT 2018, Thông tư 32/2018/TT-BGDĐT.</li>
 </ul>
-<p class="muted small">Tra cứu ngày 13/11/2026.</p>""")
+<h2>Tên gốc đã đối chiếu</h2>
+<p class="small">Danh sách tên gọi gốc để đối chiếu mã trong bảng trên. Chỉ ghi tên, không chép mô tả.</p>
+<ul class="small">
+<li><b>CSfW</b> (3 cụm, 10 lĩnh vực): 1a Manage career and work life · 1b Work with roles, rights and protocols ·
+2a Communicate for work · 2b Connect and work with others · 2c Recognise and utilise diverse perspectives ·
+3a Plan and organise · 3b Make decisions · 3c Identify and solve problems · 3d Create and innovate · 3e Work in a digital world.</li>
+<li><b>SkillsFuture CCS</b> (16 năng lực, 3 cụm): Thinking Critically – Creative Thinking, Decision Making, Problem Solving,
+Sense Making, Transdisciplinary Thinking · Interacting with Others – Building Inclusivity, Collaboration, Communication,
+Customer Orientation, Developing People, Influence · Staying Relevant – Adaptability, Digital Fluency, Global Perspective,
+Learning Agility, Self Management.</li>
+<li><b>NACE</b> (8 năng lực): Career and Self-Development · Communication · Critical Thinking · Equity and Inclusion ·
+Leadership · Professionalism · Teamwork · Technology.</li>
+<li><b>LifeComp</b> (9 năng lực): P1 Self-regulation · P2 Flexibility · P3 Wellbeing · S1 Empathy · S2 Communication ·
+S3 Collaboration · L1 Growth mindset · L2 Critical thinking · L3 Managing learning.</li>
+<li><b>WEF Future of Jobs 2025</b>: tên kỹ năng theo bảng phân loại của báo cáo, ví dụ Analytical thinking;
+Resilience, flexibility and agility; Leadership and social influence; Empathy and active listening.</li>
+</ul>
+<p class="muted small">Đối chiếu lần cuối ngày 14/11/2026.</p>""")
 
     page("gioi-thieu/", "Giới thiệu", """<h1>Giới thiệu</h1>
 <p class="lead">kynanglamviec.com dạy kỹ năng làm việc theo lộ trình nghề nghiệp, từ học sinh đến quản lý.
