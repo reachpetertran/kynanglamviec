@@ -2,7 +2,7 @@
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
 
-## Trạng thái hiện tại (14/11/2026) – v0.3, ĐANG CHẠY THẬT
+## Trạng thái hiện tại (14/11/2026) – v0.4, ĐANG CHẠY THẬT
 - Site: https://kynanglamviec.com và https://www.kynanglamviec.com (Cloudflare Pages, SSL bật). Bản dự phòng: https://kynanglamviec.pages.dev
 - Mã nguồn: https://github.com/reachpetertran/kynanglamviec (public, nhánh `main`). Mỗi lần push lên `main`, Cloudflare tự đăng.
 - Phiên mới: gắn repo (add_repo, quyền push), clone, sửa, `python3 _build/build.py`, commit cả `public/`, push.
@@ -47,10 +47,24 @@ Chuỗi prev/next theo thứ tự trên. Bài 11 có `next: null`.
 - Bài N1 không có ô ghi phản tư (app.js bỏ qua khi data-group chứa N1).
 - Kiểm tra: `python3 _build/check.py` (câu ≤25 chữ, phần 3 <400 chữ, đủ 9 phần, ảnh, liên kết, câu hỏi). Báo lỗi giả ở k5-ghi-viec-va-bao-som (dòng liệt kê dùng dấu ·).
 
+## Khóa N2 "Chuẩn bị đi làm" (đăng 14/11/2026, 7 bài, chuỗi riêng, order 31–37)
+19. k7-hieu-minh-chon-huong – K7 B2 (Bài 1, Tờ 1 Bản đồ hướng đi)
+20. k7-doc-tin-tuyen-dung – K7 B2 (Bài 2, Tờ 2; dẫn BLLĐ hợp nhất 18/VBHN-VPQH Điều 16, 17, 143)
+21. k2-viet-cv-dau-tien – K2 B2 (Bài 3, Tờ 3 CV một trang)
+22. k2-chuan-bi-phong-van – K2 B2 (Bài 4, Tờ 4; STAR dẫn sang k2-ke-vi-du-star)
+23. k2-giao-tiep-tuan-dau – K2 B1 (Bài 5, Tờ 5 Sổ tay tuần đầu)
+24. k7-hoc-nhanh-viec-moi – K7 B2 (Bài 6, Tờ 6 Sổ quy trình; Dunlosky 2013)
+25. k7-on-tap-ho-so-san-sang – K7 B2 (Bài 7, ôn tập trộn + kiểm chéo + kế hoạch 30 ngày)
+- Sợi chỉ xuyên khóa: Hồ sơ sẵn sàng đi làm (6 tờ + bảng kiểm). Mẫu in: `content/trang/n2-mau-in.md` → /tai-nguyen/n2/ (neo #to-1 … #to-7).
+- Hình: `_build/art/n2_art.py` sinh 7 SVG vào `_build/static/assets/img/n2/`.
+- Build: `COURSES` trong build.py giờ hỗ trợ nhiều khóa (title, home, guide, thread, after). Trang nhóm có khóa thì hiện "Bản đồ khóa" + "Bài học thêm cho nhóm".
+- 7 bài N2 cũ (chuỗi chính) hiện ở mục "Bài học thêm cho nhóm" trên /lo-trinh/n2/.
+- Chỗ trống: bài pháp lý "Quyền và an toàn khi đi làm thêm, thực tập" — thêm vào khóa N2 (Bài 3 hoặc cuối) sau khi luật sửa đổi BLLĐ được biểu quyết. Bản đồ khóa đang có hộp "Sắp có".
+
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.
-2. Bài còn thiếu theo học phần: "Phục vụ khách hàng nội bộ và bên ngoài" (N3), "Hiểu mình để chọn hướng" (N2), "Học nhanh việc mới" (N2), "Giao tiếp ở nơi làm việc đầu tiên" (N2), K6 cho N3.
-3. N1 đã xong (chờ Peter duyệt nội dung). Tiếp theo: N4, N5.
+2. Bài còn thiếu theo học phần: "Phục vụ khách hàng nội bộ và bên ngoài" (N3), K6 cho N3.
+3. N1 và N2 đã đăng (chờ Peter duyệt nội dung). Tiếp theo: N3 thành khóa, rồi N4, N5.
 
 ## Quy trình thêm bài
 1. Tạo `content/bai-hoc/<slug>.md` (front matter: title, slug, skill, level, group, order, minutes, objectives (đặt trong ngoặc kép), framework_map, prev, next, updated, status) với đúng 9 tiêu đề `## 1. Mục tiêu` … `## 9. Siêu dữ liệu`. Phần 6 và 9 để trống: build tự chèn câu hỏi và bảng siêu dữ liệu.
