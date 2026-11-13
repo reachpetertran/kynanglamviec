@@ -1,0 +1,51 @@
+lesson: k5-ghi-viec-va-bao-som
+updated: 2026-11-13
+questions:
+  - id: q1
+    prompt: "Tình huống giả định. Hạn nộp báo cáo là thứ Sáu. Thứ Ba, bạn thấy thiếu dữ liệu và có thể không kịp. Nên báo khi nào?"
+    options:
+      - text: Ngay thứ Ba.
+        correct: true
+        why: Đúng. Báo ngay khi thấy nguy cơ. Người giao còn ba ngày để chọn cách xử lý.
+      - text: Thứ Năm, sau khi cố thêm hai ngày.
+        correct: false
+        why: Cố thêm không sai, nhưng hãy vừa cố vừa báo. Chờ đến thứ Năm làm mất bớt lựa chọn.
+      - text: Thứ Sáu, khi chắc chắn là trễ.
+        correct: false
+        why: Báo vào hôm hết hạn gần như không còn lựa chọn nào cho người giao.
+  - id: q2
+    prompt: "Tin nhắn nào đủ 4 phần của một lời báo sớm?"
+    options:
+      - text: "\"Em xin lỗi chị, chắc em không kịp rồi.\""
+        correct: false
+        why: Chỉ có lời xin lỗi. Thiếu tình trạng, lý do, phương án và đề nghị.
+      - text: "\"Em xong 60%. Nhà cung cấp giao mẫu trễ. Em có thể nộp phần xong trước, hoặc lùi 1 ngày. Chị chọn giúp em trước 15:00 nhé.\""
+        correct: true
+        why: Đúng. Có tình trạng (60%), lý do, hai phương án và đề nghị có thời hạn.
+      - text: "\"Nhà cung cấp làm chậm nên em trễ, không phải lỗi em.\""
+        correct: false
+        why: Tin nhắn tập trung đổ lỗi, không có phương án và không nói cần người giao làm gì.
+  - id: q3
+    prompt: "Bạn ghi việc ở ba nơi: sổ tay, điện thoại và giấy dán màn hình. Vấn đề chính là gì?"
+    options:
+      - text: Tốn giấy.
+        correct: false
+        why: Đây không phải vấn đề chính.
+      - text: Khó xem đủ mọi việc cùng lúc, dễ sót việc.
+        correct: true
+        why: Đúng. Nhiều nơi ghi thì khi xem lại, bạn dễ bỏ sót một nơi. Hãy gom về một chỗ.
+      - text: Không có vấn đề gì, càng nhiều nơi càng nhớ.
+        correct: false
+        why: Ghi nhiều nơi làm việc xem lại khó hơn, không giúp nhớ hơn.
+  - id: q4
+    prompt: "Cột nào giúp bạn biết việc nào cần báo sớm?"
+    options:
+      - text: Người giao.
+        correct: false
+        why: Cột này cho biết báo cho ai, nhưng không cho biết việc nào cần báo.
+      - text: Trạng thái, cùng với cột hạn.
+        correct: true
+        why: Đúng. Khi trạng thái là "Có nguy cơ trễ" và hạn còn xa, đó là lúc báo sớm.
+      - text: Kết quả.
+        correct: false
+        why: Cột kết quả mô tả sản phẩm cần giao, không cho biết tiến độ.

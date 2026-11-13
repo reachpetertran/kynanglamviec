@@ -1,0 +1,157 @@
+# 10 kỹ năng, 5 cụm. Nguồn: file "Context dự án kynanglamviec" (13/11/2026).
+# Câu "Tôi có thể…" do site tự viết [SL] — Peter duyệt. Không dịch/chuyển thể Skills Builder.
+clusters:
+  - id: I
+    name: Giao tiếp
+  - id: II
+    name: Tư duy
+  - id: III
+    name: Tự quản lý
+  - id: IV
+    name: Cộng tác và lãnh đạo
+  - id: V
+    name: Tổ chức số
+
+skills:
+  - code: K1
+    slug: k1
+    cluster: I
+    name: Lắng nghe và hiểu đúng
+    summary: Nghe hết, hỏi lại phần chưa rõ và xác nhận để làm đúng việc người khác cần.
+    framework_map: ["WEF: Empathy and active listening", "CSfW: 2a", "LifeComp: S2"]
+    gdpt: Giao tiếp và hợp tác
+    levels:
+      1: ["Tôi có thể nghe hết một chỉ dẫn ngắn mà không ngắt lời.", "Tôi có thể nhắc lại một chỉ dẫn đơn giản bằng lời của mình."]
+      2: ["Tôi có thể hỏi lại khi chưa rõ kết quả cần có, hạn chót hoặc tiêu chuẩn đạt.", "Tôi có thể ghi ý chính khi nhận việc hoặc khi họp."]
+      3: ["Tôi có thể tóm tắt ý người nói và xin xác nhận trước khi làm.", "Tôi có thể nhận ra mối lo phía sau lời nói của khách hàng hoặc đồng nghiệp."]
+      4: ["Tôi có thể nghe ý kiến trái chiều mà không vội phản bác.", "Tôi có thể đặt câu hỏi mở để làm rõ nhu cầu thật của các bên."]
+      5: ["Tôi có thể lắng nghe để coaching, giúp người khác tự tìm hướng giải quyết.", "Tôi có thể tổ chức cuộc họp nơi mọi người dám nói thẳng."]
+
+  - code: K2
+    slug: k2
+    cluster: I
+    name: Trình bày và viết rõ ràng
+    summary: Nói và viết ngắn, đúng mục đích, để người nhận hiểu và biết cần làm gì.
+    framework_map: ["SkillsFuture CCS: Communication", "NACE: Communication", "ILO: core work skills"]
+    gdpt: Giao tiếp và hợp tác
+    levels:
+      1: ["Tôi có thể giới thiệu ngắn về bản thân hoặc về một công việc.", "Tôi có thể viết tin nhắn công việc có lời chào và nội dung rõ."]
+      2: ["Tôi có thể viết email có tiêu đề rõ, một mục đích và một đề nghị cụ thể.", "Tôi có thể viết CV một trang và trả lời phỏng vấn bằng ví dụ thật."]
+      3: ["Tôi có thể báo cáo tiến độ: đã xong gì, đang vướng gì, cần hỗ trợ gì.", "Tôi có thể đổi cách nói cho hợp người nghe, như khách hàng hay cấp trên."]
+      4: ["Tôi có thể trình bày đề xuất có số liệu, các phương án và rủi ro.", "Tôi có thể đàm phán để đạt thỏa thuận mà các bên chấp nhận được."]
+      5: ["Tôi có thể truyền đạt định hướng để cả đội hiểu vì sao và cần làm gì.", "Tôi có thể giúp người khác viết và trình bày tốt hơn."]
+
+  - code: K3
+    slug: k3
+    cluster: II
+    name: Giải quyết vấn đề và ra quyết định
+    summary: Xác định đúng vấn đề, tìm nguyên nhân, so sánh phương án và chọn cách làm.
+    framework_map: ["WEF: Analytical thinking", "CSfW: 3b, 3c", "SkillsFuture CCS", "NACE: Critical Thinking"]
+    gdpt: Giải quyết vấn đề và sáng tạo
+    levels:
+      1: ["Tôi có thể nói rõ mình đang gặp khó ở đâu.", "Tôi có thể nhờ giúp đúng người, đúng lúc."]
+      2: ["Tôi có thể làm theo các bước có sẵn để xử lý một sự cố quen thuộc.", "Tôi có thể nghĩ ra ít nhất hai cách giải quyết trước khi hỏi cấp trên."]
+      3: ["Tôi có thể tìm nguyên nhân gốc, không chỉ xử lý triệu chứng.", "Tôi có thể so sánh các phương án theo tiêu chí rõ ràng rồi chọn."]
+      4: ["Tôi có thể nhìn vấn đề trong cả hệ thống và thấy tác động dây chuyền.", "Tôi có thể quyết định khi thiếu thông tin và nói rõ mình đang giả định gì."]
+      5: ["Tôi có thể ra quyết định chiến lược có cân nhắc rủi ro dài hạn.", "Tôi có thể xây cách làm để đội tự giải quyết vấn đề."]
+
+  - code: K4
+    slug: k4
+    cluster: II
+    name: Sáng tạo và cải tiến
+    summary: Nghĩ ra cách làm mới, thử nhỏ, đo kết quả rồi mới áp dụng rộng.
+    framework_map: ["WEF: Creative thinking", "CSfW: 3d", "SkillsFuture CCS", "EntreComp"]
+    gdpt: Giải quyết vấn đề và sáng tạo
+    levels:
+      1: ["Tôi có thể nêu một ý tưởng mới cho nhiệm vụ của nhóm.", "Tôi có thể nhận ra một việc có thể làm nhanh hơn hoặc gọn hơn."]
+      2: ["Tôi có thể thử một cách làm mới nhỏ và xem kết quả.", "Tôi có thể ghi lại góp ý cải tiến kèm lý do."]
+      3: ["Tôi có thể đề xuất cải tiến gồm hiện trạng, giải pháp và lợi ích.", "Tôi có thể chạy thử nhỏ trước khi áp dụng rộng."]
+      4: ["Tôi có thể mượn ý tưởng từ lĩnh vực khác để giải bài toán của đội.", "Tôi có thể dẫn một dự án cải tiến từ ý tưởng đến đo kết quả."]
+      5: ["Tôi có thể tạo môi trường nơi mọi người dám đề xuất và thử nghiệm.", "Tôi có thể chọn ý tưởng nào được đầu tư dựa trên bằng chứng."]
+
+  - code: K5
+    slug: k5
+    cluster: III
+    name: Lập kế hoạch và giữ cam kết công việc
+    summary: Nhận việc rõ, ghi lại, sắp ưu tiên, làm đúng hạn và báo sớm khi có thể chậm.
+    framework_map: ["CSfW: 3a", "SkillsFuture CCS: Self Management", "NACE: Professionalism"]
+    gdpt: Tự chủ và tự học
+    crosslink: {site: daynentang.com, url: "https://daynentang.com/", note: "Trách nhiệm như một phẩm chất được bàn ở daynentang.com. Ở đây ta học phần kỹ năng: ghi việc, theo dõi, báo sớm."}
+    levels:
+      1: ["Tôi có thể nhận một nhiệm vụ và nói rõ khi nào xong.", "Tôi có thể làm xong phần việc mình đã nhận trong nhóm."]
+      2: ["Tôi có thể ghi mọi việc được giao vào một danh sách có hạn chót.", "Tôi có thể báo sớm khi thấy mình có thể trễ hạn."]
+      3: ["Tôi có thể ước lượng thời gian và sắp ưu tiên khi nhiều việc cùng lúc.", "Tôi có thể thương lượng lại hạn hoặc phạm vi khi không đủ thời gian."]
+      4: ["Tôi có thể lập kế hoạch dự án nhỏ có mốc, người phụ trách và rủi ro.", "Tôi có thể theo dõi tiến độ của nhiều người và điều chỉnh kịp thời."]
+      5: ["Tôi có thể phân bổ người và nguồn lực theo mục tiêu ưu tiên của đơn vị.", "Tôi có thể xây quy trình để đội giữ cam kết mà không cần nhắc."]
+
+  - code: K6
+    slug: k6
+    cluster: III
+    name: Thích ứng và bền bỉ
+    summary: Tiếp tục làm tốt khi kế hoạch, công cụ hay môi trường thay đổi.
+    framework_map: ["WEF: Resilience, flexibility and agility", "SkillsFuture CCS: Adaptability", "LifeComp: P2"]
+    gdpt: Tự chủ và tự học
+    crosslink: {site: tamhonkhoe.com, url: "https://tamhonkhoe.com/", note: "Phần tinh thần (thiền, Stoicism) nằm ở tamhonkhoe.com. Ở đây ta học cách làm việc khi có thay đổi."}
+    levels:
+      1: ["Tôi có thể tiếp tục làm khi kế hoạch thay đổi nhỏ.", "Tôi có thể nói ra khi mình bối rối với một việc mới."]
+      2: ["Tôi có thể làm quen nhanh với một công cụ hoặc quy trình mới.", "Tôi có thể nhận góp ý mà không bỏ dở công việc."]
+      3: ["Tôi có thể giữ chất lượng công việc khi có áp lực hoặc kế hoạch đổi.", "Tôi có thể rút bài học sau một lần làm hỏng và làm khác đi."]
+      4: ["Tôi có thể giúp đồng nghiệp thích nghi khi quy trình thay đổi.", "Tôi có thể chuẩn bị phương án dự phòng cho việc quan trọng."]
+      5: ["Tôi có thể dẫn đội qua một thay đổi lớn, nói rõ lý do và lộ trình.", "Tôi có thể giữ khối lượng việc của đội ở mức làm được lâu dài."]
+
+  - code: K7
+    slug: k7
+    cluster: III
+    name: Tự học và phát triển nghề nghiệp
+    summary: Tìm hiểu nghề, tự học việc mới và tự lập lộ trình phát triển.
+    framework_map: ["WEF: Curiosity and lifelong learning", "CSfW: 1a", "SkillsFuture CCS: Learning Agility", "NACE: Career and Self-Development"]
+    gdpt: Tự chủ và tự học
+    levels:
+      1: ["Tôi có thể kể tên nhiều nghề và việc người làm nghề đó làm.", "Tôi có thể hỏi người lớn về công việc của họ."]
+      2: ["Tôi có thể tìm hiểu một ngành trước khi chọn học hoặc đi thực tập.", "Tôi có thể tự học một việc mới bằng tài liệu, video và hỏi người biết."]
+      3: ["Tôi có thể đặt mục tiêu học cho 90 ngày đầu ở chỗ làm mới.", "Tôi có thể chủ động xin phản hồi và dùng nó để tiến bộ."]
+      4: ["Tôi có thể lập kế hoạch phát triển nghề 1–3 năm có mốc đo được.", "Tôi có thể chuyển sang vai trò mới bằng các kỹ năng mang theo được."]
+      5: ["Tôi có thể phát triển mình với vai trò lãnh đạo dựa trên phản hồi nhiều chiều.", "Tôi có thể giúp người trong đội lập lộ trình nghề nghiệp."]
+
+  - code: K8
+    slug: k8
+    cluster: IV
+    name: Làm việc nhóm và tôn trọng khác biệt
+    summary: Chia việc, phối hợp và làm tốt cùng người khác tuổi, khác vùng, khác cách nghĩ.
+    framework_map: ["CSfW: 2b, 2c", "SkillsFuture CCS: Collaboration, Building Inclusivity", "NACE: Teamwork"]
+    gdpt: Giao tiếp và hợp tác
+    levels:
+      1: ["Tôi có thể làm phần việc của mình trong một nhiệm vụ nhóm.", "Tôi có thể lắng nghe khi bạn trong nhóm nói ý kiến."]
+      2: ["Tôi có thể cùng nhóm chia việc và nhắc nhau đúng hạn.", "Tôi có thể làm việc với người khác tuổi, khác vùng miền, khác cách nghĩ."]
+      3: ["Tôi có thể hỗ trợ đồng nghiệp đang quá tải mà vẫn xong việc của mình.", "Tôi có thể nêu bất đồng một cách tôn trọng, tập trung vào công việc."]
+      4: ["Tôi có thể hòa giải xung đột giữa các thành viên trong nhóm.", "Tôi có thể phối hợp với bộ phận khác để đạt mục tiêu chung."]
+      5: ["Tôi có thể xây đội có vai trò rõ, ai cũng được đóng góp.", "Tôi có thể đặt quy tắc làm việc phù hợp cho người có hoàn cảnh khác nhau."]
+
+  - code: K9
+    slug: k9
+    cluster: IV
+    name: Lãnh đạo và phát triển người khác
+    summary: Dẫn dắt việc chung, giao việc, phản hồi và giúp người khác tiến bộ.
+    framework_map: ["WEF: Leadership and social influence; Talent management", "SkillsFuture CCS: Developing People, Influence", "NACE: Leadership"]
+    gdpt: "–"
+    levels:
+      1: ["Tôi có thể chỉ cho bạn mới một việc mình đã biết.", "Tôi có thể nhận một vai trò nhỏ trong nhóm, như giữ giờ hay ghi chép."]
+      2: ["Tôi có thể đề xuất cách làm cho nhóm khi chưa ai lên tiếng.", "Tôi có thể làm mẫu bằng việc làm đúng hạn, đúng chuẩn."]
+      3: ["Tôi có thể hướng dẫn người mới làm quen công việc.", "Tôi có thể phản hồi cụ thể, dựa trên hành vi, cho đồng nghiệp."]
+      4: ["Tôi có thể kèm cặp (mentoring) một người trong nhiều tháng.", "Tôi có thể tác động đến quyết định dù không có chức danh."]
+      5: ["Tôi có thể giao việc rõ, theo dõi và phản hồi định kỳ.", "Tôi có thể phát hiện và bồi dưỡng người kế cận."]
+
+  - code: K10
+    slug: k10
+    cluster: V
+    name: Năng lực số, AI và quy tắc nơi làm việc
+    summary: Dùng công cụ số và AI an toàn; hiểu hợp đồng, an toàn, bảo mật ở nơi làm việc.
+    framework_map: ["WEF: Technological literacy; AI and big data", "CSfW: 3e, 1b", "SkillsFuture CCS: Digital Fluency", "DigComp 3.0"]
+    gdpt: (Tin học)
+    crosslink: {site: trachnhiemxahoi.com, url: "https://trachnhiemxahoi.com/", note: "Quyền con người và social compliance nằm ở trachnhiemxahoi.com. Ở đây ta học phần kiến thức thực tế khi đi làm."}
+    levels:
+      1: ["Tôi có thể kể ra công nghệ mà một nghề quen thuộc đang dùng.", "Tôi có thể giữ bí mật mật khẩu của mình."]
+      2: ["Tôi có thể dùng email, bảng tính và chat công việc ở mức cơ bản.", "Tôi có thể đọc các điều chính trong hợp đồng hoặc thỏa thuận thực tập trước khi ký."]
+      3: ["Tôi có thể dùng AI hỗ trợ công việc và tự kiểm tra lại kết quả.", "Tôi có thể làm đúng quy định bảo mật dữ liệu và an toàn của nơi làm việc."]
+      4: ["Tôi có thể tự động hóa một việc lặp lại bằng công cụ số.", "Tôi có thể đánh giá rủi ro trước khi đưa dữ liệu vào công cụ AI."]
+      5: ["Tôi có thể xây quy tắc dùng AI và dữ liệu cho đội.", "Tôi có thể chọn công cụ số cho đội theo nhu cầu, chi phí và rủi ro."]

@@ -1,0 +1,64 @@
+# 5 nhóm người học. Nguồn: file Context mục 2, 3, 5, 6. Học phần là gợi ý [SL].
+# matrix: "-" không dạy · "o" giới thiệu · "c" trọng tâm · "a" nâng cao
+groups:
+  - code: N1
+    slug: n1
+    name: Học sinh tiểu học, THCS
+    short: Khám phá nghề
+    audience: Phụ huynh hoặc giáo viên dùng cùng trẻ. Trẻ không tự dùng thiết bị một mình.
+    levels: "Bậc 1"
+    intro: >-
+      Ở tuổi này, mục tiêu là mở rộng hiểu biết về nghề, không phải chọn nghề.
+      Trẻ học bốn việc: khám phá nghề quanh mình, thấy rằng ai cũng có thể làm bất kỳ nghề nào,
+      làm việc nhóm và giữ cam kết trong nhiệm vụ. Không có trắc nghiệm chọn nghề.
+    note: "Site không thu bất kỳ dữ liệu nào của trẻ. Thói quen, giá trị và phẩm chất được dạy ở daynentang.com."
+    modules: ["Nghề nghiệp quanh em", "Nghề nào cũng cần kỹ năng", "Ai cũng có thể làm nghề này", "Cùng nhau hoàn thành nhiệm vụ", "Nhận việc và giữ hẹn (THCS)", "Phỏng vấn người làm nghề (THCS)"]
+    matrix: {K1: ["o", "nghe và làm theo chỉ dẫn"], K2: ["o", "kể về một nghề"], K3: ["o", "nhờ giúp đúng lúc"], K4: ["o", ""], K5: ["c", "giữ cam kết nhiệm vụ"], K6: ["-", "xem daynentang.com"], K7: ["c", "khám phá nghề"], K8: ["c", "làm nhóm trong nhiệm vụ"], K9: ["-", ""], K10: ["o", "nghề nào cũng dùng công nghệ"]}
+
+  - code: N2
+    slug: n2
+    name: THPT, sinh viên, làm thêm, thực tập
+    short: Chuẩn bị đi làm
+    audience: Học sinh THPT, sinh viên chưa đi làm, người làm thêm, thực tập sinh, người học nghề.
+    levels: "Bậc 1–2"
+    intro: >-
+      Bạn chuẩn bị bước vào nơi làm việc đầu tiên. Trọng tâm: hiểu mình để chọn hướng,
+      viết CV và phỏng vấn, biết quyền và an toàn khi đi làm thêm, giao tiếp và làm nhóm.
+    modules: ["Hiểu mình để chọn hướng", "Hồ sơ xin việc đầu tiên (CV, STAR)", "Quyền và an toàn khi đi làm thêm, thực tập", "Giao tiếp ở nơi làm việc đầu tiên", "Học nhanh việc mới", "Làm dự án nhóm hiệu quả"]
+    matrix: {K1: ["c", ""], K2: ["c", "email, CV, phỏng vấn"], K3: ["c", ""], K4: ["o", ""], K5: ["c", ""], K6: ["o", ""], K7: ["c", "chọn ngành, thực tập"], K8: ["c", ""], K9: ["o", "lãnh đạo không chức danh"], K10: ["c", "quyền, an toàn khi đi làm; AI cơ bản"]}
+
+  - code: N3
+    slug: n3
+    name: Nhân viên mới, junior
+    short: Vững vàng ở việc đầu tiên
+    audience: Người mới đi làm, nhân viên entry hoặc junior.
+    levels: "Bậc 2–3"
+    intro: >-
+      Bạn đã có việc làm. Trọng tâm: qua tốt 90 ngày đầu, quản lý việc và cam kết,
+      giải quyết vấn đề có cấu trúc, nhận phản hồi và dùng AI an toàn.
+    modules: ["90 ngày đầu tiên", "Quản lý việc và cam kết", "Giải quyết vấn đề có cấu trúc", "Nhận và dùng phản hồi", "Làm việc với AI và công cụ số an toàn", "Phục vụ khách hàng nội bộ và bên ngoài"]
+    matrix: {K1: ["c", ""], K2: ["c", "báo cáo tiến độ"], K3: ["c", ""], K4: ["c", "đề xuất cải tiến"], K5: ["c", ""], K6: ["c", ""], K7: ["c", "90 ngày đầu"], K8: ["c", ""], K9: ["o", ""], K10: ["c", ""]}
+
+  - code: N4
+    slug: n4
+    name: Senior, chuyên gia
+    short: Ảnh hưởng và kèm cặp
+    audience: Người có kinh nghiệm, chuyên viên chính, chuyên gia.
+    levels: "Bậc 3–4"
+    intro: >-
+      Bạn làm tốt việc chuyên môn. Bước tiếp theo: tư duy hệ thống, ảnh hưởng không cần chức danh,
+      kèm cặp đồng nghiệp, quản lý dự án gọn nhẹ và làm mới nghề nghiệp.
+    modules: ["Tư duy hệ thống, quyết định khi thiếu thông tin", "Ảnh hưởng không cần chức danh", "Kèm cặp đồng nghiệp", "Quản lý dự án gọn nhẹ", "Cải tiến và đổi mới", "Chuyển đổi và làm mới nghề nghiệp"]
+    matrix: {K1: ["a", "nghe phản biện"], K2: ["a", "thuyết phục, đàm phán"], K3: ["a", "tư duy hệ thống"], K4: ["a", ""], K5: ["a", "quản lý dự án"], K6: ["c", ""], K7: ["c", "chuyển đổi nghề"], K8: ["a", "giải quyết xung đột"], K9: ["c", "kèm cặp, mentoring"], K10: ["c", ""]}
+
+  - code: N5
+    slug: n5
+    name: Quản lý, trưởng nhóm
+    short: Dẫn dắt đội
+    audience: Trưởng nhóm, quản lý cấp cơ sở và cấp trung.
+    levels: "Bậc 4–5 (riêng K9 bắt đầu từ Bậc 2–3)"
+    intro: >-
+      Bạn chịu trách nhiệm về kết quả của người khác. Trọng tâm: chuyển từ chuyên viên thành quản lý,
+      giao việc và phản hồi, coaching, xử lý xung đột, xây đội và dẫn dắt thay đổi, kể cả đưa AI vào đội.
+    modules: ["Từ chuyên viên thành quản lý", "Giao việc và phản hồi", "Coaching và phát triển người", "Xử lý xung đột, đối thoại khó", "Xây đội và văn hóa hòa nhập", "Dẫn dắt thay đổi, gồm đưa AI vào đội"]
+    matrix: {K1: ["a", "lắng nghe để coaching"], K2: ["a", "truyền đạt tầm nhìn"], K3: ["a", "quyết định chiến lược"], K4: ["a", "văn hóa đổi mới"], K5: ["a", "phân bổ nguồn lực"], K6: ["a", "quản lý thay đổi"], K7: ["c", "phát triển bản thân với vai trò lãnh đạo"], K8: ["a", "xây dựng đội"], K9: ["a", "trọng tâm"], K10: ["a", "chính sách dùng AI cho đội"]}

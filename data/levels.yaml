@@ -1,0 +1,24 @@
+# Thang 5 bậc của site [SL]. Đối chiếu: CSfW (Úc) 5 giai đoạn; SkillsFuture CCS 3 mức. Xem /khung-tham-chieu/.
+levels:
+  - n: 1
+    name: Làm quen
+    desc: Biết kỹ năng là gì, làm được khi có người hướng dẫn từng bước.
+  - n: 2
+    name: Bắt đầu
+    desc: Tự làm được trong việc quen thuộc, đôi khi cần nhắc.
+  - n: 3
+    name: Vững vàng
+    desc: Làm ổn định trong nhiều tình huống, kể cả khi có áp lực.
+  - n: 4
+    name: Thành thạo
+    desc: Xử lý được tình huống phức tạp, mới lạ; hỗ trợ được đồng nghiệp.
+  - n: 5
+    name: Dẫn dắt
+    desc: Xây cách làm cho cả đội; giúp người khác phát triển kỹ năng này.
+
+# Bốn mức tự đánh giá cho mỗi câu "Tôi có thể…"
+self_rating:
+  - Chưa
+  - Đôi khi
+  - Thường xuyên
+  - Có thể hướng dẫn người khác

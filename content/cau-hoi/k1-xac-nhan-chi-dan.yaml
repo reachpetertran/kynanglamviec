@@ -1,0 +1,51 @@
+lesson: k1-xac-nhan-chi-dan
+updated: 2026-11-13
+questions:
+  - id: q1
+    prompt: "Tình huống giả định. Trưởng phòng nhắn: \"Em làm giúp anh bảng tổng hợp đơn hàng tuần này nhé.\" Điểm nào còn thiếu?"
+    options:
+      - text: Kết quả.
+        correct: false
+        why: Kết quả đã khá rõ là một bảng tổng hợp đơn hàng. Vẫn còn điểm khác thiếu.
+      - text: Hạn chót và tiêu chuẩn đạt.
+        correct: true
+        why: Đúng. Chưa biết cần lúc nào, và bảng cần những cột gì, theo mẫu nào.
+      - text: Không thiếu gì, cứ làm luôn.
+        correct: false
+        why: Nếu tự đoán hạn và mẫu bảng, bạn dễ phải làm lại.
+  - id: q2
+    prompt: "Câu tóm tắt nào giúp người giao xác nhận nhanh nhất?"
+    options:
+      - text: "\"Dạ em hiểu rồi ạ.\""
+        correct: false
+        why: Câu này không cho người giao biết bạn hiểu thế nào. Họ không thể phát hiện chỗ lệch.
+      - text: "\"Em tóm lại: bảng đơn hàng tuần 46, theo mẫu tháng trước, gửi anh trước 10:00 thứ Sáu. Đúng ý anh chưa ạ?\""
+        correct: true
+        why: Đúng. Câu ngắn, đủ kết quả, hạn chót và tiêu chuẩn, kết thúc bằng câu hỏi xác nhận.
+      - text: Nhắc lại nguyên văn từng chữ người giao đã nói.
+        correct: false
+        why: Nhắc nguyên văn không cho thấy bạn hiểu. Diễn đạt lại bằng lời mình mới lộ ra chỗ hiểu lệch.
+  - id: q3
+    prompt: "Tình huống giả định. Khách nói rõ: \"Gói 5 phần cơm, mang đi, lấy lúc 11:30.\" Bạn nên làm gì?"
+    options:
+      - text: Hỏi lại cả ba điểm cho chắc.
+        correct: false
+        why: Khách đã nói đủ. Hỏi lại điều đã rõ làm mất thời gian và gây khó chịu.
+      - text: Tóm tắt ngắn rồi bắt đầu làm.
+        correct: true
+        why: Đúng. Chỉ hỏi phần thiếu. Khi đã đủ, một câu tóm tắt ngắn là đủ để xác nhận.
+      - text: Không cần nói gì, bắt đầu làm ngay.
+        correct: false
+        why: Một câu tóm tắt chỉ mất vài giây nhưng bắt được lỗi nghe nhầm, ví dụ 5 thành 15.
+  - id: q4
+    prompt: "Việc được giao qua tin nhắn Zalo. Cách xác nhận nào phù hợp nhất?"
+    options:
+      - text: Gọi điện xác nhận, không cần nhắn lại.
+        correct: false
+        why: Gọi điện được, nhưng nên nhắn lại tóm tắt để hai bên có cùng một bản ghi.
+      - text: Nhắn lại câu tóm tắt và chờ người giao trả lời.
+        correct: true
+        why: Đúng. Tin nhắn tóm tắt là bản ghi chung, giúp tra lại khi có thắc mắc sau này.
+      - text: Thả biểu tượng "like" là đủ.
+        correct: false
+        why: "\"Like\" chỉ cho biết bạn đã đọc, không cho biết bạn hiểu thế nào."

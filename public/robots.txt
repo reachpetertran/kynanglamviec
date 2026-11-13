@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kynanglamviec.com/sitemap.xml
