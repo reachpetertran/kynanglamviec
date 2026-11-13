@@ -1,0 +1,63 @@
+lesson: k7-phong-van-nguoi-lam-nghe
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu nào là câu hỏi mở?"
+    options:
+      - text: "\"Cô có thích nghề này không?\""
+        correct: false
+        why: Câu này chỉ cần trả lời có hoặc không.
+      - text: "\"Điều gì làm cô thích nghề này?\""
+        correct: true
+        why: Đúng. Câu hỏi mở mời người kia kể nhiều hơn.
+      - text: "\"Cô làm nghề này lâu chưa?\""
+        correct: false
+        why: Câu này thường chỉ được trả lời ngắn, như "lâu rồi".
+  - id: q2
+    prompt: "Em muốn phỏng vấn một người làm nghề. Cách nào an toàn?"
+    options:
+      - text: Tự đi gặp một người lạ ngoài đường.
+        correct: false
+        why: Không gặp người lạ một mình. Luôn có người lớn đi cùng.
+      - text: Phỏng vấn người quen của gia đình, có người lớn đi cùng.
+        correct: true
+        why: Đúng. Đây là quy tắc an toàn của bài.
+      - text: Nhắn tin hỏi một người lạ trên mạng.
+        correct: false
+        why: Không liên lạc riêng với người lạ trên mạng.
+  - id: q3
+    prompt: "Phỏng vấn xong, em muốn đăng ảnh cô thợ làm bánh lên mạng. Em nên làm gì?"
+    options:
+      - text: Đăng ngay cho mọi người xem.
+        correct: false
+        why: Cần được cô đồng ý trước khi đăng ảnh của cô.
+      - text: Hỏi người lớn và xin phép cô trước; chưa được đồng ý thì không đăng.
+        correct: true
+        why: Đúng. Ảnh của một người là thông tin của người đó.
+      - text: Đăng nhưng không ghi tên cô.
+        correct: false
+        why: Không ghi tên vẫn có thể nhận ra cô qua ảnh.
+  - id: q4
+    prompt: "Sau buổi phỏng vấn, việc nào giúp em nhớ lâu nhất?"
+    options:
+      - text: Cất phiếu vào cặp.
+        correct: false
+        why: Không dùng lại thì em sẽ quên nhanh.
+      - text: Tự kể lại nghề đó trong 2 phút bằng Thẻ nghề.
+        correct: true
+        why: Đúng. Tự nhớ lại và kể ra giúp nhớ lâu hơn đọc lại.
+      - text: Đọc đi đọc lại phiếu nhiều lần.
+        correct: false
+        why: Đọc lại có ích ít hơn tự nhớ và kể lại.
+  - id: q5
+    prompt: "Ôn Bài 5. Nhận việc gồm 3 bước nào?"
+    options:
+      - text: Nghe hết – nhắc lại – ghi hạn.
+        correct: true
+        why: Đúng. Ba bước này giúp em hiểu đúng việc và nhớ hạn.
+      - text: Nghe một nửa – làm ngay – nộp.
+        correct: false
+        why: Nghe một nửa dễ làm sai việc.
+      - text: Đợi bạn làm trước rồi làm theo.
+        correct: false
+        why: Mỗi người cần tự hiểu rõ việc mình nhận.

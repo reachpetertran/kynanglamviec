@@ -1,0 +1,51 @@
+lesson: k7-nghe-nghiep-quanh-em
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Bé Na thấy một cô cầm kéo và lược, đang cắt tóc cho khách. Câu nào hợp với ô \"Dùng gì?\" trên Thẻ nghề?"
+    options:
+      - text: Kéo, lược, máy sấy tóc.
+        correct: true
+        why: Đúng. Ô "Dùng gì?" ghi đồ dùng và máy móc của nghề.
+      - text: Cắt tóc cho khách.
+        correct: false
+        why: Đây là việc cô làm, hợp với ô "Làm gì?".
+      - text: Tiệm cắt tóc.
+        correct: false
+        why: Đây là nơi làm việc, hợp với ô "Ở đâu?".
+  - id: q2
+    prompt: "Cô bán bánh mì làm những việc gì?"
+    options:
+      - text: Chỉ đưa bánh cho khách.
+        correct: false
+        why: Đó mới là một việc. Một nghề có nhiều việc nhỏ bên trong.
+      - text: Nhập bánh, làm nhân, bán, tính tiền, dọn quầy.
+        correct: true
+        why: Đúng. Kể được nhiều việc nhỏ giúp em hiểu nghề rõ hơn.
+      - text: Ngồi chờ khách cả ngày.
+        correct: false
+        why: Người bán hàng có nhiều việc phải làm trước và sau khi bán.
+  - id: q3
+    prompt: "Khi đi săn nghề, em chưa biết một người làm nghề gì. Em nên làm gì?"
+    options:
+      - text: Đoán bừa rồi ghi luôn vào thẻ.
+        correct: false
+        why: Đoán là tốt, nhưng cần kiểm tra lại trước khi ghi.
+      - text: Xem họ cầm gì, làm gì, rồi hỏi người lớn đi cùng.
+        correct: true
+        why: Đúng. Đó là bước Nhìn, Đoán, Hỏi trước khi Ghi.
+      - text: Bỏ qua, không cần tìm hiểu.
+        correct: false
+        why: Nghề lạ là cơ hội để em biết thêm một nghề mới.
+  - id: q4
+    prompt: "Ô nào của Thẻ nghề em sẽ điền ở Bài 2?"
+    options:
+      - text: Tên nghề.
+        correct: false
+        why: Ô này em điền ngay ở Bài 1.
+      - text: Ở đâu?
+        correct: false
+        why: Ô này em điền ngay ở Bài 1.
+      - text: Cần kỹ năng gì?
+        correct: true
+        why: Đúng. Bài 2 giúp em tìm kỹ năng mà một nghề cần.

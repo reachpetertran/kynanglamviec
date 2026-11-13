@@ -1,0 +1,63 @@
+lesson: k8-cung-nhau-hoan-thanh-nhiem-vu
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Trong Bảng nhiệm vụ, việc \"Viết tiêu đề\" ghi người làm là \"cả nhóm\". Vấn đề là gì?"
+    options:
+      - text: Không ai biết chắc ai làm, việc dễ bị bỏ sót.
+        correct: true
+        why: Đúng. Mỗi việc nên có một người phụ trách chính.
+      - text: Không có vấn đề gì.
+        correct: false
+        why: Khi ai cũng làm, rất dễ thành không ai làm.
+      - text: Tiêu đề không cần làm.
+        correct: false
+        why: Tiêu đề là một phần của áp phích, cần có người phụ trách.
+  - id: q2
+    prompt: "Bé Bin lớp 1 làm nhóm với anh chị lớp 5. Chia việc thế nào là hợp?"
+    options:
+      - text: Bin làm việc khó nhất.
+        correct: false
+        why: Việc quá sức dễ làm Bin nản và nhóm bị chậm.
+      - text: Bin làm việc vừa sức, như tô màu.
+        correct: true
+        why: Đúng. Chia việc theo sức giúp ai cũng làm xong phần mình.
+      - text: Bin không cần làm gì.
+        correct: false
+        why: Mỗi thành viên đều nên có một phần việc.
+  - id: q3
+    prompt: "Đang làm, bạn em hết bút màu. Đồng đội tốt sẽ làm gì?"
+    options:
+      - text: Chia bút cho bạn dùng cùng.
+        correct: true
+        why: Đúng. Chia sẻ đồ dùng giúp cả nhóm không bị chậm.
+      - text: Bảo bạn tự lo.
+        correct: false
+        why: Phần của bạn chậm thì cả nhóm cũng chậm.
+      - text: Làm luôn phần của bạn mà không hỏi.
+        correct: false
+        why: Làm thay mà không hỏi dễ gây trùng việc và buồn lòng.
+  - id: q4
+    prompt: "Người giữ giờ trong nhóm làm gì?"
+    options:
+      - text: Nhắc nhóm còn bao nhiêu thời gian.
+        correct: true
+        why: Đúng. Nhờ vậy nhóm biết cần làm nhanh hơn hay không.
+      - text: Làm hết phần của mọi người.
+        correct: false
+        why: Mỗi người vẫn làm phần của mình.
+      - text: Chấm điểm các bạn.
+        correct: false
+        why: Người giữ giờ không chấm điểm ai.
+  - id: q5
+    prompt: "Ôn Bài 3. Một nghề có thể do cả nam và nữ làm, nếu người đó…"
+    options:
+      - text: học và luyện được kỹ năng nghề cần.
+        correct: true
+        why: Đúng. Nghề cần kỹ năng, không cần là con trai hay con gái.
+      - text: là con trai.
+        correct: false
+        why: Đây là định kiến giới về nghề.
+      - text: đã lớn tuổi.
+        correct: false
+        why: Tuổi không phải điều kiện chính, kỹ năng mới là điều quan trọng.

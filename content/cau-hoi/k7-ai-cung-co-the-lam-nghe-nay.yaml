@@ -1,0 +1,51 @@
+lesson: k7-ai-cung-co-the-lam-nghe-nay
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu nào là định kiến giới về nghề?"
+    options:
+      - text: "\"Phi công cần học rất nhiều về máy bay.\""
+        correct: false
+        why: Đây là nói về kiến thức nghề cần, không chia theo nam nữ.
+      - text: "\"Con gái không làm phi công được.\""
+        correct: true
+        why: Đúng. Câu này gán nghề cho một giới mà không dựa trên kỹ năng.
+      - text: "\"Phi công làm việc trên máy bay.\""
+        correct: false
+        why: Đây là nói về nơi làm việc, không phải định kiến.
+  - id: q2
+    prompt: "Bạn em nói: \"Con trai mà làm cô nuôi dạy trẻ à?\" Em đổi thành câu hỏi nào?"
+    options:
+      - text: "\"Giáo viên mầm non cần kỹ năng gì?\""
+        correct: true
+        why: Đúng. Câu hỏi về kỹ năng mở ra nghề cho mọi người.
+      - text: "\"Ừ, nghề đó chỉ của con gái.\""
+        correct: false
+        why: Câu này lặp lại định kiến, chưa kiểm tra xem có đúng không.
+      - text: "\"Thôi, không nói chuyện này nữa.\""
+        correct: false
+        why: Im lặng không giúp bạn hiểu thêm về nghề.
+  - id: q3
+    prompt: "Vì sao định kiến về nghề có hại?"
+    options:
+      - text: Vì nó làm các nghề khó hơn.
+        correct: false
+        why: Định kiến không làm thay đổi nghề, mà thay đổi suy nghĩ của người chọn.
+      - text: Vì nó làm em và bạn bè bỏ qua những nghề có thể hợp với mình.
+        correct: true
+        why: Đúng. Định kiến làm hẹp lựa chọn từ khi còn nhỏ.
+      - text: Định kiến không có hại gì.
+        correct: false
+        why: Nghiên cứu cho thấy định kiến giới ảnh hưởng đến nghề trẻ em mơ ước.
+  - id: q4
+    prompt: "Ôn Bài 2. Đâu là kỹ năng mà nghề nào cũng cần?"
+    options:
+      - text: Lắng nghe.
+        correct: true
+        why: Đúng. Nghề nào cũng cần nghe đúng điều người khác cần.
+      - text: Biết lái máy bay.
+        correct: false
+        why: Đây là kiến thức riêng của nghề phi công.
+      - text: Biết cắt tóc.
+        correct: false
+        why: Đây là kiến thức riêng của thợ cắt tóc.

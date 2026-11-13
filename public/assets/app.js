@@ -24,6 +24,11 @@
     if (store.get("done:" + c.dataset.lesson)) { var f = $(".done-flag", c); if (f) f.hidden = false; }
   });
 
+  /* ---------- dải khóa và bản đồ khóa: đánh dấu bài đã học ---------- */
+  $$(".course-strip li[data-lesson], .coursemap li[data-lesson]").forEach(function (li) {
+    if (store.get("done:" + li.dataset.lesson)) li.classList.add("done");
+  });
+
   /* ---------- tự kiểm tra ---------- */
   $$(".quiz").forEach(function (quiz) {
     var qs = $$(".q", quiz), right = 0, answered = 0;
@@ -48,9 +53,10 @@
   var lesson = $("article.lesson");
   if (lesson) {
     var slug = lesson.dataset.lesson, title = lesson.dataset.title;
-    // Phản tư: thêm ô ghi sau từng câu hỏi trong phần 7
+    // Phản tư: thêm ô ghi sau từng câu hỏi trong phần 7 (không áp dụng cho N1: trẻ trả lời bằng lời, không lưu gì)
+    var isKid = (lesson.dataset.group || "").split(" ").indexOf("N1") !== -1;
     var h7 = $("#p7"), list = h7 && h7.nextElementSibling;
-    if (list && list.tagName === "OL") {
+    if (list && list.tagName === "OL" && !isKid) {
       $$("li", list).forEach(function (li, i) {
         var key = "j:" + slug + ":" + i;
         var ta = document.createElement("textarea");

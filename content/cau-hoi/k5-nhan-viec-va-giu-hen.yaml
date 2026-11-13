@@ -1,0 +1,63 @@
+lesson: k5-nhan-viec-va-giu-hen
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Cô giao: \"Em làm một Thẻ nghề, nộp thứ Sáu.\" Câu nhắc lại nào tốt nhất?"
+    options:
+      - text: "\"Dạ.\""
+        correct: false
+        why: Cô chưa biết em đã hiểu đúng việc và hạn hay chưa.
+      - text: "\"Dạ, em làm một Thẻ nghề, nộp thứ Sáu ạ.\""
+        correct: true
+        why: Đúng. Câu nhắc lại có đủ việc gì và khi nào.
+      - text: "\"Để em làm sau nhé cô.\""
+        correct: false
+        why: Câu này không nhắc lại việc, cũng không nói hạn.
+  - id: q2
+    prompt: "Thứ Tư, em thấy phần việc có thể không kịp thứ Sáu. Khi nào nên báo?"
+    options:
+      - text: Ngay hôm nay, khi vẫn còn thời gian.
+        correct: true
+        why: Đúng. Báo sớm thì người khác còn kịp giúp.
+      - text: Sáng thứ Sáu.
+        correct: false
+        why: Lúc đó đã quá muộn để nhóm hay cô giúp em.
+      - text: Không báo, thức khuya làm cho xong.
+        correct: false
+        why: Thức khuya hại sức khỏe, và có thể vẫn không kịp.
+  - id: q3
+    prompt: "Câu báo sớm nào rõ nhất?"
+    options:
+      - text: "\"Em không làm được.\""
+        correct: false
+        why: Câu này không nói phần nào chậm và em cần gì.
+      - text: "\"Phần của em có thể chậm một ngày. Em cần thêm giấy màu ạ.\""
+        correct: true
+        why: Đúng. Câu báo nói rõ phần chậm và điều em cần.
+      - text: "\"Em bận lắm.\""
+        correct: false
+        why: Người nghe không biết phải giúp em thế nào.
+  - id: q4
+    prompt: "Trước khi bắt đầu nhiệm vụ, em nên làm gì để giữ hẹn?"
+    options:
+      - text: Chuẩn bị đủ đồ dùng cần thiết.
+        correct: true
+        why: Đúng. Thiếu đồ giữa chừng là lý do hay gặp làm chậm việc.
+      - text: Đợi sát hạn mới xem cần gì.
+        correct: false
+        why: Sát hạn thì không còn thời gian để tìm đồ dùng.
+      - text: Lấy đồ của bạn mà không hỏi.
+        correct: false
+        why: Hãy hỏi trước khi dùng đồ của người khác.
+  - id: q5
+    prompt: "Ôn Bài 4. Bảng nhiệm vụ nhóm có ba cột nào?"
+    options:
+      - text: Ai – Làm gì – Xong khi nào.
+        correct: true
+        why: Đúng. Ba cột này giúp ai cũng biết phần mình và hạn của mình.
+      - text: Tên – Tuổi – Lớp.
+        correct: false
+        why: Đây là thông tin cá nhân, không phải nhiệm vụ.
+      - text: Màu – Hình – Chữ.
+        correct: false
+        why: Đây là các phần của áp phích, chưa phải bảng chia việc.

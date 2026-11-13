@@ -109,6 +109,58 @@ details[open] summary{margin-bottom:6px}
 .journal-entry .meta{display:block}
 .foot{border-top:1px solid var(--line);background:#f3f1ec;font-size:.88rem;color:var(--muted);padding:16px 0 28px}
 .foot a{color:var(--muted)}
+
+/* ---------- khóa N1: hình, sơ đồ, dải khóa ---------- */
+.fig{margin:16px 0;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:8px}
+.fig img{display:block;width:100%;height:auto;border-radius:10px}
+.fig figcaption{font-size:.9rem;color:var(--muted);padding:6px 4px 2px}
+.fig figcaption b{color:var(--brand)}
+.adult{background:#eef3fb;border-left:4px solid #3d6fb6;padding:10px 14px;border-radius:0 var(--r) var(--r) 0;margin:14px 0}
+.adult>p:first-child{margin-top:0}
+.links{background:#f3effa;border-left:4px solid #7b6bb5;padding:10px 14px;border-radius:0 var(--r) var(--r) 0;margin:14px 0}
+.links>p:first-child{margin-top:0}
+.diagram{margin:16px 0;padding:14px;background:#fff;border:1px solid var(--line);border-radius:var(--r)}
+.diagram>.dg-title{margin:0 0 10px;font-weight:700;color:var(--brand)}
+.diagram>.dg-title::before{content:"Sơ đồ · ";color:var(--accent)}
+.steps{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:12px;counter-reset:st}
+.steps li{flex:1 1 140px;position:relative;background:#eef6f5;border:2px solid var(--brand-2);border-radius:12px;padding:10px 12px 10px 12px;counter-increment:st}
+.steps li::before{content:counter(st);display:inline-grid;place-items:center;width:1.7em;height:1.7em;border-radius:50%;background:var(--brand);color:#fff;font-weight:700;margin-bottom:4px}
+.steps li:not(:last-child)::after{content:"→";position:absolute;right:-12px;top:50%;transform:translateY(-50%);color:var(--accent);font-weight:800;font-size:1.1rem}
+.steps b{display:block;color:var(--brand)}
+.steps span{display:block;font-size:.9rem}
+.kmap{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.kmap-c{grid-column:1/-1;text-align:center;background:var(--brand);color:#fff;font-weight:700;border-radius:12px;padding:10px;font-size:1.05rem}
+.kmap-i{background:var(--accent-bg);border-top:4px solid var(--accent);border-radius:10px;padding:8px 10px;font-size:.92rem}
+.kmap-i b{display:block;color:#8a5200}
+.compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.compare>div{border-radius:12px;padding:10px 14px}
+.compare .no{background:var(--no-bg);border:2px solid #e6a29b}
+.compare .yes{background:var(--ok-bg);border:2px solid #8cc79a}
+.compare b{display:block;margin-bottom:4px}
+.compare ul{margin:0;padding-left:18px}
+.course-strip{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:8px 12px;margin:12px 0}
+.course-strip p{margin:0 0 6px}
+.course-strip ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.course-strip li a{display:flex;align-items:center;gap:6px;text-decoration:none;font-size:.85rem;padding:3px 10px 3px 3px;border:1px solid var(--line);border-radius:999px;color:var(--ink);background:#f7f6f2}
+.cs-n{display:inline-grid;place-items:center;width:1.6em;height:1.6em;border-radius:50%;background:#dfe7e6;color:var(--brand);font-weight:700}
+.course-strip li[aria-current] a{border-color:var(--brand);background:#e2f0ee;font-weight:600}
+.course-strip li[aria-current] .cs-n{background:var(--brand);color:#fff}
+.course-strip li.done .cs-n{background:var(--ok);color:#fff}
+@media (max-width:640px){.steps{flex-direction:column;gap:18px}.steps li{flex:none}.steps li:not(:last-child)::after{content:"↓";right:auto;left:50%;top:auto;bottom:-19px;transform:translateX(-50%)}}
+@media (max-width:560px){.cs-t{display:none}.course-strip li[aria-current] .cs-t{display:inline}}
+.coursemap{list-style:none;padding:0;margin:12px 0;display:grid;gap:10px;counter-reset:cm;position:relative}
+.coursemap li a{display:flex;flex-direction:column;gap:2px;text-decoration:none;color:var(--ink);background:#fff;border:1px solid var(--line);border-left:6px solid var(--brand-2);border-radius:12px;padding:10px 14px}
+.coursemap li a:hover{border-color:var(--brand)}
+.coursemap li.done a{border-left-color:var(--ok)}
+.coursemap li.done b::after{content:" ✓";color:var(--ok)}
+.coursemap b{color:var(--brand)}
+.badge-row{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.badge-row span{border:2px solid var(--accent);border-radius:999px;padding:3px 12px;font-weight:600;font-size:.9rem;background:var(--accent-bg);color:#8a5200}
+.say{background:#fff;border:1px dashed var(--brand-2);border-radius:12px;padding:8px 14px;margin:10px 0}
+.say>p:first-child{margin-top:0}
+.print-card td{height:3em}
+@media print{.course-strip,.adult .noprint{display:none!important}.fig{break-inside:avoid}.diagram{break-inside:avoid}}
+
 @media (max-width:560px){
   body{font-size:16px} h1{font-size:1.55rem} .hero h1{font-size:1.7rem}
   .matrix td:first-child{white-space:normal}

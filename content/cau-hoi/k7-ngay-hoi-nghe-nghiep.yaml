@@ -1,0 +1,63 @@
+lesson: k7-ngay-hoi-nghe-nghiep
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "(Bài 1) Với nghề thợ may, ô \"Dùng gì?\" ghi gì?"
+    options:
+      - text: Máy may, kéo, thước dây.
+        correct: true
+        why: Đúng. Ô "Dùng gì?" ghi đồ dùng và máy móc.
+      - text: May quần áo.
+        correct: false
+        why: Đây là việc làm, hợp với ô "Làm gì?".
+      - text: Tiệm may.
+        correct: false
+        why: Đây là nơi làm việc, hợp với ô "Ở đâu?".
+  - id: q2
+    prompt: "(Bài 2) Thợ sửa xe hẹn khách 5 giờ lấy xe. Thợ cần kỹ năng nào để xong đúng hẹn?"
+    options:
+      - text: Giữ hẹn.
+        correct: true
+        why: Đúng. Đây là một trong 6 kỹ năng nghề nào cũng cần.
+      - text: Vẽ đẹp.
+        correct: false
+        why: Vẽ đẹp không giúp sửa xe xong đúng giờ.
+      - text: Hát hay.
+        correct: false
+        why: Kỹ năng này không liên quan đến việc giữ hẹn.
+  - id: q3
+    prompt: "(Bài 3) Bạn em nói: \"Con trai không làm điều dưỡng.\" Câu nào giúp mở rộng suy nghĩ?"
+    options:
+      - text: "\"Điều dưỡng cần kỹ năng gì?\""
+        correct: true
+        why: Đúng. Câu hỏi về kỹ năng mở nghề cho mọi người.
+      - text: "\"Đúng rồi, nghề đó của con gái.\""
+        correct: false
+        why: Câu này lặp lại định kiến giới về nghề.
+      - text: "\"Bạn nói sai, mình không chơi với bạn nữa.\""
+        correct: false
+        why: Cãi nhau không giúp bạn hiểu thêm. Hãy hỏi về kỹ năng.
+  - id: q4
+    prompt: "(Bài 4 và 5) Nhóm làm áp phích, hạn thứ Sáu. Thứ Tư, phần của em có thể chậm. Em làm gì?"
+    options:
+      - text: Báo nhóm ngay, nói phần nào chậm và mình cần gì.
+        correct: true
+        why: Đúng. Báo sớm thì nhóm còn kịp giúp, cả nhóm vẫn xong đúng hẹn.
+      - text: Im lặng, mong sẽ kịp.
+        correct: false
+        why: Nếu không kịp, cả nhóm sẽ biết quá muộn.
+      - text: Bỏ phần đó, không làm nữa.
+        correct: false
+        why: Phần việc đã nhận cần được làm xong hoặc báo để nhóm sắp xếp lại.
+  - id: q5
+    prompt: "(Bài 6) Khi phỏng vấn, câu nào giúp người làm nghề kể nhiều hơn?"
+    options:
+      - text: "\"Vì sao cô phải dậy sớm như vậy?\""
+        correct: true
+        why: Đúng. Câu hỏi "vì sao" là câu hỏi mở, mời người kia giải thích.
+      - text: "\"Cô dậy sớm à?\""
+        correct: false
+        why: Câu này chỉ cần trả lời có hoặc không.
+      - text: "\"Cô có mệt không?\""
+        correct: false
+        why: Câu đóng, thường chỉ được trả lời ngắn.

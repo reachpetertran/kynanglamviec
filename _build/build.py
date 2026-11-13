@@ -216,7 +216,7 @@ def build_groups():
         note = f'<p class="note">{e(g["note"])}</p>' if g.get("note") else ""
         extra = ""
         if g["code"] == "N1":
-            extra = """<div class="note"><b>Dành cho phụ huynh và giáo viên.</b> Các bài N1 được viết để người lớn
+            extra = n1_course_map() + """<div class="note"><b>Dành cho phụ huynh và giáo viên.</b> Các bài N1 được viết để người lớn
 dẫn trẻ học. Không có trắc nghiệm chọn nghề. Site không thu dữ liệu của trẻ.
 Bài nhật ký và tự đánh giá không dành cho trẻ tự dùng.</div>"""
         body = f"""<p class="crumb"><a href="{{{{R}}}}lo-trinh/">Lộ trình</a> › {g['code']}</p>
@@ -226,13 +226,29 @@ Bài nhật ký và tự đánh giá không dành cho trẻ tự dùng.</div>"""
 {note}{extra}
 <h2>Học phần gợi ý</h2>
 <ol class="modules">{modules}</ol>
-<h2>Bài học đã có</h2>
-{lessons_list(ls)}
+{"" if g["code"] == "N1" and course_lessons("n1") else "<h2>Bài học đã có</h2>" + lessons_list(ls)}
 <h2>Kỹ năng trọng tâm của nhóm</h2>
 <table class="matrix"><thead><tr><th>Kỹ năng</th><th>Mức độ</th></tr></thead><tbody>{rows}</tbody></table>
 <p class="muted small">— không dạy · ○ giới thiệu · ● trọng tâm · ◆ nâng cao</p>
 """
         page(f"lo-trinh/{g['slug']}/", f"{g['code']} {g['name']}", body, desc=g["intro"][:150])
+
+
+def n1_course_map():
+    cl = course_lessons("n1")
+    if not cl:
+        return ""
+    steps = "".join(
+        f'<li data-lesson="{e(l["slug"])}"><a href="{{{{R}}}}bai-hoc/{e(l["slug"])}/"><b>Bài {i}. {e(l.get("short", l["title"]))}</b>'
+        f'<span>{e(l.get("hook", ""))}</span><span class="meta">{SKILL[l["skill"]]["code"]} · {l["minutes"]} phút'
+        f'{" · " + e(l["age"]) if l.get("age") else ""}</span></a></li>' for i, l in enumerate(cl, 1))
+    return f"""<h2>Bản đồ khóa Khám phá nghề</h2>
+<p>Khóa có {len(cl)} bài, học theo thứ tự. Một sợi chỉ nối cả khóa: <b>Thẻ nghề</b>.
+Bài 1 làm thẻ, mỗi bài sau điền thêm hoặc dùng thẻ, bài cuối trưng bày tất cả.</p>
+<ol class="coursemap">{steps}</ol>
+<p><a class="btn" href="{{{{R}}}}bai-hoc/{cl[0]['slug']}/">Bắt đầu Bài 1</a>
+<a class="btn ghost" href="{{{{R}}}}tai-nguyen/n1/">Hướng dẫn và mẫu in cho người lớn</a></p>
+"""
 
 
 # ---------------------------------------------------------------- kỹ năng
@@ -304,6 +320,26 @@ def meta_table(l):
 <tr><th>updated</th><td>{l['updated']}</td></tr></tbody></table>"""
 
 
+COURSES = {"n1": {"title": "Khóa Khám phá nghề (N1)", "home": "lo-trinh/n1/"}}
+
+
+def course_lessons(c):
+    return sorted([l for l in LESSONS if l.get("course") == c], key=lambda l: l.get("order", 99))
+
+
+def course_strip(l):
+    c = l.get("course")
+    if not c:
+        return ""
+    items = ""
+    for i, x in enumerate(course_lessons(c), 1):
+        cur = ' aria-current="step"' if x["slug"] == l["slug"] else ""
+        items += (f'<li data-lesson="{e(x["slug"])}"{cur}><a href="{{{{R}}}}bai-hoc/{e(x["slug"])}/">'
+                  f'<span class="cs-n">{i}</span><span class="cs-t">{e(x.get("short", x["title"]))}</span></a></li>')
+    return (f'<nav class="course-strip" aria-label="Các bài trong khóa"><p class="small"><b>{e(COURSES[c]["title"])}</b> · '
+            f'<a href="{{{{R}}}}{COURSES[c]["home"]}">Bản đồ khóa</a> · <a href="{{{{R}}}}tai-nguyen/n1/">Hướng dẫn cho người lớn</a></p><ol>{items}</ol></nav>')
+
+
 def build_lessons():
     page("bai-hoc/", "Bài học", f"""<h1>Bài học</h1>
 <p class="lead">Mỗi bài 10–20 phút, theo 9 phần: mục tiêu, khởi động, giải thích, ví dụ, thực hành,
@@ -324,11 +360,13 @@ tự kiểm tra, phản tư, áp dụng thật, siêu dữ liệu.</p>
         if l.get("next") in LESSON:
             nav += f'<a class="next" href="{{{{R}}}}bai-hoc/{l["next"]}/">{e(LESSON[l["next"]]["title"])} →</a>'
         draft = '<p class="note">Bài đang ở dạng <b>bản nháp</b>, chờ duyệt nội dung.</p>' if l.get("status") == "draft" else ""
-        body = f"""<article class="lesson" data-lesson="{e(l['slug'])}" data-title="{e(l['title'])}">
+        strip = course_strip(l)
+        age = f" · {e(l['age'])}" if l.get("age") else ""
+        body = f"""<article class="lesson" data-lesson="{e(l['slug'])}" data-title="{e(l['title'])}" data-group="{e(' '.join(l['group']))}">
 <p class="crumb"><a href="{{{{R}}}}ky-nang/{s['slug']}/">{s['code']} · {e(s['name'])}</a> › Bậc {l['level']} {e(LEVELS[l['level']]['name'])}</p>
 <h1>{e(l['title'])}</h1>
-<p class="meta">{l['minutes']} phút · Nhóm {", ".join(l['group'])} · Cập nhật {l['updated']}</p>
-{draft}
+<p class="meta">{l['minutes']} phút · Nhóm {", ".join(l['group'])}{age} · Cập nhật {l['updated']}</p>
+{strip}{draft}
 {h}
 <section class="finish card">
   <h2>Hoàn thành bài</h2>
@@ -415,7 +453,15 @@ Hãy in hoặc lưu PDF định kỳ.</p>
 <p class="noprint"><a class="btn ghost" href="{{R}}assets/danh-sach-viec.csv" download>Tải bản bảng tính (.csv)</a>
 <button type="button" class="btn" data-action="print">In trang này</button></p>
 <h2>Hướng dẫn cho phụ huynh và giáo viên (N1)</h2>
-<p class="muted">Đang biên soạn.</p>""")
+<p>Cách dẫn khóa Khám phá nghề, lịch ôn và 4 mẫu in: Thẻ nghề, Bảng nhiệm vụ nhóm, Phiếu phỏng vấn, Phiếu ôn tập.</p>
+<p><a class="btn" href="{{R}}tai-nguyen/n1/">Mở hướng dẫn N1</a></p>""")
+    gp = ROOT / "content/trang/n1-huong-dan.md"
+    if gp.exists():
+        raw = gp.read_text(encoding="utf-8")
+        m = re.match(r"^---\n(.*?)\n---\n(.*)$", raw, re.S)
+        gm = yaml.safe_load(m.group(1))
+        page("tai-nguyen/n1/", gm["title"], f'<p class="crumb"><a href="{{{{R}}}}tai-nguyen/">Tài nguyên</a> › N1</p>'
+             + md_to_html(m.group(2)), desc=gm.get("desc", ""))
 
     page("phap-ly/", "Pháp lý khi đi làm", """<h1>Pháp lý khi đi làm</h1>
 <p class="lead">Kiến thức thực tế về hợp đồng, thử việc, học nghề, an toàn và bảo mật ở nơi làm việc.</p>

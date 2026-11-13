@@ -1,0 +1,51 @@
+lesson: k7-nghe-nao-cung-can-ky-nang
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Chú điều dưỡng hỏi bà: \"Bác nhắc lại giúp cháu nhé?\" Chú đang dùng kỹ năng nào?"
+    options:
+      - text: Nói rõ và kiểm tra người nghe đã hiểu đúng.
+        correct: true
+        why: Đúng. Nhờ nhắc lại giúp chú biết bà đã hiểu đúng cách uống thuốc.
+      - text: Dùng công nghệ.
+        correct: false
+        why: Chú không dùng máy móc trong việc này.
+      - text: Giữ hẹn.
+        correct: false
+        why: Việc này là nói và nghe, chưa liên quan đến hẹn giờ.
+  - id: q2
+    prompt: "Cô nông dân xem dự báo thời tiết trên điện thoại trước khi ra đồng. Điều này cho thấy gì?"
+    options:
+      - text: Chỉ người làm văn phòng mới dùng công nghệ.
+        correct: false
+        why: Ví dụ này cho thấy điều ngược lại.
+      - text: Nghề nào cũng có thể dùng công nghệ.
+        correct: true
+        why: Đúng. Công nghệ giúp người làm nghề làm việc tốt hơn, ở mọi nơi.
+      - text: Nông dân không cần kỹ năng gì.
+        correct: false
+        why: Nghề nào cũng cần kỹ năng, kể cả nghề nông.
+  - id: q3
+    prompt: "Đâu là kỹ năng làm việc mà nghề nào cũng cần?"
+    options:
+      - text: Biết nấu phở.
+        correct: false
+        why: Đây là kiến thức riêng của nghề nấu ăn.
+      - text: Giữ hẹn.
+        correct: true
+        why: Đúng. Thợ may, thợ sửa xe, giáo viên… đều cần giữ hẹn.
+      - text: Biết tiêm thuốc.
+        correct: false
+        why: Đây là kiến thức riêng của nghề y.
+  - id: q4
+    prompt: "Ôn Bài 1. Với nghề giáo viên, ô \"Ở đâu?\" ghi gì?"
+    options:
+      - text: Dạy học.
+        correct: false
+        why: Đây là việc làm, hợp với ô "Làm gì?".
+      - text: Trường học.
+        correct: true
+        why: Đúng. Ô "Ở đâu?" ghi nơi làm việc.
+      - text: Sách, bảng, phấn.
+        correct: false
+        why: Đây là đồ dùng, hợp với ô "Dùng gì?".
