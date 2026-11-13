@@ -4,7 +4,8 @@
 
 ## Trạng thái hiện tại (13/11/2026) – v0.1
 - Bản xem trước (riêng tư, chỉ Peter xem): https://claude.ai/artifact/YQWK14o3VR6Xmw8nWMA2fK
-- Mã nguồn: thư mục kho `kynanglamviec` (zip gửi trong phiên 13/11). **Chưa đẩy lên GitHub, chưa đăng.**
+- Mã nguồn: `kynanglamviec-v0.1.zip` (gửi Peter ngày 13/11, có sẵn lịch sử git). **Chưa đẩy lên GitHub, chưa đăng.**
+- LƯU Ý cho phiên mới: máy làm việc của Claude không giữ file giữa các phiên. Nếu repo GitHub chưa có, phải xin Peter đính kèm lại file zip mới nhất.
 
 ## Đã xong
 - Bộ sinh trang Python (`_build/build.py`), cùng cách làm với daynentang: build tại máy, commit `public/`, Cloudflare Pages chỉ phục vụ thư mục `public/`.
