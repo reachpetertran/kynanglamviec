@@ -1,0 +1,51 @@
+lesson: k2-bao-cao-tien-do
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu nào phù hợp nhất cho phần \"Đã xong\"?"
+    options:
+      - text: "\"Em làm việc chăm chỉ cả tuần với dự án.\""
+        correct: false
+        why: Câu này kể nỗ lực, không nói kết quả cụ thể.
+      - text: "\"Hoàn thành 3/4 chương của tài liệu hướng dẫn.\""
+        correct: true
+        why: Đúng. Có kết quả và con số, người đọc biết ngay tiến độ.
+      - text: "\"Dự án đang tiến triển tốt.\""
+        correct: false
+        why: "\"Tốt\" là đánh giá chủ quan, không có số liệu."
+  - id: q2
+    prompt: "Tuần này bạn không gặp vướng mắc nào. Phần \"Đang vướng\" nên ghi gì?"
+    options:
+      - text: Bỏ trống phần đó.
+        correct: false
+        why: Bỏ trống khiến người đọc không chắc bạn quên hay thật sự không vướng.
+      - text: "Ghi \"Không có\"."
+        correct: true
+        why: Đúng. Ngắn gọn và rõ ràng, người đọc yên tâm.
+      - text: Bỏ cả phần đó khỏi mẫu báo cáo.
+        correct: false
+        why: Giữ mẫu cố định giúp người đọc quen và đọc nhanh hơn.
+  - id: q3
+    prompt: "Tình huống giả định. Bạn sắp gửi báo cáo cho giám đốc khối. Cách nào phù hợp?"
+    options:
+      - text: Gửi báo cáo chi tiết từng ngày làm việc.
+        correct: false
+        why: Cấp cao thường cần kết quả chính và quyết định, không cần chi tiết hằng ngày.
+      - text: Giữ kết quả chính và nêu rõ quyết định cần giám đốc đưa ra.
+        correct: true
+        why: Đúng. Điều chỉnh độ chi tiết theo người đọc giúp báo cáo được dùng ngay.
+      - text: Chỉ gửi khi có tin tốt.
+        correct: false
+        why: Tin xấu báo sớm giúp cấp trên kịp xử lý.
+  - id: q4
+    prompt: "Phần \"Cần hỗ trợ\" nào rõ nhất?"
+    options:
+      - text: "\"Mong mọi người hỗ trợ thêm.\""
+        correct: false
+        why: Không rõ ai cần làm gì, và trước khi nào.
+      - text: "\"Nhờ anh duyệt chi phí thuê xe trước thứ Tư để em đặt kịp.\""
+        correct: true
+        why: Đúng. Có người, việc cần làm, hạn và lý do.
+      - text: "\"Em cần thêm thời gian.\""
+        correct: false
+        why: Thiếu con số và lý do; người đọc không biết nên đồng ý bao lâu.

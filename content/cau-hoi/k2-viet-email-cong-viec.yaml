@@ -1,0 +1,51 @@
+lesson: k2-viet-email-cong-viec
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Tiêu đề nào tốt nhất cho email xin nghỉ phép một ngày?"
+    options:
+      - text: "\"Xin phép ạ\""
+        correct: false
+        why: Người nhận không biết xin phép việc gì, khi nào.
+      - text: "\"Xin nghỉ phép thứ Sáu 20/11 – mong anh duyệt trước thứ Tư\""
+        correct: true
+        why: Đúng. Có việc (nghỉ phép), ngày cụ thể và hạn cần duyệt.
+      - text: "\"Em có việc gia đình nên muốn trao đổi với anh về lịch làm việc tuần sau\""
+        correct: false
+        why: Tiêu đề quá dài và vẫn chưa nói rõ cần người nhận làm gì.
+  - id: q2
+    prompt: "Bạn cần hỏi kế toán hai việc khác nhau: hạn nộp hóa đơn và cách điền phiếu tạm ứng. Nên làm gì?"
+    options:
+      - text: Viết một email dài gồm cả hai câu hỏi.
+        correct: false
+        why: Hai việc trong một email dễ bị trả lời thiếu một việc.
+      - text: Viết hai email, mỗi email một mục đích.
+        correct: true
+        why: Đúng. Mỗi email một mục đích giúp người nhận xử lý và trả lời đủ.
+      - text: Gọi điện thay vì gửi email.
+        correct: false
+        why: Gọi điện cũng được, nhưng bài này hỏi cách viết email cho rõ.
+  - id: q3
+    prompt: "Câu đề nghị nào rõ nhất?"
+    options:
+      - text: "\"Mong anh xem xét.\""
+        correct: false
+        why: "\"Xem xét\" không cho biết anh cần làm gì: duyệt, sửa, hay chỉ đọc."
+      - text: "\"Anh chọn giúp em mẫu A hoặc B trước 10:00 mai ạ.\""
+        correct: true
+        why: Đúng. Có động từ cụ thể (chọn), các lựa chọn và hạn.
+      - text: "\"Có gì anh phản hồi em nhé.\""
+        correct: false
+        why: Không rõ cần phản hồi gì và khi nào.
+  - id: q4
+    prompt: "Email chỉ để thông báo lịch họp đã đổi. Cách nào giúp người nhận nhất?"
+    options:
+      - text: "Ghi \"không cần trả lời\" ở cuối tiêu đề."
+        correct: true
+        why: Đúng. Người nhận biết ngay mình chỉ cần đọc, không phải làm gì thêm.
+      - text: Không ghi gì, người nhận tự hiểu.
+        correct: false
+        why: Nhiều người sẽ trả lời "dạ em nhận được", làm đầy hộp thư của mọi người.
+      - text: Đánh dấu email là "quan trọng".
+        correct: false
+        why: Dấu quan trọng không cho biết có cần trả lời hay không.

@@ -1,0 +1,51 @@
+lesson: k7-ke-hoach-90-ngay
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Mục tiêu nào đo được nhất cho tháng đầu của một nhân viên kho mới?"
+    options:
+      - text: "\"Làm quen tốt với kho.\""
+        correct: false
+        why: Không rõ thế nào là "tốt", khó biết đã đạt chưa.
+      - text: "\"Tự tìm đúng vị trí 50 mã hàng trong 5 phút mỗi mã.\""
+        correct: true
+        why: Đúng. Có con số và tiêu chí thời gian, kiểm tra được.
+      - text: "\"Cố gắng học hỏi mọi người.\""
+        correct: false
+        why: Đây là thái độ, không phải mục tiêu đo được.
+  - id: q2
+    prompt: "Trọng tâm của giai đoạn ngày 1–30 là gì?"
+    options:
+      - text: Đề xuất cải tiến lớn để gây ấn tượng.
+        correct: false
+        why: Chưa hiểu quy trình mà đề xuất lớn thì dễ thiếu căn cứ.
+      - text: Học công việc, quy trình, công cụ và con người.
+        correct: true
+        why: Đúng. Hiểu đúng trước rồi mới tự làm và đóng góp.
+      - text: Làm thật nhiều việc, không cần hỏi.
+        correct: false
+        why: Giai đoạn đầu nên hỏi nhiều để tránh sai từ gốc.
+  - id: q3
+    prompt: "Vì sao nên thống nhất kế hoạch 90 ngày với cấp trên ngay tuần đầu?"
+    options:
+      - text: Để bạn và cấp trên có cùng một kỳ vọng.
+        correct: true
+        why: Đúng. Tránh trường hợp bạn cố gắng sai hướng suốt ba tháng.
+      - text: Để cấp trên nhớ tên bạn.
+        correct: false
+        why: Đó không phải mục đích chính.
+      - text: Vì luật bắt buộc phải có kế hoạch 90 ngày.
+        correct: false
+        why: Kế hoạch 90 ngày là cách làm gợi ý, không phải quy định của luật.
+  - id: q4
+    prompt: "Cuối ngày 30, bạn chưa đạt mục tiêu giai đoạn 1. Nên làm gì?"
+    options:
+      - text: Giấu đi và tiếp tục giai đoạn 2.
+        correct: false
+        why: Giấu đi khiến cấp trên không kịp hỗ trợ.
+      - text: Tự đánh giá lý do, báo cấp trên và điều chỉnh kế hoạch.
+        correct: true
+        why: Đúng. Xem lại mỗi 30 ngày giúp điều chỉnh sớm.
+      - text: Bỏ kế hoạch vì không thực tế.
+        correct: false
+        why: Kế hoạch có thể sửa, không cần bỏ hẳn.

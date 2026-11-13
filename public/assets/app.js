@@ -121,7 +121,7 @@
       var rows = "";
       $$(".sa-skill").forEach(function (d) {
         var code = d.dataset.skill, n = answeredCount(code), lv = levelOf(code);
-        $(".sa-result", d).textContent = n ? "· Bậc gợi ý: " + (lv || "dưới 1") + " (" + n + "/15 câu)" : "";
+        $(".sa-result", d).textContent = n ? "· Bậc gợi ý: " + (lv ? lv : "dưới Bậc 1") + " (" + n + "/15 câu)" : "";
         if (!n) return;
         var next = Math.min(lv + 1, 5);
         var ls = data[code].lessons.filter(function (l) { return l.level === next || l.level === lv; });

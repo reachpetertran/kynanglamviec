@@ -1,0 +1,51 @@
+lesson: k3-mo-ta-van-de-va-phuong-an
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu mô tả vấn đề nào đủ 4 ý nhất?"
+    options:
+      - text: "\"Máy tính hỏng rồi anh ơi.\""
+        correct: false
+        why: Thiếu hiện tượng cụ thể, thời điểm, ảnh hưởng và việc đã thử.
+      - text: "\"Từ 10:00, máy tính kế toán báo lỗi khi mở phần mềm; chưa xuất được 15 phiếu; em đã khởi động lại.\""
+        correct: true
+        why: Đúng. Có thời điểm, hiện tượng, ảnh hưởng và việc đã thử.
+      - text: "\"Chắc do virus nên máy không chạy.\""
+        correct: false
+        why: Đây là phỏng đoán nguyên nhân, trình bày như sự thật, và thiếu thông tin cụ thể.
+  - id: q2
+    prompt: "Tình huống giả định. Ở xưởng, bạn thấy dây điện máy may bốc khói. Bạn nên làm gì trước?"
+    options:
+      - text: Nghĩ hai phương án rồi mới báo tổ trưởng.
+        correct: false
+        why: Với sự cố an toàn, phải báo và xử lý khẩn cấp ngay theo quy định.
+      - text: Báo ngay và làm theo quy trình khẩn cấp của xưởng.
+        correct: true
+        why: Đúng. Sự cố an toàn là ngoại lệ, không chờ chuẩn bị phương án.
+      - text: Tự tháo máy kiểm tra.
+        correct: false
+        why: Tự sửa thiết bị điện khi không được giao và đào tạo có thể gây nguy hiểm.
+  - id: q3
+    prompt: "Vì sao nên mang theo hai phương án khi hỏi cấp trên?"
+    options:
+      - text: Để cấp trên thấy mình giỏi.
+        correct: false
+        why: Mục đích chính không phải để gây ấn tượng.
+      - text: Để cấp trên quyết định nhanh hơn, và bạn luyện kỹ năng tự giải quyết.
+        correct: true
+        why: Đúng. Cấp trên chỉ cần chọn; bạn cũng học cách cân nhắc phương án.
+      - text: Để tránh phải hỏi.
+        correct: false
+        why: Vẫn cần hỏi khi việc vượt quyền hạn. Phương án giúp cuộc hỏi ngắn hơn.
+  - id: q4
+    prompt: "Phương án nào nằm ngoài quyền hạn của một nhân viên thu ngân mới?"
+    options:
+      - text: Gợi ý khách đổi sang chuyển khoản.
+        correct: false
+        why: Đây là việc thu ngân thường được phép làm.
+      - text: Tự giảm giá 20% cho khách để bù sự cố máy.
+        correct: true
+        why: Đúng. Giảm giá thường cần người có thẩm quyền quyết định. Hãy đề xuất, không tự làm.
+      - text: Gắn biển thông báo tạm thời ở quầy.
+        correct: false
+        why: Đây là việc nhỏ, thường trong phạm vi của nhân viên.

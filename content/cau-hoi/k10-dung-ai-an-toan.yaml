@@ -1,0 +1,51 @@
+lesson: k10-dung-ai-an-toan
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Nội dung nào an toàn nhất để đưa vào một công cụ AI bên ngoài?"
+    options:
+      - text: Danh sách khách hàng kèm số điện thoại để soạn tin nhắn chúc Tết.
+        correct: false
+        why: Đây là thông tin cá nhân của khách hàng, không nên đưa ra ngoài.
+      - text: "Yêu cầu: \"Soạn mẫu tin nhắn chúc Tết ngắn gọn cho khách hàng của cửa hàng điện máy.\""
+        correct: true
+        why: Đúng. Không chứa thông tin cá nhân hay bí mật nội bộ.
+      - text: Bảng giá vốn của cửa hàng để AI đề xuất giá bán.
+        correct: false
+        why: Giá vốn là thông tin nội bộ nhạy cảm.
+  - id: q2
+    prompt: "AI viết: \"Theo quy định hiện hành, công ty phải…\" kèm số hiệu một văn bản. Bạn nên làm gì?"
+    options:
+      - text: Dùng luôn vì AI đã ghi rõ số hiệu.
+        correct: false
+        why: AI có thể bịa số hiệu văn bản nghe rất thật.
+      - text: Tự tra văn bản gốc để kiểm tra trước khi dùng.
+        correct: true
+        why: Đúng. Đây là câu hỏi "Đúng không?" – phải đối chiếu với nguồn gốc.
+      - text: Xóa số hiệu, giữ lại nội dung.
+        correct: false
+        why: Nội dung vẫn có thể sai. Vấn đề là chưa kiểm tra, không phải số hiệu.
+  - id: q3
+    prompt: "Nơi bạn làm việc chưa có quy định về dùng AI. Bạn nên làm gì?"
+    options:
+      - text: Thoải mái dùng vì chưa có quy định cấm.
+        correct: false
+        why: Chưa có quy định không có nghĩa là được phép đưa mọi thông tin ra ngoài.
+      - text: Hỏi cấp trên trước khi dùng với tài liệu công việc.
+        correct: true
+        why: Đúng. Hỏi trước giúp tránh rủi ro lộ thông tin mà bạn không lường hết.
+      - text: Không bao giờ dùng AI.
+        correct: false
+        why: AI có thể rất hữu ích. Cần dùng đúng cách, không phải tránh hoàn toàn.
+  - id: q4
+    prompt: "Email AI soạn đúng và đủ, nhưng xưng \"tôi – quý vị\" với đồng nghiệp thân. Câu hỏi kiểm tra nào phát hiện lỗi này?"
+    options:
+      - text: Đúng không?
+        correct: false
+        why: Nội dung không sai sự thật.
+      - text: Đủ không?
+        correct: false
+        why: Nội dung không bị thiếu.
+      - text: Hợp không?
+        correct: true
+        why: Đúng. Xưng hô và giọng văn chưa hợp với người nhận.

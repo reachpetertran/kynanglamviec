@@ -1,0 +1,51 @@
+lesson: k7-xin-va-dung-phan-hoi
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu hỏi xin phản hồi nào dễ nhận được góp ý hữu ích nhất?"
+    options:
+      - text: "\"Chị thấy em làm việc thế nào?\""
+        correct: false
+        why: Câu hỏi quá chung, thường chỉ nhận về "ổn mà".
+      - text: "\"Trong file kế hoạch vừa gửi, có một điều gì em nên sửa không chị?\""
+        correct: true
+        why: Đúng. Hỏi về một việc cụ thể, vừa làm, và chỉ xin "một điều".
+      - text: "\"Cuối năm chị đánh giá em giúp nhé.\""
+        correct: false
+        why: Chờ cuối năm thì quá muộn để sửa kịp.
+  - id: q2
+    prompt: "Tình huống giả định. Bạn nhận góp ý mà bạn thấy chưa đúng. Nên làm gì ngay lúc đó?"
+    options:
+      - text: Giải thích ngay vì sao mình làm vậy.
+        correct: false
+        why: Phân bua ngay dễ khiến người góp ý ngại góp ý lần sau.
+      - text: Cảm ơn, hỏi rõ thêm, ghi lại và suy nghĩ sau.
+        correct: true
+        why: Đúng. Bạn vẫn có thể trao đổi lại sau, khi đã suy nghĩ kỹ.
+      - text: Im lặng và bỏ qua.
+        correct: false
+        why: Bỏ qua thì mất cơ hội hiểu góc nhìn của người khác.
+  - id: q3
+    prompt: "Góp ý: \"Em viết email hơi khó hiểu.\" Hành động nào đo được nhất?"
+    options:
+      - text: Sẽ cố gắng viết dễ hiểu hơn.
+        correct: false
+        why: "\"Cố gắng\" không đo được, khó biết đã làm hay chưa."
+      - text: "Tuần này, mọi email đều có tiêu đề nêu việc và hạn, câu đề nghị có động từ."
+        correct: true
+        why: Đúng. Có tiêu chí cụ thể và thời hạn, tự kiểm tra được.
+      - text: Đọc thêm sách về viết lách.
+        correct: false
+        why: Có thể hữu ích, nhưng chưa gắn với hành vi cần đổi và thời hạn.
+  - id: q4
+    prompt: "Vì sao nên báo lại cho người đã góp ý?"
+    options:
+      - text: Để họ thấy góp ý có ích và sẵn lòng góp ý tiếp.
+        correct: true
+        why: Đúng. Báo lại cũng giúp họ xác nhận bạn đã sửa đúng hướng.
+      - text: Để xin được khen.
+        correct: false
+        why: Mục đích chính là khép vòng phản hồi, không phải xin khen.
+      - text: Không cần báo lại, sửa là đủ.
+        correct: false
+        why: Không báo lại, họ có thể không nhận ra thay đổi của bạn.

@@ -1,0 +1,51 @@
+lesson: k4-de-xuat-cai-tien
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu nào phù hợp nhất cho phần \"Hiện trạng\"?"
+    options:
+      - text: "\"Quy trình hiện nay rất lỗi thời.\""
+        correct: false
+        why: Đây là nhận xét chủ quan, không có số liệu, dễ gây phản ứng.
+      - text: "\"Tuần qua, mỗi đơn mất trung bình 12 phút để nhập tay, có 5 đơn nhập sai.\""
+        correct: true
+        why: Đúng. Có số liệu cụ thể và vấn đề rõ ràng.
+      - text: "\"Anh Long nhập đơn chậm quá.\""
+        correct: false
+        why: Chê người làm thay vì mô tả quy trình. Nên tập trung vào quy trình.
+  - id: q2
+    prompt: "Vì sao nên chạy thử nhỏ trước khi áp dụng rộng?"
+    options:
+      - text: Chi phí thấp nếu không hiệu quả, và có số liệu thật nếu hiệu quả.
+        correct: true
+        why: Đúng. Thử nhỏ giảm rủi ro và dễ được cấp trên đồng ý.
+      - text: Để kéo dài thời gian.
+        correct: false
+        why: Mục đích là kiểm chứng, không phải trì hoãn.
+      - text: Vì cải tiến nào cũng sẽ thất bại.
+        correct: false
+        why: Không đúng. Thử nhỏ giúp biết sớm cải tiến có hiệu quả hay không.
+  - id: q3
+    prompt: "Bạn thử cách mới 2 tuần nhưng quên đo trước khi thử. Vấn đề là gì?"
+    options:
+      - text: Không có vấn đề gì.
+        correct: false
+        why: Không có số liệu trước thì không so sánh được.
+      - text: Không chứng minh được cách mới tốt hơn cách cũ.
+        correct: true
+        why: Đúng. Cần đo trước và sau theo cùng một cách.
+      - text: Phải bỏ hẳn cải tiến.
+        correct: false
+        why: Không cần bỏ. Có thể đo lại cách cũ một thời gian để so sánh.
+  - id: q4
+    prompt: "Trước khi viết đề xuất đổi cách xếp hàng trong kho, bạn nên làm gì?"
+    options:
+      - text: Hỏi ý kiến những người trực tiếp làm việc trong kho.
+        correct: true
+        why: Đúng. Họ hiểu rõ khó khăn thực tế và có thể góp ý giải pháp tốt hơn.
+      - text: Gửi thẳng lên giám đốc để được chú ý.
+        correct: false
+        why: Bỏ qua cấp trên trực tiếp và người làm thường khiến đề xuất khó được ủng hộ.
+      - text: Tự xếp lại kho cuối tuần, không cần hỏi ai.
+        correct: false
+        why: Tự thay đổi không xin phép có thể gây rối và vượt quyền hạn.

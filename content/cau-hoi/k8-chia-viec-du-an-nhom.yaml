@@ -1,0 +1,51 @@
+lesson: k8-chia-viec-du-an-nhom
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Trong bảng phân công, phần \"Làm slide\" ghi người phụ trách là \"cả nhóm\". Vấn đề là gì?"
+    options:
+      - text: Không có vấn đề, cả nhóm cùng làm sẽ nhanh hơn.
+        correct: false
+        why: Khi ai cũng phụ trách, dễ thành không ai chịu trách nhiệm cuối.
+      - text: Không rõ ai chịu trách nhiệm cuối, phần này dễ bị bỏ sót.
+        correct: true
+        why: Đúng. Mỗi phần việc cần đúng một người phụ trách, dù nhiều người cùng làm.
+      - text: Slide không cần ghi vào bảng.
+        correct: false
+        why: Mọi phần việc tạo ra đầu ra đều nên có trong bảng.
+  - id: q2
+    prompt: "Đầu ra nào nhìn thấy được rõ nhất?"
+    options:
+      - text: "\"Lo phần nội dung\""
+        correct: false
+        why: Không rõ khi nào là xong và sản phẩm là gì.
+      - text: "\"Tìm hiểu đối thủ\""
+        correct: false
+        why: Đây là hoạt động, không phải sản phẩm cụ thể.
+      - text: "\"Bảng so sánh giá 3 đối thủ, 1 trang\""
+        correct: true
+        why: Đúng. Ai nhìn cũng biết sản phẩm đã có hay chưa.
+  - id: q3
+    prompt: "Hạn nộp dự án là thứ Hai. Hạn các phần việc nên đặt thế nào?"
+    options:
+      - text: Tất cả đều hạn thứ Hai.
+        correct: false
+        why: Không còn thời gian để ghép và sửa.
+      - text: Sớm hơn hạn nộp, để còn thời gian ghép và sửa.
+        correct: true
+        why: Đúng. Các phần cần xong trước để kịp ghép, kiểm tra và luyện trình bày.
+      - text: Không cần đặt hạn, ai xong lúc nào nộp lúc đó.
+        correct: false
+        why: Không có hạn, việc dễ dồn đến phút cuối.
+  - id: q4
+    prompt: "Tại mốc kiểm tra, bạn thấy phần của một bạn mới xong một nửa. Cách xử lý nào phù hợp?"
+    options:
+      - text: Phê bình bạn đó trước cả nhóm.
+        correct: false
+        why: Trách móc công khai làm căng thẳng, chưa giải quyết được việc chậm.
+      - text: Hỏi bạn cần hỗ trợ gì, và xem ai có thể giúp.
+        correct: true
+        why: Đúng. Mục tiêu của mốc kiểm tra là gỡ việc sớm.
+      - text: Lặng lẽ làm thay phần của bạn đó.
+        correct: false
+        why: Làm thay không báo dễ gây trùng việc và hiểu lầm.

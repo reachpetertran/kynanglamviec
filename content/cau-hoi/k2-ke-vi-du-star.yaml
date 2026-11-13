@@ -1,0 +1,51 @@
+lesson: k2-ke-vi-du-star
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Trong STAR, phần nào nên dài nhất?"
+    options:
+      - text: S – Tình huống
+        correct: false
+        why: Tình huống chỉ cần 1–2 câu để người nghe hiểu bối cảnh.
+      - text: A – Hành động
+        correct: true
+        why: Đúng. Người phỏng vấn muốn biết cụ thể bạn đã làm gì.
+      - text: R – Kết quả
+        correct: false
+        why: Kết quả cần cụ thể nhưng ngắn gọn, 1–2 câu.
+  - id: q2
+    prompt: "Câu nào phù hợp nhất cho phần A?"
+    options:
+      - text: "\"Chúng em đã làm việc rất tích cực.\""
+        correct: false
+        why: Dùng "chúng em" và không nói rõ hành động cụ thể.
+      - text: "\"Em gọi lại cho 20 khách cũ và ghi nhận lý do họ không quay lại.\""
+        correct: true
+        why: Đúng. Hành động cụ thể, rõ là của bạn, có con số.
+      - text: "\"Em là người rất chăm chỉ và có trách nhiệm.\""
+        correct: false
+        why: Đây là lời tự khen, không phải hành động.
+  - id: q3
+    prompt: "Bạn không có số liệu cho phần kết quả. Nên làm gì?"
+    options:
+      - text: Ước lượng một con số cho có.
+        correct: false
+        why: Bịa số liệu có thể bị phát hiện khi người phỏng vấn hỏi thêm.
+      - text: Nêu bằng chứng khác, như quản lý giữ cách làm mới hoặc giao thêm việc.
+        correct: true
+        why: Đúng. Bằng chứng cụ thể vẫn thuyết phục khi không có số liệu.
+      - text: Bỏ qua phần kết quả.
+        correct: false
+        why: Thiếu kết quả, câu chuyện không cho thấy giá trị việc bạn làm.
+  - id: q4
+    prompt: "Nguồn ví dụ nào phù hợp cho một sinh viên chưa đi làm chính thức?"
+    options:
+      - text: Chỉ kinh nghiệm làm việc toàn thời gian.
+        correct: false
+        why: Sinh viên có nhiều trải nghiệm khác vẫn có giá trị.
+      - text: Dự án nhóm ở trường, làm thêm, câu lạc bộ, tình nguyện.
+        correct: true
+        why: Đúng. Những trải nghiệm này đều cho thấy kỹ năng làm việc thật.
+      - text: Câu chuyện của bạn bè, kể như của mình.
+        correct: false
+        why: Kể chuyện người khác như của mình là không trung thực và dễ bị lộ.

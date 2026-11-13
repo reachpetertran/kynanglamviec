@@ -11,7 +11,7 @@ objectives:
   - "Sau bài này, bạn có thể viết tin nhắn báo sớm gồm 4 phần: tình trạng, lý do, phương án, đề nghị."
 framework_map: ["CSfW: 3a Plan and organise", "SkillsFuture CCS: Self Management", "NACE: Professionalism"]
 prev: k1-xac-nhan-chi-dan
-next: null
+next: k2-viet-email-cong-viec
 updated: 2026-11-13
 status: published
 ---
