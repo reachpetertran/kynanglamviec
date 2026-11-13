@@ -1,0 +1,51 @@
+lesson: k7-doc-tin-tuyen-dung
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Tin tuyển dụng ghi: \"Ưu tiên ứng viên biết tiếng Anh giao tiếp\". Bạn chưa giỏi tiếng Anh. Bạn nên làm gì?"
+    options:
+      - text: Bỏ qua tin này.
+        correct: false
+        why: Đây là điều ưu tiên, không phải bắt buộc. Bạn vẫn có thể được nhận.
+      - text: Vẫn nộp nếu đáp ứng đủ yêu cầu bắt buộc.
+        correct: true
+        why: Đúng. Thiếu vài điều ưu tiên vẫn nên nộp.
+      - text: Ghi vào CV là "tiếng Anh tốt" cho chắc.
+        correct: false
+        why: Mỗi dòng CV phải kể được bằng ví dụ thật. Ghi sai sẽ lộ khi phỏng vấn.
+  - id: q2
+    prompt: "Chủ quán nói: \"Em gửi bản gốc căn cước để chị giữ, nghỉ việc chị trả.\" Điều này thế nào?"
+    options:
+      - text: Bình thường, nhiều nơi làm vậy để giữ chân nhân viên.
+        correct: false
+        why: Bộ luật Lao động cấm người sử dụng lao động giữ bản chính giấy tờ tùy thân (Điều 17).
+      - text: Là dấu hiệu cần dừng lại. Chỉ đưa bản sao, giữ bản gốc.
+        correct: true
+        why: Đúng. Giữ bản chính giấy tờ tùy thân là hành vi bị cấm theo Điều 17.
+      - text: Được, nếu quán trả lương cao.
+        correct: false
+        why: Lương cao không làm hành vi bị cấm trở thành hợp pháp.
+  - id: q3
+    prompt: "Tin nào trả lời đủ 5 câu: làm gì, ở đâu, khi nào, trả thế nào, liên hệ ai?"
+    options:
+      - text: "\"Tuyển gấp, lương cao, inbox để biết thêm\""
+        correct: false
+        why: Không nói làm gì, ở đâu, khi nào. Chỉ liên hệ qua tin nhắn.
+      - text: "\"Phụ bếp, quán cơm số 12 đường X, ca 10:00–14:00, lương theo giờ trả hằng tuần, gọi chị Hằng\""
+        correct: true
+        why: Đúng. Đủ việc, địa chỉ, giờ, cách trả lương và người liên hệ.
+      - text: "\"Việc nhẹ tại nhà, thu nhập không giới hạn\""
+        correct: false
+        why: Mập mờ về việc và có dấu hiệu lương cao bất thường.
+  - id: q4
+    prompt: "Một nơi tuyển yêu cầu nộp 200.000 đ \"phí giữ chỗ\" trước khi đi làm. Bạn nên làm gì?"
+    options:
+      - text: Nộp, vì số tiền nhỏ.
+        correct: false
+        why: Số tiền nhỏ vẫn là biện pháp bảo đảm bằng tiền, bị cấm theo Điều 17.
+      - text: Không nộp, hỏi lại rõ ràng hoặc bỏ qua nơi này.
+        correct: true
+        why: Đúng. Đòi nộp tiền là một trong 3 dấu hiệu cần dừng lại.
+      - text: Nộp nhưng xin giấy biên nhận.
+        correct: false
+        why: Biên nhận không làm yêu cầu này đúng luật. Tốt nhất là không nộp.

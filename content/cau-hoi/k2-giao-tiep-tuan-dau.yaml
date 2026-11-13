@@ -1,0 +1,51 @@
+lesson: k2-giao-tiep-tuan-dau
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Ngày đầu ở quán, bạn chưa biết cách tính tiền món giảm giá. Có khách đang đứng chờ thanh toán. Bạn nên làm gì?"
+    options:
+      - text: Ghi vào sổ để cuối ca hỏi.
+        correct: false
+        why: Việc này ảnh hưởng khách ngay lúc đó, nên là câu hỏi gấp.
+      - text: Hỏi ngay người hướng dẫn, ngắn gọn.
+        correct: true
+        why: Đúng. Câu ảnh hưởng khách hoặc an toàn thì hỏi ngay.
+      - text: Tự đoán cách tính cho nhanh.
+        correct: false
+        why: Tính sai tiền gây thiệt hại cho khách hoặc cho quán.
+  - id: q2
+    prompt: "Tin nhắn nào đủ 4 ý?"
+    options:
+      - text: "\"Chị ơi mai em xin nghỉ nha\""
+        correct: false
+        why: Thiếu tên, ca nào, lý do và đề nghị cụ thể.
+      - text: "\"Em chào chị, em Hoa ca chiều thứ Ba. Mai em có lịch thi, em xin đổi sang ca tối thứ Năm. Em cảm ơn chị.\""
+        correct: true
+        why: Đúng. Có chào và tên, việc gì, cần gì, cảm ơn.
+      - text: "\"Mai bận, ai làm thay em với\""
+        correct: false
+        why: Thiếu tên, lời chào, và người quản lý không biết bạn đề nghị gì.
+  - id: q3
+    prompt: "Bạn có 6 câu hỏi không gấp về cách sắp xếp kho. Người hướng dẫn đang bận nhận hàng. Bạn nên làm gì?"
+    options:
+      - text: Hỏi lần lượt mỗi khi nghĩ ra câu mới.
+        correct: false
+        why: Ngắt việc người khác nhiều lần làm họ khó tập trung.
+      - text: Ghi vào sổ, thử tự tìm trước, rồi hỏi gộp lúc họ rảnh.
+        correct: true
+        why: Đúng. Gom câu hỏi giúp tiết kiệm thời gian cho cả hai bên.
+      - text: Không hỏi, sợ bị đánh giá là chậm hiểu.
+        correct: false
+        why: Không hỏi dẫn tới làm sai. Hỏi đúng lúc là kỹ năng tốt.
+  - id: q4
+    prompt: "Một khách nổi tiếng ghé quán. Bạn muốn chụp ảnh khách và hóa đơn để đăng lên mạng cá nhân. Nên làm thế nào?"
+    options:
+      - text: Đăng ngay, vì quán sẽ được quảng cáo.
+        correct: false
+        why: Ảnh khách và giấy tờ của quán không phải của riêng bạn để đăng.
+      - text: Không chụp ảnh khách và hóa đơn để đăng lên mạng.
+        correct: true
+        why: Đúng. Hình ảnh khách và giấy tờ nội bộ cần được bảo vệ.
+      - text: Đăng vào nhóm chat chung của nhân viên cho vui.
+        correct: false
+        why: Nhóm chat chung chỉ dùng cho việc. Ảnh khách vẫn không nên chia sẻ.

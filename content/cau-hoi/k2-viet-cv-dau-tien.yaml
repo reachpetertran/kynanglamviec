@@ -1,0 +1,51 @@
+lesson: k2-viet-cv-dau-tien
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Dòng CV nào viết đúng công thức động từ + việc + kết quả?"
+    options:
+      - text: "\"Có kinh nghiệm bán hàng\""
+        correct: false
+        why: Không có động từ cụ thể, không có kết quả.
+      - text: "\"Bán bánh tại gian hàng gây quỹ, thu 2 triệu đồng trong 1 buổi\""
+        correct: true
+        why: Đúng. Có động từ, việc cụ thể và kết quả bằng số.
+      - text: "\"Năng động, nhiệt tình, ham học hỏi\""
+        correct: false
+        why: Đây là tính từ tự nhận, người tuyển không kiểm chứng được.
+  - id: q2
+    prompt: "Phần Liên hệ trong CV nên có gì?"
+    options:
+      - text: Họ tên, số điện thoại, email tên thật, quận hoặc huyện.
+        correct: true
+        why: Đúng. Đủ để liên hệ, không lộ thông tin không cần thiết.
+      - text: Họ tên, số căn cước, địa chỉ nhà chi tiết.
+        correct: false
+        why: Số căn cước và địa chỉ chi tiết chưa cần ở bước nộp CV.
+      - text: Chỉ cần email, ví dụ "congchua_xinhxinh@...".
+        correct: false
+        why: Thiếu số điện thoại, và email nên dùng tên thật.
+  - id: q3
+    prompt: "Tin tuyển dụng có yêu cầu bắt buộc \"đúng giờ\". Bạn nên làm gì trong CV?"
+    options:
+      - text: Viết thêm dòng "Tôi luôn đúng giờ".
+        correct: false
+        why: Lời tự nhận chưa phải bằng chứng.
+      - text: Bỏ qua, vì đúng giờ khó chứng minh.
+        correct: false
+        why: Vẫn có thể có bằng chứng, và đây là yêu cầu bắt buộc.
+      - text: Đưa lên đầu một dòng bằng chứng, ví dụ "Trực nhật thư viện 7:00 sáng suốt học kỳ, không vắng buổi nào".
+        correct: true
+        why: Đúng. Mỗi yêu cầu bắt buộc nên có một dòng bằng chứng.
+  - id: q4
+    prompt: "Bạn có dòng CV \"Quản lý fanpage câu lạc bộ\" nhưng không kể được đã làm gì. Bạn nên làm gì?"
+    options:
+      - text: Giữ nguyên, vì nghe hay.
+        correct: false
+        why: Khi bị hỏi mà không kể được, người tuyển sẽ mất tin vào cả CV.
+      - text: Viết lại cụ thể việc đã làm và kết quả, hoặc bỏ dòng đó.
+        correct: true
+        why: Đúng. Mỗi dòng CV phải kể được thành một ví dụ STAR.
+      - text: Thêm chữ "chuyên nghiệp" cho nổi bật.
+        correct: false
+        why: Thêm tính từ không thay được bằng chứng.

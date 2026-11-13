@@ -1,0 +1,51 @@
+lesson: k2-chuan-bi-phong-van
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Phần giới thiệu nào theo đúng 3 ý: hiện tại, đã làm, vì sao chọn nơi này?"
+    options:
+      - text: "\"Em tên Nam, quê Nghệ An, nhà có 4 người, em thích đá bóng và nghe nhạc.\""
+        correct: false
+        why: Chỉ có thông tin cá nhân, không có việc đã làm hay lý do chọn nơi này.
+      - text: "\"Em tên Nam, sinh viên năm nhất. Em từng phụ quán phở nhà bác 3 tháng Hè. Em chọn quán vì muốn học quy trình bếp chuyên nghiệp.\""
+        correct: true
+        why: Đúng. Đủ 3 ý, có việc cụ thể và lý do cụ thể.
+      - text: "\"Em rất cần việc làm, anh chị cho em cơ hội nhé.\""
+        correct: false
+        why: Người tuyển chưa biết bạn là ai và làm được gì.
+  - id: q2
+    prompt: "Câu hỏi ngược nào tốt nhất?"
+    options:
+      - text: "\"Ở đây có được nghỉ nhiều không ạ?\""
+        correct: false
+        why: Có thể hỏi về lịch nghỉ, nhưng câu hỏi đầu tiên nên cho thấy bạn quan tâm đến việc.
+      - text: "\"Người mới thường cần học những việc gì trong tuần đầu ạ?\""
+        correct: true
+        why: Đúng. Câu hỏi cho thấy bạn đã nghĩ đến việc thật và muốn học.
+      - text: "Không hỏi gì, để buổi phỏng vấn kết thúc nhanh."
+        correct: false
+        why: Bỏ lỡ cơ hội thể hiện sự quan tâm và có thêm thông tin.
+  - id: q3
+    prompt: "Người phỏng vấn hỏi một câu bạn chưa hiểu rõ. Bạn nên làm gì?"
+    options:
+      - text: Trả lời đại một ý cho nhanh.
+        correct: false
+        why: Dễ trả lời lạc đề. Người tuyển sẽ nghĩ bạn không nghe kỹ.
+      - text: "Hỏi lại: \"Anh muốn hỏi về việc ở trường hay việc làm thêm ạ?\""
+        correct: true
+        why: Đúng. Hỏi lại khi chưa rõ là kỹ năng nghe tốt, không phải điểm yếu.
+      - text: Im lặng chờ họ hỏi câu khác.
+        correct: false
+        why: Im lặng làm buổi phỏng vấn ngắt quãng và bạn mất điểm.
+  - id: q4
+    prompt: "Một bạn 16 tuổi được hẹn phỏng vấn tại một địa chỉ lạ vào buổi tối. Cách nào an toàn nhất?"
+    options:
+      - text: Đi một mình cho tự tin.
+        correct: false
+        why: Địa chỉ lạ, buổi tối và chưa đủ 18 tuổi là ba lý do cần cẩn thận hơn.
+      - text: Hỏi đổi giờ ban ngày, kiểm tra địa chỉ rõ ràng, có người nhà đi cùng.
+        correct: true
+        why: Đúng. Chỗ tuyển đàng hoàng sẽ sẵn lòng hẹn giờ và địa điểm rõ ràng.
+      - text: Không báo ai để tránh người nhà lo lắng.
+        correct: false
+        why: Luôn báo người nhà nơi bạn đến, nhất là khi chưa đủ 18 tuổi.

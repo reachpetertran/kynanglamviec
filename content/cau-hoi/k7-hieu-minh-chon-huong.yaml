@@ -1,0 +1,51 @@
+lesson: k7-hieu-minh-chon-huong
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Lan ghi vào vòng \"Làm được\": \"Giỏi vẽ\". Cách viết nào tốt hơn?"
+    options:
+      - text: "\"Rất giỏi vẽ, ai cũng khen\""
+        correct: false
+        why: Vẫn là lời tự nhận, chưa chỉ ra bằng chứng cụ thể.
+      - text: "\"Vẽ 3 poster cho Hội trại, trường dùng in treo\""
+        correct: true
+        why: Đúng. Có sản phẩm cụ thể và có người khác dùng, đó là bằng chứng.
+      - text: "\"Muốn học thiết kế đồ họa\""
+        correct: false
+        why: Đây là mong muốn, thuộc hướng thử, không phải bằng chứng làm được.
+  - id: q2
+    prompt: "Khoa viết vòng \"Thích làm\": \"thích làm bác sĩ\". Vấn đề là gì?"
+    options:
+      - text: Không có vấn đề, ghi tên nghề là rõ nhất.
+        correct: false
+        why: Tên nghề chưa cho biết Khoa thích hoạt động nào trong nghề đó.
+      - text: Nên ghi hoạt động, ví dụ "chăm em khi ốm, tìm hiểu cơ thể người".
+        correct: true
+        why: Đúng. Ghi hoạt động giúp tìm ra nhiều nghề có hoạt động đó, không chỉ một nghề.
+      - text: Nên bỏ vòng này, chỉ cần vòng "Làm được".
+        correct: false
+        why: Thiếu vòng "Thích làm", bạn dễ chọn việc làm được nhưng nhanh chán.
+  - id: q3
+    prompt: "Phép thử nhỏ nào hợp nhất cho hướng \"pha chế đồ uống\" trong 14 ngày?"
+    options:
+      - text: Đăng ký ngay một khóa pha chế 6 tháng.
+        correct: false
+        why: Tốn nhiều thời gian và tiền trước khi có thông tin thật.
+      - text: Xem nhiều video về nghề pha chế.
+        correct: false
+        why: Có ích để tìm hiểu, nhưng chưa phải làm thử hay hỏi người thật.
+      - text: Hỏi chuyện một người đang pha chế 20 phút, và xin làm thử một ca.
+        correct: true
+        why: Đúng. Ngắn, rẻ, và cho thông tin thật về một ngày làm nghề.
+  - id: q4
+    prompt: "Sau phép thử, Hà thấy mình không hợp nghề tổ chức sự kiện. Hà nên làm gì?"
+    options:
+      - text: Ghi lại điều bất ngờ, loại hướng này, thử hướng thứ hai.
+        correct: true
+        why: Đúng. Loại bớt một hướng bằng thông tin thật là kết quả có ích.
+      - text: Coi như thất bại và ngừng tìm hướng.
+        correct: false
+        why: Phép thử là để có thông tin. Kết quả "không hợp" cũng là thông tin quý.
+      - text: Bỏ qua kết quả, vẫn chọn ngành đó vì đã nói với bạn bè.
+        correct: false
+        why: Như vậy phép thử không còn tác dụng dẫn đường.

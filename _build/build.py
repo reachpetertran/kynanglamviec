@@ -215,8 +215,10 @@ def build_groups():
         modules = "".join(f"<li>{e(m)}</li>" for m in g["modules"])
         note = f'<p class="note">{e(g["note"])}</p>' if g.get("note") else ""
         extra = ""
+        if g["code"] == "N2":
+            extra = course_map("n2")
         if g["code"] == "N1":
-            extra = n1_course_map() + """<div class="note"><b>Dành cho phụ huynh và giáo viên.</b> Các bài N1 được viết để người lớn
+            extra = course_map("n1") + """<div class="note"><b>Dành cho phụ huynh và giáo viên.</b> Các bài N1 được viết để người lớn
 dẫn trẻ học. Không có trắc nghiệm chọn nghề. Site không thu dữ liệu của trẻ.
 Bài nhật ký và tự đánh giá không dành cho trẻ tự dùng.</div>"""
         body = f"""<p class="crumb"><a href="{{{{R}}}}lo-trinh/">Lộ trình</a> › {g['code']}</p>
@@ -226,7 +228,7 @@ Bài nhật ký và tự đánh giá không dành cho trẻ tự dùng.</div>"""
 {note}{extra}
 <h2>Học phần gợi ý</h2>
 <ol class="modules">{modules}</ol>
-{"" if g["code"] == "N1" and course_lessons("n1") else "<h2>Bài học đã có</h2>" + lessons_list(ls)}
+{group_lessons(g, ls)}
 <h2>Kỹ năng trọng tâm của nhóm</h2>
 <table class="matrix"><thead><tr><th>Kỹ năng</th><th>Mức độ</th></tr></thead><tbody>{rows}</tbody></table>
 <p class="muted small">— không dạy · ○ giới thiệu · ● trọng tâm · ◆ nâng cao</p>
@@ -234,20 +236,32 @@ Bài nhật ký và tự đánh giá không dành cho trẻ tự dùng.</div>"""
         page(f"lo-trinh/{g['slug']}/", f"{g['code']} {g['name']}", body, desc=g["intro"][:150])
 
 
-def n1_course_map():
-    cl = course_lessons("n1")
+def group_lessons(g, ls):
+    c = g["slug"]
+    if c in COURSES and course_lessons(c):
+        rest = [l for l in ls if l.get("course") != c]
+        if not rest:
+            return ""
+        return ("<h2>Bài học thêm cho nhóm</h2><p>Các bài này ngoài khóa, học theo nhu cầu.</p>"
+                + lessons_list(rest))
+    return "<h2>Bài học đã có</h2>" + lessons_list(ls)
+
+
+def course_map(c):
+    cl = course_lessons(c)
     if not cl:
         return ""
+    C = COURSES[c]
     steps = "".join(
         f'<li data-lesson="{e(l["slug"])}"><a href="{{{{R}}}}bai-hoc/{e(l["slug"])}/"><b>Bài {i}. {e(l.get("short", l["title"]))}</b>'
-        f'<span>{e(l.get("hook", ""))}</span><span class="meta">{SKILL[l["skill"]]["code"]} · {l["minutes"]} phút'
+        f'<span>{e(l.get("hook", ""))}</span><span class="meta">{SKILL[l["skill"]]["code"]} · Bậc {l["level"]} · {l["minutes"]} phút'
         f'{" · " + e(l["age"]) if l.get("age") else ""}</span></a></li>' for i, l in enumerate(cl, 1))
-    return f"""<h2>Bản đồ khóa Khám phá nghề</h2>
-<p>Khóa có {len(cl)} bài, học theo thứ tự. Một sợi chỉ nối cả khóa: <b>Thẻ nghề</b>.
-Bài 1 làm thẻ, mỗi bài sau điền thêm hoặc dùng thẻ, bài cuối trưng bày tất cả.</p>
+    return f"""<h2>Bản đồ {e(C["title"])}</h2>
+<p>Khóa có {len(cl)} bài, học theo thứ tự. {C["thread"]}</p>
 <ol class="coursemap">{steps}</ol>
+{C.get("after", "")}
 <p><a class="btn" href="{{{{R}}}}bai-hoc/{cl[0]['slug']}/">Bắt đầu Bài 1</a>
-<a class="btn ghost" href="{{{{R}}}}tai-nguyen/n1/">Hướng dẫn và mẫu in cho người lớn</a></p>
+<a class="btn ghost" href="{{{{R}}}}{C["guide"]}">{e(C["guide_label"])}</a></p>
 """
 
 
@@ -320,7 +334,15 @@ def meta_table(l):
 <tr><th>updated</th><td>{l['updated']}</td></tr></tbody></table>"""
 
 
-COURSES = {"n1": {"title": "Khóa Khám phá nghề (N1)", "home": "lo-trinh/n1/"}}
+COURSES = {
+    "n1": {"title": "Khóa Khám phá nghề (N1)", "home": "lo-trinh/n1/", "guide": "tai-nguyen/n1/",
+           "guide_label": "Hướng dẫn và mẫu in cho người lớn", "strip_label": "Hướng dẫn cho người lớn",
+           "thread": "Một sợi chỉ nối cả khóa: <b>Thẻ nghề</b>. Bài 1 làm thẻ, mỗi bài sau điền thêm hoặc dùng thẻ, bài cuối trưng bày tất cả."},
+    "n2": {"title": "Khóa Chuẩn bị đi làm (N2)", "home": "lo-trinh/n2/", "guide": "tai-nguyen/n2/",
+           "guide_label": "Mẫu in của khóa", "strip_label": "Mẫu in",
+           "thread": "Một sợi chỉ nối cả khóa: <b>Hồ sơ sẵn sàng đi làm</b>, gồm 6 tờ. Mỗi bài làm xong một tờ. Bài cuối kiểm tra chéo cả hồ sơ.",
+           "after": '<p class="note"><b>Sắp có:</b> bài "Quyền và an toàn khi đi làm thêm, thực tập". Bài sẽ viết sau khi Quốc hội biểu quyết luật sửa đổi Bộ luật Lao động, để dẫn đúng văn bản đang có hiệu lực.</p>'},
+}
 
 
 def course_lessons(c):
@@ -337,7 +359,7 @@ def course_strip(l):
         items += (f'<li data-lesson="{e(x["slug"])}"{cur}><a href="{{{{R}}}}bai-hoc/{e(x["slug"])}/">'
                   f'<span class="cs-n">{i}</span><span class="cs-t">{e(x.get("short", x["title"]))}</span></a></li>')
     return (f'<nav class="course-strip" aria-label="Các bài trong khóa"><p class="small"><b>{e(COURSES[c]["title"])}</b> · '
-            f'<a href="{{{{R}}}}{COURSES[c]["home"]}">Bản đồ khóa</a> · <a href="{{{{R}}}}tai-nguyen/n1/">Hướng dẫn cho người lớn</a></p><ol>{items}</ol></nav>')
+            f'<a href="{{{{R}}}}{COURSES[c]["home"]}">Bản đồ khóa</a> · <a href="{{{{R}}}}{COURSES[c]["guide"]}">{COURSES[c]["strip_label"]}</a></p><ol>{items}</ol></nav>')
 
 
 def build_lessons():
@@ -454,13 +476,18 @@ Hãy in hoặc lưu PDF định kỳ.</p>
 <button type="button" class="btn" data-action="print">In trang này</button></p>
 <h2>Hướng dẫn cho phụ huynh và giáo viên (N1)</h2>
 <p>Cách dẫn khóa Khám phá nghề, lịch ôn và 4 mẫu in: Thẻ nghề, Bảng nhiệm vụ nhóm, Phiếu phỏng vấn, Phiếu ôn tập.</p>
-<p><a class="btn" href="{{R}}tai-nguyen/n1/">Mở hướng dẫn N1</a></p>""")
-    gp = ROOT / "content/trang/n1-huong-dan.md"
-    if gp.exists():
+<p><a class="btn" href="{{R}}tai-nguyen/n1/">Mở hướng dẫn N1</a></p>
+<h2>Mẫu in khóa Chuẩn bị đi làm (N2)</h2>
+<p>Bảy mẫu cho Hồ sơ sẵn sàng đi làm: bản đồ hướng đi, phiếu đọc tin tuyển dụng, khung CV, phiếu phỏng vấn, sổ tay tuần đầu, trang quy trình, bảng kiểm.</p>
+<p><a class="btn" href="{{R}}tai-nguyen/n2/">Mở mẫu in N2</a></p>""")
+    for code, fn in (("n1", "n1-huong-dan.md"), ("n2", "n2-mau-in.md")):
+        gp = ROOT / "content/trang" / fn
+        if not gp.exists():
+            continue
         raw = gp.read_text(encoding="utf-8")
         m = re.match(r"^---\n(.*?)\n---\n(.*)$", raw, re.S)
         gm = yaml.safe_load(m.group(1))
-        page("tai-nguyen/n1/", gm["title"], f'<p class="crumb"><a href="{{{{R}}}}tai-nguyen/">Tài nguyên</a> › N1</p>'
+        page(f"tai-nguyen/{code}/", gm["title"], f'<p class="crumb"><a href="{{{{R}}}}tai-nguyen/">Tài nguyên</a> › {code.upper()}</p>'
              + md_to_html(m.group(2)), desc=gm.get("desc", ""))
 
     page("phap-ly/", "Pháp lý khi đi làm", """<h1>Pháp lý khi đi làm</h1>

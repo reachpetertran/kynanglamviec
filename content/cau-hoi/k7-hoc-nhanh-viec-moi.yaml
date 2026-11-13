@@ -1,0 +1,51 @@
+lesson: k7-hoc-nhanh-viec-moi
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Bạn vừa được chỉ cách đóng gói đơn hàng online. Cách học nào hiệu quả nhất?"
+    options:
+      - text: Chụp ảnh tờ hướng dẫn và đọc lại nhiều lần.
+        correct: false
+        why: Đọc lại có hiệu quả thấp vì bạn không phải nhớ lại gì.
+      - text: Tự viết quy trình bằng lời của mình, hôm sau úp sổ viết lại rồi so.
+        correct: true
+        why: Đúng. Đây là tự kiểm tra, cách học được nghiên cứu xếp hiệu quả cao.
+      - text: Tô đậm các bước quan trọng trong tờ hướng dẫn.
+        correct: false
+        why: Tô đậm có hiệu quả thấp theo Dunlosky và cộng sự (2013).
+  - id: q2
+    prompt: "Lịch ôn nào là ôn giãn cách?"
+    options:
+      - text: Ôn 3 lần liền trong tối nay.
+        correct: false
+        why: Ôn dồn một lúc giúp nhớ ngắn hạn, nhưng dễ quên sau vài ngày.
+      - text: Ôn sau 1 ngày, 3 ngày và 7 ngày.
+        correct: true
+        why: Đúng. Rải lần ôn ra nhiều ngày giúp nhớ lâu hơn.
+      - text: Chỉ ôn khi bị nhắc nhở vì làm sai.
+        correct: false
+        why: Như vậy bạn học sau khi đã gây lỗi.
+  - id: q3
+    prompt: "Khi người hướng dẫn làm mẫu, câu hỏi nào giúp bạn ghi phần \"Lỗi hay gặp\"?"
+    options:
+      - text: "\"Người mới hay sai ở bước nào ạ?\""
+        correct: true
+        why: Đúng. Biết trước lỗi hay gặp giúp bạn tránh được ngay từ đầu.
+      - text: "\"Việc này có khó không ạ?\""
+        correct: false
+        why: Câu trả lời thường chung chung, không giúp ghi lỗi cụ thể.
+      - text: "\"Em làm sai có bị trừ lương không ạ?\""
+        correct: false
+        why: Câu này không giúp bạn học việc. Quy định lương nên hỏi riêng.
+  - id: q4
+    prompt: "Khi tự kiểm tra, bạn viết sai bước 3. Bạn nên làm gì?"
+    options:
+      - text: Xóa đi, coi như chưa kiểm tra.
+        correct: false
+        why: Bỏ lỡ thông tin quan trọng về chỗ mình còn yếu.
+      - text: Khoanh bước 3, lần ôn sau chú ý bước đó.
+        correct: true
+        why: Đúng. Biết chính xác chỗ sai là lợi ích lớn của tự kiểm tra.
+      - text: Thôi tự kiểm tra, chuyển sang đọc lại cho chắc.
+        correct: false
+        why: Sai khi tự kiểm tra là bình thường và có ích, không phải dấu hiệu nên dừng.

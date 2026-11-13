@@ -1,0 +1,51 @@
+lesson: k7-on-tap-ho-so-san-sang
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Ôn tập Bài 2. Tin tuyển dụng đòi nộp \"phí đồng phục\" trước khi đi làm. Đây là dấu hiệu gì?"
+    options:
+      - text: Bình thường, đồng phục phải tự trả.
+        correct: false
+        why: Đòi nộp tiền trước khi làm là một trong 3 dấu hiệu cần dừng lại.
+      - text: Dấu hiệu cần dừng lại, vì đòi nộp tiền.
+        correct: true
+        why: Đúng. Luật cấm buộc người lao động bảo đảm bằng tiền hoặc tài sản (Điều 17).
+      - text: Dấu hiệu nơi này chuyên nghiệp.
+        correct: false
+        why: Sự chuyên nghiệp thể hiện ở thông tin rõ ràng, không ở việc thu tiền.
+  - id: q2
+    prompt: "Ôn tập Bài 3 và 4. Người tuyển hỏi về một dòng CV mà bạn không kể được. Lỗi nằm ở đâu?"
+    options:
+      - text: Ở người tuyển, vì hỏi quá kỹ.
+        correct: false
+        why: Hỏi về CV là việc bình thường khi phỏng vấn.
+      - text: Ở CV, vì có dòng không kể được thành ví dụ STAR.
+        correct: true
+        why: Đúng. Mỗi dòng CV phải kể được thành ví dụ khi bị hỏi.
+      - text: Ở phần giới thiệu 60 giây chưa đủ dài.
+        correct: false
+        why: Phần giới thiệu không liên quan đến dòng CV này.
+  - id: q3
+    prompt: "Khi kiểm chéo hồ sơ của bạn, bạn thấy 6 điểm yếu. Bạn nên góp ý thế nào?"
+    options:
+      - text: Nêu đủ 6 điểm cho bạn biết hết.
+        correct: false
+        why: Quá nhiều điểm cùng lúc khiến người nhận khó biết sửa gì trước.
+      - text: Một điều làm tốt, rồi tối đa 3 điểm quan trọng nhất, mỗi điểm có ví dụ.
+        correct: true
+        why: Đúng. Góp ý ít mà cụ thể giúp người nhận sửa được ngay.
+      - text: Chỉ khen để bạn không buồn.
+        correct: false
+        why: Không có điểm cần sửa thì kiểm chéo mất tác dụng.
+  - id: q4
+    prompt: "Dòng kế hoạch 30 ngày nào kiểm tra được?"
+    options:
+      - text: "\"Cố gắng tìm việc chăm chỉ hơn\""
+        correct: false
+        why: Không có số, không có hạn, nên không biết đã làm được hay chưa.
+      - text: "\"Nộp 4 hồ sơ phục vụ ca tối trước ngày 15/12\""
+        correct: true
+        why: Đúng. Có số, có loại việc, có hạn.
+      - text: "\"Sẽ đi làm khi có cơ hội\""
+        correct: false
+        why: Chờ cơ hội không phải là kế hoạch hành động.
