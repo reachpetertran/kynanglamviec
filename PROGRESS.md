@@ -2,10 +2,10 @@
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
 
-## Trạng thái hiện tại (13/11/2026) – v0.1
+## Trạng thái hiện tại (14/11/2026) – v0.1
 - Bản xem trước (riêng tư, chỉ Peter xem): https://claude.ai/artifact/YQWK14o3VR6Xmw8nWMA2fK
-- Mã nguồn: `kynanglamviec-v0.1.zip` (gửi Peter ngày 13/11, có sẵn lịch sử git). **Chưa đẩy lên GitHub, chưa đăng.**
-- LƯU Ý cho phiên mới: máy làm việc của Claude không giữ file giữa các phiên. Nếu repo GitHub chưa có, phải xin Peter đính kèm lại file zip mới nhất.
+- Mã nguồn: https://github.com/reachpetertran/kynanglamviec (public, nhánh `main`, đẩy ngày 14/11/2026). **Chưa nối Cloudflare Pages, site chưa chạy.**
+- Phiên mới: gắn repo (add_repo, quyền push) rồi clone về để làm tiếp. Không cần file zip nữa.
 
 ## Đã xong
 - Bộ sinh trang Python (`_build/build.py`), cùng cách làm với daynentang: build tại máy, commit `public/`, Cloudflare Pages chỉ phục vụ thư mục `public/`.
@@ -18,7 +18,7 @@
 
 ## Việc tiếp theo
 1. Peter duyệt: mẫu bài, 100 câu "Tôi có thể…", giao diện.
-2. Peter tạo repo trống `reachpetertran/kynanglamviec` (public), rồi trong phiên mới bảo Claude "đẩy code lên GitHub". Sau đó nối Cloudflare Pages: build command để trống, output `public`; gắn domain kynanglamviec.com.
+2. Nối Cloudflare Pages với repo: build command để trống, output `public`, nhánh `main`. Sau đó gắn domain kynanglamviec.com (DNS ở GoDaddy). Đăng thật chỉ khi Peter đã duyệt nội dung.
 3. Viết tiếp ~10 bài thử nghiệm N2–N3 (theo file Context mục 6). Bài pháp lý (K10) phải tra lại luật ngay trước khi viết.
 
 ## Quy trình thêm bài
