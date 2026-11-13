@@ -1,5 +1,5 @@
 # 10 kỹ năng, 5 cụm. Nguồn: file "Context dự án kynanglamviec" (13/11/2026).
-# Câu "Tôi có thể…" do site tự viết [SL] — Peter duyệt. Không dịch/chuyển thể Skills Builder.
+# Câu "Tôi có thể…" do site tự viết; Peter duyệt 14/11/2026, mỗi bậc 3 câu. Không dịch/chuyển thể Skills Builder.
 clusters:
   - id: I
     name: Giao tiếp
@@ -21,11 +21,11 @@ skills:
     framework_map: ["WEF: Empathy and active listening", "CSfW: 2a", "LifeComp: S2"]
     gdpt: Giao tiếp và hợp tác
     levels:
-      1: ["Tôi có thể nghe hết một chỉ dẫn ngắn mà không ngắt lời.", "Tôi có thể nhắc lại một chỉ dẫn đơn giản bằng lời của mình."]
-      2: ["Tôi có thể hỏi lại khi chưa rõ kết quả cần có, hạn chót hoặc tiêu chuẩn đạt.", "Tôi có thể ghi ý chính khi nhận việc hoặc khi họp."]
-      3: ["Tôi có thể tóm tắt ý người nói và xin xác nhận trước khi làm.", "Tôi có thể nhận ra mối lo phía sau lời nói của khách hàng hoặc đồng nghiệp."]
-      4: ["Tôi có thể nghe ý kiến trái chiều mà không vội phản bác.", "Tôi có thể đặt câu hỏi mở để làm rõ nhu cầu thật của các bên."]
-      5: ["Tôi có thể lắng nghe để coaching, giúp người khác tự tìm hướng giải quyết.", "Tôi có thể tổ chức cuộc họp nơi mọi người dám nói thẳng."]
+      1: ["Tôi có thể nghe hết một chỉ dẫn ngắn mà không ngắt lời.", "Tôi có thể nhắc lại một chỉ dẫn đơn giản bằng lời của mình.", "Tôi có thể làm đúng theo một chỉ dẫn gồm hai, ba bước."]
+      2: ["Tôi có thể hỏi lại khi chưa rõ kết quả cần có, hạn chót hoặc tiêu chuẩn đạt.", "Tôi có thể ghi ý chính khi nhận việc hoặc khi họp.", "Tôi có thể nghe điện thoại công việc và ghi lại đúng tên, số, giờ hẹn."]
+      3: ["Tôi có thể tóm tắt ý người nói và xin xác nhận trước khi làm.", "Tôi có thể nhận ra mối lo phía sau lời nói của khách hàng hoặc đồng nghiệp.", "Tôi có thể nghe hết phàn nàn của khách trước khi giải thích."]
+      4: ["Tôi có thể nghe ý kiến trái chiều mà không vội phản bác.", "Tôi có thể đặt câu hỏi mở để làm rõ nhu cầu thật của các bên.", "Tôi có thể nhận ra khi các bên dùng cùng một từ nhưng hiểu khác nhau."]
+      5: ["Tôi có thể lắng nghe để coaching, giúp người khác tự tìm hướng giải quyết.", "Tôi có thể tổ chức cuộc họp nơi mọi người dám nói thẳng.", "Tôi có thể nhận và xử lý góp ý trái chiều về cách mình quản lý đội."]
 
   - code: K2
     slug: k2
@@ -35,11 +35,11 @@ skills:
     framework_map: ["SkillsFuture CCS: Communication", "NACE: Communication", "ILO: core work skills"]
     gdpt: Giao tiếp và hợp tác
     levels:
-      1: ["Tôi có thể giới thiệu ngắn về bản thân hoặc về một công việc.", "Tôi có thể viết tin nhắn công việc có lời chào và nội dung rõ."]
-      2: ["Tôi có thể viết email có tiêu đề rõ, một mục đích và một đề nghị cụ thể.", "Tôi có thể viết CV một trang và trả lời phỏng vấn bằng ví dụ thật."]
-      3: ["Tôi có thể báo cáo tiến độ: đã xong gì, đang vướng gì, cần hỗ trợ gì.", "Tôi có thể đổi cách nói cho hợp người nghe, như khách hàng hay cấp trên."]
-      4: ["Tôi có thể trình bày đề xuất có số liệu, các phương án và rủi ro.", "Tôi có thể đàm phán để đạt thỏa thuận mà các bên chấp nhận được."]
-      5: ["Tôi có thể truyền đạt định hướng để cả đội hiểu vì sao và cần làm gì.", "Tôi có thể giúp người khác viết và trình bày tốt hơn."]
+      1: ["Tôi có thể giới thiệu ngắn về bản thân hoặc về một công việc.", "Tôi có thể viết tin nhắn công việc có lời chào và nội dung rõ.", "Tôi có thể nói to, rõ trước một nhóm nhỏ."]
+      2: ["Tôi có thể viết email có tiêu đề rõ, một mục đích và một đề nghị cụ thể.", "Tôi có thể viết CV một trang và trả lời phỏng vấn bằng ví dụ thật.", "Tôi có thể trình bày một việc mình đã làm trong ba phút."]
+      3: ["Tôi có thể báo cáo tiến độ: đã xong gì, đang vướng gì, cần hỗ trợ gì.", "Tôi có thể đổi cách nói cho hợp người nghe, như khách hàng hay cấp trên.", "Tôi có thể viết biên bản họp có quyết định, người phụ trách và hạn."]
+      4: ["Tôi có thể trình bày đề xuất có số liệu, các phương án và rủi ro.", "Tôi có thể đàm phán để đạt thỏa thuận mà các bên chấp nhận được.", "Tôi có thể viết tài liệu hướng dẫn để người khác tự làm theo được."]
+      5: ["Tôi có thể truyền đạt định hướng để cả đội hiểu vì sao và cần làm gì.", "Tôi có thể giúp người khác viết và trình bày tốt hơn.", "Tôi có thể thông báo tin khó cho đội một cách rõ ràng và tôn trọng."]
 
   - code: K3
     slug: k3
@@ -49,11 +49,11 @@ skills:
     framework_map: ["WEF: Analytical thinking", "CSfW: 3b, 3c", "SkillsFuture CCS", "NACE: Critical Thinking"]
     gdpt: Giải quyết vấn đề và sáng tạo
     levels:
-      1: ["Tôi có thể nói rõ mình đang gặp khó ở đâu.", "Tôi có thể nhờ giúp đúng người, đúng lúc."]
-      2: ["Tôi có thể làm theo các bước có sẵn để xử lý một sự cố quen thuộc.", "Tôi có thể nghĩ ra ít nhất hai cách giải quyết trước khi hỏi cấp trên."]
-      3: ["Tôi có thể tìm nguyên nhân gốc, không chỉ xử lý triệu chứng.", "Tôi có thể so sánh các phương án theo tiêu chí rõ ràng rồi chọn."]
-      4: ["Tôi có thể nhìn vấn đề trong cả hệ thống và thấy tác động dây chuyền.", "Tôi có thể quyết định khi thiếu thông tin và nói rõ mình đang giả định gì."]
-      5: ["Tôi có thể ra quyết định chiến lược có cân nhắc rủi ro dài hạn.", "Tôi có thể xây cách làm để đội tự giải quyết vấn đề."]
+      1: ["Tôi có thể nói rõ mình đang gặp khó ở đâu.", "Tôi có thể nhờ giúp đúng người, đúng lúc.", "Tôi có thể làm theo các bước có sẵn khi gặp việc chưa quen."]
+      2: ["Tôi có thể làm theo các bước có sẵn để xử lý một sự cố quen thuộc.", "Tôi có thể nghĩ ra ít nhất hai cách giải quyết trước khi hỏi cấp trên.", "Tôi có thể mô tả vấn đề gồm hiện tượng, thời điểm và việc đã thử."]
+      3: ["Tôi có thể tìm nguyên nhân gốc, không chỉ xử lý triệu chứng.", "Tôi có thể so sánh các phương án theo tiêu chí rõ ràng rồi chọn.", "Tôi có thể dùng số liệu để kiểm tra giả thuyết về nguyên nhân."]
+      4: ["Tôi có thể nhìn vấn đề trong cả hệ thống và thấy tác động dây chuyền.", "Tôi có thể quyết định khi thiếu thông tin và nói rõ mình đang giả định gì.", "Tôi có thể đánh giá rủi ro và lập phương án dự phòng cho quyết định."]
+      5: ["Tôi có thể ra quyết định chiến lược có cân nhắc rủi ro dài hạn.", "Tôi có thể xây cách làm để đội tự giải quyết vấn đề.", "Tôi có thể đặt tiêu chí ra quyết định chung để đội áp dụng nhất quán."]
 
   - code: K4
     slug: k4
@@ -63,11 +63,11 @@ skills:
     framework_map: ["WEF: Creative thinking", "CSfW: 3d", "SkillsFuture CCS", "EntreComp"]
     gdpt: Giải quyết vấn đề và sáng tạo
     levels:
-      1: ["Tôi có thể nêu một ý tưởng mới cho nhiệm vụ của nhóm.", "Tôi có thể nhận ra một việc có thể làm nhanh hơn hoặc gọn hơn."]
-      2: ["Tôi có thể thử một cách làm mới nhỏ và xem kết quả.", "Tôi có thể ghi lại góp ý cải tiến kèm lý do."]
-      3: ["Tôi có thể đề xuất cải tiến gồm hiện trạng, giải pháp và lợi ích.", "Tôi có thể chạy thử nhỏ trước khi áp dụng rộng."]
-      4: ["Tôi có thể mượn ý tưởng từ lĩnh vực khác để giải bài toán của đội.", "Tôi có thể dẫn một dự án cải tiến từ ý tưởng đến đo kết quả."]
-      5: ["Tôi có thể tạo môi trường nơi mọi người dám đề xuất và thử nghiệm.", "Tôi có thể chọn ý tưởng nào được đầu tư dựa trên bằng chứng."]
+      1: ["Tôi có thể nêu một ý tưởng mới cho nhiệm vụ của nhóm.", "Tôi có thể nhận ra một việc có thể làm nhanh hơn hoặc gọn hơn.", "Tôi có thể hỏi \"còn cách nào khác không?\" khi làm nhiệm vụ."]
+      2: ["Tôi có thể thử một cách làm mới nhỏ và xem kết quả.", "Tôi có thể ghi lại góp ý cải tiến kèm lý do.", "Tôi có thể học một mẹo làm việc của đồng nghiệp và thử áp dụng."]
+      3: ["Tôi có thể đề xuất cải tiến gồm hiện trạng, giải pháp và lợi ích.", "Tôi có thể chạy thử nhỏ trước khi áp dụng rộng.", "Tôi có thể đo kết quả trước và sau một cải tiến nhỏ."]
+      4: ["Tôi có thể mượn ý tưởng từ lĩnh vực khác để giải bài toán của đội.", "Tôi có thể dẫn một dự án cải tiến từ ý tưởng đến đo kết quả.", "Tôi có thể thuyết phục người liên quan thử một cách làm mới."]
+      5: ["Tôi có thể tạo môi trường nơi mọi người dám đề xuất và thử nghiệm.", "Tôi có thể chọn ý tưởng nào được đầu tư dựa trên bằng chứng.", "Tôi có thể dành thời gian và nguồn lực cụ thể cho thử nghiệm của đội."]
 
   - code: K5
     slug: k5
@@ -78,11 +78,11 @@ skills:
     gdpt: Tự chủ và tự học
     crosslink: {site: daynentang.com, url: "https://daynentang.com/", note: "Trách nhiệm như một phẩm chất được bàn ở daynentang.com. Ở đây ta học phần kỹ năng: ghi việc, theo dõi, báo sớm."}
     levels:
-      1: ["Tôi có thể nhận một nhiệm vụ và nói rõ khi nào xong.", "Tôi có thể làm xong phần việc mình đã nhận trong nhóm."]
-      2: ["Tôi có thể ghi mọi việc được giao vào một danh sách có hạn chót.", "Tôi có thể báo sớm khi thấy mình có thể trễ hạn."]
-      3: ["Tôi có thể ước lượng thời gian và sắp ưu tiên khi nhiều việc cùng lúc.", "Tôi có thể thương lượng lại hạn hoặc phạm vi khi không đủ thời gian."]
-      4: ["Tôi có thể lập kế hoạch dự án nhỏ có mốc, người phụ trách và rủi ro.", "Tôi có thể theo dõi tiến độ của nhiều người và điều chỉnh kịp thời."]
-      5: ["Tôi có thể phân bổ người và nguồn lực theo mục tiêu ưu tiên của đơn vị.", "Tôi có thể xây quy trình để đội giữ cam kết mà không cần nhắc."]
+      1: ["Tôi có thể nhận một nhiệm vụ và nói rõ khi nào xong.", "Tôi có thể làm xong phần việc mình đã nhận trong nhóm.", "Tôi có thể chuẩn bị đủ đồ dùng trước khi bắt đầu nhiệm vụ."]
+      2: ["Tôi có thể ghi mọi việc được giao vào một danh sách có hạn chót.", "Tôi có thể báo sớm khi thấy mình có thể trễ hạn.", "Tôi có thể chia một việc lớn thành các bước nhỏ có hạn riêng."]
+      3: ["Tôi có thể ước lượng thời gian và sắp ưu tiên khi nhiều việc cùng lúc.", "Tôi có thể thương lượng lại hạn hoặc phạm vi khi không đủ thời gian.", "Tôi có thể giữ một hệ thống theo dõi việc ổn định trong nhiều tuần."]
+      4: ["Tôi có thể lập kế hoạch dự án nhỏ có mốc, người phụ trách và rủi ro.", "Tôi có thể theo dõi tiến độ của nhiều người và điều chỉnh kịp thời.", "Tôi có thể quản lý việc phụ thuộc vào người hoặc bộ phận khác."]
+      5: ["Tôi có thể phân bổ người và nguồn lực theo mục tiêu ưu tiên của đơn vị.", "Tôi có thể xây quy trình để đội giữ cam kết mà không cần nhắc.", "Tôi có thể nói rõ đội sẽ không làm việc gì để tập trung vào ưu tiên."]
 
   - code: K6
     slug: k6
@@ -93,11 +93,11 @@ skills:
     gdpt: Tự chủ và tự học
     crosslink: {site: tamhonkhoe.com, url: "https://tamhonkhoe.com/", note: "Phần tinh thần (thiền, Stoicism) nằm ở tamhonkhoe.com. Ở đây ta học cách làm việc khi có thay đổi."}
     levels:
-      1: ["Tôi có thể tiếp tục làm khi kế hoạch thay đổi nhỏ.", "Tôi có thể nói ra khi mình bối rối với một việc mới."]
-      2: ["Tôi có thể làm quen nhanh với một công cụ hoặc quy trình mới.", "Tôi có thể nhận góp ý mà không bỏ dở công việc."]
-      3: ["Tôi có thể giữ chất lượng công việc khi có áp lực hoặc kế hoạch đổi.", "Tôi có thể rút bài học sau một lần làm hỏng và làm khác đi."]
-      4: ["Tôi có thể giúp đồng nghiệp thích nghi khi quy trình thay đổi.", "Tôi có thể chuẩn bị phương án dự phòng cho việc quan trọng."]
-      5: ["Tôi có thể dẫn đội qua một thay đổi lớn, nói rõ lý do và lộ trình.", "Tôi có thể giữ khối lượng việc của đội ở mức làm được lâu dài."]
+      1: ["Tôi có thể tiếp tục làm khi kế hoạch thay đổi nhỏ.", "Tôi có thể nói ra khi mình bối rối với một việc mới.", "Tôi có thể thử lại sau khi làm chưa được lần đầu."]
+      2: ["Tôi có thể làm quen nhanh với một công cụ hoặc quy trình mới.", "Tôi có thể nhận góp ý mà không bỏ dở công việc.", "Tôi có thể hỏi để hiểu lý do khi quy định hay kế hoạch thay đổi."]
+      3: ["Tôi có thể giữ chất lượng công việc khi có áp lực hoặc kế hoạch đổi.", "Tôi có thể rút bài học sau một lần làm hỏng và làm khác đi.", "Tôi có thể chủ động học kỹ năng mới khi công việc đòi hỏi."]
+      4: ["Tôi có thể giúp đồng nghiệp thích nghi khi quy trình thay đổi.", "Tôi có thể chuẩn bị phương án dự phòng cho việc quan trọng.", "Tôi có thể giữ tiến độ khi phải làm cùng lúc việc cũ và việc mới."]
+      5: ["Tôi có thể dẫn đội qua một thay đổi lớn, nói rõ lý do và lộ trình.", "Tôi có thể giữ khối lượng việc của đội ở mức làm được lâu dài.", "Tôi có thể lắng nghe và xử lý lo ngại của đội trong thay đổi."]
 
   - code: K7
     slug: k7
@@ -107,11 +107,11 @@ skills:
     framework_map: ["WEF: Curiosity and lifelong learning", "CSfW: 1a", "SkillsFuture CCS: Learning Agility", "NACE: Career and Self-Development"]
     gdpt: Tự chủ và tự học
     levels:
-      1: ["Tôi có thể kể tên nhiều nghề và việc người làm nghề đó làm.", "Tôi có thể hỏi người lớn về công việc của họ."]
-      2: ["Tôi có thể tìm hiểu một ngành trước khi chọn học hoặc đi thực tập.", "Tôi có thể tự học một việc mới bằng tài liệu, video và hỏi người biết."]
-      3: ["Tôi có thể đặt mục tiêu học cho 90 ngày đầu ở chỗ làm mới.", "Tôi có thể chủ động xin phản hồi và dùng nó để tiến bộ."]
-      4: ["Tôi có thể lập kế hoạch phát triển nghề 1–3 năm có mốc đo được.", "Tôi có thể chuyển sang vai trò mới bằng các kỹ năng mang theo được."]
-      5: ["Tôi có thể phát triển mình với vai trò lãnh đạo dựa trên phản hồi nhiều chiều.", "Tôi có thể giúp người trong đội lập lộ trình nghề nghiệp."]
+      1: ["Tôi có thể kể tên nhiều nghề và việc người làm nghề đó làm.", "Tôi có thể hỏi người lớn về công việc của họ.", "Tôi có thể nói một nghề cần những kỹ năng gì."]
+      2: ["Tôi có thể tìm hiểu một ngành trước khi chọn học hoặc đi thực tập.", "Tôi có thể tự học một việc mới bằng tài liệu, video và hỏi người biết.", "Tôi có thể viết ra điểm mạnh và điều cần học thêm của mình."]
+      3: ["Tôi có thể đặt mục tiêu học cho 90 ngày đầu ở chỗ làm mới.", "Tôi có thể chủ động xin phản hồi và dùng nó để tiến bộ.", "Tôi có thể ghi bằng chứng về việc mình đã làm tốt để dùng khi đánh giá."]
+      4: ["Tôi có thể lập kế hoạch phát triển nghề 1–3 năm có mốc đo được.", "Tôi có thể chuyển sang vai trò mới bằng các kỹ năng mang theo được.", "Tôi có thể xây mạng lưới quan hệ nghề nghiệp để học hỏi."]
+      5: ["Tôi có thể phát triển mình với vai trò lãnh đạo dựa trên phản hồi nhiều chiều.", "Tôi có thể giúp người trong đội lập lộ trình nghề nghiệp.", "Tôi có thể dành thời gian định kỳ cho việc học của bản thân và đội."]
 
   - code: K8
     slug: k8
@@ -121,11 +121,11 @@ skills:
     framework_map: ["CSfW: 2b, 2c", "SkillsFuture CCS: Collaboration, Building Inclusivity", "NACE: Teamwork"]
     gdpt: Giao tiếp và hợp tác
     levels:
-      1: ["Tôi có thể làm phần việc của mình trong một nhiệm vụ nhóm.", "Tôi có thể lắng nghe khi bạn trong nhóm nói ý kiến."]
-      2: ["Tôi có thể cùng nhóm chia việc và nhắc nhau đúng hạn.", "Tôi có thể làm việc với người khác tuổi, khác vùng miền, khác cách nghĩ."]
-      3: ["Tôi có thể hỗ trợ đồng nghiệp đang quá tải mà vẫn xong việc của mình.", "Tôi có thể nêu bất đồng một cách tôn trọng, tập trung vào công việc."]
-      4: ["Tôi có thể hòa giải xung đột giữa các thành viên trong nhóm.", "Tôi có thể phối hợp với bộ phận khác để đạt mục tiêu chung."]
-      5: ["Tôi có thể xây đội có vai trò rõ, ai cũng được đóng góp.", "Tôi có thể đặt quy tắc làm việc phù hợp cho người có hoàn cảnh khác nhau."]
+      1: ["Tôi có thể làm phần việc của mình trong một nhiệm vụ nhóm.", "Tôi có thể lắng nghe khi bạn trong nhóm nói ý kiến.", "Tôi có thể chia sẻ đồ dùng và thông tin với bạn cùng nhóm."]
+      2: ["Tôi có thể cùng nhóm chia việc và nhắc nhau đúng hạn.", "Tôi có thể làm việc với người khác tuổi, khác vùng miền, khác cách nghĩ.", "Tôi có thể nhờ giúp đỡ và cảm ơn khi được giúp."]
+      3: ["Tôi có thể hỗ trợ đồng nghiệp đang quá tải mà vẫn xong việc của mình.", "Tôi có thể nêu bất đồng một cách tôn trọng, tập trung vào công việc.", "Tôi có thể chia sẻ thông tin kịp thời để đồng nghiệp làm tiếp được."]
+      4: ["Tôi có thể hòa giải xung đột giữa các thành viên trong nhóm.", "Tôi có thể phối hợp với bộ phận khác để đạt mục tiêu chung.", "Tôi có thể làm việc hiệu quả với người khác ngôn ngữ, văn hóa hoặc làm từ xa."]
+      5: ["Tôi có thể xây đội có vai trò rõ, ai cũng được đóng góp.", "Tôi có thể đặt quy tắc làm việc phù hợp cho người có hoàn cảnh khác nhau.", "Tôi có thể đánh giá và cải thiện cách đội phối hợp định kỳ."]
 
   - code: K9
     slug: k9
@@ -135,11 +135,11 @@ skills:
     framework_map: ["WEF: Leadership and social influence; Talent management", "SkillsFuture CCS: Developing People, Influence", "NACE: Leadership"]
     gdpt: "–"
     levels:
-      1: ["Tôi có thể chỉ cho bạn mới một việc mình đã biết.", "Tôi có thể nhận một vai trò nhỏ trong nhóm, như giữ giờ hay ghi chép."]
-      2: ["Tôi có thể đề xuất cách làm cho nhóm khi chưa ai lên tiếng.", "Tôi có thể làm mẫu bằng việc làm đúng hạn, đúng chuẩn."]
-      3: ["Tôi có thể hướng dẫn người mới làm quen công việc.", "Tôi có thể phản hồi cụ thể, dựa trên hành vi, cho đồng nghiệp."]
-      4: ["Tôi có thể kèm cặp (mentoring) một người trong nhiều tháng.", "Tôi có thể tác động đến quyết định dù không có chức danh."]
-      5: ["Tôi có thể giao việc rõ, theo dõi và phản hồi định kỳ.", "Tôi có thể phát hiện và bồi dưỡng người kế cận."]
+      1: ["Tôi có thể chỉ cho bạn mới một việc mình đã biết.", "Tôi có thể nhận một vai trò nhỏ trong nhóm, như giữ giờ hay ghi chép.", "Tôi có thể giúp nhóm giữ trật tự khi làm nhiệm vụ."]
+      2: ["Tôi có thể đề xuất cách làm cho nhóm khi chưa ai lên tiếng.", "Tôi có thể làm mẫu bằng việc làm đúng hạn, đúng chuẩn.", "Tôi có thể nhận trách nhiệm điều phối một việc nhỏ của nhóm."]
+      3: ["Tôi có thể hướng dẫn người mới làm quen công việc.", "Tôi có thể phản hồi cụ thể, dựa trên hành vi, cho đồng nghiệp.", "Tôi có thể điều phối một cuộc họp ngắn đúng giờ, có kết luận."]
+      4: ["Tôi có thể kèm cặp (mentoring) một người trong nhiều tháng.", "Tôi có thể tác động đến quyết định dù không có chức danh.", "Tôi có thể dẫn một nhóm dự án không có quan hệ cấp trên cấp dưới."]
+      5: ["Tôi có thể giao việc rõ, theo dõi và phản hồi định kỳ.", "Tôi có thể phát hiện và bồi dưỡng người kế cận.", "Tôi có thể đặt mục tiêu cho đội và gắn nó với mục tiêu của đơn vị."]
 
   - code: K10
     slug: k10
@@ -150,8 +150,8 @@ skills:
     gdpt: (Tin học)
     crosslink: {site: trachnhiemxahoi.com, url: "https://trachnhiemxahoi.com/", note: "Quyền con người và social compliance nằm ở trachnhiemxahoi.com. Ở đây ta học phần kiến thức thực tế khi đi làm."}
     levels:
-      1: ["Tôi có thể kể ra công nghệ mà một nghề quen thuộc đang dùng.", "Tôi có thể giữ bí mật mật khẩu của mình."]
-      2: ["Tôi có thể dùng email, bảng tính và chat công việc ở mức cơ bản.", "Tôi có thể đọc các điều chính trong hợp đồng hoặc thỏa thuận thực tập trước khi ký."]
-      3: ["Tôi có thể dùng AI hỗ trợ công việc và tự kiểm tra lại kết quả.", "Tôi có thể làm đúng quy định bảo mật dữ liệu và an toàn của nơi làm việc."]
-      4: ["Tôi có thể tự động hóa một việc lặp lại bằng công cụ số.", "Tôi có thể đánh giá rủi ro trước khi đưa dữ liệu vào công cụ AI."]
-      5: ["Tôi có thể xây quy tắc dùng AI và dữ liệu cho đội.", "Tôi có thể chọn công cụ số cho đội theo nhu cầu, chi phí và rủi ro."]
+      1: ["Tôi có thể kể ra công nghệ mà một nghề quen thuộc đang dùng.", "Tôi có thể giữ bí mật mật khẩu của mình.", "Tôi có thể nói vì sao không nên chia sẻ thông tin cá nhân trên mạng."]
+      2: ["Tôi có thể dùng email, bảng tính và chat công việc ở mức cơ bản.", "Tôi có thể đọc các điều chính trong hợp đồng hoặc thỏa thuận thực tập trước khi ký.", "Tôi có thể nhận ra email hoặc tin nhắn lừa đảo thường gặp."]
+      3: ["Tôi có thể dùng AI hỗ trợ công việc và tự kiểm tra lại kết quả.", "Tôi có thể làm đúng quy định bảo mật dữ liệu và an toàn của nơi làm việc.", "Tôi có thể sắp xếp và đặt tên tệp để người khác tìm được."]
+      4: ["Tôi có thể tự động hóa một việc lặp lại bằng công cụ số.", "Tôi có thể đánh giá rủi ro trước khi đưa dữ liệu vào công cụ AI.", "Tôi có thể hướng dẫn đồng nghiệp dùng công cụ số an toàn."]
+      5: ["Tôi có thể xây quy tắc dùng AI và dữ liệu cho đội.", "Tôi có thể chọn công cụ số cho đội theo nhu cầu, chi phí và rủi ro.", "Tôi có thể xử lý sự cố lộ dữ liệu theo quy trình của đơn vị."]

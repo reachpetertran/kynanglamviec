@@ -13,7 +13,7 @@ framework_map: ["CSfW: 3a", "SkillsFuture CCS: Self Management", "NACE: Professi
 prev: k1-xac-nhan-chi-dan
 next: null
 updated: 2026-11-13
-status: draft
+status: published
 ---
 
 ## 1. Mục tiêu

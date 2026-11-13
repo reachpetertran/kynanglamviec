@@ -13,7 +13,7 @@ framework_map: ["WEF: Empathy and active listening", "CSfW: 2a", "LifeComp: S2"]
 prev: null
 next: k5-ghi-viec-va-bao-som
 updated: 2026-11-13
-status: draft
+status: published
 ---
 
 ## 1. Mục tiêu
