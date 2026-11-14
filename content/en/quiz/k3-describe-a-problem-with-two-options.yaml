@@ -1,0 +1,51 @@
+lesson: k3-describe-a-problem-with-two-options
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which problem description covers the 4 points best?"
+    options:
+      - text: "\"The computer's broken.\""
+        correct: false
+        why: It has no specific detail, no time, no impact and nothing tried.
+      - text: "\"Since 10:00, the accounts PC shows an error when opening the software; 15 slips not issued; I've restarted it.\""
+        correct: true
+        why: Correct. It has the time, what happened, the impact and what was tried.
+      - text: "\"It's probably a virus, so the PC won't run.\""
+        correct: false
+        why: This is a guess presented as fact, with no specific information.
+  - id: q2
+    prompt: "Hypothetical scenario. In the workshop, you see smoke coming from a sewing machine's power cable. What do you do first?"
+    options:
+      - text: Think of two options, then tell the supervisor.
+        correct: false
+        why: With a safety incident, you must report and follow the emergency procedure at once.
+      - text: Report it at once and follow the workshop's emergency procedure.
+        correct: true
+        why: Correct. Safety incidents are the exception. Do not wait to prepare options.
+      - text: Open up the machine yourself to check.
+        correct: false
+        why: Repairing electrical equipment without training or permission can be dangerous.
+  - id: q3
+    prompt: "Why bring two options when you ask your manager?"
+    options:
+      - text: To look clever.
+        correct: false
+        why: Impressing people is not the main purpose.
+      - text: So your manager decides faster, and you practise solving problems.
+        correct: true
+        why: Correct. Your manager only needs to choose, and you learn to weigh options.
+      - text: So you never have to ask.
+        correct: false
+        why: You still need to ask when something is beyond your authority. Options make it quicker.
+  - id: q4
+    prompt: "Which option is beyond the authority of a new cashier?"
+    options:
+      - text: Suggest the customer pays by bank transfer.
+        correct: false
+        why: Cashiers are usually allowed to do this.
+      - text: Give the customer 20% off to make up for the broken machine.
+        correct: true
+        why: Correct. Discounts usually need someone with authority. Propose it; do not do it yourself.
+      - text: Put up a temporary notice at the till.
+        correct: false
+        why: This is a small action, usually within a staff member's role.

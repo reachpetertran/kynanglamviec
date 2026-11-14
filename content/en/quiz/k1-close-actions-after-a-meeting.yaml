@@ -1,0 +1,51 @@
+lesson: k1-close-actions-after-a-meeting
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which note is complete enough to go in the Actions box?"
+    options:
+      - text: "\"Redo the slides for the client.\""
+        correct: false
+        why: There is no owner and no deadline. It can easily become a task nobody takes.
+      - text: "\"Ben redoes the client slides, sends them before 17:00 Thursday.\""
+        correct: true
+        why: Correct. It has who, what and when.
+      - text: "\"Slides: urgent fix needed.\""
+        correct: false
+        why: It shows urgency, but has no owner and no specific deadline.
+  - id: q2
+    prompt: "In a meeting, your team leader says: \"You handle the survey, OK?\" What should you do right away?"
+    options:
+      - text: Nod, and find out the details after the meeting.
+        correct: false
+        why: After the meeting it is hard to reach everyone again. Asking now is quicker and clearer.
+      - text: "Ask: \"How many people should I survey, and by when?\""
+        correct: true
+        why: Correct. The question turns a vague task into a clear result and deadline.
+      - text: Write it in the Decisions box.
+        correct: false
+        why: This is a task, so it goes in the Actions box, with an owner and a deadline.
+  - id: q3
+    prompt: "When should you send the meeting summary?"
+    options:
+      - text: Within 24 hours of the meeting.
+        correct: true
+        why: Correct. People still remember the meeting, so mistakes are easy to fix and problems show up early.
+      - text: When the tasks are nearly due.
+        correct: false
+        why: By then it is too late to fix any misunderstanding.
+      - text: Only if someone asks.
+        correct: false
+        why: Usually nobody asks, until a task is late.
+  - id: q4
+    prompt: "The meeting discussed new prices that are not yet public. Who do you send the summary to?"
+    options:
+      - text: The company-wide group chat, for convenience.
+        correct: false
+        why: Unannounced prices are internal information. Send only to attendees.
+      - text: The attendees, through the channel your workplace uses.
+        correct: true
+        why: Correct. Everyone who needs it gets it, and nothing leaks outside.
+      - text: Your personal account, to keep a copy for yourself.
+        correct: false
+        why: Personal channels may break your workplace's confidentiality rules.

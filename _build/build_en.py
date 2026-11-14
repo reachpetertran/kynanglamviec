@@ -66,6 +66,10 @@ COURSES = {
            "guide_label": "Course templates", "strip_label": "Templates",
            "thread": "One thread runs through the course: your <b>Job-ready file</b>, with 6 sheets. Each lesson completes one sheet. The last lesson peer-checks the whole file.",
            "after": '<p class="note"><b>Coming later:</b> a lesson on rights and safety in part-time work and internships. Labour rules differ by country, so it will cite the law where it applies.</p>'},
+    "n3": {"title": "Your First 90 Days course (N3)", "home": "paths/n3/", "guide": "resources/n3/",
+           "guide_label": "Course templates", "strip_label": "Templates",
+           "thread": "One thread runs through the course: your <b>90-day notebook</b>, with 6 sheets you use every day at work. The last lesson turns them into a file for your review.",
+           "after": '<p class="note"><b>More to learn:</b> the N3 lessons further down this page (90-day plan, progress reports, feedback, using AI safely, proposing improvements) add to the course. <b>Coming later:</b> a lesson on contracts, probation and workplace rules.</p>'},
 }
 
 NAV = [("paths/", "Paths"), ("skills/", "Skills"), ("lessons/", "Lessons"),
@@ -502,7 +506,7 @@ Print it or save it as a PDF regularly.</p>
 <p class="noprint"><a class="btn ghost" href="{{{{R}}}}assets/task-list.csv" download>Download as a spreadsheet (.csv)</a>
 <button type="button" class="btn" data-action="print">Print this page</button></p>
 {guides}
-<p class="muted small">Templates for the other courses (N1, N3–N7) are on the <a href="{RV}tai-nguyen/" lang="vi">Vietnamese resources page</a>.</p>""")
+<p class="muted small">Templates for the other courses (N1, N4–N7) are on the <a href="{RV}tai-nguyen/" lang="vi">Vietnamese resources page</a>.</p>""")
 
     for code, (m, b) in PAGES_MD.items():
         page(f"en/resources/{code}/", m["title"],
@@ -553,7 +557,7 @@ Free, public, no login needed.</p>
 <h2>The English edition</h2>
 <p>The site is written in Vietnamese first. English pages are adapted for international readers: names, places and
 examples are changed, and Vietnamese law appears only as an example with its source. The meaning and method stay the same.
-Lessons are added in stages, starting with the Getting Ready for Work course (N2).</p>
+Lessons are added in stages: so far the Getting Ready for Work course (N2), the Your First 90 Days course (N3) and 11 core lessons for N2–N3.</p>
 <h2>Privacy</h2>
 <p>No login, no cookies, no trackers, no external scripts or fonts.
 Progress, self-assessment and journal entries are stored only in your browser (localStorage). The site has no server that stores user data.</p>

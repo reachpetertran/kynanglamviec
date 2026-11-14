@@ -1,0 +1,51 @@
+lesson: k3-find-the-root-cause
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "A café keeps running out of fresh milk on Saturday afternoons. Which action is a root fix?"
+    options:
+      - text: Run to the supermarket for more milk each time it runs out.
+        correct: false
+        why: This is a quick fix. It solves today, but next week it will run out again.
+      - text: Look at daily drink sales, then change the milk order for Saturdays.
+        correct: true
+        why: Correct. Using data to change how you order stops the problem coming back.
+      - text: Tell staff to use less milk in each drink.
+        correct: false
+        why: This changes drink quality and does not deal with ordering too little.
+  - id: q2
+    prompt: "Which question leads better to the root cause?"
+    options:
+      - text: "\"Who entered the wrong figures?\""
+        correct: false
+        why: Questions about people usually stop at blame, not at something to fix.
+      - text: "\"Why is it easy to enter wrong figures at this step?\""
+        correct: true
+        why: Correct. Asking about the process finds something you can fix so it does not recur.
+      - text: "\"Is this mistake serious?\""
+        correct: false
+        why: This judges how bad it is, but does not help find the cause.
+  - id: q3
+    prompt: "You suspect invoice printing errors come from an old printer. What should come next?"
+    options:
+      - text: Ask for a new printer straight away.
+        correct: false
+        why: It is still a hypothesis. Without checking, you may spend money and still have the error.
+      - text: Check the data, for example whether the error happens on that printer only or on all of them.
+        correct: true
+        why: Correct. Data confirms or rules out the hypothesis before anyone decides.
+      - text: Write it on the sheet as the root cause and close the sheet.
+        correct: false
+        why: Until you check, you cannot be sure it is the root cause.
+  - id: q4
+    prompt: "You are new and cannot change processes yet. What do you do with the root cause you found?"
+    options:
+      - text: Nothing, because it is not your job.
+        correct: false
+        why: You can still make a proposal. That is how you show Level 3 ability.
+      - text: Change the process yourself, to save time.
+        correct: false
+        why: Changing things without authority can cause conflict or new errors.
+      - text: Write an incident sheet and propose a root fix to the person in charge.
+        correct: true
+        why: Correct. The person with authority decides, based on your sheet and data.

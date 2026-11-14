@@ -1,0 +1,63 @@
+lesson: k7-prepare-your-90-day-review
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Your manager asks: \"What have you achieved in the last 90 days?\" Which answer is best?"
+    options:
+      - text: "\"I think everything's going fine.\""
+        correct: false
+        why: There is no evidence, so your manager has nothing to recognise.
+      - text: "\"I found the cause of 18 repeat calls, proposed a script fix, and the next month there were 5.\""
+        correct: true
+        why: Correct. The example has a situation, an action and a result in numbers.
+      - text: "\"I work very hard and stay late every day.\""
+        correct: false
+        why: Hours worked do not show the results you created.
+  - id: q2
+    prompt: "Which area to improve is presented well?"
+    options:
+      - text: "\"I'm a bit of a perfectionist.\""
+        correct: false
+        why: It dodges the question and sounds like a boast. There is no concrete plan.
+      - text: "\"I underestimate time by about 30%. I'm logging my real time each week to adjust.\""
+        correct: true
+        why: Correct. A real point, with a number, and what you are doing to improve.
+      - text: "\"I don't have anything to improve.\""
+        correct: false
+        why: Everyone has something to improve. This makes the review less useful.
+  - id: q3
+    prompt: "Mixed review: two colleagues both give you urgent work with the same deadline. What do you do?"
+    options:
+      - text: Ask your direct manager, with both tasks, your limit and a proposed order.
+        correct: true
+        why: Correct. This is the method from Lesson 1. The person with authority decides the order.
+      - text: Do the task from whoever messaged first.
+        correct: false
+        why: The order tasks arrive in says nothing about impact or deadline.
+      - text: Quietly do both late into the night.
+        correct: false
+        why: Quality can drop, and nobody knows you are overloaded.
+  - id: q4
+    prompt: "Mixed review: after an incident, which action is a root fix?"
+    options:
+      - text: Redo the damaged work that same day.
+        correct: false
+        why: That is a quick fix. It is needed, but it does not stop a repeat.
+      - text: Change the process step that caused the error, then check again after 2 weeks.
+        correct: true
+        why: Correct. It fixes the cause and includes a check. This is the method from Lesson 4.
+      - text: Warn the person who made the mistake.
+        correct: false
+        why: A warning does not change what makes the mistake easy to make.
+  - id: q5
+    prompt: "Mixed review: a customer asks to exchange an item, and you cannot approve it. What do you say?"
+    options:
+      - text: "\"Sure, I'll exchange it for you.\""
+        correct: false
+        why: A promise beyond your authority may not be kept, which loses more trust.
+      - text: "\"I'll ask my manager to approve it and call you at 16:00 today.\""
+        correct: true
+        why: Correct. An option within your authority, with a time to report back. This is the method from Lesson 3.
+      - text: "\"Please call the customer hotline.\""
+        correct: false
+        why: The customer has to start again, and nobody follows it through.

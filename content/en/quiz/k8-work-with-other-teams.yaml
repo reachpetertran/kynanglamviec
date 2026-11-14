@@ -1,0 +1,51 @@
+lesson: k8-work-with-other-teams
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which sentence raises a disagreement by focusing on the work?"
+    options:
+      - text: "\"Your way of doing this is out of date.\""
+        correct: false
+        why: It targets the person and their methods, which makes people defensive.
+      - text: "\"This week 3 orders were late because item codes were missing. Could we try a required field for 2 weeks?\""
+        correct: true
+        why: Correct. It has an observation, a number, and a short trial proposal.
+      - text: "\"Everyone can see this isn't working.\""
+        correct: false
+        why: It speaks for others, with no data and no proposal.
+  - id: q2
+    prompt: "Which line on the coordination map makes colleagues most willing to help you?"
+    options:
+      - text: What I need from them.
+        correct: false
+        why: Necessary, but it only goes one way. They also need something from you.
+      - text: What they need from me.
+        correct: true
+        why: Correct. Doing what they need well makes working together easier in both directions.
+      - text: Their job title.
+        correct: false
+        why: A job title is useful to know, but it does not tell you how to work together.
+  - id: q3
+    prompt: "You are about to go on leave and hand over your work. Which 3 lines does the handover need?"
+    options:
+      - text: Done, still to do, watch out.
+        correct: true
+        why: Correct. The receiver knows where things are, what to do, and what is easy to get wrong.
+      - text: Reason for leave, dates of leave, return date.
+        correct: false
+        why: That is leave information. It does not help the receiver carry on the work.
+      - text: Just a link to the folder.
+        correct: false
+        why: Without deadlines and warnings, the receiver may get it wrong or be late.
+  - id: q4
+    prompt: "An overloaded colleague asks for help. Your box 1 task is due this afternoon. What should you do?"
+    options:
+      - text: Help straight away, and do your own task in the evening.
+        correct: false
+        why: This may delay your important task. Working late is not sustainable either.
+      - text: Refuse flatly, because it is not your job.
+        correct: false
+        why: Refusing with no alternative loses a chance to support each other.
+      - text: Explain your own task, ask your manager if a priority choice is needed, and offer help later.
+        correct: true
+        why: Correct. You still offer support without harming urgent work.

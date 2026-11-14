@@ -1,0 +1,51 @@
+lesson: k5-prioritise-competing-tasks
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "You have 3 tasks. A customer quote is due at 11:00. You could tidy your inbox. A security course is due at month end. Which comes first?"
+    options:
+      - text: Tidying your inbox, because it is quickest.
+        correct: false
+        why: A quick task is not always important. Tidying your inbox is low impact with a far deadline.
+      - text: The customer quote.
+        correct: true
+        why: Correct. It affects a customer and the deadline is near, so it goes in box 1.
+      - text: The security course, because the company requires it.
+        correct: false
+        why: It matters, but the deadline is far. Schedule it rather than doing it now.
+  - id: q2
+    prompt: "Your team leader and another department head both give you urgent work with the same deadline. What should you do?"
+    options:
+      - text: Do the more senior person's task without telling anyone.
+        correct: false
+        why: The other person will be surprised when their task is late. Your direct manager should decide the order.
+      - text: Message your direct manager with both tasks, your limit and a proposed order.
+        correct: true
+        why: Correct. Your direct manager has the authority. A ready proposal helps them reply quickly.
+      - text: Do both, working late to finish.
+        correct: false
+        why: This often lowers the quality of both tasks, and it is not sustainable.
+  - id: q3
+    prompt: "You estimate a task you have never done will take 3 hours. What should you write on your board?"
+    options:
+      - text: 3 hours, exactly as estimated.
+        correct: false
+        why: Tasks you have never done usually take longer than expected.
+      - text: About 4 hours, with a buffer added.
+        correct: true
+        why: Correct. Adding about a third makes your plan more realistic.
+      - text: 2 hours, to push yourself to work fast.
+        correct: false
+        why: A low estimate leads you to accept more work and then miss deadlines.
+  - id: q4
+    prompt: "Which sentence renegotiates the scope?"
+    options:
+      - text: "\"I can't make it.\""
+        correct: false
+        why: This only reports a problem. It has no proposal.
+      - text: "\"I'll send the main figures before 15:00. Could the charts follow tomorrow morning?\""
+        correct: true
+        why: Correct. You split the task into the urgent part and a later part, then ask for agreement.
+      - text: "\"Please give this to someone else.\""
+        correct: false
+        why: Refusing outright with no option is not usually the first step.

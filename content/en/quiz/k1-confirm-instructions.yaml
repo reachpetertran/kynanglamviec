@@ -1,0 +1,51 @@
+lesson: k1-confirm-instructions
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Hypothetical scenario. Your manager messages: \"Could you put together this week's order summary for me?\" What is missing?"
+    options:
+      - text: The result.
+        correct: false
+        why: "The result is fairly clear: an order summary table. Something else is still missing."
+      - text: The deadline and the quality standard.
+        correct: true
+        why: Correct. You do not know when it is needed, or which columns and template to use.
+      - text: Nothing is missing; just start.
+        correct: false
+        why: If you guess the deadline and the layout, you may have to redo it.
+  - id: q2
+    prompt: "Which summary lets the other person confirm fastest?"
+    options:
+      - text: "\"OK, got it.\""
+        correct: false
+        why: It does not show how you understood the task, so nobody can spot a gap.
+      - text: "\"So: the week 46 order table, using last month's template, sent to you before 10:00 Friday. Is that right?\""
+        correct: true
+        why: Correct. Short, with the result, deadline and standard, ending with a question.
+      - text: Repeat back exactly what they said, word for word.
+        correct: false
+        why: Repeating word for word does not show you understood. Rephrasing reveals any gaps.
+  - id: q3
+    prompt: "Hypothetical scenario. A customer says clearly: \"5 rice boxes to take away, collecting at 11:30.\" What should you do?"
+    options:
+      - text: Ask about all three points again to be safe.
+        correct: false
+        why: The customer has said everything. Asking again about clear points wastes time and annoys people.
+      - text: Give a short summary, then start.
+        correct: true
+        why: Correct. Ask only about gaps. When everything is clear, a short summary is enough.
+      - text: Say nothing and start straight away.
+        correct: false
+        why: A summary takes seconds but catches mishearings, such as 5 becoming 15.
+  - id: q4
+    prompt: "The task was given by chat message. Which way of confirming fits best?"
+    options:
+      - text: Phone to confirm, with no message.
+        correct: false
+        why: A call is fine, but also send a summary message so you both have the same record.
+      - text: Reply with your summary and wait for an answer.
+        correct: true
+        why: Correct. The summary message is a shared record you can check later if questions arise.
+      - text: A thumbs-up emoji is enough.
+        correct: false
+        why: An emoji only shows you read it, not how you understood it.

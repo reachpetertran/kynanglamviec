@@ -1,0 +1,51 @@
+lesson: k5-track-tasks-and-flag-delays-early
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Hypothetical scenario. A report is due on Friday. On Tuesday, you see data is missing and you may not finish. When should you tell someone?"
+    options:
+      - text: On Tuesday.
+        correct: true
+        why: Correct. Tell them as soon as you see the risk. They still have three days to choose what to do.
+      - text: On Thursday, after trying for two more days.
+        correct: false
+        why: Trying is fine, but tell them while you try. Waiting until Thursday removes options.
+      - text: On Friday, when you are sure it will be late.
+        correct: false
+        why: On the deadline day there are almost no options left.
+  - id: q2
+    prompt: "Which message has all 4 parts of an early warning?"
+    options:
+      - text: "\"Sorry, I probably won't make it.\""
+        correct: false
+        why: It only apologises. Status, reason, options and request are all missing.
+      - text: "\"60% done. The supplier sent samples late. I can send what's done now, or need 1 more day. Could you choose by 15:00?\""
+        correct: true
+        why: Correct. It has the status (60%), a reason, two options and a request with a time.
+      - text: "\"The supplier was slow, so I'm late. It's not my fault.\""
+        correct: false
+        why: It focuses on blame, has no options and does not say what is needed.
+  - id: q3
+    prompt: "You record tasks in three places: a notebook, your phone and sticky notes on your screen. What is the main problem?"
+    options:
+      - text: It wastes paper.
+        correct: false
+        why: This is not the main problem.
+      - text: It is hard to see all tasks at once, so things get missed.
+        correct: true
+        why: Correct. With several places, you easily skip one when checking. Keep one place.
+      - text: There is no problem; more places help you remember.
+        correct: false
+        why: Several places make checking harder. They do not help you remember.
+  - id: q4
+    prompt: "Which column tells you which task needs an early warning?"
+    options:
+      - text: Given by.
+        correct: false
+        why: This tells you who to tell, not which task needs flagging.
+      - text: Status, together with the deadline.
+        correct: true
+        why: Correct. When the status is "At risk of delay" and the deadline is still ahead, it is time to flag it.
+      - text: Result.
+        correct: false
+        why: The result column describes what to deliver, not progress.

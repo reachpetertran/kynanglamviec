@@ -130,6 +130,6 @@ Objective: "Seeking part-time evening IT support work. I bring computer setup sk
 
 In the next 7 days, write a one-page CV for **1 ad** you chose on Sheet 2. Ask someone to read it for **30 seconds**, then ask: "What do you remember about me?" Revise until they remember what you want them to.
 
-How to tell a CV line as a full example is covered in the lesson [Telling STAR examples in interviews](../../../bai-hoc/k2-ke-vi-du-star/) (in Vietnamese).
+How to tell a CV line as a full example is covered in the lesson [Tell a real example with STAR in interviews](../k2-tell-a-star-example/).
 
 ## 9. Metadata

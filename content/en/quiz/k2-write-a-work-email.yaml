@@ -1,0 +1,51 @@
+lesson: k2-write-a-work-email
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which is the best subject line for an email asking for one day of leave?"
+    options:
+      - text: "\"Request\""
+        correct: false
+        why: The reader does not know what you are asking for, or when.
+      - text: "\"Leave request for Friday 20/11 – please approve by Wednesday\""
+        correct: true
+        why: Correct. It has the topic (leave), a specific date and the deadline for approval.
+      - text: "\"I have a family matter so I'd like to talk to you about my schedule next week\""
+        correct: false
+        why: It is too long and still does not say what the reader needs to do.
+  - id: q2
+    prompt: "You need to ask accounts two different things: the invoice deadline and how to fill in an advance form. What should you do?"
+    options:
+      - text: Write one long email with both questions.
+        correct: false
+        why: With two matters in one email, one often goes unanswered.
+      - text: Write two emails, each with one purpose.
+        correct: true
+        why: Correct. One purpose per email helps the reader handle and answer each one fully.
+      - text: Phone instead of emailing.
+        correct: false
+        why: A call is possible, but this lesson is about writing clear emails.
+  - id: q3
+    prompt: "Which request is clearest?"
+    options:
+      - text: "\"I hope you'll consider this.\""
+        correct: false
+        why: "\"Consider\" does not say what to do: approve, change, or just read."
+      - text: "\"Could you choose design A or B by 10:00 tomorrow?\""
+        correct: true
+        why: Correct. It has a specific verb (choose), the choices and a deadline.
+      - text: "\"Let me know if you have any thoughts.\""
+        correct: false
+        why: It is not clear what response is needed, or when.
+  - id: q4
+    prompt: "The email only announces a changed meeting time. What helps readers most?"
+    options:
+      - text: "Add \"no reply needed\" at the end of the subject."
+        correct: true
+        why: Correct. Readers know straight away they only need to read it.
+      - text: Add nothing; readers will understand.
+        correct: false
+        why: Many will reply "Received", filling everyone's inbox.
+      - text: Mark the email as "important".
+        correct: false
+        why: An importance flag does not say whether a reply is needed.

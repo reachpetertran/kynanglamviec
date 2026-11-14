@@ -1,0 +1,51 @@
+lesson: k4-propose-a-small-improvement
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which sentence fits the \"Current situation\" part best?"
+    options:
+      - text: "\"The current process is very outdated.\""
+        correct: false
+        why: This is a personal opinion with no numbers, and it can upset people.
+      - text: "\"Last week, each order took 12 minutes on average to enter by hand, and 5 were entered wrongly.\""
+        correct: true
+        why: Correct. It has specific numbers and a clear problem.
+      - text: "\"Liam is too slow at entering orders.\""
+        correct: false
+        why: It criticises a person instead of describing the process.
+  - id: q2
+    prompt: "Why run a small trial before rolling out widely?"
+    options:
+      - text: The cost is low if it fails, and you have real data if it works.
+        correct: true
+        why: Correct. A small trial lowers risk and is easier for a manager to approve.
+      - text: To buy time.
+        correct: false
+        why: The aim is to test, not to delay.
+      - text: Because every improvement fails.
+        correct: false
+        why: Not true. A small trial shows early whether the improvement works.
+  - id: q3
+    prompt: "You try a new method for 2 weeks but forgot to measure before. What is the problem?"
+    options:
+      - text: There is no problem.
+        correct: false
+        why: Without "before" data, there is nothing to compare with.
+      - text: You cannot prove the new method is better than the old one.
+        correct: true
+        why: Correct. You need to measure before and after in the same way.
+      - text: You must drop the improvement.
+        correct: false
+        why: No need to drop it. You can measure the old method for a while to compare.
+  - id: q4
+    prompt: "Before writing a proposal to change how the warehouse is arranged, what should you do?"
+    options:
+      - text: Ask the people who work in the warehouse every day.
+        correct: true
+        why: Correct. They know the real difficulties and may suggest a better solution.
+      - text: Send it straight to the director to get noticed.
+        correct: false
+        why: Skipping your manager and the people doing the work makes support less likely.
+      - text: Rearrange the warehouse yourself at the weekend, without asking.
+        correct: false
+        why: Changing things without permission can cause confusion and goes beyond your authority.

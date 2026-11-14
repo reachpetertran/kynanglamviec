@@ -2,7 +2,7 @@
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
 
-## Trạng thái hiện tại (14/11/2026) – v1.0, ĐANG CHẠY THẬT (7 khóa N1–N7, 76 bài, đủ 50 ô K1–K10 × Bậc 1–5, có logo)
+## Trạng thái hiện tại (14/11/2026) – v1.0, ĐANG CHẠY THẬT (7 khóa N1–N7, 76 bài, đủ 50 ô K1–K10 × Bậc 1–5, có logo; bản tiếng Anh /en/ 25 bài: khóa N2, N3 + 11 bài chuỗi chính)
 - Site: https://kynanglamviec.com và https://www.kynanglamviec.com (Cloudflare Pages, SSL bật). Bản dự phòng: https://kynanglamviec.pages.dev
 - Mã nguồn: https://github.com/reachpetertran/kynanglamviec (public, nhánh `main`). Mỗi lần push lên `main`, Cloudflare tự đăng.
 - Phiên mới: gắn repo (add_repo, quyền push), clone, sửa, `python3 _build/build.py`, commit cả `public/`, push.
@@ -178,8 +178,19 @@ Chuỗi K4 nâng cao (nối tiếp chuỗi chính: k4-de-xuat-cai-tien.next = k4
 - Hình: `_build/art/n2_art_en.py` → `_build/static/assets/img/en/n2/` (7 SVG). `assets/task-list.csv` tiếng Anh.
 - `check.py` kiểm cả bài EN (câu ≤25 từ, phần 3 <400 từ, ảnh, liên kết, `vi:` trỏ đúng bài gốc).
 - Trang nhóm chưa có khóa EN thì ghi chú và dẫn sang khóa tiếng Việt. Bài EN dẫn bài VI chưa dịch kèm "(in Vietnamese)".
-- [TK] trachnhiemxahoi.com có bản /en/ chưa? Hiện footer EN ghi "(in Vietnamese)". [TK] Peter duyệt văn phong và mức quốc tế hóa trước khi làm tiếp N3–N7, N1, 12 bài lẻ, 11 bài chuỗi chính.
-- Việc tiếp: đợt 2 = khóa N3 (7 bài) + 11 bài chuỗi chính; đợt 3 = N4–N7; N1 cuối (bài cho phụ huynh, cần cân nhắc bối cảnh).
+- [TK] trachnhiemxahoi.com có bản /en/ chưa? Hiện footer EN ghi "(in Vietnamese)".
+- Peter duyệt văn phong đợt 1 (14/11/2026) và giao làm đợt 2.
+
+## Bản tiếng Anh /en/ – đợt 2 (đăng 14/11/2026): khóa N3 + 11 bài chuỗi chính
+- Khóa N3 "Your First 90 Days course" (order 41–47, `course: n3`): k5-prioritise-competing-tasks, k1-close-actions-after-a-meeting, k3-handle-customer-requests, k3-find-the-root-cause, k6-when-work-goes-off-plan, k8-work-with-other-teams, k7-prepare-your-90-day-review. Sợi chỉ: 90-day notebook (Sheet 1–7).
+- Mẫu in: `content/en/pages/n3-templates.md` → /en/resources/n3/ (neo #sheet-1 … #sheet-7). build_en.py: thêm COURSES["n3"].
+- Hình: `_build/art/n3_art_en.py` (dùng helper của n2_art) → `_build/static/assets/img/en/n3/` (7 SVG: l1-matrix … l7-review-file).
+- 11 bài chuỗi chính (order 1–11, prev/next nối nhau, bài 11 next: null): k1-confirm-instructions, k5-track-tasks-and-flag-delays-early, k2-write-a-work-email, k2-write-a-progress-report, k3-describe-a-problem-with-two-options, k7-ask-for-and-use-feedback, k8-split-work-in-a-group-project, k10-use-ai-safely, k2-tell-a-star-example, k7-plan-your-first-90-days, k4-propose-a-small-improvement. Không có hình (giống bản VI), giữ sơ đồ `flow`.
+- Bài N3 Bài 7 EN: hộp "Sources (example: Vietnam)" dẫn BLLĐ hợp nhất 18/VBHN-VPQH Điều 25, k1 Điều 27; tra 14/11/2026: luật sửa đổi BLLĐ vẫn đang được Quốc hội xem xét (thảo luận 09/11/2026), chưa thấy tin biểu quyết.
+- Quốc tế hóa: tên người đổi sang tên quốc tế; bỏ Zalo, Tết, VND, tên thành phố; điểm "8,5" đổi thành "a high mark"; "18 triệu đồng" đổi thành "worth 7,500 in total" (không đơn vị tiền).
+- Đã sửa 3 bài N2 EN: liên kết "(in Vietnamese)" sang bài EN mới (k1-confirm-instructions, k2-tell-a-star-example, k8-split-work-in-a-group-project, k10-use-ai-safely).
+- Lưu ý YAML câu hỏi EN: giá trị có ": " phải đặt trong ngoặc kép.
+- Đang có 25 bài EN. Việc tiếp: đợt 3 = N4–N7 (32 bài); 12 bài lẻ; N1 cuối (bài cho phụ huynh, cần cân nhắc bối cảnh).
 
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.

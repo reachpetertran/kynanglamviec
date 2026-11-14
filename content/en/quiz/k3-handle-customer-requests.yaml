@@ -1,0 +1,51 @@
+lesson: k3-handle-customer-requests
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "An upset customer is talking at length about a late delivery. What do you do first?"
+    options:
+      - text: Explain at once that the courier caused it.
+        correct: false
+        why: Explaining too early can sound like an excuse. The customer needs to be heard first.
+      - text: Listen fully, then sum up the problem and what the customer wants.
+        correct: true
+        why: Correct. Listening fully and confirming shows the customer they were understood.
+      - text: Pass them straight to your manager.
+        correct: false
+        why: If the problem is not yet clear, the customer has to start again.
+  - id: q2
+    prompt: "A customer asks for 20% off because of a late delivery. You cannot approve discounts. Which reply fits?"
+    options:
+      - text: "\"Sure, I'll give you the discount.\""
+        correct: false
+        why: A promise beyond your authority may not be kept, which loses more trust.
+      - text: "\"I'll pass your request to my manager and call you with the answer at 15:00 today.\""
+        correct: true
+        why: Correct. You promise only what you can do, with a time to report back.
+      - text: "\"The company doesn't give discounts.\""
+        correct: false
+        why: You have not asked the person who decides, so you cannot answer for them.
+  - id: q3
+    prompt: "Who is an internal customer of a warehouse worker?"
+    options:
+      - text: A salesperson who needs to know whether an item is in stock.
+        correct: true
+        why: Correct. A colleague who needs your work results is an internal customer.
+      - text: Only buyers who come to collect goods.
+        correct: false
+        why: They are external customers. This lesson uses the 4 steps for both kinds.
+      - text: Nobody, because the warehouse does not sell anything.
+        correct: false
+        why: Every role has someone who needs results from it.
+  - id: q4
+    prompt: "It is time to report back, but the customer's issue is not solved yet. What should you do?"
+    options:
+      - text: Wait until it is solved, so you have good news.
+        correct: false
+        why: Silence past the promised time worries the customer and loses trust.
+      - text: Call on time, give an update and set a new time.
+        correct: true
+        why: Correct. Reporting on time, even with slow news, keeps trust.
+      - text: Ask a colleague to call instead, to avoid an awkward moment.
+        correct: false
+        why: The customer would have to explain again. You made the promise, so you should call.

@@ -122,6 +122,6 @@ Send it on Wednesday evening. Do not wait until just before Saturday.
 
 In the next 7 days, use a question log at school, at your part-time job or in a group project. At the end of the week, count how many answers you found yourself and how many you had to ask. Rewrite one of your work messages so it has all 4 parts. Record both on Sheet 5.
 
-How to take instructions and repeat them back correctly: [Confirm instructions before you start](../../../bai-hoc/k1-xac-nhan-chi-dan/) (in Vietnamese). Politeness as a habit is covered on [daynentang.com](https://daynentang.com/en/).
+How to take instructions and repeat them back correctly: [Confirm instructions before you start](../k1-confirm-instructions/). Politeness as a habit is covered on [daynentang.com](https://daynentang.com/en/).
 
 ## 9. Metadata

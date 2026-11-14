@@ -1,0 +1,51 @@
+lesson: k2-write-a-progress-report
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which sentence fits the \"Done\" part best?"
+    options:
+      - text: "\"I worked hard on the project all week.\""
+        correct: false
+        why: It describes effort, not a specific result.
+      - text: "\"Finished 3 of 4 chapters of the user guide.\""
+        correct: true
+        why: Correct. It has a result and a number, so the reader sees progress at once.
+      - text: "\"The project is going well.\""
+        correct: false
+        why: "\"Well\" is a personal judgement with no numbers."
+  - id: q2
+    prompt: "This week nothing is blocked. What should the \"Blocked\" part say?"
+    options:
+      - text: Leave it blank.
+        correct: false
+        why: A blank leaves the reader unsure whether you forgot or really have no blockers.
+      - text: "Write \"None\"."
+        correct: true
+        why: Correct. Short and clear, so the reader is reassured.
+      - text: Remove that part from the template.
+        correct: false
+        why: A fixed template helps readers get used to it and read faster.
+  - id: q3
+    prompt: "Hypothetical scenario. You are about to send a report to a division director. What fits?"
+    options:
+      - text: Send a detailed report of each working day.
+        correct: false
+        why: Senior people usually need main results and decisions, not daily detail.
+      - text: Keep the main results and state clearly the decision you need from the director.
+        correct: true
+        why: Correct. Matching detail to the reader means the report gets used straight away.
+      - text: Report only when there is good news.
+        correct: false
+        why: Bad news reported early helps managers act in time.
+  - id: q4
+    prompt: "Which \"Help needed\" line is clearest?"
+    options:
+      - text: "\"Hoping everyone can help a bit more.\""
+        correct: false
+        why: It does not say who should do what, or by when.
+      - text: "\"Could you approve the van hire cost before Wednesday so I can book it in time?\""
+        correct: true
+        why: Correct. It has a person, an action, a deadline and a reason.
+      - text: "\"I need more time.\""
+        correct: false
+        why: There is no number or reason, so the reader does not know how much to agree to.

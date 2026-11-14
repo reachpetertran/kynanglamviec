@@ -136,6 +136,6 @@ Each point to fix should include a sample rewrite, so Nina can follow it easily.
 
 In the next 7 days, fix the **3 points** in your feedback. Send the **first application** in your 30-day plan. Schedule course reviews for 7 days and 30 days from now.
 
-Once you are working, the lessons [Group project task board](../../../bai-hoc/k8-chia-viec-du-an-nhom/) and [Using AI safely](../../../bai-hoc/k10-dung-ai-an-toan/) will help (both in Vietnamese).
+Once you are working, the lessons [Split work in a group project](../k8-split-work-in-a-group-project/) and [Use AI safely](../k10-use-ai-safely/) will help.
 
 ## 9. Metadata

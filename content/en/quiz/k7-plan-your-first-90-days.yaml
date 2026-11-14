@@ -1,0 +1,51 @@
+lesson: k7-plan-your-first-90-days
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which goal is most measurable for a new warehouse worker's first month?"
+    options:
+      - text: "\"Get to know the warehouse well.\""
+        correct: false
+        why: It is unclear what "well" means, so you cannot tell if it is met.
+      - text: "\"Find the right location for 50 item codes, within 5 minutes each.\""
+        correct: true
+        why: Correct. It has a number and a time limit, so it can be checked.
+      - text: "\"Try to learn from everyone.\""
+        correct: false
+        why: This is an attitude, not a measurable goal.
+  - id: q2
+    prompt: "What is the focus of days 1–30?"
+    options:
+      - text: Propose a big improvement to make an impression.
+        correct: false
+        why: A big proposal before you understand the process is likely to lack a basis.
+      - text: Learn the work, processes, tools and people.
+        correct: true
+        why: Correct. Understand first, then do it yourself, then contribute.
+      - text: Do as much as possible without asking.
+        correct: false
+        why: In the early stage, ask a lot to avoid basic mistakes.
+  - id: q3
+    prompt: "Why agree your 90-day plan with your manager in the first week?"
+    options:
+      - text: So you and your manager have the same expectations.
+        correct: true
+        why: Correct. It avoids spending three months working in the wrong direction.
+      - text: So your manager remembers your name.
+        correct: false
+        why: That is not the main purpose.
+      - text: Because the law requires a 90-day plan.
+        correct: false
+        why: A 90-day plan is a suggested practice, not a legal requirement.
+  - id: q4
+    prompt: "At day 30, you have not met your stage 1 goal. What should you do?"
+    options:
+      - text: Hide it and carry on to stage 2.
+        correct: false
+        why: Hiding it means your manager cannot help in time.
+      - text: Work out why, tell your manager, and adjust the plan.
+        correct: true
+        why: Correct. Reviewing every 30 days helps you adjust early.
+      - text: Drop the plan as unrealistic.
+        correct: false
+        why: A plan can be revised; there is no need to drop it.

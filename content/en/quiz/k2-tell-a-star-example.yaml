@@ -1,0 +1,51 @@
+lesson: k2-tell-a-star-example
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "In STAR, which part should be longest?"
+    options:
+      - text: S – Situation
+        correct: false
+        why: The situation needs only 1–2 sentences to set the context.
+      - text: A – Action
+        correct: true
+        why: Correct. The interviewer wants to know exactly what you did.
+      - text: R – Result
+        correct: false
+        why: The result should be specific but short, 1–2 sentences.
+  - id: q2
+    prompt: "Which sentence fits part A best?"
+    options:
+      - text: "\"We all worked really hard.\""
+        correct: false
+        why: It uses "we" and gives no specific action.
+      - text: "\"I called 20 former customers and noted why they hadn't come back.\""
+        correct: true
+        why: Correct. A specific action, clearly yours, with a number.
+      - text: "\"I'm a very hard-working and responsible person.\""
+        correct: false
+        why: This is self-praise, not an action.
+  - id: q3
+    prompt: "You have no numbers for the result. What should you do?"
+    options:
+      - text: Estimate a number anyway.
+        correct: false
+        why: Invented numbers can be exposed when the interviewer asks for detail.
+      - text: Give other evidence, such as the manager keeping your method or giving you more responsibility.
+        correct: true
+        why: Correct. Specific evidence is still convincing without numbers.
+      - text: Skip the result.
+        correct: false
+        why: Without a result, the story does not show the value of what you did.
+  - id: q4
+    prompt: "Which sources of examples suit a student who has not yet had a full-time job?"
+    options:
+      - text: Only full-time work experience.
+        correct: false
+        why: Students have many other experiences that still count.
+      - text: School group projects, part-time work, clubs, volunteering.
+        correct: true
+        why: Correct. All of these show real work skills.
+      - text: A friend's story, told as your own.
+        correct: false
+        why: Telling someone else's story as yours is dishonest and easily exposed.

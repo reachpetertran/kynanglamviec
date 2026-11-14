@@ -1,0 +1,51 @@
+lesson: k8-split-work-in-a-group-project
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "On the task board, the owner of \"Make the slides\" is \"the whole group\". What is the problem?"
+    options:
+      - text: No problem; the whole group working together will be faster.
+        correct: false
+        why: When everyone is responsible, nobody ends up being responsible.
+      - text: Nobody is clearly responsible in the end, so this part is easily missed.
+        correct: true
+        why: Correct. Each part needs exactly one owner, even if several people work on it.
+      - text: Slides do not need to be on the board.
+        correct: false
+        why: Every part that produces an output should be on the board.
+  - id: q2
+    prompt: "Which output is most clearly visible?"
+    options:
+      - text: "\"Handle the content\""
+        correct: false
+        why: It is unclear when it is done and what the product is.
+      - text: "\"Look into competitors\""
+        correct: false
+        why: This is an activity, not a specific product.
+      - text: "\"A 1-page price comparison of 3 competitors\""
+        correct: true
+        why: Correct. Anyone can see whether it exists or not.
+  - id: q3
+    prompt: "The project is due on Monday. How should part deadlines be set?"
+    options:
+      - text: All on Monday.
+        correct: false
+        why: There is no time left to combine and fix.
+      - text: Before the final deadline, to leave time to combine and fix.
+        correct: true
+        why: Correct. Parts need to be done early to combine, check and practise presenting.
+      - text: No deadlines; people submit when they are ready.
+        correct: false
+        why: Without deadlines, work piles up at the last minute.
+  - id: q4
+    prompt: "At the check-in, one person's part is only half done. What is a good response?"
+    options:
+      - text: Criticise them in front of the group.
+        correct: false
+        why: Public criticism raises tension and does not solve the delay.
+      - text: Ask what help they need, and see who can help.
+        correct: true
+        why: Correct. The purpose of the check-in is to unblock work early.
+      - text: Quietly do their part yourself.
+        correct: false
+        why: Doing it without telling anyone can cause duplicated work and misunderstandings.

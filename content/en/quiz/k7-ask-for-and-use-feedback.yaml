@@ -1,0 +1,51 @@
+lesson: k7-ask-for-and-use-feedback
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which feedback question is most likely to get useful feedback?"
+    options:
+      - text: "\"How do you think I'm doing?\""
+        correct: false
+        why: The question is too general and usually gets "Fine".
+      - text: "\"In the plan I just sent, is there one thing I should fix?\""
+        correct: true
+        why: Correct. It is about one specific, recent task, and asks for just "one thing".
+      - text: "\"Could you review me at the end of the year?\""
+        correct: false
+        why: The end of the year is too late to fix things in time.
+  - id: q2
+    prompt: "Hypothetical scenario. You get feedback you think is wrong. What should you do at that moment?"
+    options:
+      - text: Explain at once why you did it that way.
+        correct: false
+        why: Defending yourself at once can make people reluctant to give feedback next time.
+      - text: Say thank you, ask for detail, note it and think about it later.
+        correct: true
+        why: Correct. You can still discuss it later, once you have thought it through.
+      - text: Stay silent and ignore it.
+        correct: false
+        why: Ignoring it means missing the chance to understand another view.
+  - id: q3
+    prompt: "Feedback: \"Your emails are a bit hard to follow.\" Which action is most measurable?"
+    options:
+      - text: Try to write more clearly.
+        correct: false
+        why: "\"Try\" cannot be measured, so it is hard to know if you did it."
+      - text: "This week, every email has a subject with the topic and deadline, and a request with a verb."
+        correct: true
+        why: Correct. It has specific criteria and a time frame, so you can check it yourself.
+      - text: Read more books about writing.
+        correct: false
+        why: It may help, but it is not tied to the behaviour to change or to a deadline.
+  - id: q4
+    prompt: "Why report back to the person who gave you feedback?"
+    options:
+      - text: So they see their feedback helped and are glad to give more.
+        correct: true
+        why: Correct. Reporting back also lets them confirm you changed in the right direction.
+      - text: To get praise.
+        correct: false
+        why: The main purpose is to close the feedback loop, not to get praise.
+      - text: There is no need; fixing it is enough.
+        correct: false
+        why: If you do not report back, they may not notice the change.

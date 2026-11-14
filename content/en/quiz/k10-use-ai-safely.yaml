@@ -1,0 +1,51 @@
+lesson: k10-use-ai-safely
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which content is safest to put into an external AI tool?"
+    options:
+      - text: The customer list with phone numbers, to write New Year greetings.
+        correct: false
+        why: This is customers' personal data and should not be sent outside.
+      - text: "A request: \"Write a short New Year greeting template for an appliance store's customers.\""
+        correct: true
+        why: Correct. It contains no personal data and no internal secrets.
+      - text: The store's cost price list, so AI can suggest selling prices.
+        correct: false
+        why: Cost prices are sensitive internal information.
+  - id: q2
+    prompt: "AI writes: \"Under current regulations, the company must…\" and gives a document number. What should you do?"
+    options:
+      - text: Use it, since the AI gave a document number.
+        correct: false
+        why: AI can invent document numbers that look very real.
+      - text: Look up the original document yourself before using it.
+        correct: true
+        why: "Correct. This is the \"Correct?\" question: check against the original source."
+      - text: Delete the document number and keep the rest.
+        correct: false
+        why: The content may still be wrong. The problem is that it is unchecked.
+  - id: q3
+    prompt: "Your workplace has no rules on AI use yet. What should you do?"
+    options:
+      - text: Use it freely, since nothing forbids it.
+        correct: false
+        why: No rule does not mean you may send any information outside.
+      - text: Ask your manager before using it with work documents.
+        correct: true
+        why: Correct. Asking first avoids information risks you may not foresee.
+      - text: Never use AI.
+        correct: false
+        why: AI can be very useful. Use it properly rather than avoiding it entirely.
+  - id: q4
+    prompt: "An AI-drafted email is correct and complete, but opens with \"Dear Sir or Madam\" to a close colleague. Which check question catches this?"
+    options:
+      - text: Correct?
+        correct: false
+        why: The content is not factually wrong.
+      - text: Complete?
+        correct: false
+        why: Nothing is missing.
+      - text: Appropriate?
+        correct: true
+        why: Correct. The form of address and tone do not suit the reader.

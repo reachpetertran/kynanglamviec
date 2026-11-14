@@ -1,0 +1,51 @@
+lesson: k6-when-work-goes-off-plan
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "You realise you sent an old price quote to a customer. Which message is best?"
+    options:
+      - text: "\"I'm so sorry, I was really careless.\""
+        correct: false
+        why: It apologises, but leaves out the impact and what you are doing to fix it.
+      - text: "\"I sent customer A an old quote, 5% different. I called them and sent the correct one at 10:15.\""
+        correct: true
+        why: Correct. It has all 3 points, a number, and shows you have fixed it.
+      - text: Quietly send the correct quote and tell nobody.
+        correct: false
+        why: If the customer already used the old quote, your manager needs to know.
+  - id: q2
+    prompt: "Which answer fits the question \"What will I do next time?\""
+    options:
+      - text: "\"Be more careful.\""
+        correct: false
+        why: Too vague. Nobody can check whether you did it.
+      - text: "\"Check the date on the quote against the system before sending.\""
+        correct: true
+        why: Correct. One specific step that can be done and checked.
+      - text: "\"Stop doing this task.\""
+        correct: false
+        why: Avoiding the task does not help you improve, and is usually not realistic.
+  - id: q3
+    prompt: "Your team leader moves a project deadline one week earlier. What do you do first?"
+    options:
+      - text: Ask why, then update your task board and tell anyone waiting on your results.
+        correct: true
+        why: Correct. Understanding why helps you choose the right tasks to cut or move.
+      - text: Complain to colleagues that plans keep changing.
+        correct: false
+        why: It does not move the work forward, and it can affect the team mood.
+      - text: Skip the final check to meet the new deadline.
+        correct: false
+        why: Skipping checks can cause bigger errors. Ask to cut the scope instead.
+  - id: q4
+    prompt: "When you answer \"Why was it different?\", where should you look?"
+    options:
+      - text: At your character, for example "I'm clumsy".
+        correct: false
+        why: Blaming yourself does not show what to do differently.
+      - text: At the method, for example which list you used or which check was missing.
+        correct: true
+        why: Correct. A method can be changed, so next time the result is different.
+      - text: At the person who gave you unclear instructions.
+        correct: false
+        why: That may be partly true, but also look for the part you can change.
