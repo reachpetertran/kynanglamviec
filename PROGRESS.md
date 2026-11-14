@@ -2,7 +2,7 @@
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
 
-## Trạng thái hiện tại (14/11/2026) – v0.7, ĐANG CHẠY THẬT (6 khóa N1–N6; N7 có khung, chưa có bài)
+## Trạng thái hiện tại (14/11/2026) – v0.8, ĐANG CHẠY THẬT (7 khóa N1–N7, 64 bài)
 - Site: https://kynanglamviec.com và https://www.kynanglamviec.com (Cloudflare Pages, SSL bật). Bản dự phòng: https://kynanglamviec.pages.dev
 - Mã nguồn: https://github.com/reachpetertran/kynanglamviec (public, nhánh `main`). Mỗi lần push lên `main`, Cloudflare tự đăng.
 - Phiên mới: gắn repo (add_repo, quyền push), clone, sửa, `python3 _build/build.py`, commit cả `public/`, push.
@@ -121,6 +121,21 @@ Chuỗi prev/next theo thứ tự trên. Bài 11 có `next: null`.
 - build.py: COURSES["n6"]; trang nhóm N6 hiện Bản đồ khóa; /lo-trinh/ ghi "Bảy lộ trình".
 - [TK] Điều 165 LDN: chưa đối chiếu văn bản hợp nhất sau Luật 76/2025/QH15. Trang /khung-tham-chieu/ chưa có dòng UK Success Profiles, APS ILS, OPM ECQs, EntreComp.
 
+## Khóa N7 "Founder, khởi nghiệp" (Peter duyệt khung 14/11/2026; đăng cùng ngày, 8 bài, chuỗi riêng, order 81–88)
+57. k1-kham-pha-khach-hang – K1 B4 (Bài 1, Tờ 1 Phiếu giả thuyết + kịch bản phỏng vấn; 3 giả thuyết, hỏi về quá khứ)
+58. k3-thu-nghiem-va-quyet-dinh-pivot – K3 B4 (Bài 2, Tờ 2 Phiếu thử nghiệm; ngưỡng viết trước, 3 vùng; Camuffo 2020 MS 66(2): 116 startup Ý, kết quả tốt hơn, pivot nhiều hơn, không bỏ cuộc nhiều hơn)
+59. k6-chu-dong-va-phuc-hoi – K6 B4 (Bài 3, Tờ 3 Kế hoạch 90 ngày + phiếu rút kinh nghiệm 4 dòng; Campos 2017 Science: Togo ~1.500 DN, +30% vs +11% không YNTK; link chéo tamhonkhoe)
+60. k5-nhung-con-so-song-con – K5 B3 (Bài 4, Tờ 4 Dòng tiền 13 tuần, biên gộp, hòa vốn, số tháng còn trụ; link chéo daynentang)
+61. k10-phap-ly-khoi-su – K10 B3 (Bài 5, Tờ 5; 4 câu hỏi chọn loại hình; LDN 59/2020 sửa 03/2022, 76/2025 (CSHHL); NQ 198/2025/QH15 k4, k6 Điều 10; NĐ 20/2026/NĐ-CP ngày 15/01/2026)
+62. k9-tuyen-va-giu-nhan-vien-dau-tien – K9 B3 (Bài 6, Tờ 6; 18/VBHN-VPQH Điều 13 k1, 14, 25–26, 118–119; Luật BHXH 41/2024/QH15 điểm a k1 Điều 2)
+63. k2-pitch-ba-phut – K2 B3 (Bài 7, Tờ 7 Pitch 5 phần; tách số thật / dự báo; kiểm bằng nhờ nhắc lại đề nghị)
+64. k10-van-hanh-so-du-lieu-va-on-tap – K10 B3 (Bài 8, ôn trộn 7 câu + Tờ 8 Bảng công cụ số, thông báo dữ liệu, 3 quy tắc AI; Luật BVDLCN 91/2025/QH15 Điều 38 k2–3; NĐ 356/2025/NĐ-CP)
+- Sợi chỉ: Sổ tay founder (8 tờ). Mẫu in `content/trang/n7-mau-in.md` → /tai-nguyen/n7/ (#to-1 … #to-8).
+- Hình: `_build/art/n7_art.py` sinh 8 SVG vào `_build/static/assets/img/n7/`.
+- build.py: COURSES["n7"]; trang nhóm N7 hiện Bản đồ khóa; bỏ ghi chú "đang được soạn" trong data/groups.yaml.
+- Mỗi bài có hộp "Mức bằng chứng" hoặc hộp "Cập nhật lần cuối" (bài 5, 6, 8).
+- [TK] Camuffo 2024 SMJ 45(6): chưa đối chiếu bài gốc. NQ 198 / NĐ 20/2026: số điều khoản lấy từ nguồn thứ cấp (thuvienphapluat, luatvietnam). Điều 38 Luật BVDLCN: ngoại lệ lấy từ bản tóm tắt của hãng luật. Luật DN: trách nhiệm theo loại hình (Điều 46, 74, 111, 188) chưa dẫn số điều trong bài. Luật sửa BLLĐ và sửa Luật BHXH đang thảo luận tại kỳ họp.
+
 ## Nguồn pháp luật (14/11/2026)
 - Thử dùng tài khoản Pro thuvienphapluat.vn qua Chrome: site chặn vì "tốc độ Robot" và đòi mã bảo vệ sau vài lượt tra. Đã dừng, KHÔNG tải PDF. Không tự động hóa site này.
 - Số hiệu đã xác định trên thuvienphapluat (chưa đối chiếu ngày hiệu lực): Luật ATVSLĐ 84/2015/QH13; Luật BVDLCN 91/2025/QH15; Luật Trí tuệ nhân tạo 134/2025/QH15; NĐ 145/2020/NĐ-CP; NĐ 337/2025/NĐ-CP (HĐLĐ điện tử); Luật BHXH 41/2024/QH15; Luật Việc làm 74/2025/QH15; Luật Trẻ em 102/2016/QH13; Luật Giáo dục 43/2019/QH14.
@@ -130,7 +145,7 @@ Chuỗi prev/next theo thứ tự trên. Bài 11 có `next: null`.
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.
 2. (Đã xong 14/11: "Phục vụ khách hàng" và K6 cho N3, trong khóa N3.)
 3. Đủ 5 khóa N1–N5 đã đăng (14/11/2026). N4, N5 chờ Peter duyệt nội dung.
-4. Khóa N7 "Founder, khởi nghiệp": khung đã có (claude/khung-n6-n7.md), chờ Peter duyệt rồi soạn. Đối chiếu Nghị định 20/2026/NĐ-CP, 320/2025/NĐ-CP trên văn bản gốc trước khi viết bài pháp lý N7.
+4. Khóa N7 đã đăng 14/11/2026. Chờ Peter duyệt nội dung N4–N7. Đối chiếu NQ 198/2025, NĐ 20/2026 trên văn bản gốc; khi luật sửa BLLĐ/BHXH được thông qua, cập nhật N7 Bài 6.
 5. Gợi ý tiếp: trang tự đánh giá theo khóa; bài pháp lý hoãn (xem mục 1) khi luật sửa đổi BLLĐ được thông qua.
 
 ## Quy trình thêm bài

@@ -87,6 +87,6 @@ groups:
       Bạn biến một ý tưởng thành việc kinh doanh thật. Trọng tâm: khám phá khách hàng, thử nghiệm có tiêu chí,
       chủ động và phục hồi sau thất bại, giữ dòng tiền, làm đúng pháp lý khi khởi sự,
       tuyển những người đầu tiên và kể chuyện để huy động nguồn lực.
-    note: "Khóa N7 đang được soạn. Các bài N3–N6 về giải quyết vấn đề, giao việc và quyết định đều dùng được cho founder."
+    note: "Các bài N3–N6 về giải quyết vấn đề, giao việc và quyết định cũng dùng được cho founder."
     modules: ["Từ ý tưởng đến giả thuyết: khám phá khách hàng", "Thử nghiệm có tiêu chí và quyết định pivot", "Chủ động và bền bỉ", "Những con số sống còn: dòng tiền, hòa vốn", "Pháp lý khởi sự: từ hộ kinh doanh lên doanh nghiệp", "Tuyển và giữ những nhân viên đầu tiên", "Kể chuyện để huy động nguồn lực", "Vận hành số tối giản, tuân thủ dữ liệu và AI"]
     matrix: {K1: ["a", "khám phá khách hàng"], K2: ["c", "pitch, đề xuất với đối tác"], K3: ["a", "giả thuyết, thử nghiệm, pivot"], K4: ["c", "giải pháp, mô hình kinh doanh"], K5: ["c", "dòng tiền, mốc 90 ngày"], K6: ["a", "chủ động, phục hồi sau thất bại"], K7: ["c", "học qua thử nghiệm"], K8: ["o", "đồng sáng lập, đối tác"], K9: ["c", "tuyển, giữ nhân viên đầu tiên"], K10: ["c", "pháp lý khởi sự, dữ liệu, công cụ số"]}

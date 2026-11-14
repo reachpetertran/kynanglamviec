@@ -1,0 +1,51 @@
+lesson: k2-pitch-ba-phut
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu nào là bằng chứng mạnh nhất trong pitch?"
+    options:
+      - text: "\"Khách hàng rất yêu thích sản phẩm.\""
+        correct: false
+        why: Đây là tính từ, người nghe không kiểm được.
+      - text: "\"Trong 3 tuần, 18 người đặt cọc, 11 người mua lại.\""
+        correct: true
+        why: Đúng. Có số lượng, có thời gian, và là hành động có tốn tiền.
+      - text: "\"Thị trường này rất lớn và đang tăng trưởng.\""
+        correct: false
+        why: Câu chung chung, không nói gì về khách hàng của bạn.
+  - id: q2
+    prompt: "Câu đề nghị nào cụ thể nhất?"
+    options:
+      - text: "\"Mong anh chị ủng hộ chúng tôi.\""
+        correct: false
+        why: Người nghe không biết bạn muốn họ làm gì.
+      - text: "\"Chúng tôi cần 300 triệu đồng để mở điểm bán thứ hai trước tháng 3.\""
+        correct: true
+        why: Đúng. Có thứ cần, số lượng, mục đích và hạn.
+      - text: "\"Chúng tôi đang tìm đối tác chiến lược.\""
+        correct: false
+        why: Chưa rõ đối tác làm gì, góp gì, khi nào.
+  - id: q3
+    prompt: "Bạn có doanh thu thật 2 tháng và một dự báo cho 12 tháng. Trình bày thế nào?"
+    options:
+      - text: Gộp lại thành một biểu đồ 14 tháng cho đẹp.
+        correct: false
+        why: Gộp làm người nghe không phân biệt số thật với số dự báo.
+      - text: "Nói rõ: \"Đây là số thật 2 tháng\" và \"Đây là dự báo\"."
+        correct: true
+        why: Đúng. Tách hai loại số giữ lòng tin của người nghe có kinh nghiệm.
+      - text: Chỉ nói dự báo vì số thật còn nhỏ.
+        correct: false
+        why: Số thật dù nhỏ vẫn là bằng chứng mạnh nhất bạn có.
+  - id: q4
+    prompt: "Cách kiểm nào cho biết phần đề nghị đã đủ rõ?"
+    options:
+      - text: Người nghe khen bài nói hay.
+        correct: false
+        why: Khen bài nói không cho biết họ hiểu bạn muốn gì.
+      - text: Người nghe nhắc lại đúng điều bạn đề nghị.
+        correct: true
+        why: Đúng. Nếu họ nhắc lại được, đề nghị đã đủ rõ.
+      - text: Bạn nói đúng 3 phút.
+        correct: false
+        why: Đúng giờ là tốt, nhưng chưa cho biết đề nghị có rõ không.

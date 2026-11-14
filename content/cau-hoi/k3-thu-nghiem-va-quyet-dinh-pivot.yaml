@@ -1,0 +1,51 @@
+lesson: k3-thu-nghiem-va-quyet-dinh-pivot
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Chỉ số nào tốt nhất cho thử nghiệm giả thuyết sẵn lòng trả?"
+    options:
+      - text: Số lượt thích bài đăng giới thiệu sản phẩm.
+        correct: false
+        why: Bấm thích không tốn gì. Nó không cho thấy khách sẽ trả tiền.
+      - text: Số người đặt cọc trong 2 tuần.
+        correct: true
+        why: Đúng. Đặt cọc là hành động có tốn tiền, gần với việc mua thật.
+      - text: Số người nói sẽ mua khi sản phẩm ra mắt.
+        correct: false
+        why: Lời hứa về tương lai kém tin cậy hơn hành động có tốn tiền.
+  - id: q2
+    prompt: "Ngưỡng là 30 đơn cọc mới tiếp tục. Kết quả 27 đơn. Bạn nói \"gần đạt rồi, tiếp tục thôi\". Vấn đề là gì?"
+    options:
+      - text: Không có vấn đề, 27 rất gần 30.
+        correct: false
+        why: Nếu đổi ngưỡng sau khi thấy kết quả, ngưỡng không còn tác dụng.
+      - text: Bạn đang sửa tiêu chí sau khi có kết quả. Hãy làm theo hướng đã ghi cho vùng đó.
+        correct: true
+        why: Đúng. Ngưỡng viết trước để giữ bạn trung thực. 27 rơi vào vùng nào thì làm theo vùng đó.
+      - text: Nên chạy lại đến khi đạt 30.
+        correct: false
+        why: Chạy lại mãi để đạt số mong muốn là tự lừa mình, và tốn tiền.
+  - id: q3
+    prompt: "Kết quả thử rơi vào vùng pivot. Cách pivot nào đúng tinh thần bài học?"
+    options:
+      - text: Đổi cả khách hàng, sản phẩm, giá và kênh bán cùng lúc.
+        correct: false
+        why: Đổi nhiều thứ một lúc thì không biết điều gì tạo ra kết quả mới.
+      - text: Giữ khách hàng và kênh bán, chỉ đổi mức giá, rồi thử lại.
+        correct: true
+        why: Đúng. Pivot là đổi một thành phần, giữ phần còn lại, rồi kiểm lại.
+      - text: Giữ nguyên mọi thứ, chạy quảng cáo nhiều hơn.
+        correct: false
+        why: Đây là làm thêm cùng một việc, không phải pivot.
+  - id: q4
+    prompt: "Nghiên cứu của Camuffo và cộng sự (2020) với 116 startup ở Ý cho thấy điều gì?"
+    options:
+      - text: Startup học cách kiểm giả thuyết bỏ cuộc nhiều hơn ngay từ đầu.
+        correct: false
+        why: Nghiên cứu không thấy nhóm này bỏ cuộc nhiều hơn ở giai đoạn đầu.
+      - text: Startup học cách kiểm giả thuyết có kết quả tốt hơn và pivot nhiều hơn.
+        correct: true
+        why: Đúng. Đây là kết quả chính được nêu trong tóm tắt nghiên cứu.
+      - text: Cách kiểm giả thuyết không tạo khác biệt nào.
+        correct: false
+        why: Nghiên cứu thấy có khác biệt về kết quả và về số lần pivot.

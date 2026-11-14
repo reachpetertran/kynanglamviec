@@ -215,7 +215,7 @@ def build_groups():
         modules = "".join(f"<li>{e(m)}</li>" for m in g["modules"])
         note = f'<p class="note">{e(g["note"])}</p>' if g.get("note") else ""
         extra = ""
-        if g["code"] in ("N2", "N3", "N4", "N5", "N6"):
+        if g["code"] in ("N2", "N3", "N4", "N5", "N6", "N7"):
             extra = course_map(g["slug"])
         if g["code"] == "N1":
             extra = course_map("n1") + """<div class="note"><b>Dành cho phụ huynh và giáo viên.</b> Các bài N1 được viết để người lớn
@@ -358,6 +358,10 @@ COURSES = {
            "guide_label": "Mẫu in của khóa", "strip_label": "Mẫu in",
            "thread": "Một sợi chỉ nối cả khóa: <b>Sổ tay điều hành</b>, gồm 8 tờ dùng với tổ chức thật. Bài cuối ôn trộn cả khóa và lập bản đồ kế nhiệm.",
            "after": '<p class="note"><b>Lưu ý:</b> Bài 7 không tư vấn pháp lý; nguồn luật ghi rõ ngày tra. Các công cụ trong khóa ghi rõ mức bằng chứng: nghiên cứu, phương pháp được khuyến nghị, hay đề xuất của site. <b>Nên học trước:</b> khóa <a href="{{R}}lo-trinh/n5/">Quản lý, trưởng nhóm (N5)</a>.</p>'},
+    "n7": {"title": "Khóa Founder, khởi nghiệp (N7)", "home": "lo-trinh/n7/", "guide": "tai-nguyen/n7/",
+           "guide_label": "Mẫu in của khóa", "strip_label": "Mẫu in",
+           "thread": "Một sợi chỉ nối cả khóa: <b>Sổ tay founder</b>, gồm 8 tờ dùng với việc kinh doanh thật. Bằng chứng ở Tờ 1–2 và con số ở Tờ 4 được dùng lại trong pitch ở Tờ 7.",
+           "after": '<p class="note"><b>Lưu ý:</b> Bài 5, 6 và 8 không tư vấn pháp lý; Bài 4 không phải kế toán hay tư vấn thuế. Nguồn luật ghi rõ ngày tra. Mỗi bài có hộp "Mức bằng chứng". <b>Học thêm:</b> <a href="{{R}}bai-hoc/k9-giao-viec-va-theo-doi/">Giao việc và theo dõi</a> (N5) khi đội bắt đầu lớn.</p>'},
 }
 
 
@@ -507,8 +511,11 @@ Hãy in hoặc lưu PDF định kỳ.</p>
 <p><a class="btn" href="{{R}}tai-nguyen/n5/">Mở mẫu in N5</a></p>
 <h2>Mẫu in khóa Lãnh đạo cấp cao (N6)</h2>
 <p>Tám mẫu cho Sổ tay điều hành: lịch điều hành, biên bản pre-mortem, bảng chiến lược thành việc, bản định hướng và kế hoạch truyền đạt, bảng quyền quyết định, kênh tin xấu, sổ rủi ro và danh mục AI, bản đồ kế nhiệm.</p>
-<p><a class="btn" href="{{R}}tai-nguyen/n6/">Mở mẫu in N6</a></p>""")
-    for code, fn in (("n1", "n1-huong-dan.md"), ("n2", "n2-mau-in.md"), ("n3", "n3-mau-in.md"), ("n4", "n4-mau-in.md"), ("n5", "n5-mau-in.md"), ("n6", "n6-mau-in.md")):
+<p><a class="btn" href="{{R}}tai-nguyen/n6/">Mở mẫu in N6</a></p>
+<h2>Mẫu in khóa Founder, khởi nghiệp (N7)</h2>
+<p>Tám mẫu cho Sổ tay founder: phiếu giả thuyết và phỏng vấn, phiếu thử nghiệm, kế hoạch 90 ngày, bảng dòng tiền 13 tuần, bảng kiểm pháp lý khởi sự, phiếu tuyển người đầu tiên, kịch bản pitch, bảng công cụ số và quy tắc AI.</p>
+<p><a class="btn" href="{{R}}tai-nguyen/n7/">Mở mẫu in N7</a></p>""")
+    for code, fn in (("n1", "n1-huong-dan.md"), ("n2", "n2-mau-in.md"), ("n3", "n3-mau-in.md"), ("n4", "n4-mau-in.md"), ("n5", "n5-mau-in.md"), ("n6", "n6-mau-in.md"), ("n7", "n7-mau-in.md")):
         gp = ROOT / "content/trang" / fn
         if not gp.exists():
             continue

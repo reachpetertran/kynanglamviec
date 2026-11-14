@@ -1,0 +1,51 @@
+lesson: k10-phap-ly-khoi-su
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Bạn sắp vay ngân hàng để mở xưởng và không muốn tài sản gia đình chịu rủi ro. Câu hỏi nào trong bốn câu quan trọng nhất ở đây?"
+    options:
+      - text: Giấy tờ.
+        correct: false
+        why: Giấy tờ quan trọng, nhưng điều bạn lo là phạm vi mất mát khi nợ.
+      - text: Trách nhiệm.
+        correct: true
+        why: Đúng. Loại hình quyết định bạn chịu trách nhiệm đến đâu khi kinh doanh nợ.
+      - text: Gọi vốn.
+        correct: false
+        why: Ở đây bạn vay ngân hàng, chưa bán cổ phần cho nhà đầu tư.
+  - id: q2
+    prompt: "Ba người sáng lập dự định bán cổ phần cho quỹ đầu tư năm sau. Loại hình nào thường phù hợp hơn?"
+    options:
+      - text: Hộ kinh doanh.
+        correct: false
+        why: Hộ kinh doanh không phát hành cổ phần, và chủ hộ chịu trách nhiệm bằng toàn bộ tài sản.
+      - text: Công ty cổ phần.
+        correct: true
+        why: Đúng. Công ty cổ phần được phát hành cổ phần để huy động vốn.
+      - text: Doanh nghiệp tư nhân.
+        correct: false
+        why: Doanh nghiệp tư nhân chỉ có một chủ và không phát hành cổ phần.
+  - id: q3
+    prompt: "Bạn của bạn nói: \"Công ty nhỏ mới mở được miễn thuế 3 năm, cứ tính vào kế hoạch.\" Phản hồi nào đúng nhất?"
+    options:
+      - text: Đúng, mọi công ty mới đều được miễn.
+        correct: false
+        why: Ưu đãi áp dụng cho doanh nghiệp nhỏ và vừa, theo điều kiện ở văn bản hướng dẫn.
+      - text: Có quy định này, nhưng phải đọc điều kiện ở văn bản gốc trước khi tính vào kế hoạch.
+        correct: true
+        why: Đúng. Nghị quyết 198/2025/QH15 có quy định này; Nghị định 20/2026/NĐ-CP hướng dẫn chi tiết.
+      - text: Không có quy định nào như vậy.
+        correct: false
+        why: Có. Khoản 4 Điều 10 Nghị quyết 198/2025/QH15 quy định miễn thuế 3 năm.
+  - id: q4
+    prompt: "Vì sao nên viết thỏa thuận góp vốn với người cùng làm ngay từ đầu?"
+    options:
+      - text: Vì sau này bạn bè sẽ không tin nhau nữa.
+        correct: false
+        why: Không phải vì mất lòng tin. Văn bản giúp tránh hiểu nhầm khi có thay đổi.
+      - text: Để rõ ai góp bao nhiêu, ai quyết gì, và xử lý thế nào khi một người rút.
+        correct: true
+        why: Đúng. Những điều này dễ thống nhất khi mọi chuyện còn tốt.
+      - text: Chỉ cần khi gọi vốn từ người ngoài.
+        correct: false
+        why: Mâu thuẫn giữa người sáng lập có thể xảy ra trước khi có nhà đầu tư.

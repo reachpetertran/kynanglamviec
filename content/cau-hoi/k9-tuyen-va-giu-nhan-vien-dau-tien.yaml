@@ -1,0 +1,51 @@
+lesson: k9-tuyen-va-giu-nhan-vien-dau-tien
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Dòng nào là kết quả 90 ngày viết tốt cho người bán hàng đầu tiên?"
+    options:
+      - text: "\"Nhiệt tình, chăm chỉ.\""
+        correct: false
+        why: Đây là mô tả tính cách, không đo được.
+      - text: "\"Trả lời mọi tin nhắn khách trong 30 phút, giờ hành chính.\""
+        correct: true
+        why: Đúng. Có việc cụ thể và có thể đo được.
+      - text: "\"Phụ trách bán hàng.\""
+        correct: false
+        why: Đây là chức danh, chưa nói làm tốt là thế nào.
+  - id: q2
+    prompt: "Một người làm 8 giờ mỗi ngày theo ca, do bạn quản lý. Bạn gọi họ là \"cộng tác viên\" và không ký gì. Điều nào đúng?"
+    options:
+      - text: Vì là cộng tác viên nên không cần hợp đồng lao động.
+        correct: false
+        why: Tên gọi không quyết định bản chất. Có việc, có lương, có quản lý thì là hợp đồng lao động.
+      - text: Quan hệ này có thể được coi là hợp đồng lao động, nên cần làm đúng giấy tờ.
+        correct: true
+        why: Đúng. Theo khoản 1 Điều 13 Bộ luật Lao động, cần xem nội dung chứ không xem tên gọi.
+      - text: Chỉ cần trả tiền đầy đủ là đủ.
+        correct: false
+        why: Trả tiền đủ chưa thay được hợp đồng, bảo hiểm và các nghĩa vụ khác.
+  - id: q3
+    prompt: "Nhân viên ký hợp đồng lao động 12 tháng. Về bảo hiểm xã hội, điều nào đúng?"
+    options:
+      - text: Không bắt buộc vì doanh nghiệp còn nhỏ.
+        correct: false
+        why: Quy mô doanh nghiệp không làm mất nghĩa vụ này.
+      - text: Thuộc diện bảo hiểm xã hội bắt buộc.
+        correct: true
+        why: Đúng. Hợp đồng từ đủ 1 tháng thuộc diện bắt buộc theo Luật Bảo hiểm xã hội 41/2024/QH15.
+      - text: Chỉ bắt buộc sau khi hết thử việc 6 tháng.
+        correct: false
+        why: Không có mốc 6 tháng như vậy. Hãy đọc văn bản gốc về thời điểm đóng.
+  - id: q4
+    prompt: "Nhân viên đầu tiên làm được 2 tháng, ít nói. Bạn không biết họ có hài lòng không. Việc nào nên làm trước?"
+    options:
+      - text: Tăng lương ngay để giữ người.
+        correct: false
+        why: Chưa biết vấn đề là gì. Tăng lương có thể không giải quyết đúng chỗ.
+      - text: Gặp 1-1 mỗi tuần 15 phút, hỏi tuần này vướng gì và cần gì từ bạn.
+        correct: true
+        why: Đúng. Buổi 1-1 đều đặn giúp phát hiện vấn đề sớm.
+      - text: Chờ họ tự nói nếu có vấn đề.
+        correct: false
+        why: Nhiều người không tự nói. Họ nghỉ việc trước khi kịp nói.

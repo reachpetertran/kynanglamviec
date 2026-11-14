@@ -1,0 +1,51 @@
+lesson: k5-nhung-con-so-song-con
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Bạn giao hàng cho khách sỉ ngày 5/3. Khách trả tiền ngày 20/4. Trong bảng dòng tiền, ghi tiền vào ở đâu?"
+    options:
+      - text: Tuần có ngày 5/3.
+        correct: false
+        why: Đó là tuần bán. Tiền chưa về túi bạn.
+      - text: Tuần có ngày 20/4.
+        correct: true
+        why: Đúng. Bảng dòng tiền ghi khi tiền về thật.
+      - text: Chia đều cho các tuần ở giữa.
+        correct: false
+        why: Tiền không về theo kiểu chia đều. Ghi như vậy làm bảng sai.
+  - id: q2
+    prompt: "Giá bán 40.000 đồng, chi phí trực tiếp 28.000 đồng. Biên lợi nhuận gộp là bao nhiêu?"
+    options:
+      - text: 12.000 đồng.
+        correct: false
+        why: Đây là lãi gộp mỗi đơn vị, chưa chia cho giá bán.
+      - text: 30%.
+        correct: true
+        why: Đúng. (40.000 − 28.000) ÷ 40.000 = 30%.
+      - text: 70%.
+        correct: false
+        why: 70% là tỷ lệ chi phí trên giá, không phải biên lợi nhuận.
+  - id: q3
+    prompt: "Chi phí cố định 20 triệu đồng một tháng. Lãi gộp mỗi sản phẩm 50.000 đồng. Điểm hòa vốn là bao nhiêu?"
+    options:
+      - text: 400 sản phẩm một tháng.
+        correct: true
+        why: Đúng. 20.000.000 ÷ 50.000 = 400.
+      - text: 40 sản phẩm một tháng.
+        correct: false
+        why: Sai một chữ số 0. Kiểm lại phép chia.
+      - text: Không tính được nếu chưa biết giá bán.
+        correct: false
+        why: Đã có lãi gộp mỗi sản phẩm, nên đủ để tính hòa vốn.
+  - id: q4
+    prompt: "Bảng 13 tuần cho thấy tuần 9 sẽ âm 15 triệu đồng. Hôm nay là tuần 2. Nên làm gì?"
+    options:
+      - text: Chờ đến tuần 8 xem có đúng không.
+        correct: false
+        why: Chờ lâu thì chỉ còn cách vay gấp. Thấy sớm là để có nhiều lựa chọn.
+      - text: Bắt đầu ngay một trong bốn cách thu sớm, chi muộn, cắt chi, tìm thêm tiền.
+        correct: true
+        why: Đúng. Còn 7 tuần, đủ để thương lượng với khách và nhà cung cấp.
+      - text: Bỏ bảng dòng tiền vì số dự báo không chắc.
+        correct: false
+        why: Dự báo không cần chắc tuyệt đối. Nó cần đủ tốt để báo động sớm.

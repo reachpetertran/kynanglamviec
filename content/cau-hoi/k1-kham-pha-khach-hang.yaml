@@ -1,0 +1,51 @@
+lesson: k1-kham-pha-khach-hang
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu nào là một giả thuyết kiểm được?"
+    options:
+      - text: "\"Ai cũng muốn ăn uống lành mạnh.\""
+        correct: false
+        why: Câu này gần như không thể sai, nên không kiểm được.
+      - text: "\"Mẹ đi làm ở quận 7 mỗi tuần bỏ ít nhất một bó rau vì lo thuốc trừ sâu.\""
+        correct: true
+        why: Đúng. Có khách hàng cụ thể, vấn đề và tần suất. Phỏng vấn có thể cho thấy nó đúng hay sai.
+      - text: "\"Sản phẩm của chúng tôi sẽ rất thành công.\""
+        correct: false
+        why: Đây là mong muốn, không nói gì về khách hàng hay vấn đề.
+  - id: q2
+    prompt: "Câu hỏi phỏng vấn nào ít dẫn dắt nhất?"
+    options:
+      - text: "\"Chị có muốn dùng ứng dụng đặt lịch của em không?\""
+        correct: false
+        why: Câu này giới thiệu giải pháp và hỏi về tương lai. Người nghe dễ trả lời lịch sự.
+      - text: "\"Lần gần nhất chị đặt lịch làm tóc, chị đã làm thế nào?\""
+        correct: true
+        why: Đúng. Câu hỏi về một việc đã xảy ra, chưa nhắc đến giải pháp của bạn.
+      - text: "\"Chị thấy đặt lịch qua điện thoại có bất tiện không?\""
+        correct: false
+        why: Câu này gợi ý sẵn câu trả lời là bất tiện.
+  - id: q3
+    prompt: "Sau 10 cuộc phỏng vấn, 9 người nói \"ý tưởng hay quá\", nhưng chưa ai từng tự tìm cách giải quyết vấn đề. Bạn kết luận gì?"
+    options:
+      - text: Vấn đề rất lớn, nên làm ngay.
+        correct: false
+        why: Lời khen không phải bằng chứng. Chưa ai hành động để giải quyết vấn đề.
+      - text: Chưa có bằng chứng vấn đề đủ đau. Cần xem lại giả thuyết vấn đề.
+        correct: true
+        why: Đúng. Người gặp vấn đề thật thường đã tự thử cách nào đó, hoặc đã trả tiền cho nó.
+      - text: Phỏng vấn thêm 10 người bạn thân cho chắc.
+        correct: false
+        why: Bạn thân càng dễ khen. Nên phỏng vấn đúng nhóm khách hàng.
+  - id: q4
+    prompt: "Trong cuộc phỏng vấn, khi nào nên kể về giải pháp của bạn?"
+    options:
+      - text: Ngay đầu buổi, để khách hiểu bối cảnh.
+        correct: false
+        why: Kể sớm làm khách trả lời theo giải pháp của bạn, không kể về đời thật của họ.
+      - text: Sau khi đã nghe đủ về việc họ đã làm, nếu còn thời gian.
+        correct: true
+        why: Đúng. Nghe sự thật về quá khứ trước. Phản ứng với giải pháp chỉ là thông tin phụ.
+      - text: Không bao giờ được kể.
+        correct: false
+        why: Có thể kể ở cuối. Chỉ cần nhớ phản ứng lúc đó không phải bằng chứng mạnh.

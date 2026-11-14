@@ -1,0 +1,51 @@
+lesson: k6-chu-dong-va-phuc-hoi
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Việc nào thể hiện hành vi \"nhìn trước\"?"
+    options:
+      - text: Đợi khách phàn nàn rồi mới sửa quy trình giao hàng.
+        correct: false
+        why: Đây là phản ứng sau khi sự cố xảy ra.
+      - text: Thấy mùa mưa sắp tới, đặt trước túi chống nước cho shipper.
+        correct: true
+        why: Đúng. Bạn đoán trở ngại sắp tới và chuẩn bị từ bây giờ.
+      - text: Làm thêm giờ mỗi khi có nhiều đơn.
+        correct: false
+        why: Làm thêm giờ có thể cần, nhưng không phải chuẩn bị trước cho một trở ngại.
+  - id: q2
+    prompt: "Câu nào là một câu \"nếu… thì…\" dùng được?"
+    options:
+      - text: "\"Nếu có chuyện, tôi sẽ cố gắng hết sức.\""
+        correct: false
+        why: Không rõ chuyện gì, và không rõ sẽ làm gì.
+      - text: "\"Nếu nhà cung cấp bột giao trễ quá 3 ngày, thì tôi đặt ở nhà cung cấp thứ hai.\""
+        correct: true
+        why: Đúng. Có dấu hiệu cụ thể và một hành động cụ thể đã quyết trước.
+      - text: "\"Nếu bán chậm, thì tôi sẽ nghĩ cách.\""
+        correct: false
+        why: "\"Nghĩ cách\" chưa phải hành động. Câu này không giúp bạn quyết trước."
+  - id: q3
+    prompt: "Dòng nào trong phiếu rút kinh nghiệm viết đúng phần \"Phần trong tầm tay\"?"
+    options:
+      - text: "\"Khách bây giờ khó tính quá.\""
+        correct: false
+        why: Đây là đổ lỗi cho bên ngoài. Bạn không làm gì được với câu này.
+      - text: "\"Tôi không hỏi khách khung giờ họ hay đặt trước khi chạy khuyến mãi.\""
+        correct: true
+        why: Đúng. Đây là việc bạn đã có thể làm khác, và lần sau làm được.
+      - text: "\"Tôi đúng là không hợp làm kinh doanh.\""
+        correct: false
+        why: Đây là phán xét bản thân, không phải một việc cụ thể để điều chỉnh.
+  - id: q4
+    prompt: "Theo Campos và cộng sự (2017) ở Togo, kết quả nào đúng?"
+    options:
+      - text: Đào tạo kinh doanh truyền thống tăng lợi nhuận nhiều hơn đào tạo chủ động.
+        correct: false
+        why: Ngược lại. Đào tạo truyền thống tăng khoảng 11%, không có ý nghĩa thống kê.
+      - text: Đào tạo chủ động cá nhân tăng lợi nhuận khoảng 30% sau hai năm.
+        correct: true
+        why: Đúng. Đây là kết quả chính của nghiên cứu đăng trên Science.
+      - text: Chủ động là tính cách bẩm sinh, không đào tạo được.
+        correct: false
+        why: Nghiên cứu cho thấy hành vi chủ động có thể học được qua đào tạo.

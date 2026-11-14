@@ -1,0 +1,63 @@
+lesson: k10-van-hanh-so-du-lieu-va-on-tap
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Nhân viên nghỉ việc hôm qua. Việc nào cần làm trong ngày?"
+    options:
+      - text: Đợi cuối tháng rồi đổi mật khẩu một lượt.
+        correct: false
+        why: Trong thời gian chờ, người đã nghỉ vẫn vào được dữ liệu khách.
+      - text: Thu quyền truy cập của họ ở mọi công cụ trong Bảng công cụ số.
+        correct: true
+        why: Đúng. Bảng giúp bạn biết họ đang có quyền ở những đâu.
+      - text: Nhờ họ tự đăng xuất.
+        correct: false
+        why: Bạn không kiểm được việc họ đã làm hay chưa.
+  - id: q2
+    prompt: "Một hộ kinh doanh bán bánh online nói: \"Mình là hộ kinh doanh nên luật dữ liệu không liên quan.\" Điều nào đúng hơn?"
+    options:
+      - text: Đúng, hộ kinh doanh được miễn mọi quy định về dữ liệu cá nhân.
+        correct: false
+        why: Luật chỉ miễn một số nghĩa vụ, và có ngoại lệ. Được miễn không có nghĩa là dùng dữ liệu tùy ý.
+      - text: Hộ kinh doanh được miễn một số nghĩa vụ, nhưng vẫn nên báo khách dữ liệu dùng thế nào.
+        correct: true
+        why: Đúng. Điều 38 Luật 91/2025/QH15 miễn một số nghĩa vụ, có ngoại lệ. Thông báo dữ liệu vẫn là cách làm tốt.
+      - text: Hộ kinh doanh phải thực hiện đầy đủ như doanh nghiệp lớn.
+        correct: false
+        why: Luật có quy định riêng cho hộ kinh doanh và doanh nghiệp siêu nhỏ.
+  - id: q3
+    prompt: "(Ôn Bài 2) Kết quả thử rơi vào vùng pivot. Bạn nên làm gì?"
+    options:
+      - text: Đổi một thành phần, giữ phần còn lại, rồi viết Phiếu thử nghiệm mới.
+        correct: true
+        why: Đúng. Đổi một chỗ để biết điều gì tạo ra khác biệt.
+      - text: Dừng hẳn ý tưởng.
+        correct: false
+        why: Dừng là hướng của vùng thấp nhất, không phải vùng pivot.
+      - text: Hạ ngưỡng xuống cho vừa kết quả.
+        correct: false
+        why: Sửa ngưỡng sau khi có kết quả làm mất tác dụng của ngưỡng.
+  - id: q4
+    prompt: "(Ôn Bài 4) Chi phí cố định 30 triệu đồng một tháng, lãi gộp mỗi đơn vị 60.000 đồng. Hòa vốn là bao nhiêu?"
+    options:
+      - text: 50 đơn vị một tháng.
+        correct: false
+        why: Sai một chữ số 0. Kiểm lại phép chia.
+      - text: 500 đơn vị một tháng.
+        correct: true
+        why: Đúng. 30.000.000 ÷ 60.000 = 500.
+      - text: 2.000 đơn vị một tháng.
+        correct: false
+        why: Có thể bạn đã chia nhầm. Lấy chi phí cố định chia cho lãi gộp mỗi đơn vị.
+  - id: q5
+    prompt: "(Ôn Bài 7) Câu nào nên đứng cuối pitch?"
+    options:
+      - text: "\"Cảm ơn anh chị đã lắng nghe.\""
+        correct: false
+        why: Lời cảm ơn là phép lịch sự, nhưng phần cuối cần là đề nghị cụ thể.
+      - text: "\"Chúng tôi đề nghị anh thử dòng sản phẩm này với 10 khách trước ngày 15/12.\""
+        correct: true
+        why: Đúng. Đề nghị có việc, số lượng và hạn.
+      - text: "\"Chúng tôi tin sẽ thành công lớn.\""
+        correct: false
+        why: Niềm tin không phải đề nghị, và không có bằng chứng đi kèm.
