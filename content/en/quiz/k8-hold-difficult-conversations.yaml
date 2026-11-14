@@ -1,0 +1,51 @@
+lesson: k8-hold-difficult-conversations
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which opening line is best for a conversation about late reports?"
+    options:
+      - text: "\"You've been doing really well lately, there's just one small thing…\""
+        correct: false
+        why: Roundabout praise confuses the listener, and your later praise will be doubted.
+      - text: "\"I want to talk about the three weekly reports that were late this month.\""
+        correct: true
+        why: Correct. It is short, names the topic directly and rests on checkable facts.
+      - text: "\"Do you realise how irresponsible you're being?\""
+        correct: false
+        why: This labels the person. They will defend themselves instead of looking for a fix.
+  - id: q2
+    prompt: "Two team members are in conflict. What should you do first?"
+    options:
+      - text: Call both into a room now to sort it out.
+        correct: false
+        why: Meeting together while tempers are high often continues the argument, with each side defending itself.
+      - text: Meet each person alone, hear everything, and promise to take no sides.
+        correct: true
+        why: Correct. Meeting alone helps each person speak honestly and calm down before meeting together.
+      - text: Wait a week for them to cool down on their own.
+        correct: false
+        why: Avoiding conflict usually lets it grow and affect the whole team.
+  - id: q3
+    prompt: "In a one-to-one, an employee says a colleague is sending them harassing messages. What do you do?"
+    options:
+      - text: Arrange for the two to meet and resolve it.
+        correct: false
+        why: Harassment is in the no-mediation zone. Making them meet could cause further harm.
+      - text: Thank them for telling you, protect the person affected and report it through your organisation's process.
+        correct: true
+        why: Correct. This must be handled through the proper process by someone with authority, not mediated.
+      - text: Advise them to let it go to keep the peace.
+        correct: false
+        why: Letting it go leaves the person unprotected, and the behaviour may continue.
+  - id: q4
+    prompt: "The conversation is heating up, and you feel about to raise your voice. What is sensible?"
+    options:
+      - text: Speak louder to stay in control.
+        correct: false
+        why: Raising your voice adds tension, and the other person hears even less.
+      - text: Slow down, summarise their view, or agree to continue at a specific time.
+        correct: true
+        why: Correct. A pause with a set time lets both sides calm down without dropping the issue.
+      - text: End the conversation and never raise it again.
+        correct: false
+        why: The problem is still there, and next time it will be even harder to raise.

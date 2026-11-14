@@ -1,0 +1,51 @@
+lesson: k6-lead-change-and-ai-adoption
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "When you announce a change, why should you also say clearly what \"stays the same\"?"
+    options:
+      - text: To make the announcement longer and more complete.
+        correct: false
+        why: Length is not the point. People need to know what remains stable.
+      - text: So people know what is stable, worry less and accept the change more easily.
+        correct: true
+        why: Correct. Knowing what stays the same lets people focus on what they need to learn.
+      - text: So your boss sees the change is small and approves it easily.
+        correct: false
+        why: What stays the same is information for the team, not a way to downplay the change.
+  - id: q2
+    prompt: "The team is about to change its packing process. Which roll-out is sensible?"
+    options:
+      - text: Apply it to the whole workshop from Monday; people learn as they go.
+        correct: false
+        why: Going workshop-wide at once spreads errors, and concerns easily turn into resistance.
+      - text: Test on one line for 2 weeks, measure errors and time, then expand.
+        correct: true
+        why: Correct. A small test finds problems early at low cost, and gives data to persuade others.
+      - text: Wait until everyone agrees.
+        correct: false
+        why: Full agreement may never come. A measured small test is a safe way forward.
+  - id: q3
+    prompt: "An employee wants to paste the department's payroll into a free AI tool to add it up. What do you say?"
+    options:
+      - text: "\"Fine, as long as you delete it afterwards.\""
+        correct: false
+        why: Deleting it later does not recall data already sent. Payroll is personal data that must be protected.
+      - text: "\"Don't put payroll into a tool that hasn't been approved. Use the company spreadsheet.\""
+        correct: true
+        why: Correct. Under the Data and Tools lines, personal data is processed only with permitted tools.
+      - text: "\"Up to you, as long as the result is right.\""
+        correct: false
+        why: A correct result does not make up for the risk of leaking employees' data.
+  - id: q4
+    prompt: "An AI-drafted report with a wrong figure has been sent to a client. Who is responsible?"
+    options:
+      - text: The AI tool, because it produced the wrong figure.
+        correct: false
+        why: A tool does not take responsibility for people. The team rules say the sender is responsible.
+      - text: The person who sent it, because they had to check it first.
+        correct: true
+        why: Correct. Under the Checking and Responsibility lines, the user rereads, checks figures and is responsible.
+      - text: Nobody, because it is a technical error.
+        correct: false
+        why: The error reached the client. Someone must own it, fix it and update the client.

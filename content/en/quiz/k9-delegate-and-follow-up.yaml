@@ -1,0 +1,51 @@
+lesson: k9-delegate-and-follow-up
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "You say: \"Can you do the stock report?\" Which boxes of the delegation sheet are missing?"
+    options:
+      - text: Only the deadline.
+        correct: false
+        why: Much more is missing. The person does not know who the report is for, what good looks like, or what they can decide.
+      - text: Almost all of them. There is a task name, but no result, standard, deadline, autonomy, resources or checkpoints.
+        correct: true
+        why: Correct. A task name is not delegation. The person will have to guess.
+      - text: Nothing. An experienced person will know.
+        correct: false
+        why: Experienced people still cannot read your mind. What you need may differ each time.
+  - id: q2
+    prompt: "A new employee must choose a printing supplier for a trade fair, a large contract. Which level of autonomy fits?"
+    options:
+      - text: Level 4, full autonomy, so they learn fast.
+        correct: false
+        why: The task is costly and the person is new. A mistake would be hard to fix.
+      - text: Level 2, propose options and wait for approval.
+        correct: true
+        why: Correct. They still research and compare, while a costly decision gets approved.
+      - text: Do not delegate. The manager does it to be safe.
+        correct: false
+        why: Then the employee learns nothing. Level 2 is both safe and develops them.
+  - id: q3
+    prompt: "You agreed a checkpoint on Thursday. On Monday, you want to ask about progress. When should you ask?"
+    options:
+      - text: Every day, to be sure.
+        correct: false
+        why: Checking too often makes people feel untrusted, and reporting takes their time.
+      - text: Only before the checkpoint if there is a sign of risk, such as a client changing the brief.
+        correct: true
+        why: Correct. The checkpoint reassures you both. In between, step in only with a reason.
+      - text: Never before the checkpoint, even if there is a risk.
+        correct: false
+        why: Staying silent despite a risk may be too late. The checkpoint is the main schedule, not a ban on asking.
+  - id: q4
+    prompt: "Which recognition tells the person what to repeat?"
+    options:
+      - text: "\"Brilliant, thanks so much!\""
+        correct: false
+        why: It is warm, but it does not say what was done well.
+      - text: "\"You sent the draft a day early, so we fixed the prices before the client saw it.\""
+        correct: true
+        why: Correct. It names the action and its effect. The person knows to do it again.
+      - text: "\"You're great, keep it up.\""
+        correct: false
+        why: It praises the person in general. They do not know what to keep doing.

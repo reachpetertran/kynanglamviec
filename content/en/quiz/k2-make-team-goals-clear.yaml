@@ -1,0 +1,51 @@
+lesson: k2-make-team-goals-clear
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which result belongs in a one-page team goal?"
+    options:
+      - text: "\"The whole team works more professionally.\""
+        correct: false
+        why: Nobody knows how much more professional. The team cannot check itself.
+      - text: "\"Cut returns caused by packing errors from 4% to 1% by 30 June.\""
+        correct: true
+        why: Correct. It has the current figure, the target and a deadline. Everyone knows where the team stands.
+      - text: "A list of 9 results, so nothing is missed."
+        correct: false
+        why: With nine results the team forgets and spreads itself thin. Choose the 2–3 that matter most.
+  - id: q2
+    prompt: "Why does Sheet 2 have a \"Not doing\" part?"
+    options:
+      - text: So the team has a reason to refuse any extra work.
+        correct: false
+        why: It names a few specific tasks to pause. It is not a reason to refuse everything.
+      - text: So the team knows where to focus and what to drop when overloaded.
+        correct: true
+        why: Correct. Naming what not to do helps the team choose well when time is short.
+      - text: So the boss can see the team is doing less.
+        correct: false
+        why: The aim is focus, not reporting less work.
+  - id: q3
+    prompt: "What is the best way to check that the team has understood the goal?"
+    options:
+      - text: Ask "Is that clear?" and wait for questions.
+        correct: false
+        why: This almost always gets "Yes", even when people have not understood.
+      - text: Ask two people to restate their priority for this week and why.
+        correct: true
+        why: Correct. Hearing it in their words shows you any misunderstanding at once.
+      - text: Email the goal document and ask everyone to read it carefully.
+        correct: false
+        why: Sending a file does not tell you how well people understood it.
+  - id: q4
+    prompt: "Two people restate the goal wrongly in the same way. What should you think first?"
+    options:
+      - text: Those two were not paying attention.
+        correct: false
+        why: When several people misunderstand in the same way, the cause is usually how it was said.
+      - text: I did not say it clearly. I need to change the wording or add an example.
+        correct: true
+        why: Correct. Misunderstanding is a signal to improve how you communicate, not to blame listeners.
+      - text: The goal is too hard and should be dropped.
+        correct: false
+        why: A misunderstanding does not mean the goal is wrong. Clarify it before you change it.

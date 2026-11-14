@@ -1,0 +1,51 @@
+lesson: k8-build-an-inclusive-team
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Who should write the team's working agreement?"
+    options:
+      - text: The manager writes it and sends it to the team to follow.
+        correct: false
+        why: Rules written by one person often miss other people's real problems, and are rarely kept.
+      - text: The whole team writes it together, led by the manager.
+        correct: true
+        why: Correct. Rules written together fit reality better, and everyone has a reason to keep them.
+      - text: HR writes one for the whole company.
+        correct: false
+        why: Company-wide rules are still needed, but each team must agree its own way of working.
+  - id: q2
+    prompt: "In meetings, the manager usually gives their own view first. What is the problem?"
+    options:
+      - text: There is no problem. The manager going first is faster.
+        correct: false
+        why: It is faster, but other views are lost. Many people will not dare to disagree with the boss.
+      - text: Others tend to go quiet or agree, so the team loses other views.
+        correct: true
+        why: Correct. Inviting others first and speaking last helps the team hear more ideas.
+      - text: The manager will lose credibility.
+        correct: false
+        why: The issue is not credibility, but that the team does not hear enough views.
+  - id: q3
+    prompt: "Making tea and taking minutes are always given to the youngest woman on the team. What is a sensible fix?"
+    options:
+      - text: Keep it that way, because she is good at it.
+        correct: false
+        why: Defaulting invisible tasks by gender or age is unfair, and she loses time for her main work.
+      - text: Rotate invisible tasks among everyone on a clear schedule.
+        correct: true
+        why: Correct. Rotation shares the load, and everyone sees small tasks as the whole team's work.
+      - text: Stop taking minutes altogether.
+        correct: false
+        why: Minutes are still needed to record decisions. The issue is who does it, not whether it is done.
+  - id: q4
+    prompt: "The team argues hard about how to run a project. What does this mean?"
+    options:
+      - text: The team is not inclusive and the arguing must stop at once.
+        correct: false
+        why: Inclusive does not mean everyone agrees. Arguing about the work can lead to better decisions.
+      - text: It may be a good sign, as long as people argue about ideas, not attack each other.
+        correct: true
+        why: Correct. A team that dares to argue about the work feels safe to speak. The manager keeps it from becoming personal.
+      - text: The manager should decide at once to save time.
+        correct: false
+        why: Deciding too fast may miss good ideas. Hear enough first, then decide against shared criteria.

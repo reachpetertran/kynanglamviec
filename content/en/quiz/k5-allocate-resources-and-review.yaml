@@ -1,0 +1,63 @@
+lesson: k5-allocate-resources-and-review
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "A team of 4 has 60 working days each this quarter. How should you work out the team's real capacity?"
+    options:
+      - text: 240 person-days, because 4 times 60.
+        correct: false
+        why: This assumes everyone spends 100% of their time on main work. In reality there is leave, meetings, training and unplanned work.
+      - text: Take 240 and subtract leave, meetings, training and unplanned work.
+        correct: true
+        why: Correct. Real capacity is the time left for main work. Overestimating it keeps the team late.
+      - text: Add overtime hours so the work fits.
+        correct: false
+        why: A plan built on long-term overtime burns the team out.
+  - id: q2
+    prompt: "A running task is not linked to any result in the team goal. What do you do?"
+    options:
+      - text: Put it on the stop list, then tell your manager before stopping.
+        correct: true
+        why: Correct. Work with no link to a goal is a candidate to stop. Telling first lets your manager know and object.
+      - text: Stop it quietly without telling anyone.
+        correct: false
+        why: Stopping silently can surprise people who rely on it, and damages trust.
+      - text: Keep it, because it has run for a long time.
+        correct: false
+        why: Having done it for a long time is no reason to continue. That time could go to more important work.
+  - id: q3
+    prompt: "(Review Lesson 3) You ask a new employee to choose a supplier for a large contract. Which level of autonomy fits?"
+    options:
+      - text: Full autonomy.
+        correct: false
+        why: The task is costly and the person is new. A mistake would be hard to fix.
+      - text: Propose options, wait for approval, then act.
+        correct: true
+        why: Correct. The newcomer still researches and compares, while the costly decision is approved.
+      - text: Act alone and report back afterwards.
+        correct: false
+        why: By the time they report, the contract is signed. This level suits familiar, low-risk work.
+  - id: q4
+    prompt: "(Review Lessons 4 and 5) In a one-to-one, an employee says a colleague sent them threatening messages. What should you do?"
+    options:
+      - text: Keep asking the 4 coaching questions so they find their own solution.
+        correct: false
+        why: Threats are in the no-mediation zone and need a proper process. This is not a time to coach.
+      - text: Thank them, protect the person affected and report through your organisation's process.
+        correct: true
+        why: Correct. Safety matters call for direct action through the proper process, by someone with authority.
+      - text: Call both in to mediate at once.
+        correct: false
+        why: Mediation is not for threats or harassment. The person affected could face more danger.
+  - id: q5
+    prompt: "(Review Lesson 7) The team is starting to use AI. Its biggest concern is job cuts. What should you do?"
+    options:
+      - text: Say nothing and let people get used to it.
+        correct: false
+        why: Concerns that are not heard turn into quiet resistance.
+      - text: Record the concern, answer openly what you know for sure, and say what stays the same.
+        correct: true
+        why: Correct. Open, honest answers build trust. Promise only what you know for sure.
+      - text: Promise nobody will be affected, even if you do not know.
+        correct: false
+        why: Promising what you are not sure of destroys trust if things turn out differently.

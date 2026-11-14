@@ -1,0 +1,51 @@
+lesson: k1-listen-to-coach
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "An employee opens a one-to-one: \"Customers keep complaining about me.\" Which question fits the first step?"
+    options:
+      - text: "\"Just speak more gently next time.\""
+        correct: false
+        why: This is advice, not a question. You do not yet know what they want from the meeting.
+      - text: "\"What would you like to leave with today on this?\""
+        correct: true
+        why: Correct. The Goal step helps the person say clearly what they need.
+      - text: "\"Which customers? Show me the messages.\""
+        correct: false
+        why: Jumping into details lets you take over the conversation and start solving it for them.
+  - id: q2
+    prompt: "The employee has just finished answering and goes quiet. What should you do?"
+    options:
+      - text: Give your view at once so the meeting does not drift.
+        correct: false
+        why: Filling the silence too fast can lose an important point they were about to make.
+      - text: Wait a few more seconds, then ask "What else?"
+        correct: true
+        why: Correct. Important points often come after a pause or after "What else?"
+      - text: Move on to another topic because they have finished.
+        correct: false
+        why: The first answer is rarely the whole story.
+  - id: q3
+    prompt: "When should you give direct instructions instead of coaching?"
+    options:
+      - text: The employee wants to find a career direction.
+        correct: false
+        why: This is a perfect time to coach. People follow a path they chose themselves.
+      - text: A new worker is about to operate a cutting machine without isolating the power while cleaning.
+        correct: true
+        why: Correct. It is a safety issue and the person lacks the basics. Instruct now, coach later.
+      - text: The employee wants to present better in meetings.
+        correct: false
+        why: It is not urgent and has no safety risk. Coaching helps them find a way that suits them.
+  - id: q4
+    prompt: "At the end of a one-to-one, who should choose the next step?"
+    options:
+      - text: The manager, because they have more experience.
+        correct: false
+        why: A step chosen by someone else is easily done half-heartedly.
+      - text: The employee chooses, and the manager says what support they will give.
+        correct: true
+        why: Correct. People who choose their own next step own it. The manager commits to their part.
+      - text: No next step is needed. Talking is enough.
+        correct: false
+        why: Without a next step, a one-to-one rarely leads to change.

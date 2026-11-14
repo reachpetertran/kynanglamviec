@@ -1,0 +1,51 @@
+lesson: k7-from-specialist-to-manager
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "A new team leader still does the hardest part of every project. What is the most obvious effect?"
+    options:
+      - text: The team learns faster by watching an expert.
+        correct: false
+        why: Watching teaches a little, but the team never does it alone. They stay dependent on the leader.
+      - text: The team waits for the leader, and management work such as delegating and one-to-ones is left undone.
+        correct: true
+        why: Correct. A leader's time is limited. Holding on to specialist work squeezes out the management work.
+      - text: No effect, as long as projects finish on time.
+        correct: false
+        why: It may finish on time now, but the team does not grow. When the leader is away, work stops.
+  - id: q2
+    prompt: "Which task belongs in the \"Keep\" column of the role-shift sheet?"
+    options:
+      - text: Every task you do faster than others.
+        correct: false
+        why: If you keep everything you do faster, the "Let go" column will be empty.
+      - text: One task only you can do well right now, with a target date for handing it over.
+        correct: true
+        why: Correct. The Keep column should be short and time-limited, so the task moves to others.
+      - text: The task you enjoy most, to stay motivated.
+        correct: false
+        why: That is understandable, but the test is what the team needs, not what you enjoy.
+  - id: q3
+    prompt: "You want to know what your team thinks of how you manage. Which method is most likely to get honest answers?"
+    options:
+      - text: 'Ask in a big meeting: "What do you all think of me?"'
+        correct: false
+        why: In front of everyone and their boss, few people dare to be honest.
+      - text: Hand out an anonymous form with 3 questions (continue, start, stop).
+        correct: true
+        why: Correct. Specific questions and a safe way to answer help people speak honestly.
+      - text: Wait for the company's year-end review.
+        correct: false
+        why: That is too long. You lose months in which you could have changed.
+  - id: q4
+    prompt: "Many forms say \"stop: correcting my work in front of clients\". What do you do first?"
+    options:
+      - text: Explain that you do it to protect quality.
+        correct: false
+        why: Explaining at once sounds defensive. People will feel speaking up was pointless.
+      - text: Thank the team, say clearly how you will change, then do exactly that.
+        correct: true
+        why: Correct. Thanks plus action show that feedback works, so people keep being honest.
+      - text: Try to find out who wrote it so you can talk privately.
+        correct: false
+        why: Hunting for the writer breaks the promise of anonymity. The team will never be honest again.
