@@ -1,0 +1,63 @@
+lesson: k4-borrow-ideas-from-other-fields
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "\"Online orders arrive late because the warehouse takes a long time to find items.\" What is this in general form?"
+    options:
+      - text: "\"The warehouse works slowly.\""
+        correct: false
+        why: This is a judgement about people, not a problem in general form.
+      - text: "\"Picking the right item from very many items, quickly and with few mistakes.\""
+        correct: true
+        why: Correct. It removes the industry and keeps the essence. Libraries and pharmacies face this problem too.
+      - text: "\"We need to hire more warehouse staff.\""
+        correct: false
+        why: This is a solution, not a description of the problem.
+  - id: q2
+    prompt: "Why borrow the principle instead of copying another field's method exactly?"
+    options:
+      - text: Because copying breaks copyright.
+        correct: false
+        why: Copyright is not the main reason. A method from another context usually does not fit.
+      - text: Because contexts differ; the principle needs adjusting for your team.
+        correct: true
+        why: Correct. Borrowing the principle and adjusting it fits real conditions better.
+      - text: Because other fields always do it worse.
+        correct: false
+        why: Not true. Other fields may have solved the problem very well.
+  - id: q3
+    prompt: "Why write a hypothesis with a number before the trial?"
+    options:
+      - text: So you cannot quietly move the target after seeing the result.
+        correct: true
+        why: Correct. Writing it first keeps the evaluation honest, even when results disappoint.
+      - text: So the report looks more professional.
+        correct: false
+        why: Appearance is not the point. The point is an honest evaluation.
+      - text: Because you must always hit that exact number.
+        correct: false
+        why: You do not have to hit it. The number helps you compare and decide to keep, adjust or drop.
+  - id: q4
+    prompt: "The trial worked, but a month later everyone is back to the old way. Which step was skipped?"
+    options:
+      - text: Baseline with numbers.
+        correct: false
+        why: Without this step, you would not know whether the trial worked.
+      - text: Standardise.
+        correct: true
+        why: Correct. Without rewriting the process, training people and checking again, the old way returns.
+      - text: Hypothesis.
+        correct: false
+        why: A hypothesis helps evaluate the trial. It does not keep the new way in place.
+  - id: q5
+    prompt: "The line supervisor is reluctant to try the new way. What helps most?"
+    options:
+      - text: Ask the director to order it.
+        correct: false
+        why: An order may work, but the supervisor will give little support when problems come up.
+      - text: Invite the supervisor to choose the measure, and say the trial has an end date and can be reversed.
+        correct: true
+        why: Correct. People who help design a trial and see low risk agree to it more easily.
+      - text: Try it on another line without telling the supervisor.
+        correct: false
+        why: Acting behind the backs of people affected destroys trust.

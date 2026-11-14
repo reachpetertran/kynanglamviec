@@ -1,0 +1,51 @@
+lesson: k7-anyone-can-do-this-job
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which sentence is a gender stereotype about jobs?"
+    options:
+      - text: "\"Pilots need to learn a lot about planes.\""
+        correct: false
+        why: This is about the knowledge a job needs, not about men and women.
+      - text: "\"Girls can't be pilots.\""
+        correct: true
+        why: Correct. It gives a job to one gender without looking at skills.
+      - text: "\"Pilots work on planes.\""
+        correct: false
+        why: This is about the place of work, not a stereotype.
+  - id: q2
+    prompt: "Your friend says: \"A boy looking after little children?\" Which question could you ask instead?"
+    options:
+      - text: "\"What skills does a nursery teacher need?\""
+        correct: true
+        why: Correct. A question about skills opens the job to everyone.
+      - text: "\"Yes, that job is only for girls.\""
+        correct: false
+        why: This repeats the stereotype without checking whether it is true.
+      - text: "\"Let's not talk about it.\""
+        correct: false
+        why: Silence does not help your friend learn more about the job.
+  - id: q3
+    prompt: "Why are stereotypes about jobs harmful?"
+    options:
+      - text: Because they make jobs harder.
+        correct: false
+        why: Stereotypes do not change the job. They change how people choose.
+      - text: Because they make you and your friends skip jobs that might suit you.
+        correct: true
+        why: Correct. Stereotypes narrow choices from a young age.
+      - text: Stereotypes are not harmful.
+        correct: false
+        why: Research shows gender stereotypes shape the jobs children dream of.
+  - id: q4
+    prompt: "Review of Lesson 2. Which is a skill every job needs?"
+    options:
+      - text: Listening.
+        correct: true
+        why: Correct. Every job needs you to hear what other people need.
+      - text: Flying a plane.
+        correct: false
+        why: This is knowledge for pilots only.
+      - text: Cutting hair.
+        correct: false
+        why: This is knowledge for hairdressers only.

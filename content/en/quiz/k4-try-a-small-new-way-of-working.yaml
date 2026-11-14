@@ -1,0 +1,51 @@
+lesson: k4-try-a-small-new-way-of-working
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which change is fine to try on a small scale without asking anyone?"
+    options:
+      - text: Changing how you arrange the tools on your own desk.
+        correct: true
+        why: Correct. It is within your own work and does not affect others.
+      - text: Changing the price of a dish on the menu.
+        correct: false
+        why: It involves money and customers, so ask the person in charge first.
+      - text: Switching off the fire alarm because it often goes off by mistake.
+        correct: false
+        why: It involves safety. Never change it yourself.
+  - id: q2
+    prompt: "You change how you stack goods, your break time and your tools all at once. What is the problem?"
+    options:
+      - text: No problem; the more you change, the better.
+        correct: false
+        why: If you change many things at once, you cannot tell what made the difference.
+      - text: You do not know which change produced the result.
+        correct: true
+        why: Correct. Each trial should change only one thing.
+      - text: The trial takes too long.
+        correct: false
+        why: The main problem is not time. It is changing many things at once.
+  - id: q3
+    prompt: "What should you write in the \"What to measure\" box?"
+    options:
+      - text: "\"See if it's better.\""
+        correct: false
+        why: Too vague. You cannot compare before and after.
+      - text: "\"Minutes to pack 10 orders.\""
+        correct: true
+        why: Correct. One easy number that you can measure both before and after.
+      - text: "\"How customers feel.\""
+        correct: false
+        why: Feelings are hard to measure. You need a specific number.
+  - id: q4
+    prompt: "You try a new way for 1 week but the result is no better. What should you do?"
+    options:
+      - text: Hide the result.
+        correct: false
+        why: A poor result is still useful to others.
+      - text: Record the result and suggest dropping it or trying a different change.
+        correct: true
+        why: Correct. Knowing what does not help also saves the team time.
+      - text: Say it was better so the effort was not wasted.
+        correct: false
+        why: Reporting a false result leads others to make wrong decisions.

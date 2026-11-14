@@ -1,0 +1,51 @@
+lesson: k7-every-job-needs-skills
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "The nurse asks Grandma: \"Could you say it back to me?\" Which skill is he using?"
+    options:
+      - text: Speaking clearly and checking the listener understood.
+        correct: true
+        why: Correct. Asking her to say it back tells him Grandma understood how to take her medicine.
+      - text: Using technology.
+        correct: false
+        why: He is not using a machine for this task.
+      - text: Keeping promises.
+        correct: false
+        why: This task is about speaking and listening, not about a set time.
+  - id: q2
+    prompt: "The farmer checks the weather forecast on her phone before going to the fields. What does this show?"
+    options:
+      - text: Only office workers use technology.
+        correct: false
+        why: This example shows the opposite.
+      - text: Any job can use technology.
+        correct: true
+        why: Correct. Technology helps people in every kind of job work better.
+      - text: Farmers do not need any skills.
+        correct: false
+        why: Every job needs skills, farming too.
+  - id: q3
+    prompt: "Which of these is a work skill that every job needs?"
+    options:
+      - text: Knowing how to cook noodles.
+        correct: false
+        why: This is knowledge for cooking jobs only.
+      - text: Keeping promises.
+        correct: true
+        why: Correct. Tailors, mechanics, teachers… all need to keep promises.
+      - text: Knowing how to give an injection.
+        correct: false
+        why: This is knowledge for health jobs only.
+  - id: q4
+    prompt: "Review of Lesson 1. For a teacher, what goes in the \"Where?\" box?"
+    options:
+      - text: Teaching.
+        correct: false
+        why: This is what they do, so it fits the "What do they do?" box.
+      - text: A school.
+        correct: true
+        why: Correct. The "Where?" box is for the place of work.
+      - text: Books, a board, chalk.
+        correct: false
+        why: These are tools, so they fit the "What do they use?" box.

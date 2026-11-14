@@ -1,0 +1,51 @@
+lesson: k6-when-plans-change-a-little
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "You are stacking shelves when you are called to the till. Which question matters most?"
+    options:
+      - text: "\"Why me?\""
+        correct: false
+        why: This does not help you understand the new task.
+      - text: "\"Where should I put the box I'm halfway through, and who will finish it?\""
+        correct: true
+        why: Correct. Asking about the old task stops it from being forgotten.
+      - text: Ask nothing and go at once.
+        correct: false
+        why: The half-unpacked box may block the aisle or be forgotten.
+  - id: q2
+    prompt: "You do not understand a new instruction, but your manager is in a hurry. What do you do?"
+    options:
+      - text: Nod and guess.
+        correct: false
+        why: Guessing makes mistakes likely, and fixing them takes longer.
+      - text: "Ask briefly: \"I'm not clear about…, could you say it again?\""
+        correct: true
+        why: Correct. Saying briefly what confuses you helps you avoid mistakes.
+      - text: Stand still and wait for your manager to come back.
+        correct: false
+        why: Standing still slows the work. A short question right away is better.
+  - id: q3
+    prompt: "Your first gift wrapping comes out creased. What is the best way to try again?"
+    options:
+      - text: Wrap it exactly the same way, just more carefully.
+        correct: false
+        why: Repeating the same method usually gives the same result.
+      - text: Change one thing, such as cutting the paper wider, then try again.
+        correct: true
+        why: Correct. Changing one thing tells you whether that thing works.
+      - text: Change the paper, the folding and the tape all at once.
+        correct: false
+        why: If you change many things at once, you cannot tell what helped.
+  - id: q4
+    prompt: "You have tried 3 times and it still does not work. What is the next step?"
+    options:
+      - text: Say exactly where you are stuck, and ask someone who knows.
+        correct: true
+        why: Correct. After a few tries, ask for help, as in the previous lesson.
+      - text: Give up on the task.
+        correct: false
+        why: Giving up does not solve the problem.
+      - text: Keep trying until the end of the shift.
+        correct: false
+        why: Struggling for too long wastes time. Ask for help.

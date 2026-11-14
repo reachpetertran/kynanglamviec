@@ -1,0 +1,51 @@
+lesson: k9-coordinate-small-group-tasks
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which sentence should end a proposal to the group?"
+    options:
+      - text: "\"Just get on with it.\""
+        correct: false
+        why: This sounds like an order. The group has not had a say.
+      - text: "\"Does that work for everyone, or is there another way?\""
+        correct: true
+        why: Correct. Asking for views lets the group decide together and support it more easily.
+      - text: No need to end it; once you've said it, start work.
+        correct: false
+        why: Without asking, you do not know whether the group agrees.
+  - id: q2
+    prompt: "Midway, one member has not done their part. Which way of asking fits?"
+    options:
+      - text: "\"Why haven't you done it? The whole group is waiting for you.\""
+        correct: false
+        why: Blame makes it hard for them to say honestly where they are stuck.
+      - text: "\"How far have you got with your part? Do you need any help?\""
+        correct: true
+        why: Correct. A specific question and an offer of help unblock the work faster.
+      - text: Quietly do it for them and say nothing.
+        correct: false
+        why: Doing it without talking risks duplicated work and does not fix the cause.
+  - id: q3
+    prompt: "The task you would coordinate involves the shop's cash fund. What should you do first?"
+    options:
+      - text: Coordinate it straight away, since the group agreed.
+        correct: false
+        why: At work, tasks involving money need your manager's agreement first.
+      - text: Ask your manager before taking on the coordination.
+        correct: true
+        why: Correct. Tasks involving customers or money need agreement from someone with authority.
+      - text: Skip the money part and do the rest.
+        correct: false
+        why: Leaving part undone means the group task is not completed.
+  - id: q4
+    prompt: "Why should the coordinator finish their own part on time?"
+    options:
+      - text: To have a reason to criticise others.
+        correct: false
+        why: The aim is not to criticise anyone.
+      - text: Because leading by example is the most visible way to lead, and makes reminders easier.
+        correct: true
+        why: Correct. A coordinator who misses deadlines finds it hard to ask the group to meet theirs.
+      - text: Because coordinators get a bonus.
+        correct: false
+        why: There is no bonus here. The reason is to set an example for the group.

@@ -1,0 +1,63 @@
+lesson: k7-job-fair-review
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "(Lesson 1) For a tailor, what goes in the \"What do they use?\" box?"
+    options:
+      - text: A sewing machine, scissors, a tape measure.
+        correct: true
+        why: Correct. The "What do they use?" box lists tools and machines.
+      - text: Making clothes.
+        correct: false
+        why: This is what they do, so it fits the "What do they do?" box.
+      - text: A tailor's shop.
+        correct: false
+        why: This is where they work, so it fits the "Where?" box.
+  - id: q2
+    prompt: "(Lesson 2) A mechanic tells a customer to collect the bike at 5. Which skill does the mechanic need to finish on time?"
+    options:
+      - text: Keeping promises.
+        correct: true
+        why: Correct. It is one of the 6 skills every job needs.
+      - text: Drawing well.
+        correct: false
+        why: Drawing well does not help fix a bike on time.
+      - text: Singing well.
+        correct: false
+        why: This skill has nothing to do with keeping promises.
+  - id: q3
+    prompt: "(Lesson 3) Your friend says: \"Boys can't be nurses.\" Which reply helps widen their thinking?"
+    options:
+      - text: "\"What skills does a nurse need?\""
+        correct: true
+        why: Correct. A question about skills opens the job to everyone.
+      - text: "\"That's right, it's a girls' job.\""
+        correct: false
+        why: This repeats the gender stereotype about jobs.
+      - text: "\"You're wrong, I'm not playing with you anymore.\""
+        correct: false
+        why: Arguing does not help your friend learn more. Ask about skills.
+  - id: q4
+    prompt: "(Lessons 4 and 5) Your group's poster is due Friday. On Wednesday, your part might be late. What do you do?"
+    options:
+      - text: Tell the group now, saying which part is late and what you need.
+        correct: true
+        why: Correct. If you say it early, the group can still help and finish on time.
+      - text: Stay quiet and hope you make it.
+        correct: false
+        why: If you don't make it, the group finds out too late.
+      - text: Drop your part and stop.
+        correct: false
+        why: A task you took on must be finished, or reported so the group can rearrange.
+  - id: q5
+    prompt: "(Lesson 6) In an interview, which question helps the person tell you more?"
+    options:
+      - text: "\"Why do you have to get up so early?\""
+        correct: true
+        why: Correct. A "why" question is open and invites the person to explain.
+      - text: "\"Do you get up early?\""
+        correct: false
+        why: This only needs a yes or no answer.
+      - text: "\"Are you tired?\""
+        correct: false
+        why: A closed question, which usually gets a short answer.

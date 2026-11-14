@@ -1,0 +1,63 @@
+lesson: k4-build-a-culture-of-experiments
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "A manager says \"go ahead and suggest things, I'll support you\", but the team tries nothing. What is the most likely reason?"
+    options:
+      - text: The team has no ideas.
+        correct: false
+        why: Teams usually have ideas, but lack time and money, and fear blame.
+      - text: There is no concrete mechanism for time, money and approval.
+        correct: true
+        why: Correct. Encouragement is not enough. Clear mechanisms give people the confidence to start.
+      - text: The team is lazy.
+        correct: false
+        why: Judging people without looking at the mechanisms leads to the wrong solution.
+  - id: q2
+    prompt: "An idea is expensive and hard to reverse. What should you do?"
+    options:
+      - text: Approve it at once because the impact is large.
+        correct: false
+        why: Hard to reverse means high risk. You need stronger evidence first.
+      - text: Ask for baseline data and a small test before a big investment.
+        correct: true
+        why: Correct. Ideas that are hard to reverse need a higher level of evidence.
+      - text: Reject it outright.
+        correct: false
+        why: Rejecting at once may miss an opportunity. Look for a small test to get evidence.
+  - id: q3
+    prompt: "In a review meeting, which question fits?"
+    options:
+      - text: "\"Who messed this up?\""
+        correct: false
+        why: A blaming question makes people go silent, and nobody learns.
+      - text: "\"Which of our assumptions was wrong, and what do we change next time?\""
+        correct: true
+        why: Correct. Focusing on processes and assumptions helps the whole team learn.
+      - text: "\"Why didn't anyone warn us?\""
+        correct: false
+        why: This sounds like blame. Ask about what happened.
+  - id: q4
+    prompt: "Why should the manager talk first about their own mistakes in the review?"
+    options:
+      - text: So the team sees that being honest about mistakes is safe.
+        correct: true
+        why: Correct. When the manager sets the example, the team speaks more honestly.
+      - text: To take all the responsibility on behalf of the team.
+        correct: false
+        why: The aim is not to carry the blame for others, but to open an honest discussion.
+      - text: Because a rule requires it.
+        correct: false
+        why: There is no general rule like this. It is a practice that builds trust.
+  - id: q5
+    prompt: "The experiment budget is 4 hours per person per month. This month the team is busy. What do you do?"
+    options:
+      - text: Drop the budget until things calm down.
+        correct: false
+        why: Dropping it when busy shows the team that experiments are not really valued.
+      - text: Keep the budget; you can move the dates within the month, but not drop it.
+        correct: true
+        why: Correct. Keeping the numbers even when busy is what gives the mechanism value.
+      - text: Double it next month to make up for it.
+        correct: false
+        why: Promises to make up for it are easy to break. Keeping it steady is better.

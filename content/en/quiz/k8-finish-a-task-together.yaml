@@ -1,0 +1,63 @@
+lesson: k8-finish-a-task-together
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "On the Task board, the person for \"Write the title\" is \"everyone\". What is the problem?"
+    options:
+      - text: Nobody knows for sure who will do it, so it can easily be forgotten.
+        correct: true
+        why: Correct. Each task should have one main person in charge.
+      - text: There is no problem.
+        correct: false
+        why: When everybody does it, it easily becomes nobody does it.
+      - text: The title does not need doing.
+        correct: false
+        why: The title is part of the poster, so someone needs to be in charge of it.
+  - id: q2
+    prompt: "Billy, age 6, is in a group with 10-year-olds. What is a fair way to share the tasks?"
+    options:
+      - text: Billy does the hardest task.
+        correct: false
+        why: A task that is too hard can upset Billy and slow the group down.
+      - text: Billy does a task that suits him, like colouring.
+        correct: true
+        why: Correct. Sharing by ability helps everyone finish their part.
+      - text: Billy does not need to do anything.
+        correct: false
+        why: Every member should have a part.
+  - id: q3
+    prompt: "While working, your friend runs out of coloured pens. What does a good teammate do?"
+    options:
+      - text: Shares their pens with the friend.
+        correct: true
+        why: Correct. Sharing things keeps the whole group from slowing down.
+      - text: Tells the friend to sort it out alone.
+        correct: false
+        why: If one part is slow, the whole group is slow.
+      - text: Does the friend's part without asking.
+        correct: false
+        why: Doing it without asking can cause double work and hurt feelings.
+  - id: q4
+    prompt: "What does the timekeeper in a group do?"
+    options:
+      - text: Tells the group how much time is left.
+        correct: true
+        why: Correct. Then the group knows whether to speed up.
+      - text: Does everyone's part.
+        correct: false
+        why: Everyone still does their own part.
+      - text: Gives everyone marks.
+        correct: false
+        why: The timekeeper does not mark anyone.
+  - id: q5
+    prompt: "Review of Lesson 3. Both men and women can do a job if the person…"
+    options:
+      - text: learns and practises the skills the job needs.
+        correct: true
+        why: Correct. A job needs skills, not being a boy or a girl.
+      - text: is a boy.
+        correct: false
+        why: This is a gender stereotype about jobs.
+      - text: is older.
+        correct: false
+        why: Age is not the main condition. Skills are what matter.

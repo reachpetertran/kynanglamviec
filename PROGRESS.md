@@ -2,7 +2,7 @@
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
 
-## Trạng thái hiện tại (14/11/2026) – v1.0, ĐANG CHẠY THẬT (7 khóa N1–N7, 76 bài, đủ 50 ô K1–K10 × Bậc 1–5, có logo; bản tiếng Anh /en/ 57 bài: khóa N2–N7 + 11 bài chuỗi chính)
+## Trạng thái hiện tại (14/11/2026) – v1.0, ĐANG CHẠY THẬT (7 khóa N1–N7, 76 bài, đủ 50 ô K1–K10 × Bậc 1–5, có logo; bản tiếng Anh /en/ đủ 76 bài: 7 khóa N1–N7 + 11 bài chuỗi chính + 12 bài lẻ)
 - Site: https://kynanglamviec.com và https://www.kynanglamviec.com (Cloudflare Pages, SSL bật). Bản dự phòng: https://kynanglamviec.pages.dev
 - Mã nguồn: https://github.com/reachpetertran/kynanglamviec (public, nhánh `main`). Mỗi lần push lên `main`, Cloudflare tự đăng.
 - Phiên mới: gắn repo (add_repo, quyền push), clone, sửa, `python3 _build/build.py`, commit cả `public/`, push.
@@ -198,7 +198,15 @@ Chuỗi K4 nâng cao (nối tiếp chuỗi chính: k4-de-xuat-cai-tien.next = k4
 - Hình EN mới cách làm: `_build/art/svg_en.py` lấy SVG tiếng Việt (n4…n7_art.py), thay chữ theo `_build/art/en/<khóa>.yaml`, lấy aria-label/title từ alt của bài EN. Thiếu bản dịch thì dừng báo lỗi; nhãn dài hơn nhiều thì cảnh báo "wide?" để xem bằng mắt (rsvg-convert). Sửa hình VI thì chạy lại script VI rồi `python3 _build/art/svg_en.py`.
 - framework_map, level, skill, group, order của bài EN chép đúng từ bài VI (đã đối chiếu bằng script).
 - Quốc tế hóa: tên người quốc tế; bỏ tên tỉnh, thành; tiền dùng đơn vị chung không ghi VND (bài N7-4, N7-7); luật VN để trong hộp "Last updated … (example: Vietnam)" hoặc ghi "(Vietnam)" ở tình huống (N4-7, N5-7, N6-7, N7-5, N7-6, N7-8).
-- Đang có 57 bài EN. Còn lại: 12 bài lẻ (lấp ô K × bậc) và khóa N1 (cho phụ huynh, cần cân nhắc bối cảnh).
+- Đang có 57 bài EN. (Đợt 4 đã làm nốt 12 bài lẻ và khóa N1.)
+
+## Bản tiếng Anh /en/ – đợt 4 (đăng 14/11/2026): 12 bài lẻ + khóa N1 – HOÀN TẤT bản EN (76/76 bài)
+- 12 bài lẻ (order 12–23): chuỗi A k1-listen-fully-and-repeat-back → k3-say-where-you-are-stuck-and-ask-for-help → k6-when-plans-change-a-little → k4-ask-is-there-another-way → k9-take-a-small-role-in-a-group → k10-passwords-and-personal-information → k10-spot-scams-in-emails-and-messages → k6-get-used-to-new-tools-and-processes → k4-try-a-small-new-way-of-working → k9-coordinate-small-group-tasks (next: null). Chuỗi K4: k4-propose-a-small-improvement.next = k4-borrow-ideas-from-other-fields → k4-build-a-culture-of-experiments.
+- Khóa N1 "Exploring Jobs course" (order 21–27, `course: n1`): k7-jobs-around-you, k7-every-job-needs-skills, k7-anyone-can-do-this-job, k8-finish-a-task-together, k5-take-on-a-task-and-keep-your-promise, k7-interview-someone-about-their-job, k7-job-fair-review. Sợi chỉ: Job card. Tuổi ghi "Ages 6–15"; bài 5, 6 "Ages 11–15 (ages 9–11 with an adult)".
+- Trang hướng dẫn phụ huynh + 5 mẫu in: `content/en/pages/n1-templates.md` → /en/resources/n1/ (neo #job-card, #task-board, #weekly-calendar, #interview-sheet, #review-sheet). build_en.py: COURSES["n1"]; bỏ ghi chú "mẫu N1 ở trang tiếng Việt", bỏ câu "đang thêm dần" (EDITION_NOTE, footer, trang About).
+- Hình: `_build/art/en/bs.yaml` (12 SVG → img/en/bs/), `_build/art/en/n1.yaml` (21 SVG → img/en/n1/), chạy `python3 _build/art/svg_en.py bs n1`. Đã xem bằng mắt, rút gọn nhãn tràn khung.
+- Quốc tế hóa: tên người quốc tế; bỏ Zalo, VND ("45 triệu" → "45,000" không đơn vị), tên vùng miền; lớp học đổi sang tuổi. Bài K10 B2: tinnhiemmang.vn nêu làm ví dụ Việt Nam. Hướng dẫn N1: Thông tư 32/2018/TT-BGDĐT nêu làm ví dụ Việt Nam.
+- Kiểm tra: check.py 76 bài EN OK; không có liên kết/neo hỏng trong /en/.
 
 ## trachnhiemxahoi.com chưa có (Peter báo 14/11/2026)
 - Đã gỡ mọi liên kết tới trachnhiemxahoi.com (footer VI/EN, trang giới thiệu, ghi chú K10 trong data/skills.yaml và content/en/data/skills.yaml, 4 bài VI: k1-nghe-tin-hieu-yeu, k10-bien-quy-dinh-thanh-viec-lam, k7-ai-cung-co-the-lam-nghe-nay, k8-xay-doi-hoa-nhap). Giữ tên site dạng chữ thường, ghi "sắp ra mắt" / "coming soon".

@@ -1,0 +1,63 @@
+lesson: k5-take-on-a-task-and-keep-your-promise
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "The teacher says: \"Make one Job card, hand it in on Friday.\" Which way of repeating it back is best?"
+    options:
+      - text: "\"OK.\""
+        correct: false
+        why: The teacher does not know whether you understood the task and the deadline.
+      - text: "\"OK, I make one Job card and hand it in on Friday.\""
+        correct: true
+        why: Correct. It repeats both what and when.
+      - text: "\"I'll do it later.\""
+        correct: false
+        why: This does not repeat the task or say the deadline.
+  - id: q2
+    prompt: "On Wednesday, you see your part might not be ready by Friday. When should you say so?"
+    options:
+      - text: Today, while there is still time.
+        correct: true
+        why: Correct. If you say it early, others still have time to help.
+      - text: On Friday morning.
+        correct: false
+        why: By then it is too late for the group or the teacher to help.
+      - text: Don't say anything; stay up late to finish.
+        correct: false
+        why: Staying up late is bad for your health, and you may still not finish.
+  - id: q3
+    prompt: "Which early warning is clearest?"
+    options:
+      - text: "\"I can't do it.\""
+        correct: false
+        why: It does not say which part is late or what you need.
+      - text: "\"My part might be one day late. I need more coloured paper.\""
+        correct: true
+        why: Correct. It says clearly which part is late and what you need.
+      - text: "\"I'm really busy.\""
+        correct: false
+        why: The listener does not know how to help you.
+  - id: q4
+    prompt: "Before starting a task, what should you do to keep your promise?"
+    options:
+      - text: Get everything you need.
+        correct: true
+        why: Correct. Running out of things halfway is a common reason for delay.
+      - text: Wait until just before the deadline to see what you need.
+        correct: false
+        why: Just before the deadline, there is no time left to find things.
+      - text: Take a friend's things without asking.
+        correct: false
+        why: Ask before using other people's things.
+  - id: q5
+    prompt: "Review of Lesson 4. What are the 3 columns of a group Task board?"
+    options:
+      - text: Who – What – Done by when.
+        correct: true
+        why: Correct. These 3 columns tell everyone their part and their deadline.
+      - text: Name – Age – Class.
+        correct: false
+        why: This is personal information, not tasks.
+      - text: Colour – Picture – Words.
+        correct: false
+        why: These are parts of a poster, not a task board.

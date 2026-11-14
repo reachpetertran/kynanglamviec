@@ -1,0 +1,51 @@
+lesson: k7-jobs-around-you
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Nina sees a woman holding scissors and a comb, cutting a customer's hair. What fits the \"What do they use?\" box on a Job card?"
+    options:
+      - text: Scissors, a comb, a hairdryer.
+        correct: true
+        why: Correct. The "What do they use?" box lists the job's tools and machines.
+      - text: Cutting customers' hair.
+        correct: false
+        why: This is what she does, so it fits the "What do they do?" box.
+      - text: A hair salon.
+        correct: false
+        why: This is where she works, so it fits the "Where?" box.
+  - id: q2
+    prompt: "What does a baker do?"
+    options:
+      - text: Only hands bread to customers.
+        correct: false
+        why: That is just one task. A job has many small tasks inside it.
+      - text: Bakes bread, makes fillings, sells, takes money, cleans the counter.
+        correct: true
+        why: Correct. Naming many small tasks helps you understand the job better.
+      - text: Sits and waits for customers all day.
+        correct: false
+        why: People who sell things have lots to do before and after selling.
+  - id: q3
+    prompt: "While job hunting, you do not know what job someone does. What should you do?"
+    options:
+      - text: Make a wild guess and write it straight on the card.
+        correct: false
+        why: Guessing is good, but check before you write it down.
+      - text: Look at what they hold and do, then ask the adult with you.
+        correct: true
+        why: Correct. That is Look, Guess, Ask, before you Write.
+      - text: Skip it; there is no need to find out.
+        correct: false
+        why: An unfamiliar job is a chance to learn about a new job.
+  - id: q4
+    prompt: "Which box of the Job card will you fill in during Lesson 2?"
+    options:
+      - text: Job name.
+        correct: false
+        why: You fill in this box in Lesson 1.
+      - text: Where?
+        correct: false
+        why: You fill in this box in Lesson 1.
+      - text: What skills?
+        correct: true
+        why: Correct. Lesson 2 helps you find the skills a job needs.

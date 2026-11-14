@@ -12,7 +12,7 @@ objectives:
   - "After this lesson, you can propose one small trial, with a way to measure the result."
 framework_map: ["WEF: Creative thinking", "CSfW: 3d Create and innovate", "SkillsFuture CCS: Creative Thinking", "EntreComp"]
 prev: k7-plan-your-first-90-days
-next: null
+next: k4-borrow-ideas-from-other-fields
 updated: 2026-11-14
 status: published
 ---

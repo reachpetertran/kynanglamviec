@@ -62,6 +62,9 @@ for f in sorted((EN / "pages").glob("*.md")):
     PAGES_MD[m["vi"]] = (m, b)
 
 COURSES = {
+    "n1": {"title": "Exploring Jobs course (N1)", "home": "paths/n1/", "guide": "resources/n1/",
+           "guide_label": "Guide and templates for adults", "strip_label": "Guide for adults",
+           "thread": "One thread runs through the course: the <b>Job card</b>. Lesson 1 makes the cards, each later lesson adds to them or uses them, and the last lesson puts them all on display."},
     "n2": {"title": "Getting Ready for Work course (N2)", "home": "paths/n2/", "guide": "resources/n2/",
            "guide_label": "Course templates", "strip_label": "Templates",
            "thread": "One thread runs through the course: your <b>Job-ready file</b>, with 6 sheets. Each lesson completes one sheet. The last lesson peer-checks the whole file.",
@@ -165,7 +168,7 @@ def page(path, title, body, desc=""):
   <div class="wrap">
     <p><b>kynanglamviec.com</b> – free, public, no login, no cookies, no trackers.
     Your progress is saved only on your own device.</p>
-    <p>The site is written in Vietnamese first. The English edition is adapted with international examples and is being added in stages.</p>
+    <p>The site is written in Vietnamese first. The English edition is adapted with international examples.</p>
     <p>Sister sites: <a href="https://daynentang.com/en/">daynentang.com</a> (values, habits) ·
     <a href="https://tamhonkhoe.com/en/">tamhonkhoe.com</a> (inner life) ·
     trachnhiemxahoi.com (human rights, coming soon) ·
@@ -254,7 +257,7 @@ def course_strip(l):
 
 EDITION_NOTE = ('<p class="note small"><b>English edition.</b> Vietnamese is the original language of this site. '
                 'English pages are adapted with international examples, not translated word for word. '
-                'More English lessons are being added. All Vietnamese lessons: <a href="{{R}}bai-hoc/" lang="vi">Bài học</a>.</p>')
+                'Every lesson is available in both languages. Vietnamese lessons: <a href="{{R}}bai-hoc/" lang="vi">Bài học</a>.</p>')
 
 
 # ------------------------------------------------------------------ home
@@ -522,7 +525,7 @@ Print it or save it as a PDF regularly.</p>
 <p class="noprint"><a class="btn ghost" href="{{{{R}}}}assets/task-list.csv" download>Download as a spreadsheet (.csv)</a>
 <button type="button" class="btn" data-action="print">Print this page</button></p>
 {guides}
-<p class="muted small">Templates for the N1 course (for parents and teachers) are on the <a href="{RV}tai-nguyen/" lang="vi">Vietnamese resources page</a>.</p>""")
+""")
 
     for code, (m, b) in PAGES_MD.items():
         page(f"en/resources/{code}/", m["title"],
@@ -573,7 +576,7 @@ Free, public, no login needed.</p>
 <h2>The English edition</h2>
 <p>The site is written in Vietnamese first. English pages are adapted for international readers: names, places and
 examples are changed, and Vietnamese law appears only as an example with its source. The meaning and method stay the same.
-Lessons are added in stages: so far six courses (N2 to N7, 46 lessons) and 11 core lessons for N2–N3. Still to come: 12 standalone lessons and the N1 course for parents and teachers.</p>
+The English edition now covers the whole site: seven courses (N1 to N7, 53 lessons), 11 core lessons for N2–N3 and 12 standalone lessons, so every skill has a lesson at every level.</p>
 <h2>Privacy</h2>
 <p>No login, no cookies, no trackers, no external scripts or fonts.
 Progress, self-assessment and journal entries are stored only in your browser (localStorage). The site has no server that stores user data.</p>

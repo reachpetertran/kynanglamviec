@@ -1,0 +1,51 @@
+lesson: k1-listen-fully-and-repeat-back
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Your manager is giving you a task and you think you already understand. What should you do?"
+    options:
+      - text: Say "Yes, I know" at once to save time.
+        correct: false
+        why: The important step may be at the end of the sentence. Interrupting makes it easy to miss something.
+      - text: Wait until they finish, then repeat it back in order.
+        correct: true
+        why: Correct. Listening to the end and repeating back lets both of you check you understand the same thing.
+      - text: Walk off and start straight away.
+        correct: false
+        why: You have not heard everything, so you may miss a step or get the order wrong.
+  - id: q2
+    prompt: "Why should you repeat an instruction back in your own words?"
+    options:
+      - text: So the person giving the task thinks you speak well.
+        correct: false
+        why: The goal is not to sound good. It is to check that you understood correctly.
+      - text: Because you must understand it to rephrase it, and the other person can hear any mistake.
+        correct: true
+        why: Correct. Rephrasing makes you understand, and lets the other person correct any gap at once.
+      - text: Because repeating word for word is rude.
+        correct: false
+        why: Repeating word for word is not wrong. But it does not show that you understood.
+  - id: q3
+    prompt: "You are told: unplug the blender, then remove the jug to wash it. You think removing the jug first would be faster. What do you do?"
+    options:
+      - text: Change the order yourself because it is faster.
+        correct: false
+        why: The order may be there for safety. Do not change it yourself.
+      - text: Follow the order, and ask the reason if you do not understand it.
+        correct: true
+        why: Correct. Keep the order, then ask so you understand. Unplugging first prevents accidents.
+      - text: Stop doing the task because the rule makes no sense.
+        correct: false
+        why: Leaving a task half done solves nothing. Ask for the reason instead.
+  - id: q4
+    prompt: "An instruction has 6 steps. What helps you not to forget?"
+    options:
+      - text: Try hard to remember it in your head.
+        correct: false
+        why: Six steps are easy to forget, especially when you are busy.
+      - text: Write it down at once in a notebook or phone, then repeat it back.
+        correct: true
+        why: Correct. Instructions longer than 3 steps should be written down straight away.
+      - text: Do the first 3 steps and ask about the rest later.
+        correct: false
+        why: Asking again and again wastes both people's time. Write it down from the start.

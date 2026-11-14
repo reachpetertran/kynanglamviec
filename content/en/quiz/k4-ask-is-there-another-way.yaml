@@ -1,0 +1,51 @@
+lesson: k4-ask-is-there-another-way
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Why think of at least 3 ways before choosing?"
+    options:
+      - text: Because the first idea is always wrong.
+        correct: false
+        why: The first idea is not always wrong. But it is usually the most familiar, not always the best.
+      - text: Because more options help you see something better than the familiar way.
+        correct: true
+        why: Correct. With more options, it is easier to choose a better way.
+      - text: To make the group meeting last longer.
+        correct: false
+        why: The aim is more options, not more time.
+  - id: q2
+    prompt: "Which way of sharing an idea fits best?"
+    options:
+      - text: "\"Tom's way is terrible, do it my way.\""
+        correct: false
+        why: Putting down others' ideas makes the group less willing to listen and work together.
+      - text: "\"Another option: we split the work by shift. Then nobody has to wait for anybody.\""
+        correct: true
+        why: "Correct. Two sentences: what the idea is and how it helps, with no put-downs."
+      - text: Say nothing, and do it your own way.
+        correct: false
+        why: Changing how the group works before anyone agrees causes confusion.
+  - id: q3
+    prompt: "\"Which step can you drop and still get the result?\" Which prompt is this?"
+    options:
+      - text: Remove.
+        correct: true
+        why: Correct. This question looks for unnecessary steps.
+      - text: Borrow.
+        correct: false
+        why: Borrowing means looking at how other people or places do it.
+      - text: Combine or reorder.
+        correct: false
+        why: Combining means doing two tasks together, not dropping a step.
+  - id: q4
+    prompt: "The group chooses another way, not your idea. How should you see it?"
+    options:
+      - text: My idea was useless.
+        correct: false
+        why: Your idea still gave the group another option to compare.
+      - text: I gave the group another option; next time I'll share ideas again.
+        correct: true
+        why: Correct. Sharing an idea is a contribution, even if the group chooses differently.
+      - text: Next time I won't share any ideas.
+        correct: false
+        why: Silence means the group loses ideas that might be better.

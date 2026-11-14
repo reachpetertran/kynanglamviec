@@ -1,0 +1,51 @@
+lesson: k3-say-where-you-are-stuck-and-ask-for-help
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which sentence says most clearly where you are stuck?"
+    options:
+      - text: "\"This machine is broken.\""
+        correct: false
+        why: It does not say what you were doing or at which step the problem happened.
+      - text: "\"When I scan the product, the machine beeps but no price appears.\""
+        correct: true
+        why: Correct. It gives the task and the exact symptom, so the listener sees the problem at once.
+      - text: "\"I can't do it.\""
+        correct: false
+        why: This does not tell the helper where help is needed.
+  - id: q2
+    prompt: "You smell burning from a coffee machine you are not used to. What do you do?"
+    options:
+      - text: Open the machine yourself to look before asking.
+        correct: false
+        why: For safety issues and unfamiliar machines, do not try on your own.
+      - text: Tell the person in charge straight away.
+        correct: true
+        why: Correct. For safety, ask straight away. Do not try first.
+      - text: Wait until the end of the shift to report it.
+        correct: false
+        why: A burning smell can be dangerous. Report it at once.
+  - id: q3
+    prompt: "You do not remember how to name the report file. The instructions were posted in the team chat. What should you do first?"
+    options:
+      - text: Ask your manager straight away.
+        correct: false
+        why: The instructions already exist. Looking first saves your manager's time.
+      - text: Read the instruction message again, and ask only if it is still unclear.
+        correct: true
+        why: Correct. Try once with the material you have. If that fails, ask.
+      - text: Name it however you like.
+        correct: false
+        why: A wrong file name makes it hard for others to find the file.
+  - id: q4
+    prompt: "Your manager is handling a customer complaint. Your question is not urgent. What do you do?"
+    options:
+      - text: Interrupt and ask now.
+        correct: false
+        why: Interrupting while they handle a customer is disruptive. A non-urgent question can wait.
+      - text: Wait until your manager has finished, then ask.
+        correct: true
+        why: Correct. Choose a time when the other person is not busy with something urgent.
+      - text: Forget it and never ask.
+        correct: false
+        why: If you do not ask, you stay stuck. Just choose another time.

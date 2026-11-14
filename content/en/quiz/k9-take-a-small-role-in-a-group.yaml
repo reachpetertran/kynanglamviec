@@ -1,0 +1,51 @@
+lesson: k9-take-a-small-role-in-a-group
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Your group often forgets who was given which task. Which role helps most?"
+    options:
+      - text: Timekeeper.
+        correct: false
+        why: A timekeeper keeps meetings on time, but does not keep a record of tasks.
+      - text: A note-taker who sends round who does what and by when.
+        correct: true
+        why: Correct. Notes sent to the group help everyone remember their tasks.
+      - text: No role is needed; everyone remembers for themselves.
+        correct: false
+        why: Everyone remembering for themselves is exactly why the group forgets.
+  - id: q2
+    prompt: "When showing a newcomer a task, what should you do first?"
+    options:
+      - text: Do it very fast so they can watch.
+        correct: false
+        why: If you go fast, the newcomer cannot follow. Go slowly and say each step.
+      - text: Say the purpose of the task.
+        correct: true
+        why: Correct. Knowing the reason helps the newcomer remember the method and do it right.
+      - text: Let them work it out alone first.
+        correct: false
+        why: Someone who knows nothing about the task will probably get it wrong.
+  - id: q3
+    prompt: "The newcomer tries and makes 3 mistakes. How should you give feedback?"
+    options:
+      - text: Point out all 3 mistakes at once.
+        correct: false
+        why: Too many corrections at once are hard for a newcomer to remember.
+      - text: Praise one thing they did right, and correct the most important mistake.
+        correct: true
+        why: Correct. One important correction at a time helps the newcomer improve step by step.
+      - text: Take over and do it yourself to save time.
+        correct: false
+        why: If you do it for them, the newcomer does not learn.
+  - id: q4
+    prompt: "A newcomer asks how to use the heavy-duty paper cutter. You have used it only twice. What do you do?"
+    options:
+      - text: Show them the way you remember it.
+        correct: false
+        why: If a task involves safety and you are not sure, do not teach it yourself.
+      - text: Ask the person in charge of the machine to train them.
+        correct: true
+        why: Correct. Only teach what you know for certain. Leave safety training to the person in charge.
+      - text: Tell them to read the instructions on the machine.
+        correct: false
+        why: A dangerous machine needs training in person from someone experienced.

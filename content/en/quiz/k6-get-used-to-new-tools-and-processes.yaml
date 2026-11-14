@@ -1,0 +1,63 @@
+lesson: k6-get-used-to-new-tools-and-processes
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Your workplace changes the report template. Which question should you ask first?"
+    options:
+      - text: "\"Why change it? The old one was fine.\""
+        correct: false
+        why: This sounds like an objection. Ask to understand the reason.
+      - text: "\"What problem is the change meant to solve?\""
+        correct: true
+        why: Correct. Knowing the reason helps you get it right faster.
+      - text: Ask nothing and guess how to do it.
+        correct: false
+        why: Guessing makes it easy to use the new template wrongly.
+  - id: q2
+    prompt: "Why try a new way on low-risk work first?"
+    options:
+      - text: So that if you get it wrong, the damage is small and easy to fix.
+        correct: true
+        why: Correct. Practising with a small order or sample data lets you learn with little risk.
+      - text: To avoid having to use the new way.
+        correct: false
+        why: The aim is to get used to it gradually, not to avoid it.
+      - text: Because big tasks do not need the new way.
+        correct: false
+        why: The new way applies to all tasks. Trying small is only the first step.
+  - id: q3
+    prompt: "You have 5 questions about the new software. The person in charge is training the whole team. What do you do?"
+    options:
+      - text: Ask each question as soon as you think of it.
+        correct: false
+        why: Scattered questions interrupt the person in charge again and again.
+      - text: Write them down, collect them, and ask once during the day.
+        correct: true
+        why: Correct. Collecting questions lets the person in charge answer many people at once.
+      - text: Ask nothing and go back to the old way.
+        correct: false
+        why: Going back to the old way alone can make the team's data inconsistent.
+  - id: q4
+    prompt: "While working, you are told: \"Label on the top, not the side.\" What is the best reaction?"
+    options:
+      - text: Stop everything and wait to be trained again from the start.
+        correct: false
+        why: The feedback is about one point. There is no need to stop all your work.
+      - text: "\"Thanks\", then fix it and carry on."
+        correct: true
+        why: Correct. Listen, thank them, ask if needed, fix it and carry on.
+      - text: Explain why you put it on the side.
+        correct: false
+        why: Arguing wastes time. If you see a real problem, note it and report it later.
+  - id: q5
+    prompt: "You find the new way slower than the old way. What should you do?"
+    options:
+      - text: Go back to the old way yourself.
+        correct: false
+        why: Going back on your own leaves the team doing things differently.
+      - text: Write down which task, when, and how much slower, then tell the person in charge.
+        correct: true
+        why: Correct. Specific details help the person in charge decide whether to adjust.
+      - text: Complain to your colleagues.
+        correct: false
+        why: Complaining does not fix the problem. Tell the right person.

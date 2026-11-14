@@ -1,0 +1,51 @@
+lesson: k10-spot-scams-in-emails-and-messages
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which message has the most warning signs of a scam?"
+    options:
+      - text: "\"Meeting tomorrow at 9 in room 2.\""
+        correct: false
+        why: A normal message. It asks for nothing secret and is not urgent.
+      - text: "\"Your salary account is locked. Send your one-time code within 10 minutes to unlock it.\""
+        correct: true
+        why: "Correct. There are 2 clear signs: urgency, and asking for a one-time code."
+      - text: "\"Remember to hand in your timesheet before Friday.\""
+        correct: false
+        why: This is an ordinary reminder with no warning signs.
+  - id: q2
+    prompt: "Your boss messages on a chat app asking for an urgent transfer. What is the right way to check?"
+    options:
+      - text: Reply "Is this really you?" in the same chat.
+        correct: false
+        why: An impostor will answer "yes". You must check through another channel.
+      - text: Call the boss's number that you saved earlier.
+        correct: true
+        why: Correct. Check through another channel, not the one in the suspicious message.
+      - text: Call the phone number given in the message.
+        correct: false
+        why: The number in the message may belong to the scammer.
+  - id: q3
+    prompt: "You clicked a link by mistake and typed in your company email password. What do you do?"
+    options:
+      - text: Hide it because you fear being blamed.
+        correct: false
+        why: Hiding it gives the criminal more time to use your account.
+      - text: Tell your manager or IT at once, and change your password.
+        correct: true
+        why: Correct. Reporting early and changing the password limit the damage.
+      - text: Wait and see if anything happens.
+        correct: false
+        why: Waiting can let someone take data or take over the account.
+  - id: q4
+    prompt: "Why report a scam message even if you were not tricked?"
+    options:
+      - text: To be praised.
+        correct: false
+        why: The aim is to protect colleagues, not to be praised.
+      - text: So other colleagues are warned in time.
+        correct: true
+        why: Correct. Scammers often send the same message to many people in one company.
+      - text: There is no need to report it if you were not tricked.
+        correct: false
+        why: Others may not have noticed. Reporting makes the whole company safer.

@@ -1,0 +1,63 @@
+lesson: k7-interview-someone-about-their-job
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which is an open question?"
+    options:
+      - text: "\"Do you like this job?\""
+        correct: false
+        why: This only needs a yes or no answer.
+      - text: "\"What makes you like this job?\""
+        correct: true
+        why: Correct. An open question invites the person to tell you more.
+      - text: "\"Have you done this job for long?\""
+        correct: false
+        why: This usually gets a short answer, like "yes, a long time".
+  - id: q2
+    prompt: "You want to interview a working person. Which way is safe?"
+    options:
+      - text: Go alone to meet a stranger in the street.
+        correct: false
+        why: Never meet strangers alone. Always have an adult with you.
+      - text: Interview someone your family knows, with an adult present.
+        correct: true
+        why: Correct. This is the lesson's safety rule.
+      - text: Message a stranger online to ask.
+        correct: false
+        why: Do not contact strangers privately online.
+  - id: q3
+    prompt: "After the interview, you want to post a photo of the baker online. What should you do?"
+    options:
+      - text: Post it straight away for everyone to see.
+        correct: false
+        why: You need her agreement before posting her photo.
+      - text: Ask an adult and ask her permission first; if she does not agree, do not post it.
+        correct: true
+        why: Correct. A person's photo is their own information.
+      - text: Post it, but without her name.
+        correct: false
+        why: People can still recognise her from the photo.
+  - id: q4
+    prompt: "After the interview, what helps you remember it longest?"
+    options:
+      - text: Put the sheet in your school bag.
+        correct: false
+        why: If you never use it again, you will forget quickly.
+      - text: Tell others about the job in 2 minutes, using a Job card.
+        correct: true
+        why: Correct. Recalling and telling it yourself helps you remember longer than rereading.
+      - text: Read the sheet again and again.
+        correct: false
+        why: Rereading helps less than recalling and telling it yourself.
+  - id: q5
+    prompt: "Review of Lesson 5. What are the 3 steps for taking on a task?"
+    options:
+      - text: Listen fully – repeat back – write the deadline.
+        correct: true
+        why: Correct. These 3 steps help you understand the task and remember the deadline.
+      - text: Listen to half – start at once – hand it in.
+        correct: false
+        why: Listening to half makes it easy to do the task wrong.
+      - text: Wait for a friend to do it first, then copy.
+        correct: false
+        why: Everyone needs to understand their own task clearly.

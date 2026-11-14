@@ -1,0 +1,194 @@
+# English labels for the N1 illustrations. Used by _build/art/svg_en.py.
+files:
+  l1-mot-ngay.svg: l1-one-day.svg
+  l1-pho-nghe.svg: l1-job-street.svg
+  l1-the-nghe.svg: l1-job-card.svg
+  l2-bep.svg: l2-kitchen.svg
+  l2-nong-dan.svg: l2-farmer.svg
+  l2-dieu-duong.svg: l2-nurse.svg
+  l3-cap-nghe.svg: l3-job-pairs.svg
+  l3-doi-cau-hoi.svg: l3-change-the-question.svg
+  l3-ve-nguoi-lam-nghe.svg: l3-draw-a-worker.svg
+  l4-doi-xay-dung.svg: l4-building-team.svg
+  l4-bang-nhiem-vu.svg: l4-task-board.svg
+  l4-nhom-poster.svg: l4-group-poster.svg
+  l5-nhac-lai.svg: l5-repeat-back.svg
+  l5-lich-hen.svg: l5-calendar.svg
+  l5-bao-som.svg: l5-say-it-early.svg
+  l6-phieu-phong-van.svg: l6-interview-sheet.svg
+  l6-phong-van.svg: l6-interview.svg
+  l6-ke-ve-nghe.svg: l6-job-talk.svg
+  l7-huy-hieu.svg: l7-badges.svg
+  l7-tuong-the-nghe.svg: l7-job-card-wall.svg
+  l7-dong-vai.svg: l7-role-play.svg
+text:
+  # l1-mot-ngay
+  "Buổi sáng": "Morning"
+  "Buổi trưa": "Lunchtime"
+  "Buổi chiều": "Afternoon"
+  "Tài xế xe buýt": "The bus driver"
+  "đưa em đến trường": "takes me to school"
+  "Đầu bếp nấu": "The cook makes"
+  "bữa trưa ở trường": "school lunch"
+  "Thầy giáo dạy": "The teacher helps"
+  "em làm toán": "me with maths"
+  # l1-pho-nghe
+  "Bánh mì": "Bakery"
+  "Nhà thuốc": "Pharmacy"
+  "Sửa xe": "Repairs"
+  "Mẹ ơi, cô ấy": "Mum, what's"
+  "làm nghề gì?": "her job?"
+  # l1-the-nghe
+  "THẺ NGHỀ": "JOB CARD"
+  "1. Tên nghề": "1. Job name"
+  "Thợ điện": "Electrician"
+  "2. Làm gì?": "2. What do they do?"
+  "Lắp và sửa đường điện": "Install and fix wiring"
+  "3. Ở đâu?": "3. Where?"
+  "Nhà dân, công trình": "Homes, building sites"
+  "4. Dùng gì?": "4. What do they use?"
+  "Kìm, bút thử điện, thang": "Pliers, tester, ladder"
+  "5. Cần kỹ năng gì?": "5. What skills?"
+  "(Em điền ở Bài 2)": "(Fill in during Lesson 2)"
+  # l2-bep
+  "Cho bác một phở bò,": "Beef noodles, please,"
+  "không hành nhé.": "no onion."
+  "Dạ, một phở bò,": "OK, beef noodles,"
+  "không hành ạ.": "no onion."
+  "Bàn 2: phở bò, không hành!": "Table 2: beef noodles, no onion!"
+  "Nghe đúng → nhắc lại → báo lại": "Listen → repeat back → pass it on"
+  # l2-dieu-duong
+  "Bác uống 1 viên sau bữa sáng.": "One tablet after breakfast."
+  "Bác nhắc lại giúp cháu nhé?": "Could you say it back to me?"
+  "Sau bữa sáng, 1 viên.": "After breakfast, one tablet."
+  "Nói rõ và hỏi lại để người nghe hiểu đúng": "Speak clearly, then check the listener understood"
+  # l2-nong-dan
+  "Dự báo hôm nay": "Today's forecast"
+  "Chiều": "Afternoon:"
+  "có mưa": "rain"
+  "Nghề nào cũng dùng công nghệ": "Every job uses technology"
+  # l3-cap-nghe
+  "Kỹ sư": "Engineer"
+  "xây dựng": "(civil)"
+  "Điều dưỡng": "Nurse"
+  "Phi công": "Pilot"
+  "Giáo viên": "Nursery"
+  "mầm non": "teacher"
+  # l3-doi-cau-hoi
+  "Nghề này chỉ dành": "Is this job only"
+  "cho con trai?": "for boys?"
+  "Nghề này cần": "What skills does"
+  "kỹ năng gì?": "this job need?"
+  "Câu hỏi mới mở ra": "The new question opens"
+  "nhiều nghề hơn cho": "more jobs to"
+  "mọi bạn nhỏ": "every child"
+  # l3-ve-nguoi-lam-nghe
+  "Hãy vẽ một kỹ sư": "Draw an engineer"
+  "Kỹ sư của em": "Who is your engineer,"
+  "là ai, làm gì?": "and what do they do?"
+  # l4-bang-nhiem-vu
+  "BẢNG NHIỆM VỤ NHÓM": "GROUP TASK BOARD"
+  "Ai": "Who"
+  "Làm gì": "What"
+  "Xong khi nào": "Done by when"
+  "Lan": "Lily"
+  "Vẽ 3 hình nghề": "Draw 3 job pictures"
+  "Thứ Ba": "Tuesday"
+  "Huy": "Hugo"
+  "Viết tên các nghề": "Write the job names"
+  "Mai": "May"
+  "Dán hình lên giấy": "Stick pictures on"
+  "Thứ Tư": "Wednesday"
+  "Cả nhóm": "Everyone"
+  "Xem lại cùng nhau": "Check together"
+  # l4-doi-xay-dung
+  "Mỗi người một phần, cùng một mục tiêu": "Everyone has a part, for one goal"
+  "Nhận lấy nhé!": "Here you go!"
+  # l4-nhom-poster
+  "NGHỀ QUANH EM": "JOBS AROUND US"
+  "Vẽ": "Art"
+  "Viết chữ": "Write"
+  "Giữ giờ": "Time"
+  "Kiểm tra": "Check"
+  "Còn 10 phút nữa!": "10 minutes left!"
+  "Mình vẽ phần hình.": "I'll draw the pictures."
+  # l5-bao-som
+  "Thưa cô, phần của em có thể": "Miss, my part might be"
+  "chậm một ngày. Em cần thêm": "one day late. I need more"
+  "giấy màu ạ.": "coloured paper."
+  "Cảm ơn em báo sớm. Cô có": "Thanks for telling me early."
+  "giấy màu, em lấy nhé.": "I have some, take what you need."
+  "Báo sớm khi chưa trễ, nói rõ cần gì": "Say it early, say what you need"
+  # l5-lich-hen
+  "Tuần này của em": "My week"
+  "T2": "Mon"
+  "T3": "Tue"
+  "T4": "Wed"
+  "T5": "Thu"
+  "T6": "Fri"
+  "T7": "Sat"
+  "CN": "Sun"
+  "Nhận": "Task"
+  "việc": "given"
+  "Xem": "Half-"
+  "giữa": "way"
+  "chừng": "check"
+  "Nộp": "Hand"
+  "bài": "in"
+  "Ghi hạn vào lịch.": "Write the deadline down."
+  "Đặt một ngày xem giữa chừng.": "Set a halfway check day."
+  # l5-nhac-lai
+  "Bài tả con vật": "Animal description"
+  "Nộp: thứ Sáu": "Due: Friday"
+  "Em viết bài tả con vật,": "Write about an animal,"
+  "nộp vào thứ Sáu nhé.": "hand it in on Friday."
+  "Dạ, em viết bài tả con vật,": "OK, I write about an animal"
+  "nộp thứ Sáu ạ.": "and hand it in on Friday."
+  "Nghe hết → nhắc lại → ghi hạn": "Listen → repeat → write deadline"
+  # l6-ke-ve-nghe
+  "THẺ NGHỀ: Thợ làm bánh": "JOB CARD: Baker"
+  "Làm gì: nướng bánh mỗi sáng": "Does: bakes bread every morning"
+  "Ở đâu: tiệm bánh": "Where: a bakery"
+  "Dùng gì: lò, cân, khuôn": "Uses: oven, scales, tins"
+  "Kỹ năng: đo chính xác, giữ giờ": "Skills: measuring, keeping time"
+  "Cô làm bánh dậy lúc": "The baker gets up"
+  "4 giờ sáng đó các bạn!": "at 4 in the morning!"
+  # l6-phieu-phong-van
+  "PHIẾU PHỎNG VẤN": "INTERVIEW SHEET"
+  "1. Cô/chú làm nghề gì?": "1. What is your job?"
+  "2. Một ngày làm những việc gì?": "2. What do you do in a day?"
+  "3. Dùng những đồ dùng gì?": "3. What tools do you use?"
+  "4. Cần những kỹ năng gì?": "4. What skills does it need?"
+  "5. Điều gì khó, điều gì vui?": "5. What is hard, what is fun?"
+  # l6-phong-van
+  "Cô thích điều gì nhất": "What do you like most"
+  "trong công việc ạ?": "about your work?"
+  "Cô thích thấy khách": "Seeing customers"
+  "ăn ngon miệng.": "enjoy their food."
+  "Người lớn đi cùng": "Adult present"
+  # l7-dong-vai
+  "Tiệm bánh nhà em": "Our bakery"
+  "Cho con 2 bánh": "Two rolls,"
+  "mì nhé!": "please!"
+  "Dạ, 2 bánh mì.": "OK, two rolls."
+  "Đợi con chút ạ.": "Just a moment."
+  "Đóng vai: nghe, nhắc lại, phối hợp": "Role-play: listen, repeat, team up"
+  # l7-huy-hieu
+  "Huy hiệu khóa Khám phá nghề": "Exploring Jobs course badges"
+  "Nhà thám hiểm": "Job"
+  "nghề": "explorer"
+  "Thám tử": "Skills"
+  "kỹ năng": "detective"
+  "Người phá": "Stereotype"
+  "định kiến": "breaker"
+  "Đồng đội": "Good"
+  "tốt": "teammate"
+  "Người": "Promise"
+  "giữ hẹn": "keeper"
+  "Phóng viên": "Young"
+  "nhí": "reporter"
+  # l7-tuong-the-nghe
+  "Nông dân": "Farmer"
+  "Thợ làm bánh": "Baker"
+  "Tài xế": "Driver"
+  "Ngày hội nghề nghiệp của nhà mình": "Our family Job fair"
