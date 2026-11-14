@@ -17,7 +17,7 @@ status: published
 ---
 
 <div class="note" markdown="1">
-**Cập nhật lần cuối: 14/11/2026.** Chiêu lừa đảo thay đổi liên tục. Bài dạy cách nhận ra dấu hiệu chung, không liệt kê từng chiêu. Bài không tư vấn pháp lý.
+**Cập nhật lần cuối: 14/11/2026.** Chiêu lừa đảo thay đổi liên tục. Bài dạy cách nhận ra dấu hiệu chung, không liệt kê từng chiêu. Trang tinnhiemmang.vn do Trung tâm An ninh mạng Quốc gia vận hành (kiểm tra ngày 14/11/2026). Bài không tư vấn pháp lý.
 </div>
 
 ## 1. Mục tiêu
@@ -65,7 +65,7 @@ Chỉ cần thấy **một** dấu hiệu là đủ để dừng lại. Hai dấ
 
 **Bước 1. Dừng.** Không bấm link, không mở tệp đính kèm, không trả lời ngay. Sự gấp gáp chính là cái bẫy.
 
-**Bước 2. Kiểm tra qua kênh khác.** Sếp nhắn qua Zalo thì gọi lại số điện thoại bạn đã lưu từ trước. Ngân hàng gọi thì tự gọi số tổng đài in trên thẻ. Đừng dùng số hay link có trong chính tin nhắn đáng ngờ.
+**Bước 2. Kiểm tra qua kênh khác.** Sếp nhắn qua Zalo thì gọi lại số điện thoại bạn đã lưu từ trước. Ngân hàng gọi thì tự gọi số tổng đài in trên thẻ. Đừng dùng số hay link có trong chính tin nhắn đáng ngờ. Muốn kiểm tra một trang web lạ, bạn có thể tra cứu và đọc tin cảnh báo lừa đảo tại [tinnhiemmang.vn](https://tinnhiemmang.vn/).
 
 **Bước 3. Báo đúng người.** Ở chỗ làm, báo quản lý hoặc bộ phận IT. Như vậy đồng nghiệp khác được cảnh báo kịp. Nếu đã lỡ gửi mật khẩu, báo ngay và đổi mật khẩu. Đã lỡ chuyển tiền, gọi ngay ngân hàng, rồi trình báo công an.
 
@@ -82,6 +82,8 @@ Phúc nhận ra 3 dấu hiệu: gấp gáp, đòi chuyển tiền, không cho g�
 1. Không chuyển, không trả lời.
 2. Gọi số điện thoại giám đốc đã lưu trong danh bạ công ty. Giám đốc nói không hề nhắn.
 3. Báo kế toán trưởng, chụp màn hình tin nhắn gửi vào nhóm nội bộ để cảnh báo.
+
+<figure class="fig"><img src="../../assets/img/bs/k10-tin-nhan-gia-sep.svg" alt="Màn hình điện thoại với tin nhắn giả mạo giám đốc, giả định. Tài khoản mới có ảnh giám đốc nhắn: chuyển gấp 45 triệu cho đối tác, anh đang họp không nghe máy, xong trước 11 giờ. Ba dấu đỏ chỉ vào ba dấu hiệu: đòi chuyển tiền, gấp gáp, chặn việc gọi xác nhận. Bên cạnh là ba bước: dừng, gọi số đã lưu, báo kế toán trưởng." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Ba dấu hiệu trong một tin nhắn. Tình huống là giả định.</figcaption></figure>
 
 **Vì sao cách này tốt:** Phúc kiểm tra bằng số điện thoại có sẵn, không dùng kênh trong tin nhắn. Phúc báo để người khác không mắc bẫy.
 

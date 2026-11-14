@@ -164,16 +164,17 @@ Chuỗi A (prev/next, Bậc 1–2, nhóm N2 hoặc N2+N3):
 Chuỗi K4 nâng cao (nối tiếp chuỗi chính: k4-de-xuat-cai-tien.next = k4-muon-y-tuong-tu-linh-vuc-khac):
 75. k4-muon-y-tuong-tu-linh-vuc-khac – K4 B4 (N4; mượn nguyên lý 3 bước; vòng cải tiến 5 bước, có chuẩn hóa; hộp "Mức bằng chứng")
 76. k4-nuoi-van-hoa-thu-nghiem – K4 B5 (N5, N6; quỹ thử nghiệm 4 điều; chấm ý tưởng 4 tiêu chí; rút kinh nghiệm không đổ lỗi; Edmondson 1999, Camuffo 2020)
-- Không gắn N1 cho bài Bậc 1 (N1 chỉ học 4 chủ đề đã chốt). Các bài này chưa có hình SVG; chỉ có sơ đồ HTML.
+- Không gắn N1 cho bài Bậc 1 (N1 chỉ học 4 chủ đề đã chốt).
+- Hình (thêm 14/11/2026): `_build/art/bs_art.py` sinh 12 SVG vào `_build/static/assets/img/bs/`, mỗi bài 1 hình + ít nhất 1 sơ đồ HTML (k1-nghe-het thêm sơ đồ "Ba trường hợp khi nhận chỉ dẫn"). aria-label lấy từ alt trong bài. Hình k4-cham-y-tuong nằm trong "Lời giải mẫu" để không lộ đáp án.
 - K10 B2: chỉ dạy nhận diện lừa đảo. Phần "đọc hợp đồng, thỏa thuận thực tập" vẫn HOÃN cùng bài pháp lý N2.
-- [TK] Kênh báo lừa đảo trực tuyến chính thức: nguồn báo chí ghi nhiều tên miền khác nhau (canhbao.khonggianmang.gov.vn / .vn, canhbao.ncsc.gov.vn) và cơ quan chủ quản đã đổi. Bài chưa ghi đường link nào; chỉ hướng dẫn báo IT/quản lý, gọi ngân hàng, trình báo công an. Peter xác minh kênh chính thức rồi bổ sung nếu muốn.
+- Kênh báo lừa đảo: bài K10 B2 dẫn tinnhiemmang.vn (Trung tâm An ninh mạng Quốc gia vận hành; có tra cứu website và tin cảnh báo lừa đảo; kiểm tra 14/11/2026) để tra cứu, KHÔNG phải kênh nhận báo cáo. Email tinnhiemmang@ais.gov.vn Peter gửi: chưa xác minh được là kênh nhận báo cáo lừa đảo, không thấy trên trang chủ tinnhiemmang.vn, chưa đưa vào bài. [TK] Nếu Peter có văn bản chính thức nêu kênh nhận phản ánh, bổ sung sau.
 
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.
 2. (Đã xong 14/11: "Phục vụ khách hàng" và K6 cho N3, trong khóa N3.)
 3. Đủ 5 khóa N1–N5 đã đăng (14/11/2026). N4, N5 chờ Peter duyệt nội dung.
 4. Khóa N7 đã đăng 14/11/2026. Chờ Peter duyệt nội dung N4–N7. Đối chiếu NQ 198/2025, NĐ 20/2026 trên văn bản gốc; khi luật sửa BLLĐ/BHXH được thông qua, cập nhật N7 Bài 6.
-5. (Xong 14/11: đủ 50 ô K × bậc.) Gợi ý tiếp: vẽ hình SVG cho 12 bài lấp ô; trang tự đánh giá theo khóa; bài pháp lý hoãn (xem mục 1) khi luật sửa đổi BLLĐ được thông qua.
+5. (Xong 14/11: đủ 50 ô K × bậc.) Gợi ý tiếp: trang tự đánh giá theo khóa; bài pháp lý hoãn (xem mục 1) khi luật sửa đổi BLLĐ được thông qua.
 
 ## Quy trình thêm bài
 1. Tạo `content/bai-hoc/<slug>.md` (front matter: title, slug, skill, level, group, order, minutes, objectives (đặt trong ngoặc kép), framework_map, prev, next, updated, status) với đúng 9 tiêu đề `## 1. Mục tiêu` … `## 9. Siêu dữ liệu`. Phần 6 và 9 để trống: build tự chèn câu hỏi và bảng siêu dữ liệu.

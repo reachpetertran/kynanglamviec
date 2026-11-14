@@ -118,6 +118,8 @@ Chấm 4 tiêu chí và quyết định cho ý nào thử trước. Với ý A, 
 - **A:** tác động có thể 3, chi phí thấp 1, bằng chứng 1, quay lại 1. Chưa đầu tư. Trước hết cần số liệu hiện trạng, và thử nhỏ một phân hệ hoặc một kho.
 
 (Điểm số là giả định để minh họa.)
+
+<figure class="fig"><img src="../../assets/img/bs/k4-cham-y-tuong.svg" alt="Bảng chấm ba ý tưởng A, B, C theo bốn tiêu chí: tác động, chi phí thử thấp, mức bằng chứng, quay lại được. Mỗi ô có từ 1 đến 3 chấm. Ý A đổi toàn bộ phần mềm có nhiều ô chỉ 1 chấm nên cần bằng chứng trước. Ý B và C có điểm cao ở chi phí và quay lại được nên cho thử nhỏ. Điểm số là giả định." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Chấm ý tưởng theo 4 tiêu chí. Ý khó quay lại cần bằng chứng mạnh hơn.</figcaption></figure>
 </details>
 
 ## 6. Tự kiểm tra

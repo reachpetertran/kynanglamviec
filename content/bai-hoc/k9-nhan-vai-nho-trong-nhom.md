@@ -53,6 +53,8 @@ Trong một nhóm, nhiều việc nhỏ không ai nhận. Không ai nhìn đồn
 
 Nhận vai thì nói rõ: "Hôm nay mình giữ giờ nhé." Làm vai cho đến hết buổi, kể cả khi bận phần việc riêng.
 
+<figure class="fig"><img src="../../assets/img/bs/k9-ba-vai.svg" alt="Ba thẻ vai trò trong nhóm. Người giữ giờ, hình đồng hồ: báo khi còn 5 phút. Người ghi chép, hình cuốn sổ: ghi ai làm gì, hạn khi nào, gửi lại nhóm. Người nhắc việc, hình chuông: một ngày trước hạn, hỏi tiến độ từng phần." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Ba vai nhỏ, ai trong nhóm cũng nhận được.</figcaption></figure>
+
 **Chỉ bạn mới một việc: 4 bước.**
 
 <div class="flow" markdown="1">

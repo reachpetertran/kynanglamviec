@@ -51,6 +51,8 @@ Mỗi tài khoản là một cánh cửa. Mất tài khoản thì kẻ xấu có
 
 **Vì sao mỗi nơi một mật khẩu?** Nếu một trang bị lộ dữ liệu, kẻ xấu sẽ thử mật khẩu đó ở các tài khoản khác. Dùng chung một mật khẩu là mất cùng lúc nhiều tài khoản.
 
+<figure class="fig"><img src="../../assets/img/bs/k10-mot-chia-khoa.svg" alt="So sánh hai cách dùng mật khẩu. Bên trái: một chìa khóa mở cả bốn cửa email, ngân hàng, mạng xã hội, phần mềm bán hàng; lộ một là mất cả bốn. Bên phải: mỗi cửa một chìa riêng, kèm điện thoại nhận mã xác thực hai lớp; lộ một chìa, ba cửa còn lại vẫn an toàn." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Mỗi tài khoản một mật khẩu, thêm lớp xác thực thứ hai.</figcaption></figure>
+
 **Mã OTP** (mã dùng một lần) là chìa khóa cuối cùng. Ai hỏi mã này, gần như chắc chắn là lừa đảo.
 
 **Ba loại thông tin cá nhân nên giữ kín:**

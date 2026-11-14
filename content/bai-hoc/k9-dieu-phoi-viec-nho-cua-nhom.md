@@ -84,6 +84,8 @@ Khoa lên tiếng:
 
 Cả nhóm đồng ý. Khoa nhắn vào nhóm chat ai làm phần nào. Lúc 3 giờ, Khoa hỏi từng cặp còn bao nhiêu. Cặp gấp đang chậm, Khoa xong phần mình rồi sang phụ. Lúc 5 giờ, Khoa báo anh giám sát đã xong, và cảm ơn cả nhóm.
 
+<figure class="fig"><img src="../../assets/img/bs/k9-dong-thoi-gian.svg" alt="Đường thời gian một buổi chiều xếp kho đồ vải, giả định. 13:00 đề xuất 3 câu và chia 3 cặp: phân loại, gấp, xếp kệ và dán nhãn. 15:00 hỏi tiến độ từng cặp, thấy cặp gấp chậm, người điều phối sang phụ. 17:00 báo giám sát đã xong và cảm ơn cả nhóm." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Bốn bước điều phối trên một buổi làm việc. Tình huống là giả định.</figcaption></figure>
+
 **Vì sao cách này tốt:** Khoa đề xuất 3 câu có xin ý kiến. Khoa chia việc rõ, hỏi tiến độ giữa chừng, và chốt lại với cấp trên.
 
 ## 5. Thực hành

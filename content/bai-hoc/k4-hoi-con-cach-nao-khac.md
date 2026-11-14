@@ -76,6 +76,8 @@ Nhi hỏi cả nhóm: "Còn cách nào khác không?" Nhóm nghĩ ra 3 cách:
 
 Nhi nêu ý: "Mình chia bản đồ thành 4 ô, mỗi người một ô. Như vậy không phát trùng và biết khu nào còn sót."
 
+<figure class="fig"><img src="../../assets/img/bs/k4-chia-o-ban-do.svg" alt="Hai bản đồ khu phố, giả định. Bên trái: bốn đường đi của bốn bạn chồng chéo nhau, nhiều chỗ phát tờ rơi trùng, có khu bị sót. Bên phải: khu phố chia thành 4 ô, mỗi bạn một màu, không trùng, không sót." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Cùng nhiệm vụ, hai cách làm. Tình huống là giả định.</figcaption></figure>
+
 **Vì sao cách này tốt:** nhóm có 3 lựa chọn trước khi chọn. Ý tưởng được nói trong 2 câu, rõ lợi ích.
 
 ## 5. Thực hành

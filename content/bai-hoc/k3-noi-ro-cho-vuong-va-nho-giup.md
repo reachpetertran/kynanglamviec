@@ -70,6 +70,8 @@ Có một ngoại lệ quan trọng. Việc liên quan đến an toàn, tiền c
 
 Sau khi được giúp, hãy **ghi lại cách làm** để lần sau tự làm. Và đừng quên cảm ơn.
 
+<figure class="fig"><img src="../../assets/img/bs/k3-khi-bi-vuong.svg" alt="Sơ đồ quyết định khi bị vướng. Câu hỏi đầu: việc có liên quan an toàn, tiền của khách hay máy lạ không? Có thì hỏi ngay. Không thì tự thử vài phút với hướng dẫn có sẵn. Được thì làm tiếp và ghi lại. Chưa được thì nói chỗ vướng trong một câu và nhờ đúng người, đúng lúc." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Hỏi ngay hay tự thử trước: một câu hỏi quyết định.</figcaption></figure>
+
 ## 4. Ví dụ tại nơi làm việc Việt Nam
 
 > **Tình huống giả định.** Hà thực tập ở phòng hành chính một công ty nhỏ. Hà được giao gửi thư mời họp cho 20 người.

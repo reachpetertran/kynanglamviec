@@ -86,6 +86,8 @@ Kết quả: trung bình còn khoảng 20 phút cho 10 đơn. Lan ghi góp ý g�
 
 (Số liệu là giả định để minh họa.)
 
+<figure class="fig"><img src="../../assets/img/bs/k4-phieu-thu.svg" alt="Phiếu thử nhỏ của Lan, giả định, gồm 4 ô: cách cũ để dụng cụ trong ngăn kéo; cách mới treo băng dính và kéo lên giá; đo số phút cho 10 đơn; thử 3 ca. Bên phải là hai cột so sánh: trước khoảng 25 phút, sau khoảng 20 phút." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Phiếu thử 4 ô và kết quả trước, sau. Số liệu là giả định.</figcaption></figure>
+
 **Vì sao cách này tốt:** Lan đổi một điểm, đo trước và sau, thử đủ 3 ca, và ghi góp ý có số liệu.
 
 ## 5. Thực hành

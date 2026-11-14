@@ -56,7 +56,13 @@ Lý do thường gặp: bạn nghe nửa chừng rồi bắt đầu nghĩ việc
 
 **Khi làm, giữ đúng thứ tự.** Nhiều việc có thứ tự vì lý do an toàn hay vệ sinh. Ví dụ: rút điện trước khi lau máy. Nếu thấy thứ tự lạ, hỏi lý do thay vì tự đổi.
 
-**Chỉ dẫn dài hơn 3 bước?** Hãy ghi lại ngay, vào sổ tay hoặc ghi chú điện thoại. Cách ghi việc có ở bài [Ghi việc và báo sớm](../k5-ghi-viec-va-bao-som/).
+<div class="diagram"><p class="dg-title">Ba trường hợp khi nhận chỉ dẫn</p><ol class="steps">
+<li><b>Từ 3 bước trở xuống</b><span>Nghe hết, nhắc lại theo thứ tự, rồi làm.</span></li>
+<li><b>Dài hơn 3 bước</b><span>Ghi ngay vào sổ tay hoặc điện thoại, rồi nhắc lại.</span></li>
+<li><b>Thứ tự thấy lạ</b><span>Vẫn làm đúng thứ tự, và hỏi lý do khi có dịp.</span></li>
+</ol></div>
+
+Cách ghi việc có ở bài [Ghi việc và báo sớm](../k5-ghi-viec-va-bao-som/).
 
 Nghe tốt không phải là năng khiếu. Đó là thói quen bạn tập được trong vài tuần.
 
@@ -73,6 +79,8 @@ Minh làm như sau:
 3. Nhắc lại: "Dạ, hết khách thì em tắt lò, đậy khay pa-tê, rồi lau quầy."
 
 Anh chủ gật đầu. Cuối ca, Minh làm đúng thứ tự ba bước đó.
+
+<figure class="fig"><img src="../../assets/img/bs/k1-nghe-het.svg" alt="Ba khung tranh, giả định. Khung 1: anh chủ tiệm bánh mì dặn ba việc: tắt lò, đậy khay pa-tê, lau quầy. Khung 2: Minh đặt ổ bánh xuống, quay sang nghe hết câu. Khung 3: Minh nhắc lại, giơ ba ngón tay theo đúng thứ tự." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Dừng tay, nghe hết câu, nhắc lại theo thứ tự. Tình huống là giả định.</figcaption></figure>
 
 **Vì sao cách này tốt:** Minh nhắc lại cả điều kiện "hết khách". Đậy khay trước khi lau quầy giúp nước lau không bắn vào thức ăn.
 

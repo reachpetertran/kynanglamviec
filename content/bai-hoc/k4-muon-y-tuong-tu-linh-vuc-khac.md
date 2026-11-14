@@ -87,6 +87,8 @@ Chị Ngọc dẫn vòng cải tiến:
 - **Đo và quyết định:** còn 2 lần dừng. Quyết định giữ, chỉnh cỡ hộp nhãn.
 - **Chuẩn hóa:** viết hướng dẫn một trang, áp dụng thêm 2 chuyền, hẹn kiểm lại sau 1 tháng.
 
+<figure class="fig"><img src="../../assets/img/bs/k4-hai-hop.svg" alt="Ba nơi có bài toán giống nhau: siêu thị bổ sung hàng lên kệ, quầy pha chế dùng hai hộp nguyên liệu, tủ thuốc trực ở bệnh viện. Mũi tên dẫn về một nguyên lý chung: dùng hai hộp, hộp thứ nhất hết là tín hiệu đi lấy thêm, trong lúc đó dùng hộp thứ hai. Nguyên lý được đưa vào chuyền may, giả định." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Mượn nguyên lý từ ba lĩnh vực, không chép nguyên cách làm.</figcaption></figure>
+
 **Vì sao cách này tốt:** chị Ngọc mượn nguyên lý, không chép nguyên mô hình. Giả thuyết có số trước khi thử. Tổ trưởng chuyền được tham gia từ đầu.
 
 ## 5. Thực hành

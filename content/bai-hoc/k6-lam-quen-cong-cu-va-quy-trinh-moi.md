@@ -79,6 +79,8 @@ Huy làm như sau:
 3. Thử quét 10 thùng hàng ít giá trị trước.
 4. Ghi 2 chỗ vướng: mã bị mờ thì làm sao; hàng không có mã thì nhập thế nào. Cuối ngày hỏi chị một lần.
 
+<figure class="fig"><img src="../../assets/img/bs/k6-cu-va-moi.svg" alt="Hai cột quy trình nhận hàng ở kho, giả định. Cột cách cũ: nhận hàng, kiểm số lượng, ghi sổ tay, xếp lên kệ. Cột cách mới: nhận hàng, kiểm số lượng, quét mã bằng điện thoại, xếp lên kệ. Chỉ bước thứ ba được tô vàng vì là bước thay đổi; ba bước kia giữ nguyên." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Tìm điểm khác: thường chỉ một vài bước thay đổi.</figcaption></figure>
+
 **Vì sao cách này tốt:** Huy hiểu lý do, biết đúng chỗ đổi, thử ở việc ít rủi ro, gom câu hỏi lại.
 
 ## 5. Thực hành
