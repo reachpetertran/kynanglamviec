@@ -1,0 +1,23 @@
+# English edition of data/levels.yaml. The Vietnamese file is the original.
+levels:
+  - n: 1
+    name: Exploring
+    desc: You know what the skill is and can use it with step-by-step guidance.
+  - n: 2
+    name: Starting
+    desc: You can use it on your own in familiar tasks, sometimes with a reminder.
+  - n: 3
+    name: Secure
+    desc: You use it reliably in many situations, including under pressure.
+  - n: 4
+    name: Proficient
+    desc: You handle complex or new situations and can support colleagues.
+  - n: 5
+    name: Leading
+    desc: You build ways of working for the whole team and help others grow this skill.
+
+self_rating:
+  - Not yet
+  - Sometimes
+  - Usually
+  - I can teach others

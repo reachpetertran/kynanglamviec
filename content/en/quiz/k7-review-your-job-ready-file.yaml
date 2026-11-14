@@ -1,0 +1,51 @@
+lesson: k7-review-your-job-ready-file
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Review of Lesson 2. A job ad asks you to pay a \"uniform fee\" before you start. What kind of sign is this?"
+    options:
+      - text: Normal. You always pay for your own uniform.
+        correct: false
+        why: Being asked to pay before starting is one of the 3 signs to stop.
+      - text: A sign to stop, because it asks for money.
+        correct: true
+        why: Correct. Some countries ban it outright; Vietnam's Labour Code, for example, does.
+      - text: A sign that the employer is professional.
+        correct: false
+        why: Professionalism shows in clear information, not in collecting money.
+  - id: q2
+    prompt: "Review of Lessons 3 and 4. The interviewer asks about a CV line you cannot explain. Where is the problem?"
+    options:
+      - text: With the interviewer, for asking too much.
+        correct: false
+        why: Asking about your CV is normal in an interview.
+      - text: With the CV, because it has a line that cannot be told as a STAR example.
+        correct: true
+        why: Correct. Every CV line must work as an example when you are asked about it.
+      - text: With the 60-second introduction, for being too short.
+        correct: false
+        why: The introduction has nothing to do with this CV line.
+  - id: q3
+    prompt: "When peer-checking your friend's file, you find 6 weak points. How should you give feedback?"
+    options:
+      - text: List all 6 so your friend knows everything.
+        correct: false
+        why: Too many points at once make it hard to know what to fix first.
+      - text: One thing done well, then at most the 3 most important points, each with an example.
+        correct: true
+        why: Correct. A few specific points help the receiver fix things right away.
+      - text: Only praise, so your friend is not upset.
+        correct: false
+        why: Without points to fix, the peer check loses its purpose.
+  - id: q4
+    prompt: "Which line of a 30-day plan can be checked?"
+    options:
+      - text: "\"Try harder to find a job\""
+        correct: false
+        why: There is no number and no deadline, so you cannot tell whether it is done.
+      - text: "\"Send 4 applications for evening café work by 15 December\""
+        correct: true
+        why: Correct. It has a number, a type of work and a deadline.
+      - text: "\"Start working when an opportunity comes up\""
+        correct: false
+        why: Waiting for an opportunity is not an action plan.

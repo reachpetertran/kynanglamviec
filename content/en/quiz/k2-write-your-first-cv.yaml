@@ -1,0 +1,51 @@
+lesson: k2-write-your-first-cv
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which CV line follows the formula verb + task + result?"
+    options:
+      - text: "\"Experience in sales\""
+        correct: false
+        why: There is no specific verb and no result.
+      - text: "\"Sold cakes at a fundraising stall, raising the class target in one afternoon\""
+        correct: true
+        why: Correct. It has a verb, a specific task and a measurable result.
+      - text: "\"Dynamic, enthusiastic, eager to learn\""
+        correct: false
+        why: These are self-descriptions. An employer cannot check them.
+  - id: q2
+    prompt: "What should the Contact part of a CV include?"
+    options:
+      - text: Full name, phone number, an email with your real name, your town or district.
+        correct: true
+        why: Correct. Enough to reach you, without exposing unnecessary information.
+      - text: Full name, ID number, full home address.
+        correct: false
+        why: Your ID number and full address are not needed at the CV stage.
+      - text: Just an email, such as "sparkly_princess@...".
+        correct: false
+        why: There is no phone number, and the email should use your real name.
+  - id: q3
+    prompt: "A job ad has the required criterion \"punctual\". What should you do on your CV?"
+    options:
+      - text: Add the line "I am always punctual".
+        correct: false
+        why: A self-claim is not evidence.
+      - text: Skip it, because punctuality is hard to prove.
+        correct: false
+        why: You can still have evidence, and this is a required criterion.
+      - text: Put an evidence line near the top, such as "Opened the school library at 7:00 every day for a semester, never absent".
+        correct: true
+        why: Correct. Each required criterion should have one line of evidence.
+  - id: q4
+    prompt: "Your CV says \"Managed the club's social media page\", but you cannot say what you did. What should you do?"
+    options:
+      - text: Keep it, because it sounds good.
+        correct: false
+        why: If you cannot explain it when asked, the employer will doubt your whole CV.
+      - text: Rewrite it with the specific tasks and results, or remove it.
+        correct: true
+        why: Correct. Every CV line must work as a STAR example.
+      - text: Add the word "professionally" to make it stand out.
+        correct: false
+        why: Adding adjectives does not replace evidence.

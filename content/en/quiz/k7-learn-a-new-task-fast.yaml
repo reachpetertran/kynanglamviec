@@ -1,0 +1,51 @@
+lesson: k7-learn-a-new-task-fast
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "You have just been shown how to pack online orders. Which way of learning works best?"
+    options:
+      - text: Photograph the instruction sheet and reread it many times.
+        correct: false
+        why: Rereading works poorly because you do not have to recall anything.
+      - text: Write the process in your own words; the next day, turn your notes over, write it again and compare.
+        correct: true
+        why: Correct. This is practice testing, which research rates highly.
+      - text: Highlight the important steps on the instruction sheet.
+        correct: false
+        why: Highlighting was rated low by Dunlosky and colleagues (2013).
+  - id: q2
+    prompt: "Which review schedule is spaced practice?"
+    options:
+      - text: Review 3 times in a row tonight.
+        correct: false
+        why: Cramming helps short-term memory, but you forget easily after a few days.
+      - text: Review after 1 day, 3 days and 7 days.
+        correct: true
+        why: Correct. Spreading reviews over several days helps you remember longer.
+      - text: Review only when someone corrects a mistake you made.
+        correct: false
+        why: Then you learn only after causing an error.
+  - id: q3
+    prompt: "While your trainer demonstrates, which question helps you fill in \"Common mistakes\"?"
+    options:
+      - text: "\"Where do new people usually go wrong?\""
+        correct: true
+        why: Correct. Knowing common mistakes in advance helps you avoid them from the start.
+      - text: "\"Is this task hard?\""
+        correct: false
+        why: The answer is usually vague and does not help you note specific mistakes.
+      - text: "\"Will my pay be cut if I get it wrong?\""
+        correct: false
+        why: This does not help you learn the task. Ask about pay rules separately.
+  - id: q4
+    prompt: "When you test yourself, you get step 3 wrong. What should you do?"
+    options:
+      - text: Erase it and pretend you have not tested yourself yet.
+        correct: false
+        why: You lose important information about where you are weak.
+      - text: Circle step 3 and pay attention to it next review.
+        correct: true
+        why: Correct. Knowing exactly where you went wrong is a key benefit of self-testing.
+      - text: Stop testing yourself and switch to rereading to be safe.
+        correct: false
+        why: Mistakes during self-testing are normal and useful, not a sign to stop.

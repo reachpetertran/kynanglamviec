@@ -2,6 +2,22 @@
 (function () {
   "use strict";
   var NS = "klv:";
+  var EN = document.documentElement.lang === "en";
+  var T = EN ? {
+    loc: "en-GB", right: "You got ", of: " correct. ", allOk: "Well done! Remember to review on schedule.",
+    notAll: "Read the explanations, then try again in 1 day.", ans: "Write answer ", ph: "Add to your evidence journal (saved on this device only)…",
+    saved: "Saved", rev: "Review lesson (day ", revDesc: "Answer the Self-check again before reading the explanations. ", ics: "review-",
+    lvl: "· Suggested level: ", below: "below Level 1", qs: "/15 statements)", noL: "No lesson at Level ", lv: "Level ", belowT: "Below Level 1",
+    none: "No answers yet.", clearSa: "Delete all self-assessment answers?", clearJ: "Delete the whole journal on this device?",
+    noJ: "No entries yet. Write in the Reflection part of a lesson.", lang: "EN"
+  } : {
+    loc: "vi-VN", right: "Bạn trả lời đúng ", of: " câu. ", allOk: "Rất tốt! Nhớ ôn lại theo lịch.",
+    notAll: "Đọc kỹ giải thích, rồi làm lại sau 1 ngày.", ans: "Ghi câu trả lời ", ph: "Ghi vào nhật ký bằng chứng (chỉ lưu trên máy này)…",
+    saved: "Đã lưu", rev: "Ôn bài (ngày ", revDesc: "Làm lại phần Tự kiểm tra trước khi xem giải thích. ", ics: "on-bai-",
+    lvl: "· Bậc gợi ý: ", below: "dưới Bậc 1", qs: "/15 câu)", noL: "Chưa có bài ở Bậc ", lv: "Bậc ", belowT: "Dưới Bậc 1",
+    none: "Chưa có câu trả lời.", clearSa: "Xóa toàn bộ câu trả lời tự đánh giá?", clearJ: "Xóa toàn bộ nhật ký trên máy này?",
+    noJ: "Chưa có ghi chép nào. Hãy viết ở phần Phản tư của một bài học.", lang: "VI"
+  };
   var store = {
     get: function (k, d) { try { var v = localStorage.getItem(NS + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
     set: function (k, v) { try { localStorage.setItem(NS + k, JSON.stringify(v)); return true; } catch (e) { return false; } },
@@ -10,7 +26,7 @@
   };
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
-  var fmt = function (d) { return d.toLocaleDateString("vi-VN", { weekday: "short", day: "2-digit", month: "2-digit" }); };
+  var fmt = function (d) { return d.toLocaleDateString(T.loc, { weekday: "short", day: "2-digit", month: "2-digit" }); };
   var addDays = function (d, n) { var x = new Date(d); x.setDate(x.getDate() + n); return x; };
   var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
 
@@ -41,8 +57,8 @@
           btn.classList.add(ok ? "right" : "wrong");
           $$(".opt", q).forEach(function (b) { b.disabled = true; if (b.dataset.correct === "1") b.classList.add("right"); });
           if (answered === qs.length) {
-            $(".quiz-score", quiz).textContent = "Bạn trả lời đúng " + right + "/" + qs.length + " câu. " +
-              (right === qs.length ? "Rất tốt! Nhớ ôn lại theo lịch." : "Đọc kỹ giải thích, rồi làm lại sau 1 ngày.");
+            $(".quiz-score", quiz).textContent = T.right + right + "/" + qs.length + T.of +
+              (right === qs.length ? T.allOk : T.notAll);
           }
         });
       });
@@ -60,8 +76,8 @@
       $$("li", list).forEach(function (li, i) {
         var key = "j:" + slug + ":" + i;
         var ta = document.createElement("textarea");
-        ta.className = "reflect"; ta.setAttribute("aria-label", "Ghi câu trả lời " + (i + 1));
-        ta.placeholder = "Ghi vào nhật ký bằng chứng (chỉ lưu trên máy này)…";
+        ta.className = "reflect"; ta.setAttribute("aria-label", T.ans + (i + 1));
+        ta.placeholder = T.ph;
         var saved = store.get(key); if (saved) ta.value = saved.a;
         var msg = document.createElement("span"); msg.className = "saved";
         var t;
@@ -70,7 +86,7 @@
           t = setTimeout(function () {
             if (ta.value.trim()) store.set(key, { slug: slug, title: title, q: li.firstChild.textContent.trim(), a: ta.value, d: new Date().toISOString() });
             else store.del(key);
-            msg.textContent = "Đã lưu";
+            msg.textContent = T.saved;
           }, 500);
         });
         li.appendChild(ta); li.appendChild(msg);
@@ -96,13 +112,13 @@
         var s = addDays(base, n), en = addDays(base, n + 1);
         return ["BEGIN:VEVENT", "UID:" + slug + "-" + n + "-" + ymd(base) + "@kynanglamviec.com", "DTSTAMP:" + stamp,
           "DTSTART;VALUE=DATE:" + ymd(s), "DTEND;VALUE=DATE:" + ymd(en),
-          "SUMMARY:Ôn bài (ngày " + n + "): " + title.replace(/[,;]/g, " "),
-          "DESCRIPTION:Làm lại phần Tự kiểm tra trước khi xem giải thích. " + url, "URL:" + url, "END:VEVENT"].join("\r\n");
+          "SUMMARY:" + T.rev + n + "): " + title.replace(/[,;]/g, " "),
+          "DESCRIPTION:" + T.revDesc + url, "URL:" + url, "END:VEVENT"].join("\r\n");
       });
-      var ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//kynanglamviec.com//VI", "CALSCALE:GREGORIAN"].concat(ev, ["END:VCALENDAR"]).join("\r\n");
+      var ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//kynanglamviec.com//" + T.lang, "CALSCALE:GREGORIAN"].concat(ev, ["END:VCALENDAR"]).join("\r\n");
       var a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([ics], { type: "text/calendar;charset=utf-8" }));
-      a.download = "on-bai-" + slug + ".ics"; document.body.appendChild(a); a.click();
+      a.download = T.ics + slug + ".ics"; document.body.appendChild(a); a.click();
       setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500);
     });
     show();
@@ -127,15 +143,15 @@
       var rows = "";
       $$(".sa-skill").forEach(function (d) {
         var code = d.dataset.skill, n = answeredCount(code), lv = levelOf(code);
-        $(".sa-result", d).textContent = n ? "· Bậc gợi ý: " + (lv ? lv : "dưới Bậc 1") + " (" + n + "/15 câu)" : "";
+        $(".sa-result", d).textContent = n ? T.lvl + (lv ? lv : T.below) + " (" + n + T.qs : "";
         if (!n) return;
         var next = Math.min(lv + 1, 5);
         var ls = data[code].lessons.filter(function (l) { return l.level === next || l.level === lv; });
-        var links = ls.length ? ls.map(function (l) { return '<a href="../bai-hoc/' + l.slug + '/' + (data._suffix || "") + '">' + esc(l.title) + "</a>"; }).join("<br>")
-          : '<span class="muted">Chưa có bài ở Bậc ' + next + ".</span>";
-        rows += "<tr><td><b>" + code + "</b> " + esc(data[code].name) + "</td><td>" + (lv ? "Bậc " + lv : "Dưới Bậc 1") + "</td><td>" + links + "</td></tr>";
+        var links = ls.length ? ls.map(function (l) { return '<a href="' + (data._base || "../bai-hoc/") + l.slug + '/' + (data._suffix || "") + '">' + esc(l.title) + "</a>"; }).join("<br>")
+          : '<span class="muted">' + T.noL + next + ".</span>";
+        rows += "<tr><td><b>" + code + "</b> " + esc(data[code].name) + "</td><td>" + (lv ? T.lv + lv : T.belowT) + "</td><td>" + links + "</td></tr>";
       });
-      $(".sa-summary tbody").innerHTML = rows || '<tr><td colspan="3" class="muted">Chưa có câu trả lời.</td></tr>';
+      $(".sa-summary tbody").innerHTML = rows || '<tr><td colspan="3" class="muted">' + T.none + '</td></tr>';
     };
     $$(".sa-item").forEach(function (it) {
       var k = it.dataset.key;
@@ -144,7 +160,7 @@
     });
     if (location.hash) { var t = document.getElementById(location.hash.slice(1)); if (t && t.tagName === "DETAILS") t.open = true; }
     $('[data-action="sa-clear"]').addEventListener("click", function () {
-      if (window.confirm("Xóa toàn bộ câu trả lời tự đánh giá?")) { answers = {}; store.del("sa"); $$(".sa-item input").forEach(function (i) { i.checked = false; }); render(); }
+      if (window.confirm(T.clearSa)) { answers = {}; store.del("sa"); $$(".sa-item input").forEach(function (i) { i.checked = false; }); render(); }
     });
     render();
   }
@@ -158,10 +174,10 @@
       jl.innerHTML = es.length ? es.map(function (x) {
         return '<div class="card journal-entry"><span class="meta">' + esc(new Date(x.d).toLocaleDateString("vi-VN")) + " · " + esc(x.title) +
           "</span><p><b>" + esc(x.q) + "</b></p><p>" + esc(x.a).replace(/\n/g, "<br>") + "</p></div>";
-      }).join("") : '<p class="muted">Chưa có ghi chép nào. Hãy viết ở phần Phản tư của một bài học.</p>';
+      }).join("") : '<p class="muted">' + T.noJ + '</p>';
     };
     $('[data-action="journal-clear"]').addEventListener("click", function () {
-      if (!window.confirm("Xóa toàn bộ nhật ký trên máy này?")) return;
+      if (!window.confirm(T.clearJ)) return;
       store.keys().filter(function (k) { return k.indexOf("j:") === 0; }).forEach(store.del); drawJ();
     });
     drawJ();

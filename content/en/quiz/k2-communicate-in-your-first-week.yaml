@@ -1,0 +1,51 @@
+lesson: k2-communicate-in-your-first-week
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "On your first day at a café, you do not know how to charge for a discounted item. A customer is waiting to pay. What should you do?"
+    options:
+      - text: Write it in your log and ask at the end of the shift.
+        correct: false
+        why: This affects a customer right now, so it is an urgent question.
+      - text: Ask your trainer straight away, briefly.
+        correct: true
+        why: Correct. Questions that affect customers or safety get asked at once.
+      - text: Guess the price to save time.
+        correct: false
+        why: Charging the wrong amount causes a loss for the customer or the café.
+  - id: q2
+    prompt: "Which message has all 4 parts?"
+    options:
+      - text: "\"Hey, I can't come tomorrow\""
+        correct: false
+        why: It is missing your name, the shift, the reason and a specific request.
+      - text: "\"Hi Jen, it's Rosa from the Tuesday afternoon shift. I have an exam tomorrow; could I swap to Thursday evening? Thank you.\""
+        correct: true
+        why: Correct. It has a greeting and name, what, what you need, and thanks.
+      - text: "\"Busy tomorrow, can someone cover for me\""
+        correct: false
+        why: There is no name or greeting, and the manager does not know what you are asking for.
+  - id: q3
+    prompt: "You have 6 non-urgent questions about how the stockroom is organised. Your trainer is busy receiving a delivery. What should you do?"
+    options:
+      - text: Ask each question as soon as you think of it.
+        correct: false
+        why: Interrupting someone many times makes it hard for them to focus.
+      - text: Write them in your log, try to find answers first, then ask them together when your trainer is free.
+        correct: true
+        why: Correct. Grouping questions saves time for both of you.
+      - text: Ask nothing, in case you look slow.
+        correct: false
+        why: Not asking leads to mistakes. Asking at the right time is a good skill.
+  - id: q4
+    prompt: "A famous person visits the shop. You want to photograph them and their receipt to post on your own social media. What should you do?"
+    options:
+      - text: Post it straight away. It is free advertising for the shop.
+        correct: false
+        why: Images of customers and the shop's documents are not yours to post.
+      - text: Do not photograph the customer or the receipt to post online.
+        correct: true
+        why: Correct. Customers' images and internal documents need to be protected.
+      - text: Post it in the staff group chat for fun.
+        correct: false
+        why: The staff chat is for work only. Customer images still should not be shared.

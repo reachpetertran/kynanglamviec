@@ -1,0 +1,158 @@
+# English edition of data/skills.yaml (the Vietnamese file is the original).
+# Codes, clusters, slugs and framework_map stay identical to the Vietnamese file.
+# "I can..." statements are the site's own wording. Not a translation of any framework.
+clusters:
+  - id: I
+    name: Communication
+  - id: II
+    name: Thinking
+  - id: III
+    name: Self-management
+  - id: IV
+    name: Collaboration and leadership
+  - id: V
+    name: Digital workplace
+
+skills:
+  - code: K1
+    slug: k1
+    cluster: I
+    name: Listening and understanding
+    summary: Listen fully, ask about what is unclear and confirm, so you do what the other person actually needs.
+    framework_map: ["WEF: Empathy and active listening", "CSfW: 2a Communicate for work", "LifeComp: S1 Empathy; S2 Communication"]
+    gdpt: Communication and collaboration
+    levels:
+      1: ["I can listen to a short instruction without interrupting.", "I can repeat a simple instruction in my own words.", "I can follow an instruction with two or three steps."]
+      2: ["I can ask when the expected result, deadline or quality standard is unclear.", "I can note the main points when I receive a task or attend a meeting.", "I can take a work phone call and write down names, numbers and times correctly."]
+      3: ["I can summarise what someone said and ask them to confirm before I act.", "I can notice the concern behind what a customer or colleague says.", "I can hear a customer's complaint out before I explain."]
+      4: ["I can listen to opposing views without rushing to argue back.", "I can ask open questions to clarify what each side really needs.", "I can notice when people use the same word but mean different things."]
+      5: ["I can listen in a coaching way, helping others find their own solution.", "I can run meetings where people dare to speak openly.", "I can receive and act on critical feedback about how I manage the team."]
+
+  - code: K2
+    slug: k2
+    cluster: I
+    name: Speaking and writing clearly
+    summary: Speak and write briefly and to the point, so the reader understands and knows what to do.
+    framework_map: ["CSfW: 2a Communicate for work", "SkillsFuture CCS: Communication; Influence", "NACE: Communication", "WEF: Service orientation and customer service"]
+    gdpt: Communication and collaboration
+    levels:
+      1: ["I can briefly introduce myself or a piece of work.", "I can write a work message with a greeting and clear content.", "I can speak loudly and clearly to a small group."]
+      2: ["I can write an email with a clear subject, one purpose and one specific request.", "I can write a one-page CV and answer interview questions with real examples.", "I can present something I have done in three minutes."]
+      3: ["I can report progress: what is done, what is blocked, what help I need.", "I can adjust how I speak to suit the listener, such as a customer or a manager.", "I can write meeting notes with decisions, owners and deadlines."]
+      4: ["I can present a proposal with data, options and risks.", "I can negotiate an agreement that all sides can accept.", "I can write a guide that others can follow on their own."]
+      5: ["I can communicate direction so the whole team understands why and what to do.", "I can help others write and present better.", "I can share difficult news with the team clearly and respectfully."]
+
+  - code: K3
+    slug: k3
+    cluster: II
+    name: Problem solving and decision making
+    summary: Define the real problem, find the cause, compare options and choose a course of action.
+    framework_map: ["WEF: Analytical thinking", "CSfW: 3b Make decisions; 3c Identify and solve problems", "SkillsFuture CCS: Problem Solving; Decision Making; Sense Making", "NACE: Critical Thinking", "LifeComp: L2 Critical thinking"]
+    gdpt: Problem solving and creativity
+    levels:
+      1: ["I can say clearly where I am stuck.", "I can ask the right person for help at the right time.", "I can follow existing steps when I face an unfamiliar task."]
+      2: ["I can follow existing steps to fix a familiar problem.", "I can think of at least two solutions before asking my manager.", "I can describe a problem: what happens, when, and what I have tried."]
+      3: ["I can find the root cause, not just treat the symptom.", "I can compare options against clear criteria and then choose.", "I can use data to test an idea about the cause."]
+      4: ["I can see a problem within the whole system and spot knock-on effects.", "I can decide with incomplete information and state what I am assuming.", "I can assess risks and prepare a backup plan for a decision."]
+      5: ["I can make strategic decisions that weigh long-term risks.", "I can build ways of working so the team solves problems on its own.", "I can set shared decision criteria that the team applies consistently."]
+
+  - code: K4
+    slug: k4
+    cluster: II
+    name: Creativity and improvement
+    summary: Think of new ways of working, test small, measure the result, then roll out.
+    framework_map: ["WEF: Creative thinking", "CSfW: 3d Create and innovate", "SkillsFuture CCS: Creative Thinking", "EntreComp"]
+    gdpt: Problem solving and creativity
+    levels:
+      1: ["I can offer a new idea for a group task.", "I can notice a task that could be done faster or more simply.", "I can ask \"is there another way?\" while doing a task."]
+      2: ["I can try a small new way of working and look at the result.", "I can write down an improvement idea with the reason for it.", "I can learn a colleague's work tip and try it."]
+      3: ["I can propose an improvement covering the current state, the solution and the benefit.", "I can run a small trial before rolling out widely.", "I can measure results before and after a small improvement."]
+      4: ["I can borrow ideas from other fields to solve my team's problem.", "I can lead an improvement project from idea to measured result.", "I can persuade the people involved to try a new way of working."]
+      5: ["I can create an environment where people dare to propose and experiment.", "I can choose which ideas get investment based on evidence.", "I can set aside specific time and resources for the team's experiments."]
+
+  - code: K5
+    slug: k5
+    cluster: III
+    name: Planning and keeping work commitments
+    summary: Take on tasks clearly, write them down, prioritise, meet deadlines and warn early when you may be late.
+    framework_map: ["CSfW: 3a Plan and organise", "SkillsFuture CCS: Self Management", "NACE: Professionalism"]
+    gdpt: Autonomy and self-learning
+    crosslink: {site: daynentang.com, url: "https://daynentang.com/en/", note: "Responsibility as a personal quality is covered on daynentang.com. Here we learn the skill side: writing tasks down, tracking them, warning early."}
+    levels:
+      1: ["I can take on a task and say clearly when it will be done.", "I can finish my part of a group task.", "I can prepare everything I need before starting a task."]
+      2: ["I can write every task I am given into one list with deadlines.", "I can warn early when I see I may miss a deadline.", "I can split a big task into small steps with their own deadlines."]
+      3: ["I can estimate time and set priorities when many tasks arrive at once.", "I can renegotiate a deadline or scope when there is not enough time.", "I can keep a task-tracking system going for many weeks."]
+      4: ["I can plan a small project with milestones, owners and risks.", "I can track several people's progress and adjust in time.", "I can manage work that depends on other people or teams."]
+      5: ["I can allocate people and resources according to my unit's priorities.", "I can build processes so the team keeps commitments without reminders.", "I can state clearly what the team will not do, to stay focused on priorities."]
+
+  - code: K6
+    slug: k6
+    cluster: III
+    name: Adaptability and persistence
+    summary: Keep doing good work when plans, tools or the environment change.
+    framework_map: ["WEF: Resilience, flexibility and agility", "SkillsFuture CCS: Adaptability", "LifeComp: P2 Flexibility"]
+    gdpt: Autonomy and self-learning
+    crosslink: {site: tamhonkhoe.com, url: "https://tamhonkhoe.com/en/", note: "The inner side (meditation, Stoicism) is on tamhonkhoe.com. Here we learn how to keep working when things change."}
+    levels:
+      1: ["I can keep working when a plan changes slightly.", "I can say when I feel confused by a new task.", "I can try again after my first attempt does not work."]
+      2: ["I can get used to a new tool or process quickly.", "I can take feedback without abandoning my work.", "I can ask why when a rule or plan changes."]
+      3: ["I can keep my work quality up under pressure or when plans change.", "I can learn from a mistake and do things differently.", "I can learn new skills on my own when the job requires it."]
+      4: ["I can help colleagues adapt when a process changes.", "I can prepare a backup plan for important work.", "I can keep on schedule while running old and new work at the same time."]
+      5: ["I can lead a team through a major change, explaining the reasons and the roadmap.", "I can keep the team's workload at a level it can sustain.", "I can listen to and address the team's concerns during change."]
+
+  - code: K7
+    slug: k7
+    cluster: III
+    name: Self-directed learning and career development
+    summary: Explore careers, teach yourself new tasks and plan your own development path.
+    framework_map: ["WEF: Curiosity and lifelong learning", "CSfW: 1a Manage career and work life", "SkillsFuture CCS: Learning Agility", "NACE: Career and Self-Development", "LifeComp: L3 Managing learning"]
+    gdpt: Autonomy and self-learning
+    levels:
+      1: ["I can name many jobs and what people in those jobs do.", "I can ask adults about their work.", "I can say what skills a job needs."]
+      2: ["I can research a field before choosing a course or internship.", "I can teach myself a new task using documents, videos and people who know.", "I can write down my strengths and what I still need to learn."]
+      3: ["I can set learning goals for my first 90 days in a new job.", "I can ask for feedback and use it to improve.", "I can record evidence of good work to use in reviews."]
+      4: ["I can make a 1–3 year career plan with measurable milestones.", "I can move into a new role using skills I can take with me.", "I can build a professional network to learn from."]
+      5: ["I can develop myself as a leader based on feedback from many directions.", "I can help people in my team plan their career paths.", "I can set regular time aside for my own and my team's learning."]
+
+  - code: K8
+    slug: k8
+    cluster: IV
+    name: Teamwork and respecting differences
+    summary: Share out work, coordinate and work well with people of different ages, backgrounds and views.
+    framework_map: ["CSfW: 2b Connect and work with others; 2c Recognise and utilise diverse perspectives", "SkillsFuture CCS: Collaboration; Building Inclusivity", "NACE: Teamwork; Equity and Inclusion", "LifeComp: S3 Collaboration"]
+    gdpt: Communication and collaboration
+    levels:
+      1: ["I can do my part in a group task.", "I can listen when a teammate shares an idea.", "I can share materials and information with my group."]
+      2: ["I can share out work with my group and remind each other of deadlines.", "I can work with people of different ages, regions and ways of thinking.", "I can ask for help and say thank you when I get it."]
+      3: ["I can support an overloaded colleague and still finish my own work.", "I can disagree respectfully, focusing on the work.", "I can share information in time so colleagues can carry on."]
+      4: ["I can mediate conflict between team members.", "I can coordinate with other departments towards a shared goal.", "I can work well with people of other languages and cultures, or remotely."]
+      5: ["I can build a team with clear roles where everyone can contribute.", "I can set working rules that suit people in different circumstances.", "I can review and improve how the team works together on a regular basis."]
+
+  - code: K9
+    slug: k9
+    cluster: IV
+    name: Leadership and developing others
+    summary: Lead shared work, delegate, give feedback and help others improve.
+    framework_map: ["WEF: Leadership and social influence; Talent management", "SkillsFuture CCS: Developing People; Influence", "NACE: Leadership"]
+    gdpt: "–"
+    levels:
+      1: ["I can show a newcomer a task I already know.", "I can take a small role in a group, such as timekeeper or note-taker.", "I can help my group stay on track during a task."]
+      2: ["I can suggest a way forward for the group when no one speaks up.", "I can lead by example by working on time and to standard.", "I can take responsibility for coordinating a small group task."]
+      3: ["I can guide a newcomer as they settle into the job.", "I can give colleagues specific, behaviour-based feedback.", "I can run a short meeting that ends on time with conclusions."]
+      4: ["I can mentor someone over several months.", "I can influence decisions without a formal title.", "I can lead a project team without line-management authority."]
+      5: ["I can delegate clearly, follow up and give regular feedback.", "I can identify and develop successors.", "I can set goals for the team and link them to the organisation's goals."]
+
+  - code: K10
+    slug: k10
+    cluster: V
+    name: Digital skills, AI and workplace rules
+    summary: Use digital tools and AI safely; understand contracts, safety and confidentiality at work.
+    framework_map: ["WEF: Technological literacy; AI and big data", "CSfW: 3e Work in a digital world; 1b Work with roles, rights and protocols", "SkillsFuture CCS: Digital Fluency", "NACE: Technology", "DigComp 3.0"]
+    gdpt: (Informatics)
+    crosslink: {site: trachnhiemxahoi.com, url: "https://trachnhiemxahoi.com/", note: "Human rights and social compliance are covered on trachnhiemxahoi.com (Vietnamese). Here we learn the practical knowledge you need at work."}
+    levels:
+      1: ["I can name the technology a familiar job uses.", "I can keep my password secret.", "I can say why I should not share personal information online."]
+      2: ["I can use email, spreadsheets and work chat at a basic level.", "I can read the main terms of a contract or internship agreement before signing.", "I can recognise common scam emails and messages."]
+      3: ["I can use AI to support my work and check the output myself.", "I can follow my workplace's data protection and safety rules.", "I can organise and name files so others can find them."]
+      4: ["I can automate a repetitive task with a digital tool.", "I can assess the risk before putting data into an AI tool.", "I can show colleagues how to use digital tools safely."]
+      5: ["I can set rules for using AI and data in my team.", "I can choose digital tools for the team based on need, cost and risk.", "I can handle a data leak according to my organisation's procedure."]

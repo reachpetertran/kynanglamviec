@@ -1,0 +1,91 @@
+# English edition of data/groups.yaml (the Vietnamese file is the original).
+# Codes, slugs and matrix symbols stay identical. Only text is in English.
+groups:
+  - code: N1
+    slug: n1
+    name: Primary and lower-secondary pupils
+    short: Exploring jobs
+    audience: Parents or teachers use it with the child. Children do not use a device alone.
+    levels: "Level 1"
+    intro: >-
+      At this age the aim is to widen what children know about jobs, not to choose one.
+      Children learn four things: exploring jobs around them, seeing that anyone can do any job,
+      working in a group, and keeping commitments in a task. There is no career-choice quiz.
+    note: "The site collects no data about children. Habits, values and character are taught on daynentang.com."
+    modules: ["Jobs around me", "Every job needs skills", "Anyone can do this job", "Finishing a task together", "Taking on a task and keeping promises (ages 11–15)", "Interviewing someone about their job (ages 11–15)"]
+    matrix: {K1: ["o", "listen and follow instructions"], K2: ["o", "talk about a job"], K3: ["o", "ask for help at the right time"], K4: ["o", ""], K5: ["c", "keep task commitments"], K6: ["-", "see daynentang.com"], K7: ["c", "explore jobs"], K8: ["c", "group work in a task"], K9: ["-", ""], K10: ["o", "every job uses technology"]}
+
+  - code: N2
+    slug: n2
+    name: Upper-secondary students, university students, part-timers, interns
+    short: Getting ready for work
+    audience: Upper-secondary students, university students not yet working, part-time workers, interns, apprentices.
+    levels: "Levels 1–2"
+    intro: >-
+      You are about to enter your first workplace. Focus: knowing yourself to choose a direction,
+      writing a CV and interviewing, knowing your rights and safety in part-time work, communicating and working in a team.
+    modules: ["Knowing yourself to choose a direction", "Your first job application (CV, STAR)", "Rights and safety in part-time work and internships", "Communicating in your first workplace", "Learning new tasks fast", "Working well on group projects"]
+    matrix: {K1: ["c", ""], K2: ["c", "email, CV, interviews"], K3: ["c", ""], K4: ["o", ""], K5: ["c", ""], K6: ["o", ""], K7: ["c", "choosing a field, internships"], K8: ["c", ""], K9: ["o", "leading without a title"], K10: ["c", "rights and safety at work; basic AI"]}
+
+  - code: N3
+    slug: n3
+    name: New and junior employees
+    short: Getting secure in your first job
+    audience: People new to work, entry-level or junior staff.
+    levels: "Levels 2–3"
+    intro: >-
+      You have a job. Focus: getting through your first 90 days well, managing tasks and commitments,
+      solving problems in a structured way, taking feedback and using AI safely.
+    modules: ["Your first 90 days", "Managing tasks and commitments", "Structured problem solving", "Taking and using feedback", "Working safely with AI and digital tools", "Serving internal and external customers"]
+    matrix: {K1: ["c", ""], K2: ["c", "progress reports"], K3: ["c", ""], K4: ["c", "proposing improvements"], K5: ["c", ""], K6: ["c", ""], K7: ["c", "first 90 days"], K8: ["c", ""], K9: ["o", ""], K10: ["c", ""]}
+
+  - code: N4
+    slug: n4
+    name: Senior staff and specialists
+    short: Influence and mentoring
+    audience: Experienced staff, senior specialists, experts.
+    levels: "Levels 3–4"
+    intro: >-
+      You are good at your specialist work. Next step: systems thinking, influence without a title,
+      mentoring colleagues, lean project management and renewing your career.
+    modules: ["Systems thinking, deciding with incomplete information", "Influence without a title", "Mentoring colleagues", "Lean project management", "Improvement and innovation", "Career change and renewal"]
+    matrix: {K1: ["a", "listening to challenge"], K2: ["a", "persuasion, negotiation"], K3: ["a", "systems thinking"], K4: ["a", ""], K5: ["a", "project management"], K6: ["c", ""], K7: ["c", "career change"], K8: ["a", "resolving conflict"], K9: ["c", "coaching, mentoring"], K10: ["c", ""]}
+
+  - code: N5
+    slug: n5
+    name: Managers and team leaders
+    short: Leading a team
+    audience: Team leaders, first-line and middle managers.
+    levels: "Levels 4–5 (K9 starts from Levels 2–3)"
+    intro: >-
+      You are responsible for other people's results. Focus: moving from specialist to manager,
+      delegating and giving feedback, coaching, handling conflict, building a team and leading change, including bringing AI into the team.
+    modules: ["From specialist to manager", "Delegation and feedback", "Coaching and developing people", "Handling conflict and difficult conversations", "Building a team and an inclusive culture", "Leading change, including bringing AI into the team"]
+    matrix: {K1: ["a", "listening to coach"], K2: ["a", "communicating a vision"], K3: ["a", "strategic decisions"], K4: ["a", "culture of innovation"], K5: ["a", "allocating resources"], K6: ["a", "managing change"], K7: ["c", "growing yourself as a leader"], K8: ["a", "team building"], K9: ["a", "core focus"], K10: ["a", "AI policy for the team"]}
+
+  - code: N6
+    slug: n6
+    name: Senior managers and executives
+    short: Leading an organisation
+    audience: Division heads, functional directors, executive teams, managers of managers.
+    levels: "Levels 4–5"
+    intro: >-
+      You no longer lead one team but a whole system: many layers of managers, many divisions, many risks.
+      Focus: deciding strategy as a group, turning strategy into action, communicating across layers,
+      designing decision rights, helping bad news travel up, governing risk and AI, and preparing successors.
+    modules: ["From leading a team to leading an organisation", "Strategic decisions as a group", "From strategy to execution", "Communicating direction across layers", "Designing decision rights", "Hearing weak signals, helping bad news travel up", "Risk, compliance and AI governance", "Leadership succession"]
+    matrix: {K1: ["a", "hearing weak signals across layers"], K2: ["a", "communicating direction across layers"], K3: ["a", "strategic decisions as a group"], K4: ["c", "innovation portfolio"], K5: ["a", "strategy into execution"], K6: ["c", "leading in a crisis"], K7: ["o", "learning from networks and boards"], K8: ["c", "cross-division and external partners"], K9: ["a", "organisation design, succession"], K10: ["a", "risk, compliance, AI and data governance"]}
+
+  - code: N7
+    slug: n7
+    name: Founders and start-ups
+    short: Building a business from scratch
+    audience: Founders, small business owners, household businesses growing into companies, early-stage start-ups.
+    levels: "Levels 2–4 depending on the skill"
+    intro: >-
+      You are turning an idea into a real business. Focus: customer discovery, experiments with criteria,
+      initiative and bouncing back from failure, managing cash flow, getting the legal basics right when starting,
+      hiring your first people and telling your story to raise resources.
+    note: "The N3–N6 lessons on problem solving, delegation and decisions are also useful for founders."
+    modules: ["From idea to hypothesis: customer discovery", "Experiments with criteria and pivot decisions", "Initiative and persistence", "The survival numbers: cash flow, break-even", "Legal basics of starting a business", "Hiring and keeping your first employees", "Telling your story to raise resources", "Lean digital operations, data and AI compliance"]
+    matrix: {K1: ["a", "customer discovery"], K2: ["c", "pitching, proposals to partners"], K3: ["a", "hypotheses, experiments, pivots"], K4: ["c", "solutions, business model"], K5: ["c", "cash flow, 90-day milestones"], K6: ["a", "initiative, recovering from failure"], K7: ["c", "learning through experiments"], K8: ["o", "co-founders, partners"], K9: ["c", "hiring and keeping first employees"], K10: ["c", "legal basics, data, digital tools"]}

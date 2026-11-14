@@ -1,0 +1,51 @@
+lesson: k2-prepare-your-first-interview
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which introduction follows the 3 points: now, done, why this place?"
+    options:
+      - text: "\"I'm Sam, I'm from the north, there are 4 of us at home, and I like football and music.\""
+        correct: false
+        why: It has only personal facts, with nothing you have done and no reason for choosing this place.
+      - text: "\"I'm Sam, a first-year student. I helped at my uncle's noodle shop for 3 summer months. I chose your restaurant to learn a professional kitchen process.\""
+        correct: true
+        why: Correct. All 3 points, with specific work and a specific reason.
+      - text: "\"I really need a job, please give me a chance.\""
+        correct: false
+        why: The employer still does not know who you are or what you can do.
+  - id: q2
+    prompt: "Which question to ask the interviewer is best?"
+    options:
+      - text: "\"Do you get a lot of days off here?\""
+        correct: false
+        why: You can ask about time off, but your first question should show interest in the work.
+      - text: "\"What do new staff usually need to learn in their first week?\""
+        correct: true
+        why: Correct. It shows you have thought about the real work and want to learn.
+      - text: "Ask nothing, so the interview ends quickly."
+        correct: false
+        why: You miss a chance to show interest and to get more information.
+  - id: q3
+    prompt: "The interviewer asks a question you do not fully understand. What should you do?"
+    options:
+      - text: Give any answer quickly.
+        correct: false
+        why: You may answer off-topic. The employer will think you did not listen.
+      - text: "Ask: \"Do you mean experience at school or in part-time work?\""
+        correct: true
+        why: Correct. Asking when something is unclear is good listening, not a weakness.
+      - text: Stay silent and wait for another question.
+        correct: false
+        why: Silence breaks the flow of the interview and costs you points.
+  - id: q4
+    prompt: "A 16-year-old is invited to an evening interview at an unfamiliar address. What is the safest approach?"
+    options:
+      - text: Go alone to look confident.
+        correct: false
+        why: An unfamiliar address, the evening and being under 18 are three reasons for extra care.
+      - text: Ask for a daytime slot, check the address, and bring someone from home.
+        correct: true
+        why: Correct. A genuine employer will happily agree a clear time and place.
+      - text: Tell no one, so the family does not worry.
+        correct: false
+        why: Always tell someone at home where you are going, especially if you are under 18.

@@ -1,0 +1,51 @@
+lesson: k7-know-yourself-choose-a-direction
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Lily writes in her \"Can do\" circle: \"Good at drawing\". Which version is better?"
+    options:
+      - text: "\"Really good at drawing, everyone says so\""
+        correct: false
+        why: It is still a self-claim. It does not point to specific evidence.
+      - text: "\"Drew 3 posters for the school camp; the school printed and displayed them\""
+        correct: true
+        why: Correct. There is a specific product that others used. That is evidence.
+      - text: "\"Want to study graphic design\""
+        correct: false
+        why: This is a wish. It belongs to directions to test, not to evidence of ability.
+  - id: q2
+    prompt: "Ken writes in his \"Like doing\" circle: \"I like being a doctor\". What is the problem?"
+    options:
+      - text: There is no problem. A job title is the clearest option.
+        correct: false
+        why: A job title does not show which activities in that job Ken enjoys.
+      - text: He should write activities, such as "caring for my sister when she is ill, learning how the body works".
+        correct: true
+        why: Correct. Activities help you find many jobs that involve them, not just one.
+      - text: He should drop this circle and keep only "Can do".
+        correct: false
+        why: Without "Like doing", you may pick work you can do but quickly get bored of.
+  - id: q3
+    prompt: "Which small test best fits the direction \"making drinks as a barista\" within 14 days?"
+    options:
+      - text: Sign up straight away for a 6-month barista course.
+        correct: false
+        why: It costs a lot of time and money before you have any real information.
+      - text: Watch lots of videos about barista work.
+        correct: false
+        why: Useful for research, but it is not trying the work or talking to a real person.
+      - text: Talk to a working barista for 20 minutes, and ask to try one shift.
+        correct: true
+        why: Correct. It is short and cheap, and gives real information about a working day.
+  - id: q4
+    prompt: "After her test, Aisha finds event planning is not a good fit for her. What should she do?"
+    options:
+      - text: Write down what surprised her, drop this direction and test the second one.
+        correct: true
+        why: Correct. Ruling out a direction with real information is a useful result.
+      - text: Treat it as failure and stop looking for a direction.
+        correct: false
+        why: A test exists to give information. "Not a fit" is valuable information too.
+      - text: Ignore the result and still choose that field because she told her friends.
+        correct: false
+        why: Then the test no longer guides her decision.

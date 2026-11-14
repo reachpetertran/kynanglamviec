@@ -13,6 +13,8 @@ Chạy:
 import html, re, shutil, sys, datetime
 from pathlib import Path
 import markdown, yaml
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import build_en  # noqa: E402  bản tiếng Anh dưới /en/
 
 ROOT = Path(__file__).resolve().parent.parent
 PREVIEW = "--preview" in sys.argv
@@ -75,6 +77,10 @@ def page(path, title, body, desc="", wide=False):
     nav = "".join(
         f'<a href="{p}{href}"{" aria-current=page" if path.startswith(href) else ""}>{label}</a>'
         for href, label in NAV)
+    alt = ALT_EN.get(path)
+    nav += f'<a class="lang" href="{p}{alt or "en/"}" lang="en" hreflang="en">English</a>'
+    alts = (f'<link rel="alternate" hreflang="vi" href="{SITE}/{path}">\n<link rel="alternate" hreflang="en" href="{SITE}/{alt}">\n'
+            if alt is not None else "")
     full_title = f"{title} · {SITE_NAME}" if path else f"{SITE_NAME} – kỹ năng làm việc theo lộ trình nghề nghiệp"
     canon = f"{SITE}/{path}" if path != "404.html" else SITE + "/"
     doc = f"""<!doctype html>
@@ -85,7 +91,7 @@ def page(path, title, body, desc="", wide=False):
 <title>{e(full_title)}</title>
 <meta name="description" content="{e(desc or 'Học miễn phí kỹ năng làm việc theo lộ trình nghề nghiệp, từ học sinh đến quản lý. Không đăng nhập, không theo dõi.')}">
 <link rel="canonical" href="{canon}">
-<link rel="icon" href="{p}assets/favicon.svg" type="image/svg+xml">
+{alts}<link rel="icon" href="{p}assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="{p}assets/apple-touch-icon.png">
 <meta property="og:image" content="https://kynanglamviec.com/assets/logo-1024.png">
 <link rel="stylesheet" href="{p}assets/style.css">
@@ -128,6 +134,7 @@ def page(path, title, body, desc="", wide=False):
 
 
 PAGES = []
+ALT_EN = build_en.ALT  # đường dẫn tiếng Việt -> tiếng Anh (trang nào có cả hai)
 
 # ---------------------------------------------------------------- mảnh dùng chung
 
@@ -465,6 +472,7 @@ def SA_JSON():
                         "lessons": [{"slug": l["slug"], "title": l["title"], "level": l["level"]}
                                     for l in LESSONS if l["skill"] == s["code"]]} for s in SKILLS}
     data["_suffix"] = "index.html" if PREVIEW else ""
+    data["_base"] = "../bai-hoc/"
     return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 
 
@@ -630,5 +638,7 @@ if __name__ == "__main__":
         shutil.rmtree(OUT)
     OUT.mkdir()
     build_home(); build_groups(); build_skills(); build_lessons()
-    build_self_assessment(); build_misc(); build_static()
+    build_self_assessment(); build_misc()
+    build_en.run(sys.modules[__name__])
+    build_static()
     print(f"Đã sinh {len(PAGES)} trang vào {OUT.relative_to(ROOT)}/")

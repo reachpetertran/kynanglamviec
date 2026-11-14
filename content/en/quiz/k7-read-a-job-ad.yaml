@@ -1,0 +1,51 @@
+lesson: k7-read-a-job-ad
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "A job ad says: \"Conversational Spanish preferred\". Your Spanish is weak. What should you do?"
+    options:
+      - text: Skip this ad.
+        correct: false
+        why: This is a preferred item, not a required one. You can still be hired.
+      - text: Apply anyway if you meet all the required criteria.
+        correct: true
+        why: Correct. Missing a few preferred items is no reason not to apply.
+      - text: Write "good Spanish" on your CV to be safe.
+        correct: false
+        why: Every CV line must be backed by a real example. A false line shows up in the interview.
+  - id: q2
+    prompt: "The café owner says: \"Give me your original ID card. I'll return it when you leave.\" What does this mean?"
+    options:
+      - text: It is normal. Many places do it to keep staff.
+        correct: false
+        why: It is a common warning sign. In Vietnam, for example, the Labour Code bans it.
+      - text: It is a sign to stop. Hand over a copy and keep the original.
+        correct: true
+        why: Correct. Keeping a worker's original ID is a warning sign, and illegal in some countries.
+      - text: It is fine if the café pays well.
+        correct: false
+        why: High pay does not make the practice safe, or legal where it is banned.
+  - id: q3
+    prompt: "Which ad answers all 5 questions: what, where, when, how you are paid, who to contact?"
+    options:
+      - text: "\"Urgent hire, high pay, message us to learn more\""
+        correct: false
+        why: It does not say what, where or when. Contact is by message only.
+      - text: "\"Kitchen assistant, rice shop at 12 X Street, shift 10:00–14:00, hourly pay paid weekly, call Ms Hana\""
+        correct: true
+        why: Correct. It covers the work, address, hours, pay method and contact person.
+      - text: "\"Easy work from home, unlimited income\""
+        correct: false
+        why: The work is vague and the pay is suspiciously high.
+  - id: q4
+    prompt: "An employer asks you to pay a \"place-holding fee\" before you start. What should you do?"
+    options:
+      - text: Pay, because the amount is small.
+        correct: false
+        why: A small amount is still money given as security, a key warning sign.
+      - text: Do not pay. Ask for clear details in writing or move on.
+        correct: true
+        why: Correct. Asking for money is one of the 3 signs to stop.
+      - text: Pay, but ask for a receipt.
+        correct: false
+        why: A receipt does not make the request safe. The best choice is not to pay.
