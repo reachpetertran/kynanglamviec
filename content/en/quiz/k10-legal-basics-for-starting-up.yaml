@@ -1,0 +1,51 @@
+lesson: k10-legal-basics-for-starting-up
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "You are about to take a bank loan to open a workshop, and you do not want your family's assets at risk. Which of the four questions matters most here?"
+    options:
+      - text: Paperwork.
+        correct: false
+        why: Paperwork matters, but your worry is how much you could lose if the business owes money.
+      - text: Liability.
+        correct: true
+        why: Correct. The business form decides how far you are liable when the business owes money.
+      - text: Raising capital.
+        correct: false
+        why: Here you are borrowing from a bank, not selling shares to investors.
+  - id: q2
+    prompt: "Three founders plan to sell shares to an investment fund next year. In Vietnam, which form usually fits better?"
+    options:
+      - text: Household business.
+        correct: false
+        why: A household business cannot issue shares, and the owner is liable with all their assets.
+      - text: Joint-stock company.
+        correct: true
+        why: Correct. A joint-stock company may issue shares to raise capital.
+      - text: Private enterprise.
+        correct: false
+        why: A private enterprise has only one owner and cannot issue shares.
+  - id: q3
+    prompt: "A friend says: \"New small companies get 3 years tax-free, so just put it in the plan.\" What is the most accurate reply?"
+    options:
+      - text: True. Every new company is exempt.
+        correct: false
+        why: The incentive is for SMEs, under conditions set by the implementing texts.
+      - text: The rule exists, but read the conditions in the original text before counting on it.
+        correct: true
+        why: Correct. Resolution 198/2025/QH15 sets the rule; Decree 20/2026/ND-CP gives the details.
+      - text: There is no such rule.
+        correct: false
+        why: There is. Article 10(4) of Resolution 198/2025/QH15 provides a 3-year exemption.
+  - id: q4
+    prompt: "Why write a capital contribution agreement with your co-founder from the start?"
+    options:
+      - text: Because friends will stop trusting each other later.
+        correct: false
+        why: It is not about losing trust. A written agreement prevents misunderstandings when things change.
+      - text: To be clear who contributes how much, who decides what, and what happens if one leaves.
+        correct: true
+        why: Correct. These things are easy to agree on while everything is going well.
+      - text: It is only needed when raising money from outsiders.
+        correct: false
+        why: Disputes between founders can happen long before any investor arrives.

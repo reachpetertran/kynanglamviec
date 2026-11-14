@@ -1,0 +1,51 @@
+lesson: k6-take-initiative-and-bounce-back
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which action shows \"looking ahead\"?"
+    options:
+      - text: Waiting for customer complaints before fixing the delivery process.
+        correct: false
+        why: This is reacting after the problem has happened.
+      - text: Seeing the rainy season coming, ordering waterproof bags for couriers in advance.
+        correct: true
+        why: Correct. You anticipate the obstacle and prepare now.
+      - text: Working overtime whenever orders pile up.
+        correct: false
+        why: Overtime may be needed, but it is not preparing in advance for an obstacle.
+  - id: q2
+    prompt: "Which is a usable \"if… then…\" sentence?"
+    options:
+      - text: "\"If anything happens, I'll do my best.\""
+        correct: false
+        why: It is unclear what might happen, and unclear what you will do.
+      - text: "\"If the flour supplier is more than 3 days late, then I order from the second supplier.\""
+        correct: true
+        why: Correct. It has a specific sign and a specific action decided in advance.
+      - text: "\"If sales are slow, then I'll think of something.\""
+        correct: false
+        why: "\"Think of something\" is not an action. This does not help you decide in advance."
+  - id: q3
+    prompt: "Which line correctly fills \"What was in my control\" on the lessons-learned note?"
+    options:
+      - text: "\"Customers are so demanding these days.\""
+        correct: false
+        why: This blames outside factors. You can do nothing with it.
+      - text: "\"I didn't ask customers when they usually order before running the promotion.\""
+        correct: true
+        why: Correct. This is something you could have done differently, and can do next time.
+      - text: "\"I'm just not cut out for business.\""
+        correct: false
+        why: This judges yourself. It is not a specific thing to adjust.
+  - id: q4
+    prompt: "According to Campos and colleagues (2017) in Togo, which result is correct?"
+    options:
+      - text: Traditional business training raised profits more than initiative training.
+        correct: false
+        why: The opposite. Traditional training raised them by about 11%, not statistically significant.
+      - text: Personal initiative training raised profits by about 30% after two years.
+        correct: true
+        why: Correct. This is the main result of the study published in Science.
+      - text: Initiative is an inborn trait and cannot be trained.
+        correct: false
+        why: The study shows initiative behaviour can be learned through training.

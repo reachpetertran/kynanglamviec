@@ -22,7 +22,7 @@ status: published
 
 <div class="note" markdown="1">
 Bài này làm **Tờ 6: Kênh tin xấu**. [Mẫu in](../../tai-nguyen/n6/#to-6).
-Cách hỏi trong buổi 1-1 đã học ở [Lắng nghe để coaching](../k1-lang-nghe-de-coaching/) (N5). Kênh khiếu nại chính thức của người lao động được bàn ở <a href="https://trachnhiemxahoi.com">trachnhiemxahoi.com</a>.
+Cách hỏi trong buổi 1-1 đã học ở [Lắng nghe để coaching](../k1-lang-nghe-de-coaching/) (N5). Kênh khiếu nại chính thức của người lao động sẽ được bàn ở trachnhiemxahoi.com (sắp ra mắt).
 </div>
 
 ## 1. Mục tiêu

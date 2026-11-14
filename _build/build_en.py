@@ -168,7 +168,7 @@ def page(path, title, body, desc=""):
     <p>The site is written in Vietnamese first. The English edition is adapted with international examples and is being added in stages.</p>
     <p>Sister sites: <a href="https://daynentang.com/en/">daynentang.com</a> (values, habits) ·
     <a href="https://tamhonkhoe.com/en/">tamhonkhoe.com</a> (inner life) ·
-    <a href="https://trachnhiemxahoi.com/">trachnhiemxahoi.com</a> (human rights, in Vietnamese) ·
+    trachnhiemxahoi.com (human rights, coming soon) ·
     <a href="https://tienganhcanban.com/">tienganhcanban.com</a> (learning English)</p>
     <p><a href="{p}en/frameworks/">Reference frameworks</a> · <a href="{p}en/journal/">Evidence journal</a> ·
     Original content: CC BY-NC-SA 4.0 · Updated {B.TODAY}</p>
@@ -363,7 +363,7 @@ def build_skills():
             f'<tr><td><a href="{R}paths/{g["slug"]}/">{g["code"]}</a> {e(g["name"])}</td><td>{mark(*g["matrix"][s["code"]])}</td></tr>'
             for g in GROUPS)
         cl = s.get("crosslink")
-        cross = f'<p class="note">{e(cl["note"])} <a href="{cl["url"]}">Go to {cl["site"]}</a></p>' if cl else ""
+        cross = (f'<p class="note">{e(cl["note"])}' + (f' <a href="{cl["url"]}">Go to {cl["site"]}</a>' if cl.get("url") else "") + '</p>') if cl else ""
         fm = "".join(f"<li>{e(x)}</li>" for x in s["framework_map"])
         body = f"""<p class="crumb"><a href="{R}skills/">Skills</a> › {s['code']}</p>
 <h1><span class="gcode">{s['code']}</span> {e(s['name'])}</h1>
@@ -573,7 +573,7 @@ Free, public, no login needed.</p>
 <h2>The English edition</h2>
 <p>The site is written in Vietnamese first. English pages are adapted for international readers: names, places and
 examples are changed, and Vietnamese law appears only as an example with its source. The meaning and method stay the same.
-Lessons are added in stages: so far the Getting Ready for Work course (N2), the Your First 90 Days course (N3) and 11 core lessons for N2–N3.</p>
+Lessons are added in stages: so far six courses (N2 to N7, 46 lessons) and 11 core lessons for N2–N3. Still to come: 12 standalone lessons and the N1 course for parents and teachers.</p>
 <h2>Privacy</h2>
 <p>No login, no cookies, no trackers, no external scripts or fonts.
 Progress, self-assessment and journal entries are stored only in your browser (localStorage). The site has no server that stores user data.</p>
@@ -581,7 +581,7 @@ Progress, self-assessment and journal entries are stored only in your browser (l
 <ul>
 <li><a href="https://daynentang.com/en/">daynentang.com</a> – values, ethics, habits, character.</li>
 <li><a href="https://tamhonkhoe.com/en/">tamhonkhoe.com</a> – inner life, meditation, Stoicism.</li>
-<li><a href="https://trachnhiemxahoi.com/">trachnhiemxahoi.com</a> – social compliance, human rights (in Vietnamese).</li>
+<li>trachnhiemxahoi.com – social compliance, human rights (in Vietnamese, coming soon).</li>
 <li><a href="https://tienganhcanban.com/">tienganhcanban.com</a> – learning English.</li>
 </ul>
 <h2>Licence</h2>

@@ -1,0 +1,51 @@
+lesson: k2-pitch-in-three-minutes
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which is the strongest evidence in a pitch?"
+    options:
+      - text: "\"Customers love the product.\""
+        correct: false
+        why: This is an adjective. The listener cannot check it.
+      - text: "\"In 3 weeks, 18 people paid a deposit and 11 bought again.\""
+        correct: true
+        why: Correct. It has numbers, a time period, and actions that cost money.
+      - text: "\"This market is huge and growing.\""
+        correct: false
+        why: This is general. It says nothing about your customers.
+  - id: q2
+    prompt: "Which request is most specific?"
+    options:
+      - text: "\"We hope you'll support us.\""
+        correct: false
+        why: The listener does not know what you want them to do.
+      - text: "\"We need 300,000 to open a second outlet before March.\""
+        correct: true
+        why: Correct. It has what is needed, how much, what for and by when.
+      - text: "\"We are looking for strategic partners.\""
+        correct: false
+        why: It is unclear what a partner would do or give, and when.
+  - id: q3
+    prompt: "You have 2 months of real revenue and a 12-month forecast. How should you present them?"
+    options:
+      - text: Merge them into one neat 14-month chart.
+        correct: false
+        why: Merging stops listeners telling real figures from forecasts.
+      - text: "Say clearly: \"These are real figures for 2 months\" and \"This is a forecast\"."
+        correct: true
+        why: Correct. Separating the two keeps an experienced listener's trust.
+      - text: Show only the forecast because the real figures are small.
+        correct: false
+        why: Real figures, even small ones, are the strongest evidence you have.
+  - id: q4
+    prompt: "Which check tells you the request is clear enough?"
+    options:
+      - text: The listener says it was a good talk.
+        correct: false
+        why: Praise for the talk does not show they understood what you want.
+      - text: The listener restates your request correctly.
+        correct: true
+        why: Correct. If they can restate it, the request is clear.
+      - text: You spoke for exactly 3 minutes.
+        correct: false
+        why: Keeping to time is good, but it does not show whether the request was clear.

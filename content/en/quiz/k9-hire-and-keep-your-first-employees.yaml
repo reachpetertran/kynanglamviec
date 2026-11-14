@@ -1,0 +1,51 @@
+lesson: k9-hire-and-keep-your-first-employees
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which line is a well-written 90-day result for a first salesperson?"
+    options:
+      - text: "\"Enthusiastic and hard-working.\""
+        correct: false
+        why: This describes personality. It cannot be measured.
+      - text: "\"Reply to every customer message within 30 minutes during office hours.\""
+        correct: true
+        why: Correct. It names a specific task and can be measured.
+      - text: "\"In charge of sales.\""
+        correct: false
+        why: This is a title. It does not say what doing well looks like.
+  - id: q2
+    prompt: "Someone works 8-hour shifts under your supervision. You call them a \"freelancer\" and sign nothing. Under Vietnamese law, which is true?"
+    options:
+      - text: Because they are a freelancer, no employment contract is needed.
+        correct: false
+        why: The label does not decide. Work, pay and supervision make it an employment contract.
+      - text: This may be treated as an employment contract, so the paperwork must be done properly.
+        correct: true
+        why: Correct. Under Article 13(1) of the Labour Code, the content counts, not the name.
+      - text: Paying them in full is enough.
+        correct: false
+        why: Paying in full does not replace the contract, insurance and other obligations.
+  - id: q3
+    prompt: "An employee signs a 12-month employment contract. Under Vietnamese law, which is true about social insurance?"
+    options:
+      - text: Not compulsory, because the business is still small.
+        correct: false
+        why: The size of the business does not remove this obligation.
+      - text: They are covered by compulsory social insurance.
+        correct: true
+        why: Correct. Contracts of 1 month or more are covered under Social Insurance Law 41/2024/QH15.
+      - text: Only compulsory after a 6-month probation.
+        correct: false
+        why: There is no such 6-month rule. Read the original text on when contributions start.
+  - id: q4
+    prompt: "Your first employee has been with you 2 months and is quiet. You do not know if they are happy. What should you do first?"
+    options:
+      - text: Give them a pay rise now to keep them.
+        correct: false
+        why: You do not yet know the problem. A pay rise may not address it.
+      - text: Hold a 15-minute weekly one-to-one, asking what got in their way and what they need from you.
+        correct: true
+        why: Correct. Regular one-to-ones uncover problems early.
+      - text: Wait for them to raise any problem.
+        correct: false
+        why: Many people do not speak up. They leave before they do.

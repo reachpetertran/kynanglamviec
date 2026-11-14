@@ -1,0 +1,51 @@
+lesson: k5-the-numbers-that-keep-you-alive
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "You deliver to a wholesale customer on 5 March. They pay on 20 April. Where do you record the cash in the cash flow table?"
+    options:
+      - text: The week containing 5 March.
+        correct: false
+        why: That is the week of sale. The money has not reached you yet.
+      - text: The week containing 20 April.
+        correct: true
+        why: Correct. A cash flow table records money when it actually arrives.
+      - text: Spread evenly over the weeks in between.
+        correct: false
+        why: Money does not arrive in even slices. Recording it that way makes the table wrong.
+  - id: q2
+    prompt: "The price is 40 and the direct cost is 28. What is the gross margin?"
+    options:
+      - text: "12."
+        correct: false
+        why: This is the gross profit per unit, not yet divided by the price.
+      - text: 30%.
+        correct: true
+        why: Correct. (40 − 28) ÷ 40 = 30%.
+      - text: 70%.
+        correct: false
+        why: 70% is cost as a share of price, not the margin.
+  - id: q3
+    prompt: "Fixed costs are 20,000 a month. Gross profit per product is 50. What is break-even?"
+    options:
+      - text: 400 products a month.
+        correct: true
+        why: Correct. 20,000 ÷ 50 = 400.
+      - text: 40 products a month.
+        correct: false
+        why: One zero is missing. Check the division again.
+      - text: It cannot be worked out without the price.
+        correct: false
+        why: You already have the gross profit per product, which is enough.
+  - id: q4
+    prompt: "Your 13-week table shows week 9 will be 15,000 negative. It is now week 2. What should you do?"
+    options:
+      - text: Wait until week 8 to see if it is true.
+        correct: false
+        why: Waiting leaves only emergency borrowing. Seeing it early gives you options.
+      - text: Start now on one of the four ways out - collect sooner, pay later, cut spending, find more money.
+        correct: true
+        why: Correct. With 7 weeks left, there is time to negotiate with customers and suppliers.
+      - text: Drop the cash flow table because forecasts are uncertain.
+        correct: false
+        why: A forecast does not need to be certain. It needs to be good enough to warn you early.

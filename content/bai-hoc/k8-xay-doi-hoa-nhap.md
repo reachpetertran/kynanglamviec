@@ -22,7 +22,7 @@ status: published
 
 <div class="note" markdown="1">
 Bài này làm **Tờ 6: Thỏa thuận làm việc của đội**. [Mẫu in](../../tai-nguyen/n5/#to-6).
-Quyền không bị phân biệt đối xử ở nơi làm việc được bàn ở [trachnhiemxahoi.com](https://trachnhiemxahoi.com/). Ở đây ta học phần kỹ năng: cách tổ chức đội để ai cũng góp được sức.
+Quyền không bị phân biệt đối xử ở nơi làm việc sẽ được bàn ở trachnhiemxahoi.com (sắp ra mắt). Ở đây ta học phần kỹ năng: cách tổ chức đội để ai cũng góp được sức.
 </div>
 
 ## 1. Mục tiêu

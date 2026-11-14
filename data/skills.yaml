@@ -148,7 +148,7 @@ skills:
     summary: Dùng công cụ số và AI an toàn; hiểu hợp đồng, an toàn, bảo mật ở nơi làm việc.
     framework_map: ["WEF: Technological literacy; AI and big data", "CSfW: 3e Work in a digital world; 1b Work with roles, rights and protocols", "SkillsFuture CCS: Digital Fluency", "NACE: Technology", "DigComp 3.0"]
     gdpt: (Tin học)
-    crosslink: {site: trachnhiemxahoi.com, url: "https://trachnhiemxahoi.com/", note: "Quyền con người và social compliance nằm ở trachnhiemxahoi.com. Ở đây ta học phần kiến thức thực tế khi đi làm."}
+    crosslink: {site: trachnhiemxahoi.com, note: "Quyền con người và social compliance sẽ có ở trachnhiemxahoi.com (sắp ra mắt). Ở đây ta học phần kiến thức thực tế khi đi làm."}
     levels:
       1: ["Tôi có thể kể ra công nghệ mà một nghề quen thuộc đang dùng.", "Tôi có thể giữ bí mật mật khẩu của mình.", "Tôi có thể nói vì sao không nên chia sẻ thông tin cá nhân trên mạng."]
       2: ["Tôi có thể dùng email, bảng tính và chat công việc ở mức cơ bản.", "Tôi có thể đọc các điều chính trong hợp đồng hoặc thỏa thuận thực tập trước khi ký.", "Tôi có thể nhận ra email hoặc tin nhắn lừa đảo thường gặp."]

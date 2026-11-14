@@ -149,7 +149,7 @@ skills:
     summary: Use digital tools and AI safely; understand contracts, safety and confidentiality at work.
     framework_map: ["WEF: Technological literacy; AI and big data", "CSfW: 3e Work in a digital world; 1b Work with roles, rights and protocols", "SkillsFuture CCS: Digital Fluency", "NACE: Technology", "DigComp 3.0"]
     gdpt: (Informatics)
-    crosslink: {site: trachnhiemxahoi.com, url: "https://trachnhiemxahoi.com/", note: "Human rights and social compliance are covered on trachnhiemxahoi.com (Vietnamese). Here we learn the practical knowledge you need at work."}
+    crosslink: {site: trachnhiemxahoi.com, note: "Human rights and social compliance will be covered on trachnhiemxahoi.com (in Vietnamese, coming soon). Here we learn the practical knowledge you need at work."}
     levels:
       1: ["I can name the technology a familiar job uses.", "I can keep my password secret.", "I can say why I should not share personal information online."]
       2: ["I can use email, spreadsheets and work chat at a basic level.", "I can read the main terms of a contract or internship agreement before signing.", "I can recognise common scam emails and messages."]

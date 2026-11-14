@@ -1,0 +1,51 @@
+lesson: k1-discover-your-customers
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which is a testable hypothesis?"
+    options:
+      - text: "\"Everyone wants to eat healthily.\""
+        correct: false
+        why: This can hardly be false, so it cannot be tested.
+      - text: "\"Working mothers in this district throw away at least one bunch of vegetables a week for fear of pesticides.\""
+        correct: true
+        why: Correct. It has a specific customer, a problem and a frequency. Interviews can show whether it holds.
+      - text: "\"Our product will be very successful.\""
+        correct: false
+        why: This is a wish. It says nothing about customers or problems.
+  - id: q2
+    prompt: "Which interview question is least leading?"
+    options:
+      - text: "\"Would you like to use my booking app?\""
+        correct: false
+        why: It presents the solution and asks about the future. People tend to answer politely.
+      - text: "\"The last time you booked a haircut, how did you do it?\""
+        correct: true
+        why: Correct. It asks about something that happened, without mentioning your solution.
+      - text: "\"Don't you find booking by phone inconvenient?\""
+        correct: false
+        why: It suggests the answer, that it is inconvenient.
+  - id: q3
+    prompt: "After 10 interviews, 9 people say \"great idea\", but none has ever tried to solve the problem themselves. What do you conclude?"
+    options:
+      - text: The problem is huge, so start now.
+        correct: false
+        why: Praise is not evidence. Nobody has acted to solve the problem.
+      - text: There is no evidence the problem hurts enough. Revisit the problem hypothesis.
+        correct: true
+        why: Correct. People with a real problem have usually tried something, or paid for it.
+      - text: Interview 10 close friends to be sure.
+        correct: false
+        why: Close friends praise even more readily. Interview the right customer group.
+  - id: q4
+    prompt: "In an interview, when should you describe your solution?"
+    options:
+      - text: Right at the start, so the customer understands the context.
+        correct: false
+        why: Describing it early makes people answer about your solution, not their real life.
+      - text: After you have heard enough about what they have done, if there is time.
+        correct: true
+        why: Correct. Hear facts about the past first. Their reaction to your solution is secondary.
+      - text: Never.
+        correct: false
+        why: You can describe it at the end. Just remember that their reaction is not strong evidence.

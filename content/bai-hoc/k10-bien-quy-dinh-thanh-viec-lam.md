@@ -23,7 +23,7 @@ status: published
 <div class="note" markdown="1">
 Bài này làm **Tờ 7: Phiếu theo dõi quy định**. [Mẫu in](../../tai-nguyen/n4/#to-7).
 Bài dạy **cách đọc và áp dụng** văn bản, không phải tư vấn pháp lý. Việc quan trọng, hãy hỏi bộ phận pháp chế hoặc luật sư.
-Về tiêu chuẩn trách nhiệm xã hội của khách hàng, xem [trachnhiemxahoi.com](https://trachnhiemxahoi.com).
+Tiêu chuẩn trách nhiệm xã hội của khách hàng sẽ có ở trachnhiemxahoi.com (sắp ra mắt).
 </div>
 
 ## 1. Mục tiêu

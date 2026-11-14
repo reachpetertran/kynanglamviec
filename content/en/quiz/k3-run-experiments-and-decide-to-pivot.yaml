@@ -1,0 +1,51 @@
+lesson: k3-run-experiments-and-decide-to-pivot
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which metric is best for testing a willingness-to-pay hypothesis?"
+    options:
+      - text: Number of likes on a post introducing the product.
+        correct: false
+        why: A like costs nothing. It does not show that customers will pay.
+      - text: Number of people paying a deposit within 2 weeks.
+        correct: true
+        why: Correct. A deposit costs money and is close to a real purchase.
+      - text: Number of people who say they will buy at launch.
+        correct: false
+        why: A promise about the future is less reliable than an action that costs money.
+  - id: q2
+    prompt: "Your threshold to continue is 30 deposits. You get 27. You say \"nearly there, let's continue\". What is the problem?"
+    options:
+      - text: No problem. 27 is very close to 30.
+        correct: false
+        why: If you change the threshold after seeing the result, it no longer does its job.
+      - text: You are changing the criterion after the result. Follow the path written for that zone.
+        correct: true
+        why: Correct. Thresholds written in advance keep you honest. Act on the zone 27 falls in.
+      - text: Run it again until you reach 30.
+        correct: false
+        why: Re-running until you get the number you want is fooling yourself, and it costs money.
+  - id: q3
+    prompt: "The result falls in the pivot zone. Which pivot fits the spirit of the lesson?"
+    options:
+      - text: Change the customer, product, price and channel all at once.
+        correct: false
+        why: Changing many things at once means you do not know what caused the new result.
+      - text: Keep the customer and channel, change only the price, then test again.
+        correct: true
+        why: Correct. A pivot changes one element, keeps the rest, then tests again.
+      - text: Keep everything and run more ads.
+        correct: false
+        why: This is doing more of the same, not a pivot.
+  - id: q4
+    prompt: "What did the study by Camuffo and colleagues (2020) with 116 Italian start-ups find?"
+    options:
+      - text: Start-ups taught to test hypotheses dropped out more from the start.
+        correct: false
+        why: The study did not find more early drop-out in this group.
+      - text: Start-ups taught to test hypotheses performed better and pivoted more.
+        correct: true
+        why: Correct. This is the main result reported in the study's abstract.
+      - text: Testing hypotheses made no difference.
+        correct: false
+        why: The study found differences in performance and in the number of pivots.

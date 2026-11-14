@@ -115,7 +115,7 @@ def page(path, title, body, desc="", wide=False):
     Tiến độ học chỉ lưu trên máy của bạn.</p>
     <p>Trang cùng hệ: <a href="https://daynentang.com/">daynentang.com</a> (giá trị, thói quen) ·
     <a href="https://tamhonkhoe.com/">tamhonkhoe.com</a> (tinh thần) ·
-    <a href="https://trachnhiemxahoi.com/">trachnhiemxahoi.com</a> (quyền con người) ·
+    trachnhiemxahoi.com (quyền con người, sắp ra mắt) ·
     <a href="https://tienganhcanban.com/">tienganhcanban.com</a> (tiếng Anh)</p>
     <p><a href="{p}khung-tham-chieu/">Khung tham chiếu</a> · <a href="{p}phap-ly/">Pháp lý khi đi làm</a> ·
     <a href="{p}nhat-ky/">Nhật ký bằng chứng</a> · Nội dung tự viết: CC BY-NC-SA 4.0 · Cập nhật {TODAY}</p>
@@ -297,7 +297,7 @@ def build_skills():
             f"<tr><td><a href=\"{{{{R}}}}lo-trinh/{g['slug']}/\">{g['code']}</a> {e(g['name'])}</td><td>{mark(*g['matrix'][s['code']])}</td></tr>"
             for g in GROUPS)
         cl = s.get("crosslink")
-        cross = f'<p class="note">{e(cl["note"])} <a href="{cl["url"]}">Đến {cl["site"]}</a></p>' if cl else ""
+        cross = (f'<p class="note">{e(cl["note"])}' + (f' <a href="{cl["url"]}">Đến {cl["site"]}</a>' if cl.get("url") else "") + '</p>') if cl else ""
         fm = "".join(f"<li>{e(x)}</li>" for x in s["framework_map"])
         body = f"""<p class="crumb"><a href="{{{{R}}}}ky-nang/">Kỹ năng</a> › {s['code']}</p>
 <h1><span class="gcode">{s['code']}</span> {e(s['name'])}</h1>
@@ -608,7 +608,7 @@ Tiến độ, tự đánh giá và nhật ký chỉ lưu trong trình duyệt c�
 <ul>
 <li><a href="https://daynentang.com/">daynentang.com</a> – giá trị, đạo đức, thói quen, phẩm chất.</li>
 <li><a href="https://tamhonkhoe.com/">tamhonkhoe.com</a> – tinh thần, thiền, Stoicism.</li>
-<li><a href="https://trachnhiemxahoi.com/">trachnhiemxahoi.com</a> – social compliance, quyền con người.</li>
+<li>trachnhiemxahoi.com – social compliance, quyền con người (đang xây dựng, sắp ra mắt).</li>
 <li><a href="https://tienganhcanban.com/">tienganhcanban.com</a> – tiếng Anh.</li>
 </ul>
 <h2>Giấy phép</h2>

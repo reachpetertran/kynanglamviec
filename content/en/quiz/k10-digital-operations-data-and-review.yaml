@@ -1,0 +1,63 @@
+lesson: k10-digital-operations-data-and-review
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "An employee left yesterday. What must be done the same day?"
+    options:
+      - text: Wait until the end of the month and change all passwords at once.
+        correct: false
+        why: Meanwhile, the person who left can still reach customer data.
+      - text: Remove their access to every tool in the digital tools table.
+        correct: true
+        why: Correct. The table shows you everywhere they have access.
+      - text: Ask them to log themselves out.
+        correct: false
+        why: You cannot check whether they have done it.
+  - id: q2
+    prompt: "A household business selling cakes online in Vietnam says: \"We're a household business, so data law doesn't concern us.\" Which is more accurate?"
+    options:
+      - text: True. Household businesses are exempt from all personal data rules.
+        correct: false
+        why: The law exempts only some obligations, with exceptions. Exemption does not mean using data freely.
+      - text: Household businesses are exempt from some obligations, but should still tell customers how data is used.
+        correct: true
+        why: Correct. Article 38 of Law 91/2025/QH15 exempts some obligations, with exceptions. A data notice is still good practice.
+      - text: Household businesses must comply in full, like large companies.
+        correct: false
+        why: The law has specific provisions for household businesses and micro-enterprises.
+  - id: q3
+    prompt: "(Review Lesson 2) The test result falls in the pivot zone. What should you do?"
+    options:
+      - text: Change one element, keep the rest, and write a new experiment sheet.
+        correct: true
+        why: Correct. Changing one thing shows what makes the difference.
+      - text: Drop the idea completely.
+        correct: false
+        why: Stopping is for the lowest zone, not the pivot zone.
+      - text: Lower the threshold to fit the result.
+        correct: false
+        why: Changing the threshold after the result defeats its purpose.
+  - id: q4
+    prompt: "(Review Lesson 4) Fixed costs are 30,000 a month and gross profit per unit is 60. What is break-even?"
+    options:
+      - text: 50 units a month.
+        correct: false
+        why: One zero is missing. Check the division again.
+      - text: 500 units a month.
+        correct: true
+        why: Correct. 30,000 ÷ 60 = 500.
+      - text: 2,000 units a month.
+        correct: false
+        why: You may have divided the wrong way. Divide fixed costs by gross profit per unit.
+  - id: q5
+    prompt: "(Review Lesson 7) Which sentence should end a pitch?"
+    options:
+      - text: "\"Thank you for listening.\""
+        correct: false
+        why: Thanks are polite, but the final part should be a specific request.
+      - text: "\"We'd like you to trial this product line with 10 clients before 15 December.\""
+        correct: true
+        why: Correct. The request has a task, a quantity and a deadline.
+      - text: "\"We believe we will be a big success.\""
+        correct: false
+        why: Belief is not a request, and it comes with no evidence.

@@ -2,7 +2,7 @@
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
 
-## Trạng thái hiện tại (14/11/2026) – v1.0, ĐANG CHẠY THẬT (7 khóa N1–N7, 76 bài, đủ 50 ô K1–K10 × Bậc 1–5, có logo; bản tiếng Anh /en/ 25 bài: khóa N2, N3 + 11 bài chuỗi chính)
+## Trạng thái hiện tại (14/11/2026) – v1.0, ĐANG CHẠY THẬT (7 khóa N1–N7, 76 bài, đủ 50 ô K1–K10 × Bậc 1–5, có logo; bản tiếng Anh /en/ 57 bài: khóa N2–N7 + 11 bài chuỗi chính)
 - Site: https://kynanglamviec.com và https://www.kynanglamviec.com (Cloudflare Pages, SSL bật). Bản dự phòng: https://kynanglamviec.pages.dev
 - Mã nguồn: https://github.com/reachpetertran/kynanglamviec (public, nhánh `main`). Mỗi lần push lên `main`, Cloudflare tự đăng.
 - Phiên mới: gắn repo (add_repo, quyền push), clone, sửa, `python3 _build/build.py`, commit cả `public/`, push.
@@ -178,7 +178,7 @@ Chuỗi K4 nâng cao (nối tiếp chuỗi chính: k4-de-xuat-cai-tien.next = k4
 - Hình: `_build/art/n2_art_en.py` → `_build/static/assets/img/en/n2/` (7 SVG). `assets/task-list.csv` tiếng Anh.
 - `check.py` kiểm cả bài EN (câu ≤25 từ, phần 3 <400 từ, ảnh, liên kết, `vi:` trỏ đúng bài gốc).
 - Trang nhóm chưa có khóa EN thì ghi chú và dẫn sang khóa tiếng Việt. Bài EN dẫn bài VI chưa dịch kèm "(in Vietnamese)".
-- [TK] trachnhiemxahoi.com có bản /en/ chưa? Hiện footer EN ghi "(in Vietnamese)".
+- (14/11/2026) trachnhiemxahoi.com chưa thực hiện: đã gỡ liên kết, xem mục riêng bên dưới.
 - Peter duyệt văn phong đợt 1 (14/11/2026) và giao làm đợt 2.
 
 ## Bản tiếng Anh /en/ – đợt 2 (đăng 14/11/2026): khóa N3 + 11 bài chuỗi chính
@@ -191,6 +191,18 @@ Chuỗi K4 nâng cao (nối tiếp chuỗi chính: k4-de-xuat-cai-tien.next = k4
 - Đã sửa 3 bài N2 EN: liên kết "(in Vietnamese)" sang bài EN mới (k1-confirm-instructions, k2-tell-a-star-example, k8-split-work-in-a-group-project, k10-use-ai-safely).
 - Lưu ý YAML câu hỏi EN: giá trị có ": " phải đặt trong ngoặc kép.
 - Đang có 25 bài EN. Việc tiếp: đợt 3 = N4–N7 (32 bài); 12 bài lẻ; N1 cuối (bài cho phụ huynh, cần cân nhắc bối cảnh).
+
+## Bản tiếng Anh /en/ – đợt 3 (đăng 14/11/2026): khóa N4, N5, N6, N7 (32 bài)
+- Peter yêu cầu 14/11/2026. Mỗi khóa: 8 bài + câu hỏi (`content/en/lessons`, `content/en/quiz`), mẫu in `content/en/pages/n4…n7-templates.md` → /en/resources/n4…n7/ (neo #sheet-1 … #sheet-8), 8 hình. build_en.py: thêm COURSES n4–n7.
+- Slug EN: N4 k3-see-the-whole-system, k3-decide-with-incomplete-information, k2-persuade-without-authority, k8-resolve-professional-disagreements, k9-coach-a-colleague, k5-run-a-lean-project, k10-turn-rules-into-practice, k7-renew-your-career. N5 k7-from-specialist-to-manager, k2-make-team-goals-clear, k9-delegate-and-follow-up, k1-listen-to-coach, k8-hold-difficult-conversations, k8-build-an-inclusive-team, k6-lead-change-and-ai-adoption, k5-allocate-resources-and-review. N6 k9-from-team-manager-to-organisation-leader, k3-make-strategic-decisions-as-a-group, k5-turn-strategy-into-execution, k2-communicate-across-levels, k8-design-decision-rights, k1-hear-weak-signals, k10-risk-compliance-and-ai-governance, k9-develop-successors-and-review. N7 k1-discover-your-customers, k3-run-experiments-and-decide-to-pivot, k6-take-initiative-and-bounce-back, k5-the-numbers-that-keep-you-alive, k10-legal-basics-for-starting-up, k9-hire-and-keep-your-first-employees, k2-pitch-in-three-minutes, k10-digital-operations-data-and-review.
+- Hình EN mới cách làm: `_build/art/svg_en.py` lấy SVG tiếng Việt (n4…n7_art.py), thay chữ theo `_build/art/en/<khóa>.yaml`, lấy aria-label/title từ alt của bài EN. Thiếu bản dịch thì dừng báo lỗi; nhãn dài hơn nhiều thì cảnh báo "wide?" để xem bằng mắt (rsvg-convert). Sửa hình VI thì chạy lại script VI rồi `python3 _build/art/svg_en.py`.
+- framework_map, level, skill, group, order của bài EN chép đúng từ bài VI (đã đối chiếu bằng script).
+- Quốc tế hóa: tên người quốc tế; bỏ tên tỉnh, thành; tiền dùng đơn vị chung không ghi VND (bài N7-4, N7-7); luật VN để trong hộp "Last updated … (example: Vietnam)" hoặc ghi "(Vietnam)" ở tình huống (N4-7, N5-7, N6-7, N7-5, N7-6, N7-8).
+- Đang có 57 bài EN. Còn lại: 12 bài lẻ (lấp ô K × bậc) và khóa N1 (cho phụ huynh, cần cân nhắc bối cảnh).
+
+## trachnhiemxahoi.com chưa có (Peter báo 14/11/2026)
+- Đã gỡ mọi liên kết tới trachnhiemxahoi.com (footer VI/EN, trang giới thiệu, ghi chú K10 trong data/skills.yaml và content/en/data/skills.yaml, 4 bài VI: k1-nghe-tin-hieu-yeu, k10-bien-quy-dinh-thanh-viec-lam, k7-ai-cung-co-the-lam-nghe-nay, k8-xay-doi-hoa-nhap). Giữ tên site dạng chữ thường, ghi "sắp ra mắt" / "coming soon".
+- build.py, build_en.py: ô crosslink trên trang kỹ năng chỉ hiện nút liên kết khi có `url`. Khi trachnhiemxahoi.com chạy, thêm lại `url` và liên kết.
 
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.

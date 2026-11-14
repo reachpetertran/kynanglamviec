@@ -26,7 +26,7 @@ status: published
 - **Vì sao học sớm:** Khảo sát [Drawing the Future](https://educationandemployers.org/research/drawing-the-future) (2018) cho trẻ 7–11 tuổi vẽ nghề mình muốn làm. Báo cáo ghi nhận lựa chọn của trẻ thường đi theo định kiến giới. Báo cáo [Dream Jobs?](https://www.educationandemployers.org/research/dream-jobs-oecd/) của OECD (2020), dùng dữ liệu PISA 2018, cũng thấy giới tính vẫn ảnh hưởng mạnh đến nghề học sinh 15 tuổi mong muốn.
 - **Chuẩn bị:** giấy trắng, bút chì màu, đồng hồ bấm giờ.
 - **Lưu ý:** trẻ học nhiều từ câu nói đùa của người lớn. Tránh những câu như "con gái mà đòi làm kỹ sư".
-- Quyền bình đẳng tại nơi làm việc của người lớn được bàn ở [trachnhiemxahoi.com](https://trachnhiemxahoi.com/). Bài này chỉ dừng ở mức khám phá nghề.
+- Quyền bình đẳng tại nơi làm việc của người lớn sẽ được bàn ở trachnhiemxahoi.com (sắp ra mắt). Bài này chỉ dừng ở mức khám phá nghề.
 </div>
 
 ## 1. Mục tiêu
