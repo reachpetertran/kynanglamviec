@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Kỹ Năng Làm Việc</string>
+    <string name="title_activity_main">Kỹ Năng Làm Việc</string>
+    <string name="package_name">com.kynanglamviec.app</string>
+    <string name="custom_url_scheme">com.kynanglamviec.app</string>
+</resources>

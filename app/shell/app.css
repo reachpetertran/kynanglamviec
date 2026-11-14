@@ -1,0 +1,105 @@
+/* Khung app Kỹ Năng Làm Việc: thanh trên, thanh tab dưới, cỡ chữ, màu nền, tiến độ */
+:root{--sat:max(env(safe-area-inset-top,0px),var(--safe-area-inset-top,0px));--sab:max(env(safe-area-inset-bottom,0px),var(--safe-area-inset-bottom,0px));
+  --app-ok:#2e7d32;--app-head:#0f3b39}
+html{background:var(--bg);scroll-padding-top:calc(68px + var(--sat))}
+html[data-size="s"] body{font-size:15px}
+html[data-size="m"] body{font-size:17px}
+html[data-size="l"] body{font-size:20px}
+html[data-size="xl"] body{font-size:23px}
+*{-webkit-tap-highlight-color:transparent}
+a,button{touch-action:manipulation}
+
+/* chuyển trang mượt: mờ nhẹ phần nội dung, giữ nguyên thanh trên và thanh tab */
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.16s}
+.app-top{view-transition-name:app-top}.app-tabs{view-transition-name:app-tabs}
+@media (prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}}
+
+body{padding-top:calc(56px + var(--sat));padding-bottom:calc(68px + var(--sab));overscroll-behavior-y:none}
+main{padding-top:8px}
+.skip{display:none}
+
+/* vùng đọc kiểu trang sách; điều hướng giữ sans-serif */
+article.lesson p,article.lesson li,main .lead,main blockquote p{font-family:Georgia,"Noto Serif","Droid Serif","Times New Roman",serif;line-height:1.7}
+article.lesson .meta,article.lesson .crumb,article.lesson .small,article.lesson .opt,article.lesson .why,article.lesson .course-strip *,
+article.lesson .flow *,article.lesson .steps *,article.lesson .finish p,article.lesson table *{font-family:system-ui,-apple-system,Roboto,"Noto Sans",sans-serif}
+.card,.btn,.app-tabs a,.app-course,.app-continue,.app-list a,.coursemap li a{transition:transform .08s ease,background-color .12s ease}
+.card:active,.btn:active,.app-course:active,.app-continue:active,.app-list a:active,.coursemap li a:active{transform:scale(.985)}
+
+/* Thanh trên */
+.app-top{position:fixed;top:0;left:0;right:0;z-index:20;height:calc(56px + var(--sat));
+  padding:var(--sat) 12px 0;display:flex;align-items:center;gap:8px;background:var(--app-head);color:#fff}
+.app-brand{display:flex;align-items:center;gap:9px;color:#fff;text-decoration:none;font-weight:700;font-size:17px;margin-right:auto;min-height:48px;min-width:0}
+.app-brand:hover{color:#fff}
+.app-brand span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.app-brand img{border-radius:8px;flex:none}
+.app-aa{min-width:52px;min-height:44px;border:1px solid #3f7f7a;border-radius:10px;background:transparent;color:#fff;font-size:17px;font-weight:700}
+.app-panel{position:fixed;top:calc(60px + var(--sat));right:8px;left:8px;max-width:420px;margin-left:auto;z-index:21;
+  background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:14px;padding:12px 14px;box-shadow:0 8px 30px rgba(0,0,0,.25);
+  font-family:system-ui,-apple-system,Roboto,sans-serif}
+.app-panel p{margin:6px 0}
+.app-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.app-row button,.app-row a{flex:1;min-height:48px;display:flex;align-items:center;justify-content:center;border:2px solid var(--line);border-radius:10px;
+  background:transparent;color:var(--ink);font-size:16px;text-decoration:none;padding:0 6px}
+.app-row button[aria-pressed="true"],.app-row a[aria-current="true"]{border-color:var(--brand-2);background:var(--accent-bg);font-weight:700}
+
+/* Thanh tab dưới */
+.app-tabs{position:fixed;bottom:0;left:0;right:0;z-index:20;display:flex;background:var(--card);border-top:1px solid var(--line);padding-bottom:var(--sab)}
+.app-tabs a{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:60px;min-width:0;
+  color:var(--muted);text-decoration:none;font-size:12.5px;font-family:system-ui,-apple-system,Roboto,sans-serif}
+.app-tabs a span{white-space:nowrap}
+.app-tabs a:active{background:var(--accent-bg)}
+.app-tabs a[aria-current="page"]{color:var(--brand);font-weight:700}
+.app-tabs a[aria-current="page"] svg{stroke-width:2.3}
+
+/* Tiến độ */
+.app-bar{display:block;height:8px;border-radius:8px;background:var(--line);overflow:hidden;margin:8px 0 6px}
+.app-bar i{display:block;height:100%;border-radius:8px;background:var(--app-ok)}
+.app-course,.app-continue,.app-progress{display:block;margin:0 0 12px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);
+  background:var(--card);color:var(--ink);text-decoration:none;font-family:system-ui,-apple-system,Roboto,sans-serif}
+.app-home{margin-top:12px}
+.app-continue{border:2px solid var(--brand-2);background:var(--accent-bg)}
+.app-course small,.app-continue small,.app-list small,.app-crumb small{display:block;color:var(--muted);font-size:14px}
+.app-progress .btn{margin-top:6px}
+.app-crumb{display:block;text-decoration:none;margin:10px 0 0;font-family:system-ui,-apple-system,Roboto,sans-serif}
+.app-save{margin-top:8px}
+.app-save[aria-pressed="true"]{background:var(--brand);color:#fff}
+.app-list a{display:block;padding:12px 14px;margin:0 0 8px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);
+  text-decoration:none;font-family:system-ui,-apple-system,Roboto,sans-serif}
+.app-searchbox{margin:8px 0 20px}
+.app-search input{display:block;width:100%;min-height:48px;margin:4px 0 12px;padding:8px 12px;border:2px solid var(--line);border-radius:12px;
+  background:var(--card);color:var(--ink);font-size:17px}
+.app-week{display:flex;gap:6px}
+.app-week span{flex:1;text-align:center;font-size:13px;color:var(--muted);font-family:system-ui,-apple-system,Roboto,sans-serif}
+.app-week i{display:block;height:30px;border-radius:8px;background:var(--line);margin-bottom:4px}
+.app-week .on i{background:var(--app-ok)}.app-week .today{font-weight:700;color:var(--ink)}
+.app-tick{color:var(--app-ok);font-weight:700}
+.app-wipe{min-height:48px;padding:8px 14px;border:1px solid var(--line);border-radius:10px;background:transparent;color:var(--muted);font-size:15px}
+.app-wipe.armed{border-color:var(--no);color:var(--no);font-weight:700}
+
+/* Vùng chạm tối thiểu 48dp */
+.btn,.opt,.course-strip li a{min-height:48px}
+.btn{display:inline-flex;align-items:center;justify-content:center}
+.course-strip li a{min-height:40px}
+
+/* WebView không in, không tải tệp: ẩn nút In và nút tải .ics */
+[data-action="print"],[data-action="ics"]{display:none!important}
+
+/* ---------- Nền tối (html[data-dark] do script trong <head> và app.js đặt: chọn Tối, hoặc Theo máy khi máy đang tối) ---------- */
+html[data-dark]{--ink:#e7ece9;--muted:#a3b1ad;--bg:#111a1a;--card:#182423;--line:#2b3b39;
+  --brand:#7fd1c8;--brand-2:#6cc3b9;--accent:#e8a443;--accent-bg:#2a2214;--ok:#5cbf63;--ok-bg:#16301b;--no:#ff8a80;--no-bg:#3a1a17;
+  --app-ok:#5cbf63;--app-head:#0b2a28;color-scheme:dark}
+html[data-dark] .lead{color:var(--ink)}
+html[data-dark] .btn,html[data-dark] .gcode,html[data-dark] .flow span,html[data-dark] .steps li::before,html[data-dark] .kmap-c,
+html[data-dark] .course-strip li[aria-current] .cs-n,html[data-dark] .app-save[aria-pressed="true"]{background:#1f6f69;border-color:#1f6f69;color:#fff}
+html[data-dark] .btn.ghost{background:transparent;color:var(--brand);border-color:var(--brand)}
+html[data-dark] .tag,html[data-dark] .lvn,html[data-dark] .kmap-i b,html[data-dark] .badge-row span{color:#f0b45a}
+html[data-dark] blockquote,html[data-dark] .steps li{background:#1a2e2c}
+html[data-dark] th,html[data-dark] .opt,html[data-dark] .sa-opts label,html[data-dark] .course-strip li a{background:#1f2c2b;color:var(--ink)}
+html[data-dark] .reflect,html[data-dark] .diagram,html[data-dark] .course-strip,html[data-dark] .coursemap li a,html[data-dark] .say{background:var(--card);color:var(--ink)}
+html[data-dark] .sa-opts label:has(input:checked),html[data-dark] .course-strip li[aria-current] a{background:#1f3d3a}
+html[data-dark] .cs-n{background:#2b3b39;color:var(--brand)}
+html[data-dark] .foot{background:#0d1515}
+html[data-dark] .adult{background:#18233a}
+html[data-dark] .links{background:#251f35}
+html[data-dark] main img[src$=".svg"]:not(.logo){background:#fbfaf7;border-radius:10px}

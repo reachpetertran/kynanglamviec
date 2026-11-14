@@ -1,0 +1,7 @@
+{
+  "appId": "com.kynanglamviec.app",
+  "appName": "Kỹ Năng Làm Việc",
+  "webDir": "www",
+  "android": { "allowMixedContent": false },
+  "server": { "androidScheme": "https" }
+}

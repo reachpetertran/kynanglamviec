@@ -1,0 +1,12 @@
+{
+  "name": "kynanglamviec-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "App Android Kỹ Năng Làm Việc (Capacitor, nội dung đóng gói sẵn)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/cli": "^8.6.2",
+    "@capacitor/core": "^8.6.2"
+  }
+}
