@@ -1,0 +1,51 @@
+lesson: k8-design-decision-rights
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "The rights table says the finance director and sales director jointly decide customer credit limits. What is the problem?"
+    options:
+      - text: No problem. Two deciders are safer.
+        correct: false
+        why: Two deciders often wait for each other, or nobody is accountable when it goes wrong.
+      - text: There are two deciders. Choose one to decide and make the other consulted.
+        correct: true
+        why: Correct. Each decision has one decider. The other is still heard before the call.
+      - text: Push it up to the CEO to make it clear.
+        correct: false
+        why: Pushing upwards is a bottleneck sign. Decisions should sit close to the information.
+  - id: q2
+    prompt: "Each week, the CEO receives 20 small materials purchases to approve. What sign is this?"
+    options:
+      - text: The CEO is very hands-on, so keep it.
+        correct: false
+        why: Being hands-on with small matters takes time from organisation-level work.
+      - text: A sign of pushing upwards. Set a threshold and move the decision down.
+        correct: true
+        why: Correct. When everyday matters keep reaching the leadership team, structure is causing a bottleneck.
+      - text: A sign the purchasing staff are not good enough.
+        correct: false
+        why: There is no evidence about the people. First check whether the rights table lets them decide.
+  - id: q3
+    prompt: "Legal is consulted on every contract, but usually replies after 2 weeks. How do you fix it?"
+    options:
+      - text: Skip the legal step to go faster.
+        correct: false
+        why: Legal has necessary expertise. Skipping it increases legal risk.
+      - text: "Set a reply deadline, and consider a threshold: standard contracts skip legal, large ones go to legal."
+        correct: true
+        why: Correct. Consulting needs a deadline. A threshold lets legal focus on the risky work.
+      - text: Give legal the right to decide on contracts.
+        correct: false
+        why: Legal advises on the law. The business decision should stay with whoever owns the result.
+  - id: q4
+    prompt: "You want to set a threshold up to which the plant director may approve machine purchases. What must you check against?"
+    options:
+      - text: Thresholds at other companies in the industry.
+        correct: false
+        why: Useful for reference, but not enough. Each organisation has its own charter and rules.
+      - text: The organisation's charter and internal rules on authority.
+        correct: true
+        why: Correct. The rights table must stay within the authority the charter and rules allow.
+      - text: Nothing. The CEO can set it alone.
+        correct: false
+        why: A manager's authority is limited by the charter. Going beyond it is a risk.

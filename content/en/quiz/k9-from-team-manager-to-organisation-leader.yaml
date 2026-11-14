@@ -1,0 +1,51 @@
+lesson: k9-from-team-manager-to-organisation-leader
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "A warehouse delivered late to a major client. You are the division director. Which is organisation-level work?"
+    options:
+      - text: Phone the warehouse yourself, rearrange the trucks and make up the delivery today.
+        correct: false
+        why: The warehouse manager can do this. If you do it for them, they do not grow.
+      - text: Let the warehouse handle it, then find which process or decision right makes the error recur.
+        correct: true
+        why: Correct. Executives fix the system so incidents recur less.
+      - text: Do nothing, because it is the warehouse's job.
+        correct: false
+        why: A major client being affected is an organisational risk. You still need to watch it and fix the cause.
+  - id: q2
+    prompt: "Your division beat its target, but by pushing costs onto another division. How do you judge this?"
+    options:
+      - text: Good, because your division delivered.
+        correct: false
+        why: At executive level, results count for the whole organisation. Shifting costs creates no value.
+      - text: Not good, because the organisation did not gain. Review how results are measured and how divisions work together.
+        correct: true
+        why: Correct. If your division wins and the company loses, you still lose.
+      - text: It depends. If the other division does not complain, it is fine.
+        correct: false
+        why: Silence does not mean no harm. Information at the top is usually filtered.
+  - id: q3
+    prompt: "You label approving small purchase orders as D. What is the right next step?"
+    options:
+      - text: Stop approving them at once, without telling anyone.
+        correct: false
+        why: Without a clear handover, the task falls into a gap. Nobody knows they may now decide.
+      - text: Give it to a named person, with a spending limit and a threshold for telling you.
+        correct: true
+        why: Correct. A D task needs an owner, a scope of authority and a point to report back.
+      - text: Keep approving them, but faster.
+        correct: false
+        why: Doing it faster still takes time from organisation-level work.
+  - id: q4
+    prompt: "After 4 weeks with the executive calendar, O work still keeps getting pushed aside. What should you do?"
+    options:
+      - text: Drop Sheet 1, because it does not fit real work.
+        correct: false
+        why: Being pushed aside is data to learn from. Dropping the tool loses your way of measuring.
+      - text: See which tasks push it aside, hand them over or fix the cause, then reset your target.
+        correct: true
+        why: Correct. Measure, then adjust, is how Sheet 1 works. No ratio fits every organisation.
+      - text: Work evenings to make up the O work.
+        correct: false
+        why: This does not fix the cause. D work still fills your main working hours.

@@ -1,0 +1,51 @@
+lesson: k10-risk-compliance-and-ai-governance
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which risk register line is written in all three parts?"
+    options:
+      - text: "\"Financial risk.\""
+        correct: false
+        why: This is only a category. There is no cause, event or consequence.
+      - text: "\"Our biggest client pays 60 days late, so we cannot pay March wages.\""
+        correct: true
+        why: Correct. It has a cause, an event and a consequence. The owner knows what to watch.
+      - text: "\"We need to manage cash flow better.\""
+        correct: false
+        why: This is a measure, not a description of a risk.
+  - id: q2
+    prompt: "A risk in the register lists its owner as \"the leadership team\". What is the problem?"
+    options:
+      - text: No problem. The leadership team has enough authority.
+        correct: false
+        why: When the whole team owns it, usually nobody really watches it day to day.
+      - text: The owner must be one named person with authority to act.
+        correct: true
+        why: Correct. Each risk needs one person who watches it and reports when it crosses the threshold.
+      - text: List the legal team, to be safe.
+        correct: false
+        why: Legal advises on the law. The owner should be someone who can deal with the root cause.
+  - id: q3
+    prompt: "While building the AI inventory, you find staff putting candidates' CVs into a free AI tool. What should you do first?"
+    options:
+      - text: Let it continue, because it speeds up hiring.
+        correct: false
+        why: CVs contain personal data. Putting them into an unapproved tool is a risk.
+      - text: Pause it, then ask the legal team and data protection lead to review it.
+        correct: true
+        why: Correct. Stop to contain the risk, then review it against the personal data rules.
+      - text: Discipline the staff member at once.
+        correct: false
+        why: The organisation may not have clear rules yet. First contain the risk and set rules.
+  - id: q4
+    prompt: "Under Vietnam's Law on Enterprises, what duty does a manager of a joint-stock company have?"
+    options:
+      - text: Meet every target set by the shareholders' meeting.
+        correct: false
+        why: The law does not say this. Article 165 is about how duties are carried out, not guaranteed results.
+      - text: Act honestly and carefully in the company's interest, avoid personal gain, and disclose related interests.
+        correct: true
+        why: Correct. This is the gist of Article 165. For details, read the original text.
+      - text: Personally cover all the company's losses.
+        correct: false
+        why: Not true. Personal liability arises from breaching duties, as the law provides.

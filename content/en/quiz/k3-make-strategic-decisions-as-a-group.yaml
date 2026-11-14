@@ -1,0 +1,51 @@
+lesson: k3-make-strategic-decisions-as-a-group
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "The plan for a new warehouse says 10 months. Five similar warehouse projects in the industry took 13 to 18 months. What should the base estimate be?"
+    options:
+      - text: 10 months, because our team is faster.
+        correct: false
+        why: This is the inside view. Every team thinks it is faster, so plans are usually optimistic.
+      - text: About the middle of the 5 projects, then adjust for specific reasons.
+        correct: true
+        why: Correct. The outside view uses real data as the starting point.
+      - text: 18 months, taking the worst case to be safe.
+        correct: false
+        why: Always taking the worst case is also a bias. Start from the middle, then adjust with reasons.
+  - id: q2
+    prompt: "In a pre-mortem, the CEO wants to speak first to set the direction. You are chairing. What should you do?"
+    options:
+      - text: Agree, because the CEO understands it best.
+        correct: false
+        why: When the most senior person speaks first, others tend to follow. Other reasons get lost.
+      - text: Ask everyone to write their reasons first, with the CEO reading last.
+        correct: true
+        why: Correct. Writing alone and having the most senior person speak last brings out more views.
+      - text: Leave the CEO out of this session.
+        correct: false
+        why: The CEO's view is still valuable. The issue is only the order of speaking.
+  - id: q3
+    prompt: "After the pre-mortem, the group has 12 reasons for failure. What is the right next step?"
+    options:
+      - text: Cancel the decision, because there are too many risks.
+        correct: false
+        why: A pre-mortem does not aim to cancel the decision. It aims to make it sturdier.
+      - text: Choose the 3 biggest, give each a measure and an owner, then set stop signals.
+        correct: true
+        why: Correct. Reasons only help when they become actions with owners.
+      - text: Record all 12 reasons in the minutes. That is enough.
+        correct: false
+        why: A list without owners usually leads to no action.
+  - id: q4
+    prompt: "A colleague says the pre-mortem has been proven to make decisions 30% more accurate. Which comment is correct?"
+    options:
+      - text: True. This is a verified research result.
+        correct: false
+        why: The original research only measured how many reasons people gave. It did not measure decision accuracy.
+      - text: Not accurate. The evidence so far shows people give more reasons.
+        correct: true
+        why: Correct. Knowing the level of evidence lets you use the tool without overpromising.
+      - text: Completely false. The pre-mortem has no basis at all.
+        correct: false
+        why: There is experimental support for generating reasons. It is just not enough to claim accuracy.

@@ -1,0 +1,51 @@
+lesson: k1-hear-weak-signals
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "A department head reports that an export shipment has been returned by the client. What is the best first response?"
+    options:
+      - text: "\"Who is responsible for this shipment?\""
+        correct: false
+        why: Asking about blame at once makes the reporter defensive. Next time they may report later.
+      - text: "\"Thanks for telling me early. Which shipment, and why did the client return it?\""
+        correct: true
+        why: Correct. Thank first, then ask for facts. Responsibility is looked at later, through a process.
+      - text: "\"Let me look at the report and get back to you.\""
+        correct: false
+        why: There is no thanks and no question. The reporter does not know what you will do.
+  - id: q2
+    prompt: "Every branch's weekly report has said \"fine\" for 6 months. How should you read this?"
+    options:
+      - text: The branches are running very well.
+        correct: false
+        why: Possibly, but 6 months with no problems at all is unusual. News may be filtered.
+      - text: Bad news may be getting filtered. Go and listen to the front line and review how reporting works.
+        correct: true
+        why: Correct. At the top, news has usually passed through many filters.
+      - text: Penalise any branch that reports inaccurately.
+        correct: false
+        why: Penalising without evidence makes people even more reluctant to be honest.
+  - id: q3
+    prompt: "An employee wants to report a safety issue but fears retaliation from their direct manager. What should the bad-news channel include?"
+    options:
+      - text: A rule that all reports go through the direct manager, to follow procedure.
+        correct: false
+        why: If the reporter fears that very manager, the news will never travel up.
+      - text: A clearly stated route to skip a level, such as going straight to the head of safety.
+        correct: true
+        why: Correct. A skip-level route means key news does not depend on one person.
+      - text: Nothing extra, because staff can raise it at an all-company meeting.
+        correct: false
+        why: Speaking in front of a crowd is even harder. People who fear retaliation will stay silent.
+  - id: q4
+    prompt: "According to Edmondson (1999), what is a team's psychological safety linked to?"
+    options:
+      - text: Teams making fewer mistakes.
+        correct: false
+        why: The study does not say this. Safe teams may even report more errors, because they dare to speak.
+      - text: Learning behaviours such as asking, reporting errors and seeking feedback, and through them to performance.
+        correct: true
+        why: Correct. This is the main finding of the study of 51 teams in a manufacturing company.
+      - text: Staff being paid more.
+        correct: false
+        why: The study did not measure pay. This is an unsupported inference.

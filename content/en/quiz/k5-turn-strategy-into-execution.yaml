@@ -1,0 +1,51 @@
+lesson: k5-turn-strategy-into-execution
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which is a measurable result for a strategic priority?"
+    options:
+      - text: "\"Improve service quality.\""
+        correct: false
+        why: This only states a direction. Nobody knows when it is achieved.
+      - text: "\"Resolve 90% of complaints within 48 hours by October.\""
+        correct: true
+        why: Correct. It has an indicator, a level and a date.
+      - text: "\"Every division tries to do better than last year.\""
+        correct: false
+        why: There is no indicator, no date and no clear owner.
+  - id: q2
+    prompt: "Sales is waiting for technology to build a new feature. Each says it is waiting for the other. What is missing?"
+    options:
+      - text: A budget for technology.
+        correct: false
+        why: That may be true, but there is no evidence. "Waiting for each other" points to another problem.
+      - text: A named coordinator for this dependency.
+        correct: true
+        why: Correct. If nobody owns a dependency, each division waits for the other.
+      - text: A company-wide meeting.
+        correct: false
+        why: A big meeting does not settle who is responsible for coordinating.
+  - id: q3
+    prompt: "The monthly review usually runs 3 hours because each division reads its report. How should it change?"
+    options:
+      - text: Send figures 2 days ahead, and discuss only off-plan indicators and blockages.
+        correct: true
+        why: Correct. The meeting is for deciding, not for reading.
+      - text: Drop the review; each division tracks itself.
+        correct: false
+        why: Without a shared rhythm, nobody looks at the dependencies between divisions.
+      - text: Cut each report to 5 minutes.
+        correct: false
+        why: Meeting time is still spent reading. Decision time is still squeezed.
+  - id: q4
+    prompt: "At the checkpoint, the indicator is below the criterion written in advance. The division asks for 3 more months. What should you do?"
+    options:
+      - text: Agree, because a lot of effort has gone in.
+        correct: false
+        why: Effort already spent cannot be recovered. Decide on what the data says about the future.
+      - text: Follow the criterion and change approach or stop. Extend only for a new, specific reason.
+        correct: true
+        why: Correct. Criteria set in advance keep the decision objective. An extension needs a new reason.
+      - text: Replace the head of that division.
+        correct: false
+        why: A missed indicator is not necessarily one person's fault. First, see whether the approach needs changing.

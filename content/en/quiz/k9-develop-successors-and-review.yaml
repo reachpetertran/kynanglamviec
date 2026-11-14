@@ -1,0 +1,63 @@
+lesson: k9-develop-successors-and-review
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "You plan to choose a successor because he works in a way that suits you. What is missing?"
+    options:
+      - text: Nothing. Getting on well helps the work.
+        correct: false
+        why: Getting on well easily leads to choosing people like you. The organisation may need other skills.
+      - text: Evidence of results and behaviour, plus the views of at least two other people.
+        correct: true
+        why: Correct. Several sources of assessment reduce one person's bias.
+      - text: A personality test.
+        correct: false
+        why: A questionnaire does not replace evidence of results and behaviour in real work.
+  - id: q2
+    prompt: "The technology director role has no successor. How should you handle it?"
+    options:
+      - text: Do nothing until the current director leaves.
+        correct: false
+        why: By then it may be too late. A key role left empty is a major risk.
+      - text: Record it in the risk register, with an owner and a deadline to find or develop a successor.
+        correct: true
+        why: Correct. Manage the vacancy as a risk, with an owner and a threshold.
+      - text: Pick anyone now to fill the table.
+        correct: false
+        why: Filling the table makes it look good, but the risk remains.
+  - id: q3
+    prompt: "A successor is technically strong but has never worked with the board. Which stretch assignment fits?"
+    options:
+      - text: Send them on a 3-day governance course. That is enough.
+        correct: false
+        why: A course may help, but it gives no real experience with the board.
+      - text: Have them present an item to the board, with a mentor helping them prepare and giving feedback afterwards.
+        correct: true
+        why: Correct. A stretch assignment aimed at the gap, with a mentor, builds learning from real experience.
+      - text: Wait until they are appointed, then they will learn.
+        correct: false
+        why: Learning once in the seat is riskier for both the person and the organisation.
+  - id: q4
+    prompt: "Review: the CEO must approve every small purchase, so has no time to meet successors. Which two tools from the course help most?"
+    options:
+      - text: The executive calendar and the decision rights table.
+        correct: true
+        why: Correct. The calendar separates D from O work. The rights table moves approvals down by threshold.
+      - text: The pre-mortem and the direction note.
+        correct: false
+        why: These are for major decisions and communication. They do not free up time.
+      - text: The bad-news channel and the risk register.
+        correct: false
+        why: These help you see risks, but they do not reduce small approvals.
+  - id: q5
+    prompt: "Review: for three months every division has reported \"fine\", yet revenue from existing customers is falling. What should you do first?"
+    options:
+      - text: Go and listen to the front line and to customers yourself, without direct managers present.
+        correct: true
+        why: Correct. When reports and figures do not match, news may be filtered. Look for the real picture.
+      - text: Change the year's strategic priorities at once.
+        correct: false
+        why: Changing strategy before understanding the cause is a rushed decision.
+      - text: Ask every division to write longer reports.
+        correct: false
+        why: Longer reports still pass through the same filters.

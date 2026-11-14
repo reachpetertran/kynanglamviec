@@ -1,0 +1,51 @@
+lesson: k2-communicate-across-levels
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "The leadership team has not decided whether to close the old workshop. What should the direction note say?"
+    options:
+      - text: Do not mention the old workshop, to avoid worry.
+        correct: false
+        why: Silence makes people guess, usually worse than reality. Rumours spread faster than announcements.
+      - text: Say clearly that it is not decided yet, and when a decision will be made.
+        correct: true
+        why: Correct. Being honest about unknowns, with a date, keeps trust.
+      - text: Promise the workshop will not close, to reassure everyone.
+        correct: false
+        why: Promising something undecided is a big risk. If you change course later, trust is gone.
+  - id: q2
+    prompt: "You plan to announce a new structure at an all-company meeting tomorrow morning. Middle managers know nothing yet. What should you do?"
+    options:
+      - text: Announce it anyway. Managers hearing it with staff is fair.
+        correct: false
+        why: Staff will ask their managers straight after. Managers who cannot answer lose credibility.
+      - text: Meet middle managers first, with the direction note and FAQs.
+        correct: true
+        why: Correct. Managers who know first can brief their teams accurately.
+      - text: Just email the managers and ask them to announce it themselves.
+        correct: false
+        why: Each manager will say it differently. The message distorts, especially without leaders' own words.
+  - id: q3
+    prompt: "Two weeks after the announcement, what is the best way to check whether the message reached the front line correctly?"
+    options:
+      - text: Ask the division directors whether staff have understood.
+        correct: false
+        why: News through middle layers is already filtered. They may not see where they said it differently.
+      - text: Ask a few front-line staff directly what the priority is, then compare with the original.
+        correct: true
+        why: Correct. Hearing it directly shows where the message drifted and which level must say it again.
+      - text: Count how many people opened the announcement email.
+        correct: false
+        why: Opening an email does not mean understanding it correctly.
+  - id: q4
+    prompt: "Which part of the direction note helps divisions know where to focus their effort?"
+    options:
+      - text: The "What we will not do" part.
+        correct: true
+        why: Correct. Saying what stops or will not start keeps divisions from spreading effort everywhere.
+      - text: The "Why now" part.
+        correct: false
+        why: This explains the reason. It does not show what to cut.
+      - text: The "What we do not know yet" part.
+        correct: false
+        why: This keeps trust, but it does not help choose priorities.
