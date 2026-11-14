@@ -212,6 +212,18 @@ Chuỗi K4 nâng cao (nối tiếp chuỗi chính: k4-de-xuat-cai-tien.next = k4
 - Đã gỡ mọi liên kết tới trachnhiemxahoi.com (footer VI/EN, trang giới thiệu, ghi chú K10 trong data/skills.yaml và content/en/data/skills.yaml, 4 bài VI: k1-nghe-tin-hieu-yeu, k10-bien-quy-dinh-thanh-viec-lam, k7-ai-cung-co-the-lam-nghe-nay, k8-xay-doi-hoa-nhap). Giữ tên site dạng chữ thường, ghi "sắp ra mắt" / "coming soon".
 - build.py, build_en.py: ô crosslink trên trang kỹ năng chỉ hiện nút liên kết khi có `url`. Khi trachnhiemxahoi.com chạy, thêm lại `url` và liên kết.
 
+## App Android (bắt đầu 15/11/2026, nhánh `app`) – BẢN THỬ, chưa lên cửa hàng
+- Làm theo "Kỹ thuật app điện thoại" (rút từ app Dạy Nền Tảng). Mã dựa trên app daynentang (nhánh `app` của reachpetertran/daynentang).
+- Thư mục `app/` trên nhánh `app`; `main` và `public/` không đổi. `python3 app/build_www.py` sinh `app/www/` (221 trang, 7 khóa VI + 7 khóa EN, 152 bài, 5,4 MB).
+- appId `com.kynanglamviec.app`, tên dưới icon "Kỹ Năng Làm Việc" (EN: "Work Skills" trên thanh trên). Capacitor 8, targetSdk 36, minSdk 24.
+- 5 tab: Trang chủ / Lộ trình / Kỹ năng / Bài học / Của tôi (EN: Home / Paths / Skills / Lessons / My learning). Nút Aa: cỡ chữ 4 mức, nền Theo máy/Sáng/Tối, ngôn ngữ. Không có nút trợ giúp (site không có số khẩn cấp).
+- Dữ liệu: dùng chung khóa site `klv:` (done, j, sa) + khóa app `klv.app.v1`. Ghi chú từng bài = phần Phản tư/Nhật ký có sẵn (N1 không có ô ghi). Tìm kiếm không dấu ở tab Bài học. Ẩn nút In và .ics; link .csv mở trình duyệt.
+- Icon, màn hình chờ: từ `public/assets/logo-icon.svg` (bỏ dải đất ở lớp trước), nguồn ở `app/assets/`.
+- Workflow `.github/workflows/app-android.yml`: push nhánh `app` → APK bản thử (artifact `ky-nang-lam-viec-ban-thu`). Lần chạy đầu 14/11/2026 UTC: thành công, APK 6,8 MB, đã gửi Peter.
+- Đã kiểm: 0 link hỏng trong www, 0 lỗi JS (Playwright 390 px), chụp sáng/tối. Chưa thử trên máy thật.
+- Khi site đổi nội dung: merge `main` vào `app` rồi push để build lại APK.
+- Việc chờ Peter: thử APK trên máy thật; chốt tên trên Play Store (≤30 ký tự); quyết đối tượng mục tiêu (người lớn / có N1 cho phụ huynh); trang chính sách quyền riêng tư cho app; tài khoản Google Play (25 USD, chạy thử kín ≥12 người ≥14 ngày) – việc tốn tiền, Peter quyết.
+
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.
 2. (Đã xong 14/11: "Phục vụ khách hàng" và K6 cho N3, trong khóa N3.)
