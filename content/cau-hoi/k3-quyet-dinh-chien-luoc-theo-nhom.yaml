@@ -1,0 +1,51 @@
+lesson: k3-quyet-dinh-chien-luoc-theo-nhom
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Kế hoạch xây kho mới ghi 10 tháng. Năm dự án kho tương tự trong ngành mất 13 đến 18 tháng. Ước tính gốc nên là?"
+    options:
+      - text: 10 tháng, vì đội của mình làm nhanh hơn.
+        correct: false
+        why: Đây là góc nhìn bên trong. Ai cũng nghĩ đội mình nhanh hơn, nên kế hoạch thường lạc quan.
+      - text: Khoảng mức ở giữa của 5 dự án, rồi chỉnh nếu có lý do cụ thể.
+        correct: true
+        why: Đúng. Góc nhìn bên ngoài lấy dữ liệu thật làm điểm xuất phát.
+      - text: 18 tháng, lấy mức tệ nhất cho chắc.
+        correct: false
+        why: Luôn lấy mức tệ nhất cũng là thiên lệch. Bắt đầu từ mức ở giữa, rồi chỉnh có lý do.
+  - id: q2
+    prompt: "Trong buổi pre-mortem, tổng giám đốc muốn nói ý kiến đầu tiên để định hướng. Bạn là người chủ trì. Nên làm gì?"
+    options:
+      - text: Đồng ý, vì tổng giám đốc hiểu rõ nhất.
+        correct: false
+        why: Người cao chức nói trước thì người khác dễ nói theo. Lý do khác bị chìm.
+      - text: Mời mọi người tự viết lý do trước, tổng giám đốc đọc sau cùng.
+        correct: true
+        why: Đúng. Viết riêng rồi để người cao chức nói sau giúp nhiều ý kiến khác được nêu ra.
+      - text: Bỏ qua tổng giám đốc trong buổi này.
+        correct: false
+        why: Ý kiến của tổng giám đốc vẫn quý. Vấn đề chỉ là thứ tự nói.
+  - id: q3
+    prompt: "Sau pre-mortem, nhóm có 12 lý do thất bại. Bước tiếp theo đúng là gì?"
+    options:
+      - text: Hủy quyết định, vì có quá nhiều rủi ro.
+        correct: false
+        why: Pre-mortem không nhằm hủy quyết định. Mục tiêu là làm quyết định chắc hơn.
+      - text: Chọn 3 lý do lớn, mỗi lý do có biện pháp, người chịu trách nhiệm, rồi đặt tín hiệu dừng.
+        correct: true
+        why: Đúng. Lý do chỉ có ích khi biến thành việc làm có người chịu.
+      - text: Lưu danh sách 12 lý do vào biên bản là đủ.
+        correct: false
+        why: Danh sách không có người chịu thì thường không ai làm.
+  - id: q4
+    prompt: "Một đồng nghiệp nói: pre-mortem đã được chứng minh làm quyết định đúng hơn 30%. Nhận xét nào chính xác?"
+    options:
+      - text: Đúng, đây là kết quả nghiên cứu đã được kiểm chứng.
+        correct: false
+        why: Nghiên cứu gốc chỉ đo số lý do người ta nêu ra. Nó chưa đo độ đúng của quyết định.
+      - text: Chưa chính xác. Bằng chứng mới cho thấy người ta nêu được nhiều lý do hơn.
+        correct: true
+        why: Đúng. Biết mức bằng chứng giúp bạn dùng công cụ mà không hứa quá.
+      - text: Sai hoàn toàn, pre-mortem không có cơ sở nào.
+        correct: false
+        why: Có cơ sở thực nghiệm về việc nêu lý do. Chỉ là chưa đủ để nói về độ đúng.

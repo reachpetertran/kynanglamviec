@@ -1,0 +1,51 @@
+lesson: k2-truyen-dat-qua-nhieu-cap
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Ban điều hành chưa quyết có đóng xưởng cũ hay không. Bản định hướng nên viết gì?"
+    options:
+      - text: Không nhắc đến xưởng cũ, để tránh lo lắng.
+        correct: false
+        why: Im lặng khiến người ta tự đoán, thường đoán tệ hơn. Tin đồn lan nhanh hơn thông báo.
+      - text: Ghi rõ là chưa quyết, và ngày sẽ có quyết định.
+        correct: true
+        why: Đúng. Nói thật điều chưa biết, kèm mốc thời gian, giúp giữ lòng tin.
+      - text: Hứa sẽ không đóng xưởng, cho mọi người yên tâm.
+        correct: false
+        why: Hứa điều chưa quyết là rủi ro lớn. Nếu sau đó đổi ý, lòng tin mất hẳn.
+  - id: q2
+    prompt: "Bạn định thông báo cơ cấu mới qua họp toàn công ty sáng mai. Quản lý cấp trung chưa biết gì. Nên làm gì?"
+    options:
+      - text: Cứ thông báo, quản lý nghe cùng lúc với nhân viên là công bằng.
+        correct: false
+        why: Nhân viên sẽ hỏi quản lý ngay sau họp. Quản lý không trả lời được thì mất uy tín.
+      - text: Họp quản lý cấp trung trước, đưa bản định hướng và câu hỏi thường gặp.
+        correct: true
+        why: Đúng. Quản lý biết trước thì mới nói lại đúng với đội của họ.
+      - text: Chỉ gửi email cho quản lý, nhờ họ tự thông báo.
+        correct: false
+        why: Mỗi quản lý sẽ nói một kiểu. Thông điệp dễ méo, nhất là khi không có lời của lãnh đạo.
+  - id: q3
+    prompt: "Hai tuần sau thông báo, cách nào kiểm tra tốt nhất xem thông điệp đã đến tuyến đầu đúng chưa?"
+    options:
+      - text: Hỏi các giám đốc khối xem nhân viên đã hiểu chưa.
+        correct: false
+        why: Tin qua cấp trung đã được lọc. Họ cũng khó tự thấy chỗ mình nói lệch.
+      - text: Hỏi trực tiếp vài nhân viên tuyến đầu ưu tiên là gì, rồi so với bản gốc.
+        correct: true
+        why: Đúng. Nghe trực tiếp cho biết thông điệp lệch ở đâu, cấp nào cần nói lại.
+      - text: Đếm số người đã mở email thông báo.
+        correct: false
+        why: Mở email không có nghĩa là hiểu đúng.
+  - id: q4
+    prompt: "Phần nào của Bản định hướng giúp các khối biết dồn sức vào đâu?"
+    options:
+      - text: Phần "Không làm gì".
+        correct: true
+        why: Đúng. Nói rõ điều dừng hoặc chưa làm giúp các khối không dàn sức cho mọi thứ.
+      - text: Phần "Vì sao bây giờ".
+        correct: false
+        why: Phần này giải thích lý do. Nó chưa chỉ ra việc gì nên bớt.
+      - text: Phần "Điều chưa biết".
+        correct: false
+        why: Phần này giữ lòng tin, nhưng không giúp chọn việc ưu tiên.

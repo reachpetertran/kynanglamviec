@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quyết định chiến lược theo nhóm, có góc nhìn bên ngoài và pre-mortem · Kỹ Năng Làm Việc</title>
+<meta name="description" content="Sau bài này, bạn có thể đặt ước tính chi phí hoặc thời gian cho một quyết định lớn từ ít nhất 5 trường hợp tương tự. Sau bài này, bạn có thể chủ trì một bu">
+<link rel="canonical" href="https://kynanglamviec.com/bai-hoc/k3-quyet-dinh-chien-luoc-theo-nhom/">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../assets/style.css">
+<script src="../../assets/js-on.js"></script>
+<script src="../../assets/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Bỏ qua, đến nội dung</a>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="../../"><span class="logo" aria-hidden="true">K</span><span>Kỹ Năng<br>Làm Việc</span></a>
+    <nav class="nav" aria-label="Chính"><a href="../../lo-trinh/">Lộ trình</a><a href="../../ky-nang/">Kỹ năng</a><a href="../../bai-hoc/" aria-current=page>Bài học</a><a href="../../tu-danh-gia/">Tự đánh giá</a><a href="../../tai-nguyen/">Tài nguyên</a><a href="../../gioi-thieu/">Giới thiệu</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+<article class="lesson" data-lesson="k3-quyet-dinh-chien-luoc-theo-nhom" data-title="Quyết định chiến lược theo nhóm, có góc nhìn bên ngoài và pre-mortem" data-group="N6">
+<p class="crumb"><a href="../../ky-nang/k3/">K3 · Giải quyết vấn đề và ra quyết định</a> › Bậc 5 Dẫn dắt</p>
+<h1>Quyết định chiến lược theo nhóm, có góc nhìn bên ngoài và pre-mortem</h1>
+<p class="meta">20 phút · Nhóm N6 · Quản lý cấp cao, lãnh đạo · Cập nhật 2026-11-14</p>
+<nav class="course-strip" aria-label="Các bài trong khóa"><p class="small"><b>Khóa Lãnh đạo cấp cao (N6)</b> · <a href="../../lo-trinh/n6/">Bản đồ khóa</a> · <a href="../../tai-nguyen/n6/">Mẫu in</a></p><ol><li data-lesson="k9-tu-quan-ly-doi-den-lanh-dao-to-chuc"><a href="../../bai-hoc/k9-tu-quan-ly-doi-den-lanh-dao-to-chuc/"><span class="cs-n">1</span><span class="cs-t">Lãnh đạo tổ chức</span></a></li><li data-lesson="k3-quyet-dinh-chien-luoc-theo-nhom" aria-current="step"><a href="../../bai-hoc/k3-quyet-dinh-chien-luoc-theo-nhom/"><span class="cs-n">2</span><span class="cs-t">Quyết định chiến lược</span></a></li><li data-lesson="k5-chien-luoc-thanh-thuc-thi"><a href="../../bai-hoc/k5-chien-luoc-thanh-thuc-thi/"><span class="cs-n">3</span><span class="cs-t">Chiến lược thành thực thi</span></a></li><li data-lesson="k2-truyen-dat-qua-nhieu-cap"><a href="../../bai-hoc/k2-truyen-dat-qua-nhieu-cap/"><span class="cs-n">4</span><span class="cs-t">Truyền đạt qua nhiều cấp</span></a></li><li data-lesson="k8-thiet-ke-quyen-quyet-dinh"><a href="../../bai-hoc/k8-thiet-ke-quyen-quyet-dinh/"><span class="cs-n">5</span><span class="cs-t">Quyền quyết định</span></a></li><li data-lesson="k1-nghe-tin-hieu-yeu"><a href="../../bai-hoc/k1-nghe-tin-hieu-yeu/"><span class="cs-n">6</span><span class="cs-t">Nghe tín hiệu yếu</span></a></li><li data-lesson="k10-rui-ro-tuan-thu-va-quan-tri-ai"><a href="../../bai-hoc/k10-rui-ro-tuan-thu-va-quan-tri-ai/"><span class="cs-n">7</span><span class="cs-t">Rủi ro, tuân thủ và AI</span></a></li><li data-lesson="k9-lanh-dao-ke-can-va-on-tap"><a href="../../bai-hoc/k9-lanh-dao-ke-can-va-on-tap/"><span class="cs-n">8</span><span class="cs-t">Ôn tập: kế nhiệm</span></a></li></ol></nav>
+<div class="note">
+<p>Bài này làm <strong>Tờ 2: Biên bản pre-mortem</strong>. <a href="../../tai-nguyen/n6/#to-2">Mẫu in</a>.
+Bài nâng cấp <a href="../k3-quyet-dinh-khi-thieu-thong-tin/">Quyết định khi thiếu thông tin</a> (N4) từ quyết định cá nhân lên quyết định của cả ban điều hành.</p>
+</div>
+<h2 id="p1">1. Mục tiêu</h2>
+<ul>
+<li><strong>Đặt ước tính từ ít nhất 5 trường hợp tương tự</strong> cho chi phí hoặc thời gian của một quyết định lớn.</li>
+<li><strong>Chủ trì buổi pre-mortem 45 phút</strong> và ghi Biên bản pre-mortem.</li>
+</ul>
+<h2 id="p2">2. Khởi động truy xuất</h2>
+<ol>
+<li>Kể ít nhất bốn việc chỉ cấp điều hành làm được.</li>
+<li>Nhãn D và T trong Lịch điều hành nghĩa là gì?</li>
+</ol>
+<details>
+<summary>Đáp án</summary>
+<ol>
+<li>Chọn ưu tiên và việc không làm; phân bổ người và tiền giữa các khối; thiết kế cơ cấu, quyền quyết định; chuẩn bị người kế cận; giữ quan hệ bên ngoài; theo dõi rủi ro lớn.</li>
+<li>D: cấp dưới làm được. T: việc cấp tổ chức.</li>
+</ol>
+<p>Xem lại: <a href="../k9-tu-quan-ly-doi-den-lanh-dao-to-chuc/">Lãnh đạo tổ chức</a>.</p>
+</details>
+<h2 id="p3">3. Giải thích</h2>
+<p>Quyết định lớn thường được bàn trong ban điều hành. Nhóm có thêm góc nhìn, nhưng cũng có ba cái bẫy.</p>
+<ul>
+<li><strong>Lạc quan:</strong> kế hoạch luôn trông nhanh và rẻ hơn thực tế.</li>
+<li><strong>Nể người cao nhất:</strong> sếp nói trước thì mọi người nói theo.</li>
+<li><strong>Nghĩ giống nhau:</strong> ai có nghi ngờ thì ngại lên tiếng.</li>
+</ul>
+<p><strong>Công cụ 1. Góc nhìn bên ngoài.</strong> Đừng chỉ ước từ kế hoạch của mình. Hãy hỏi: các dự án tương tự đã thật sự tốn bao lâu, bao nhiêu? Đây là ý tưởng của <em>reference class forecasting</em> (dự báo theo lớp tham chiếu).</p>
+<figure class="fig"><img src="../../assets/img/n6/l2-hai-goc-nhin.svg" alt="Hai góc nhìn khi ước tính thời gian mở 20 cửa hàng, giả định. Góc nhìn bên trong: kế hoạch ghi 6 tháng. Góc nhìn bên ngoài: 6 lần mở rộng trước đã mất từ 8 đến 11 tháng, ở giữa khoảng 9 tháng. Ước tính gốc nên bắt đầu từ 9 tháng, rồi mới chỉnh theo điểm khác biệt." width="640" height="400" loading="lazy"><figcaption><b>Hình 1.</b> Bắt đầu từ dữ liệu các trường hợp tương tự, rồi mới chỉnh. Số liệu là giả định.</figcaption></figure>
+
+<p>Cách làm: tìm ít nhất 5 trường hợp đã xong, trong hoặc ngoài công ty. Xem kết quả thật. Lấy mức ở giữa làm ước tính gốc. Chỉ chỉnh khi có lý do cụ thể.</p>
+<p><strong>Công cụ 2. Pre-mortem nhóm.</strong> Pre-mortem nghĩa là "khám nghiệm trước". Trước khi chốt, người chủ trì nói: "Giả sử một năm sau, việc này thất bại nặng. Vì sao?"</p>
+<div class="diagram"><p class="dg-title">Buổi pre-mortem 45 phút</p><ol class="steps">
+<li><b>5 phút</b><span>Nêu quyết định và giả định thất bại.</span></li>
+<li><b>5 phút</b><span>Mỗi người tự viết lý do, không bàn.</span></li>
+<li><b>15 phút</b><span>Lần lượt đọc lý do. Người chức cao nhất đọc sau cùng.</span></li>
+<li><b>15 phút</b><span>Chọn 3 lý do lớn. Mỗi lý do có biện pháp và người chịu trách nhiệm.</span></li>
+<li><b>5 phút</b><span>Ghi tín hiệu dừng và ngày xem lại.</span></li>
+</ol></div>
+
+<p>Viết riêng trước khi bàn giúp ý kiến không bị cuốn theo người nói đầu. Người cao chức nói sau cùng để người khác dám nói.</p>
+<p>Pre-mortem không nhằm hủy quyết định. Nó giúp quyết định chắc hơn, có dự phòng và có điểm dừng.</p>
+<h2 id="p4">4. Ví dụ tại nơi làm việc Việt Nam</h2>
+<blockquote>
+<p><strong>Tình huống giả định.</strong> Một chuỗi siêu thị mini ở Cần Thơ định mở 20 điểm mới ở miền Tây. Kế hoạch ghi 6 tháng.</p>
+</blockquote>
+<p>Giám đốc vận hành, chị Ngân, xem lại 6 lần mở rộng trước của công ty. Các lần đó mất từ 8 đến 11 tháng. Mức ở giữa khoảng 9 tháng.</p>
+<p>Ban điều hành đặt ước tính gốc 9 tháng. Họ chỉ chỉnh xuống 8 tháng, vì lần này đã có sẵn đội tìm mặt bằng.</p>
+<p>Rồi chị Ngân chủ trì pre-mortem. Tổng giám đốc đọc lý do sau cùng. Ba lý do lớn nhất được chọn:</p>
+<ol>
+<li>Thiếu quản lý cửa hàng. <strong>Biện pháp:</strong> đào tạo 10 phó cửa hàng từ tháng đầu. <strong>Người chịu:</strong> trưởng phòng nhân sự.</li>
+<li>Mặt bằng ký chậm. <strong>Biện pháp:</strong> ký theo đợt 5 điểm. <strong>Người chịu:</strong> trưởng phát triển mặt bằng.</li>
+<li>Hàng tươi hỏng vì kho xa. <strong>Biện pháp:</strong> thử 3 điểm trước khi mở tiếp. <strong>Người chịu:</strong> giám đốc chuỗi cung ứng.</li>
+</ol>
+<p><strong>Tín hiệu dừng:</strong> 3 điểm đầu lỗ quá 2 tháng liên tục thì họp lại. <strong>Ngày xem lại:</strong> cuối tháng thứ 3.</p>
+<p><strong>Vì sao cách này tốt:</strong> ước tính dựa trên dữ liệu thật. Lý do thất bại được nói ra trước khi chốt, mỗi lý do có người chịu.</p>
+<h2 id="p5">5. Thực hành</h2>
+<blockquote>
+<p><strong>Tình huống giả định.</strong> Bạn là phó tổng giám đốc một công ty phần mềm ở Đà Nẵng. Ban điều hành định thay hệ thống kế toán trong 4 tháng.</p>
+</blockquote>
+<p>Làm hai việc: (1) Nêu cách tìm 5 trường hợp tương tự. (2) Viết 3 lý do thất bại có thể có, mỗi lý do kèm biện pháp và người chịu.</p>
+<details>
+<summary>Gợi ý 1</summary>
+<p>Trường hợp tương tự có thể là các dự án thay phần mềm lớn trước đây của công ty. Cũng có thể hỏi đơn vị triển khai về các khách hàng cùng quy mô.</p>
+</details>
+<details>
+<summary>Gợi ý 2</summary>
+<p>Nghĩ về con người, dữ liệu và thời điểm. Chuyển hệ thống vào mùa quyết toán có rủi ro gì?</p>
+</details>
+<details>
+<summary>Lời giải mẫu</summary>
+<ol>
+<li><strong>Lớp tham chiếu:</strong> 3 dự án thay phần mềm của công ty trong 5 năm qua; 2 khách hàng cùng quy mô do đơn vị triển khai giới thiệu. Ghi thời gian thật của từng dự án.</li>
+<li><strong>Lý do thất bại:</strong>
+   - Dữ liệu cũ sai, chuyển sang bị lệch. <strong>Biện pháp:</strong> làm sạch dữ liệu trước 1 tháng. <strong>Người chịu:</strong> kế toán trưởng.
+   - Trùng mùa quyết toán. <strong>Biện pháp:</strong> chạy song song hai hệ thống qua một kỳ khóa sổ. <strong>Người chịu:</strong> giám đốc tài chính.
+   - Nhân viên không quen. <strong>Biện pháp:</strong> đào tạo theo vai trò, có người hỗ trợ tại chỗ 2 tuần. <strong>Người chịu:</strong> trưởng dự án.</li>
+</ol>
+<p>(Thông tin là giả định.)</p>
+</details>
+<h2 id="p6">6. Tự kiểm tra</h2>
+<p>Chọn đáp án. Mỗi lựa chọn đều có giải thích.</p>
+<div class="quiz" data-lesson="k3-quyet-dinh-chien-luoc-theo-nhom"><div class="q"><p class="q-prompt"><b>Câu 1.</b> Kế hoạch xây kho mới ghi 10 tháng. Năm dự án kho tương tự trong ngành mất 13 đến 18 tháng. Ước tính gốc nên là?</p><ul class="opts"><li><button type="button" class="opt" data-correct="0">A. 10 tháng, vì đội của mình làm nhanh hơn.</button>
+<p class="why why-0"><b>Chưa đúng.</b> Đây là góc nhìn bên trong. Ai cũng nghĩ đội mình nhanh hơn, nên kế hoạch thường lạc quan.</p></li><li><button type="button" class="opt" data-correct="1">B. Khoảng mức ở giữa của 5 dự án, rồi chỉnh nếu có lý do cụ thể.</button>
+<p class="why why-1"><b>Đúng.</b> Đúng. Góc nhìn bên ngoài lấy dữ liệu thật làm điểm xuất phát.</p></li><li><button type="button" class="opt" data-correct="0">C. 18 tháng, lấy mức tệ nhất cho chắc.</button>
+<p class="why why-0"><b>Chưa đúng.</b> Luôn lấy mức tệ nhất cũng là thiên lệch. Bắt đầu từ mức ở giữa, rồi chỉnh có lý do.</p></li></ul></div><div class="q"><p class="q-prompt"><b>Câu 2.</b> Trong buổi pre-mortem, tổng giám đốc muốn nói ý kiến đầu tiên để định hướng. Bạn là người chủ trì. Nên làm gì?</p><ul class="opts"><li><button type="button" class="opt" data-correct="0">A. Đồng ý, vì tổng giám đốc hiểu rõ nhất.</button>
+<p class="why why-0"><b>Chưa đúng.</b> Người cao chức nói trước thì người khác dễ nói theo. Lý do khác bị chìm.</p></li><li><button type="button" class="opt" data-correct="1">B. Mời mọi người tự viết lý do trước, tổng giám đốc đọc sau cùng.</button>
+<p class="why why-1"><b>Đúng.</b> Đúng. Viết riêng rồi để người cao chức nói sau giúp nhiều ý kiến khác được nêu ra.</p></li><li><button type="button" class="opt" data-correct="0">C. Bỏ qua tổng giám đốc trong buổi này.</button>
+<p class="why why-0"><b>Chưa đúng.</b> Ý kiến của tổng giám đốc vẫn quý. Vấn đề chỉ là thứ tự nói.</p></li></ul></div><div class="q"><p class="q-prompt"><b>Câu 3.</b> Sau pre-mortem, nhóm có 12 lý do thất bại. Bước tiếp theo đúng là gì?</p><ul class="opts"><li><button type="button" class="opt" data-correct="0">A. Hủy quyết định, vì có quá nhiều rủi ro.</button>
+<p class="why why-0"><b>Chưa đúng.</b> Pre-mortem không nhằm hủy quyết định. Mục tiêu là làm quyết định chắc hơn.</p></li><li><button type="button" class="opt" data-correct="1">B. Chọn 3 lý do lớn, mỗi lý do có biện pháp, người chịu trách nhiệm, rồi đặt tín hiệu dừng.</button>
+<p class="why why-1"><b>Đúng.</b> Đúng. Lý do chỉ có ích khi biến thành việc làm có người chịu.</p></li><li><button type="button" class="opt" data-correct="0">C. Lưu danh sách 12 lý do vào biên bản là đủ.</button>
+<p class="why why-0"><b>Chưa đúng.</b> Danh sách không có người chịu thì thường không ai làm.</p></li></ul></div><div class="q"><p class="q-prompt"><b>Câu 4.</b> Một đồng nghiệp nói: pre-mortem đã được chứng minh làm quyết định đúng hơn 30%. Nhận xét nào chính xác?</p><ul class="opts"><li><button type="button" class="opt" data-correct="0">A. Đúng, đây là kết quả nghiên cứu đã được kiểm chứng.</button>
+<p class="why why-0"><b>Chưa đúng.</b> Nghiên cứu gốc chỉ đo số lý do người ta nêu ra. Nó chưa đo độ đúng của quyết định.</p></li><li><button type="button" class="opt" data-correct="1">B. Chưa chính xác. Bằng chứng mới cho thấy người ta nêu được nhiều lý do hơn.</button>
+<p class="why why-1"><b>Đúng.</b> Đúng. Biết mức bằng chứng giúp bạn dùng công cụ mà không hứa quá.</p></li><li><button type="button" class="opt" data-correct="0">C. Sai hoàn toàn, pre-mortem không có cơ sở nào.</button>
+<p class="why why-0"><b>Chưa đúng.</b> Có cơ sở thực nghiệm về việc nêu lý do. Chỉ là chưa đủ để nói về độ đúng.</p></li></ul></div><p class="quiz-score" aria-live="polite"></p></div>
+<h2 id="p7">7. Phản tư</h2>
+<ol>
+<li>Quyết định lớn gần nhất của ban bạn đã ước tính từ kế hoạch hay từ trường hợp tương tự?</li>
+<li>Trong các cuộc họp của bạn, ai thường nói trước? Điều đó ảnh hưởng gì?</li>
+</ol>
+<h2 id="p8">8. Áp dụng thật</h2>
+<p>Trong 7 ngày tới, chọn một quyết định lớn sắp chốt. Tìm ít nhất 5 trường hợp tương tự. Chủ trì một buổi pre-mortem và ghi Tờ 2.</p>
+<div class="note">
+<p><strong>Mức bằng chứng.</strong>
+Góc nhìn bên ngoài: Flyvbjerg (2006), <em>Project Management Journal</em> 37(3), dựa trên lý thuyết quyết định của Kahneman và Tversky.
+Pre-mortem: Klein (2007), <em>Harvard Business Review</em>, tháng 9/2007. Đây là bài hướng dẫn thực hành, không phải nghiên cứu có bình duyệt.
+Cơ sở thực nghiệm của pre-mortem là Mitchell, Russo và Pennington (1989), <em>Journal of Behavioral Decision Making</em> 2(1). Nghiên cứu này cho thấy người ta nêu được nhiều lý do hơn khi coi kết cục là đã xảy ra. Nó chưa chứng minh quyết định sẽ tốt hơn.</p>
+</div>
+<h2 id="p9">9. Siêu dữ liệu</h2>
+<table class="meta-table small"><tbody>
+<tr><th>skill</th><td>K3 · Giải quyết vấn đề và ra quyết định</td></tr>
+<tr><th>level</th><td>Bậc 5 · Dẫn dắt</td></tr>
+<tr><th>group</th><td>N6</td></tr>
+<tr><th>framework_map</th><td>UK Civil Service Success Profiles: Making Effective Decisions; APS Integrated Leadership System: Shapes strategic thinking; WEF: Analytical thinking; SkillsFuture CCS: Decision Making; CSfW: 3b Make decisions (chỉ dẫn chiếu)</td></tr>
+<tr><th>updated</th><td>2026-11-14</td></tr></tbody></table>
+<section class="finish card">
+  <h2>Hoàn thành bài</h2>
+  <p>Đánh dấu đã học để site gợi ý lịch ôn sau 1, 3 và 7 ngày. Dữ liệu chỉ lưu trên máy của bạn.</p>
+  <button type="button" class="btn" data-action="done">Đánh dấu đã học</button>
+  <div class="review" hidden>
+    <p><b>Lịch ôn gợi ý:</b> <span class="review-dates"></span></p>
+    <p><button type="button" class="btn ghost" data-action="ics">Tải file nhắc lịch (.ics)</button>
+    <button type="button" class="btn ghost" data-action="undo">Bỏ đánh dấu</button></p>
+  </div>
+</section>
+<nav class="pager"><a href="../../bai-hoc/k9-tu-quan-ly-doi-den-lanh-dao-to-chuc/">← Từ quản lý đội đến lãnh đạo tổ chức</a><a class="next" href="../../bai-hoc/k5-chien-luoc-thanh-thuc-thi/">Biến chiến lược thành việc làm của từng khối →</a></nav>
+</article>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p><b>kynanglamviec.com</b> – miễn phí, công khai, không đăng nhập, không cookie, không công cụ theo dõi.
+    Tiến độ học chỉ lưu trên máy của bạn.</p>
+    <p>Trang cùng hệ: <a href="https://daynentang.com/">daynentang.com</a> (giá trị, thói quen) ·
+    <a href="https://tamhonkhoe.com/">tamhonkhoe.com</a> (tinh thần) ·
+    <a href="https://trachnhiemxahoi.com/">trachnhiemxahoi.com</a> (quyền con người) ·
+    <a href="https://tienganhcanban.com/">tienganhcanban.com</a> (tiếng Anh)</p>
+    <p><a href="../../khung-tham-chieu/">Khung tham chiếu</a> · <a href="../../phap-ly/">Pháp lý khi đi làm</a> ·
+    <a href="../../nhat-ky/">Nhật ký bằng chứng</a> · Nội dung tự viết: CC BY-NC-SA 4.0 · Cập nhật 2026-11-14</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,4 +1,5 @@
-# 5 nhóm người học. Nguồn: file Context mục 2, 3, 5, 6. Học phần là gợi ý [SL].
+# 7 nhóm người học. N1–N5: file Context mục 2, 3, 5, 6. N6, N7: thêm 14/11/2026 theo yêu cầu của Peter,
+# căn cứ báo cáo nghiên cứu ngày 14/11/2026 (project doc claude/khung-n6-n7.md). Học phần là gợi ý [SL].
 # matrix: "-" không dạy · "o" giới thiệu · "c" trọng tâm · "a" nâng cao
 groups:
   - code: N1
@@ -62,3 +63,30 @@ groups:
       giao việc và phản hồi, coaching, xử lý xung đột, xây đội và dẫn dắt thay đổi, kể cả đưa AI vào đội.
     modules: ["Từ chuyên viên thành quản lý", "Giao việc và phản hồi", "Coaching và phát triển người", "Xử lý xung đột, đối thoại khó", "Xây đội và văn hóa hòa nhập", "Dẫn dắt thay đổi, gồm đưa AI vào đội"]
     matrix: {K1: ["a", "lắng nghe để coaching"], K2: ["a", "truyền đạt tầm nhìn"], K3: ["a", "quyết định chiến lược"], K4: ["a", "văn hóa đổi mới"], K5: ["a", "phân bổ nguồn lực"], K6: ["a", "quản lý thay đổi"], K7: ["c", "phát triển bản thân với vai trò lãnh đạo"], K8: ["a", "xây dựng đội"], K9: ["a", "trọng tâm"], K10: ["a", "chính sách dùng AI cho đội"]}
+
+  - code: N6
+    slug: n6
+    name: Quản lý cấp cao, lãnh đạo
+    short: Dẫn dắt tổ chức
+    audience: Giám đốc khối, giám đốc chức năng, ban điều hành, người quản lý nhiều cấp quản lý.
+    levels: "Bậc 4–5"
+    intro: >-
+      Bạn không còn dẫn một đội mà dẫn cả một hệ thống: nhiều cấp quản lý, nhiều khối, nhiều rủi ro.
+      Trọng tâm: quyết định chiến lược theo nhóm, biến chiến lược thành việc làm, truyền đạt qua nhiều cấp,
+      thiết kế quyền quyết định, giúp tin xấu đi lên, quản trị rủi ro và AI, chuẩn bị người kế cận.
+    modules: ["Từ quản lý đội đến lãnh đạo tổ chức", "Quyết định chiến lược theo nhóm", "Từ chiến lược đến thực thi", "Truyền đạt định hướng qua nhiều cấp", "Thiết kế quyền quyết định", "Nghe tín hiệu yếu, giúp tin xấu đi lên", "Rủi ro, tuân thủ và quản trị AI", "Lãnh đạo kế cận và kế nhiệm"]
+    matrix: {K1: ["a", "nghe tín hiệu yếu qua nhiều cấp"], K2: ["a", "truyền đạt định hướng qua nhiều cấp"], K3: ["a", "quyết định chiến lược theo nhóm"], K4: ["c", "danh mục đổi mới"], K5: ["a", "chiến lược thành thực thi"], K6: ["c", "dẫn dắt khi khủng hoảng"], K7: ["o", "học từ mạng lưới, hội đồng quản trị"], K8: ["c", "phối hợp liên khối, đối tác bên ngoài"], K9: ["a", "thiết kế tổ chức, kế nhiệm"], K10: ["a", "rủi ro, tuân thủ, quản trị AI và dữ liệu"]}
+
+  - code: N7
+    slug: n7
+    name: Founder, khởi nghiệp
+    short: Xây doanh nghiệp từ đầu
+    audience: Người sáng lập, chủ doanh nghiệp nhỏ, chủ hộ kinh doanh muốn lên doanh nghiệp, startup giai đoạn đầu.
+    levels: "Bậc 2–4 tùy kỹ năng"
+    intro: >-
+      Bạn biến một ý tưởng thành việc kinh doanh thật. Trọng tâm: khám phá khách hàng, thử nghiệm có tiêu chí,
+      chủ động và phục hồi sau thất bại, giữ dòng tiền, làm đúng pháp lý khi khởi sự,
+      tuyển những người đầu tiên và kể chuyện để huy động nguồn lực.
+    note: "Khóa N7 đang được soạn. Các bài N3–N6 về giải quyết vấn đề, giao việc và quyết định đều dùng được cho founder."
+    modules: ["Từ ý tưởng đến giả thuyết: khám phá khách hàng", "Thử nghiệm có tiêu chí và quyết định pivot", "Chủ động và bền bỉ", "Những con số sống còn: dòng tiền, hòa vốn", "Pháp lý khởi sự: từ hộ kinh doanh lên doanh nghiệp", "Tuyển và giữ những nhân viên đầu tiên", "Kể chuyện để huy động nguồn lực", "Vận hành số tối giản, tuân thủ dữ liệu và AI"]
+    matrix: {K1: ["a", "khám phá khách hàng"], K2: ["c", "pitch, đề xuất với đối tác"], K3: ["a", "giả thuyết, thử nghiệm, pivot"], K4: ["c", "giải pháp, mô hình kinh doanh"], K5: ["c", "dòng tiền, mốc 90 ngày"], K6: ["a", "chủ động, phục hồi sau thất bại"], K7: ["c", "học qua thử nghiệm"], K8: ["o", "đồng sáng lập, đối tác"], K9: ["c", "tuyển, giữ nhân viên đầu tiên"], K10: ["c", "pháp lý khởi sự, dữ liệu, công cụ số"]}

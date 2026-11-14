@@ -205,7 +205,7 @@ def build_groups():
   <span class="gcode">{g['code']}</span><b>{e(g['name'])}</b><span>{e(g['short'])}</span>
   <span class="meta">{e(g['levels'])}</span></a>""" for g in GROUPS)
     page("lo-trinh/", "Lộ trình", f"""<h1>Lộ trình theo nhóm người học</h1>
-<p class="lead">Năm lộ trình gợi ý. Không có nội dung nào bị khóa. Một người có thể ở bậc khác nhau tùy kỹ năng.</p>
+<p class="lead">Bảy lộ trình gợi ý. Không có nội dung nào bị khóa. Một người có thể ở bậc khác nhau tùy kỹ năng.</p>
 <div class="grid5">{cards}</div>""")
 
     for g in GROUPS:
@@ -215,7 +215,7 @@ def build_groups():
         modules = "".join(f"<li>{e(m)}</li>" for m in g["modules"])
         note = f'<p class="note">{e(g["note"])}</p>' if g.get("note") else ""
         extra = ""
-        if g["code"] in ("N2", "N3", "N4", "N5"):
+        if g["code"] in ("N2", "N3", "N4", "N5", "N6"):
             extra = course_map(g["slug"])
         if g["code"] == "N1":
             extra = course_map("n1") + """<div class="note"><b>Dành cho phụ huynh và giáo viên.</b> Các bài N1 được viết để người lớn
@@ -354,6 +354,10 @@ COURSES = {
            "guide_label": "Mẫu in của khóa", "strip_label": "Mẫu in",
            "thread": "Một sợi chỉ nối cả khóa: <b>Sổ tay quản lý</b>, gồm 8 tờ dùng với đội thật. Bài cuối ôn trộn cả khóa và lập bảng phân bổ cho quý tới.",
            "after": '<p class="note"><b>Lưu ý:</b> Bài 5 dạy kỹ năng nói chuyện, không thay quy trình kỷ luật của đơn vị. Bài 7 không tư vấn pháp lý; nguồn luật ghi rõ ngày tra. <b>Nên học trước:</b> bài <a href="{{R}}bai-hoc/k9-kem-cap-dong-nghiep/">Kèm cặp đồng nghiệp</a> của khóa N4.</p>'},
+    "n6": {"title": "Khóa Lãnh đạo cấp cao (N6)", "home": "lo-trinh/n6/", "guide": "tai-nguyen/n6/",
+           "guide_label": "Mẫu in của khóa", "strip_label": "Mẫu in",
+           "thread": "Một sợi chỉ nối cả khóa: <b>Sổ tay điều hành</b>, gồm 8 tờ dùng với tổ chức thật. Bài cuối ôn trộn cả khóa và lập bản đồ kế nhiệm.",
+           "after": '<p class="note"><b>Lưu ý:</b> Bài 7 không tư vấn pháp lý; nguồn luật ghi rõ ngày tra. Các công cụ trong khóa ghi rõ mức bằng chứng: nghiên cứu, phương pháp được khuyến nghị, hay đề xuất của site. <b>Nên học trước:</b> khóa <a href="{{R}}lo-trinh/n5/">Quản lý, trưởng nhóm (N5)</a>.</p>'},
 }
 
 
@@ -500,8 +504,11 @@ Hãy in hoặc lưu PDF định kỳ.</p>
 <p><a class="btn" href="{{R}}tai-nguyen/n4/">Mở mẫu in N4</a></p>
 <h2>Mẫu in khóa Quản lý, trưởng nhóm (N5)</h2>
 <p>Tám mẫu cho Sổ tay quản lý: bản chuyển vai, mục tiêu đội một trang, phiếu giao việc, trang 1-1, phiếu chuẩn bị đối thoại khó, thỏa thuận làm việc của đội, kế hoạch thay đổi và quy tắc dùng AI, bảng phân bổ quý.</p>
-<p><a class="btn" href="{{R}}tai-nguyen/n5/">Mở mẫu in N5</a></p>""")
-    for code, fn in (("n1", "n1-huong-dan.md"), ("n2", "n2-mau-in.md"), ("n3", "n3-mau-in.md"), ("n4", "n4-mau-in.md"), ("n5", "n5-mau-in.md")):
+<p><a class="btn" href="{{R}}tai-nguyen/n5/">Mở mẫu in N5</a></p>
+<h2>Mẫu in khóa Lãnh đạo cấp cao (N6)</h2>
+<p>Tám mẫu cho Sổ tay điều hành: lịch điều hành, biên bản pre-mortem, bảng chiến lược thành việc, bản định hướng và kế hoạch truyền đạt, bảng quyền quyết định, kênh tin xấu, sổ rủi ro và danh mục AI, bản đồ kế nhiệm.</p>
+<p><a class="btn" href="{{R}}tai-nguyen/n6/">Mở mẫu in N6</a></p>""")
+    for code, fn in (("n1", "n1-huong-dan.md"), ("n2", "n2-mau-in.md"), ("n3", "n3-mau-in.md"), ("n4", "n4-mau-in.md"), ("n5", "n5-mau-in.md"), ("n6", "n6-mau-in.md")):
         gp = ROOT / "content/trang" / fn
         if not gp.exists():
             continue

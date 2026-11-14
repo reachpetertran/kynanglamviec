@@ -1,0 +1,51 @@
+lesson: k1-nghe-tin-hieu-yeu
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Trưởng phòng báo: một lô hàng xuất đã bị khách trả về. Câu đầu tiên tốt nhất là gì?"
+    options:
+      - text: "\"Ai chịu trách nhiệm lô này?\""
+        correct: false
+        why: Hỏi lỗi ngay khiến người báo phòng thủ. Lần sau họ có thể chậm báo hơn.
+      - text: "\"Cảm ơn anh đã báo sớm. Lô nào, lý do khách trả là gì?\""
+        correct: true
+        why: Đúng. Cảm ơn trước, rồi hỏi sự kiện. Trách nhiệm xem xét sau, theo quy trình.
+      - text: "\"Để tôi xem báo cáo rồi tính.\""
+        correct: false
+        why: Câu này không cảm ơn, không hỏi thêm. Người báo không biết bạn sẽ làm gì.
+  - id: q2
+    prompt: "Báo cáo tuần của mọi chi nhánh đều ghi \"ổn\" suốt 6 tháng. Nên hiểu thế nào?"
+    options:
+      - text: Chi nhánh vận hành rất tốt.
+        correct: false
+        why: Có thể đúng, nhưng 6 tháng không có vấn đề nào là bất thường. Tin có thể đang bị lọc.
+      - text: Có thể tin xấu đang bị lọc. Nên tự đi nghe tuyến đầu và xem lại cách báo cáo.
+        correct: true
+        why: Đúng. Ở cấp cao, tin đến tay thường đã qua nhiều lớp lọc.
+      - text: Nên phạt chi nhánh nào báo cáo sai.
+        correct: false
+        why: Phạt khi chưa có bằng chứng làm người ta càng ngại nói thật.
+  - id: q3
+    prompt: "Một nhân viên muốn báo vấn đề an toàn, nhưng lo quản lý trực tiếp trả đũa. Kênh tin xấu nên có gì?"
+    options:
+      - text: Bắt buộc báo qua quản lý trực tiếp, để đúng quy trình.
+        correct: false
+        why: Nếu người báo sợ chính quản lý đó, tin sẽ không bao giờ lên.
+      - text: Một đường báo vượt cấp được ghi rõ, như gửi thẳng trưởng ban an toàn.
+        correct: true
+        why: Đúng. Đường vượt cấp giúp tin quan trọng không phụ thuộc vào một người.
+      - text: Không cần, vì nhân viên có thể nói trong buổi họp toàn công ty.
+        correct: false
+        why: Nói trước đông người còn khó hơn. Người lo bị trả đũa sẽ im lặng.
+  - id: q4
+    prompt: "Theo Edmondson (1999), tâm lý an toàn của nhóm gắn với điều gì?"
+    options:
+      - text: Nhóm ít mắc lỗi hơn.
+        correct: false
+        why: Nghiên cứu không nói vậy. Nhóm an toàn thậm chí báo lỗi nhiều hơn, vì dám nói.
+      - text: Hành vi học tập như hỏi, báo lỗi, xin phản hồi; qua đó gắn với kết quả làm việc.
+        correct: true
+        why: Đúng. Đây là phát hiện chính của nghiên cứu 51 nhóm trong một công ty sản xuất.
+      - text: Nhân viên được trả lương cao hơn.
+        correct: false
+        why: Nghiên cứu không đo lương. Đây là suy diễn không có căn cứ.

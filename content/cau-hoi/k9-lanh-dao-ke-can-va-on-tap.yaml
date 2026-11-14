@@ -1,0 +1,63 @@
+lesson: k9-lanh-dao-ke-can-va-on-tap
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Bạn định chọn người kế cận vì anh ấy làm việc rất hợp ý bạn. Điều gì còn thiếu?"
+    options:
+      - text: Không thiếu gì, hợp ý giúp làm việc tốt.
+        correct: false
+        why: Hợp ý dễ dẫn đến chọn người giống mình. Tổ chức có thể cần kỹ năng khác.
+      - text: Bằng chứng về kết quả và hành vi, cùng ý kiến của ít nhất hai người khác.
+        correct: true
+        why: Đúng. Nhiều nguồn đánh giá giúp giảm thiên lệch của một người.
+      - text: Một bài kiểm tra tính cách.
+        correct: false
+        why: Bài trắc nghiệm không thay được bằng chứng về kết quả và hành vi trong việc thật.
+  - id: q2
+    prompt: "Vị trí giám đốc công nghệ chưa có ai kế cận. Nên xử lý thế nào?"
+    options:
+      - text: Không cần làm gì cho đến khi giám đốc hiện tại nghỉ.
+        correct: false
+        why: Lúc đó có thể đã muộn. Vị trí then chốt bỏ trống là rủi ro lớn.
+      - text: Ghi vào Sổ rủi ro, có người chủ và hạn để tìm hoặc phát triển người kế cận.
+        correct: true
+        why: Đúng. Quản lý vị trí trống như một rủi ro, có người lo và có ngưỡng.
+      - text: Chọn ngay một người bất kỳ cho đủ bảng.
+        correct: false
+        why: Điền cho đủ thì bảng đẹp nhưng rủi ro vẫn còn.
+  - id: q3
+    prompt: "Người kế cận giỏi chuyên môn nhưng chưa từng làm việc với hội đồng quản trị. Việc thử thách nào phù hợp?"
+    options:
+      - text: Gửi đi học một khóa quản trị 3 ngày là đủ.
+        correct: false
+        why: Khóa học có thể giúp, nhưng chưa cho trải nghiệm thật với hội đồng.
+      - text: Cho trình bày một nội dung trước hội đồng, có người kèm chuẩn bị và góp ý sau đó.
+        correct: true
+        why: Đúng. Việc thử thách đúng khoảng trống, có người kèm, giúp học từ trải nghiệm thật.
+      - text: Chờ khi được bổ nhiệm rồi sẽ tự học.
+        correct: false
+        why: Học khi đã ngồi ghế thì rủi ro cao hơn cho cả người đó và tổ chức.
+  - id: q4
+    prompt: "Ôn tập: tổng giám đốc phải duyệt mọi đơn mua nhỏ, nên không có thời gian gặp người kế cận. Hai công cụ nào của khóa giúp nhất?"
+    options:
+      - text: Lịch điều hành và Bảng quyền quyết định.
+        correct: true
+        why: Đúng. Lịch tách việc D khỏi việc T. Bảng quyền chuyển quyền duyệt xuống theo ngưỡng.
+      - text: Pre-mortem và Bản định hướng.
+        correct: false
+        why: Hai công cụ này dùng cho quyết định lớn và truyền đạt, không giải phóng thời gian.
+      - text: Kênh tin xấu và Sổ rủi ro.
+        correct: false
+        why: Hai công cụ này giúp thấy rủi ro, nhưng không bớt việc duyệt nhỏ.
+  - id: q5
+    prompt: "Ôn tập: ba tháng qua mọi khối báo \"ổn\", nhưng doanh thu từ khách cũ giảm. Bước nào nên làm trước?"
+    options:
+      - text: Tự đi nghe tuyến đầu và khách, không có quản lý trực tiếp ngồi cùng.
+        correct: true
+        why: Đúng. Khi báo cáo và số liệu không khớp, tin có thể đang bị lọc. Hãy tìm tin thật.
+      - text: Đổi ngay ưu tiên chiến lược năm.
+        correct: false
+        why: Chưa hiểu nguyên nhân thì đổi chiến lược là quyết vội.
+      - text: Yêu cầu mọi khối viết báo cáo dài hơn.
+        correct: false
+        why: Báo cáo dài hơn vẫn đi qua cùng các lớp lọc.

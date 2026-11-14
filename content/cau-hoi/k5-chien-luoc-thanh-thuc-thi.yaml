@@ -1,0 +1,51 @@
+lesson: k5-chien-luoc-thanh-thuc-thi
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu nào là một kết quả đo được của ưu tiên chiến lược?"
+    options:
+      - text: "\"Nâng cao chất lượng dịch vụ.\""
+        correct: false
+        why: Câu này chỉ nêu hướng đi. Không ai biết khi nào là đạt.
+      - text: "\"Giải quyết 90% khiếu nại trong 48 giờ trước tháng 10.\""
+        correct: true
+        why: Đúng. Có chỉ số, có mức, có ngày.
+      - text: "\"Mọi khối cố gắng làm tốt hơn năm ngoái.\""
+        correct: false
+        why: Không có chỉ số, không có ngày, không chia rõ cho ai.
+  - id: q2
+    prompt: "Khối bán hàng chờ khối công nghệ làm tính năng mới. Hai bên đều nói đang chờ bên kia. Thiếu gì?"
+    options:
+      - text: Thiếu ngân sách cho khối công nghệ.
+        correct: false
+        why: Có thể đúng, nhưng chưa có bằng chứng. Dấu hiệu "chờ nhau" chỉ ra vấn đề khác.
+      - text: Thiếu người điều phối có tên cho chỗ phụ thuộc này.
+        correct: true
+        why: Đúng. Chỗ phụ thuộc không có người lo thì mỗi khối sẽ chờ khối kia.
+      - text: Thiếu một buổi họp toàn công ty.
+        correct: false
+        why: Họp đông không giải quyết được việc ai chịu trách nhiệm điều phối.
+  - id: q3
+    prompt: "Buổi rà soát tháng thường kéo dài 3 giờ vì từng khối đọc báo cáo. Nên đổi thế nào?"
+    options:
+      - text: Gửi số liệu trước 2 ngày, chỉ bàn chỉ số lệch và chỗ tắc.
+        correct: true
+        why: Đúng. Buổi họp dành để quyết, không phải để đọc.
+      - text: Bỏ buổi rà soát, mỗi khối tự theo dõi.
+        correct: false
+        why: Không có nhịp chung thì chỗ phụ thuộc giữa các khối sẽ không ai xem.
+      - text: Rút ngắn mỗi báo cáo còn 5 phút.
+        correct: false
+        why: Vẫn dùng giờ họp để đọc. Thời gian quyết định vẫn bị chiếm.
+  - id: q4
+    prompt: "Đến mốc, chỉ số thấp hơn tiêu chí đã viết. Khối phụ trách xin thêm 3 tháng. Nên làm gì?"
+    options:
+      - text: Đồng ý, vì đã bỏ nhiều công sức.
+        correct: false
+        why: Công sức đã bỏ ra không lấy lại được. Quyết định nên dựa vào dữ liệu về sau.
+      - text: Theo tiêu chí đã viết, đổi cách làm hoặc dừng. Chỉ gia hạn nếu có lý do mới, cụ thể.
+        correct: true
+        why: Đúng. Tiêu chí viết trước giúp quyết khách quan. Gia hạn phải có lý do mới.
+      - text: Thay trưởng khối phụ trách.
+        correct: false
+        why: Chỉ số lệch chưa chắc do một người. Trước hết, xem cách làm có cần đổi không.

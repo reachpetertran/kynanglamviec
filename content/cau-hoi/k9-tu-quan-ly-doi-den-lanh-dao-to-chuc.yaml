@@ -1,0 +1,51 @@
+lesson: k9-tu-quan-ly-doi-den-lanh-dao-to-chuc
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Một kho hàng giao trễ cho khách lớn. Bạn là giám đốc khối. Việc nào là việc cấp tổ chức?"
+    options:
+      - text: Tự gọi kho, xếp lại xe và giao bù ngay hôm nay.
+        correct: false
+        why: Đây là việc quản lý kho làm được. Bạn làm thay thì cấp dưới không lớn lên.
+      - text: Để kho xử lý, rồi tìm xem lỗi lặp lại vì quy trình hay quyền quyết định nào.
+        correct: true
+        why: Đúng. Cấp điều hành sửa hệ thống để sự cố ít lặp lại.
+      - text: Không làm gì, vì đây là việc của kho.
+        correct: false
+        why: Khách lớn bị ảnh hưởng là rủi ro của tổ chức. Bạn vẫn cần theo dõi và sửa nguyên nhân.
+  - id: q2
+    prompt: "Khối của bạn vượt chỉ tiêu, nhưng nhờ đẩy chi phí sang khối khác. Đánh giá thế nào?"
+    options:
+      - text: Tốt, vì khối mình đã đạt kết quả.
+        correct: false
+        why: Ở cấp điều hành, kết quả được tính cho cả tổ chức. Chuyển chi phí đi không tạo thêm giá trị.
+      - text: Chưa tốt, vì tổ chức không được lợi. Cần xem lại cách đo và cách phối hợp.
+        correct: true
+        why: Đúng. Khối thắng mà công ty thua thì vẫn là thua.
+      - text: Tùy, nếu khối kia không phàn nàn thì không sao.
+        correct: false
+        why: Im lặng không có nghĩa là không có thiệt hại. Thông tin ở cấp cao thường đã bị lọc.
+  - id: q3
+    prompt: "Bạn gắn nhãn D cho việc duyệt đơn mua nhỏ. Bước tiếp theo đúng là gì?"
+    options:
+      - text: Ngừng duyệt ngay, không cần nói với ai.
+        correct: false
+        why: Không giao rõ thì việc rơi vào khoảng trống. Người khác không biết mình được quyết.
+      - text: Giao cho người cụ thể, đặt hạn mức và ngưỡng phải báo bạn.
+        correct: true
+        why: Đúng. Việc D cần người nhận, phạm vi quyền và điểm báo lại.
+      - text: Vẫn duyệt, nhưng duyệt nhanh hơn.
+        correct: false
+        why: Làm nhanh hơn vẫn chiếm thời gian của việc cấp tổ chức.
+  - id: q4
+    prompt: "Sau 4 tuần dùng Lịch điều hành, việc T vẫn hay bị chiếm chỗ. Nên làm gì?"
+    options:
+      - text: Bỏ Tờ 1, vì không hợp với công việc thật.
+        correct: false
+        why: Bị chiếm chỗ là dữ liệu để học. Bỏ công cụ thì mất luôn cách đo.
+      - text: Xem việc nào chiếm chỗ, giao tiếp hoặc sửa nguyên nhân, rồi đặt lại mục tiêu.
+        correct: true
+        why: Đúng. Đo lại rồi chỉnh là cách dùng Tờ 1. Không có tỷ lệ chuẩn cho mọi nơi.
+      - text: Làm thêm giờ buổi tối để bù việc T.
+        correct: false
+        why: Cách này không giải quyết nguyên nhân. Việc D vẫn chiếm giờ làm chính.

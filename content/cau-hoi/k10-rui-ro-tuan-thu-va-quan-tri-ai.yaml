@@ -1,0 +1,51 @@
+lesson: k10-rui-ro-tuan-thu-va-quan-tri-ai
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Dòng nào trong Sổ rủi ro được viết đúng ba vế?"
+    options:
+      - text: "\"Rủi ro tài chính.\""
+        correct: false
+        why: Chỉ là tên nhóm. Không biết nguyên nhân, sự kiện hay hậu quả.
+      - text: "\"Khách lớn nhất chậm trả 60 ngày, nên công ty thiếu tiền trả lương tháng 3.\""
+        correct: true
+        why: Đúng. Có nguyên nhân, sự kiện và hậu quả. Người chủ rủi ro biết phải theo dõi gì.
+      - text: "\"Cần quản lý dòng tiền tốt hơn.\""
+        correct: false
+        why: Đây là một biện pháp, chưa phải mô tả rủi ro.
+  - id: q2
+    prompt: "Một rủi ro trong sổ ghi người chủ là \"Ban điều hành\". Vấn đề là gì?"
+    options:
+      - text: Không có vấn đề, ban điều hành có đủ quyền.
+        correct: false
+        why: Khi cả ban cùng chủ, thường không ai thật sự theo dõi hằng ngày.
+      - text: Người chủ phải là một người cụ thể, có quyền hành động.
+        correct: true
+        why: Đúng. Mỗi rủi ro cần một người chịu trách nhiệm theo dõi và báo khi vượt ngưỡng.
+      - text: Nên ghi tên phòng pháp chế cho chắc.
+        correct: false
+        why: Pháp chế góp ý về pháp lý. Người chủ rủi ro nên là người có quyền xử lý gốc vấn đề.
+  - id: q3
+    prompt: "Khi lập Danh mục AI, bạn thấy nhân viên đưa hồ sơ ứng viên vào công cụ AI miễn phí. Nên làm gì trước?"
+    options:
+      - text: Cho tiếp tục, vì giúp tuyển nhanh hơn.
+        correct: false
+        why: Hồ sơ ứng viên có dữ liệu cá nhân. Đưa vào công cụ chưa được duyệt là rủi ro.
+      - text: Tạm dừng, rồi nhờ pháp chế và người phụ trách dữ liệu xem xét.
+        correct: true
+        why: Đúng. Dừng để chặn rủi ro, rồi xem xét theo quy định về dữ liệu cá nhân.
+      - text: Kỷ luật nhân viên đó ngay.
+        correct: false
+        why: Có thể tổ chức chưa có quy tắc rõ. Trước hết hãy chặn rủi ro và đặt quy tắc.
+  - id: q4
+    prompt: "Theo Luật Doanh nghiệp, người quản lý công ty cổ phần có nghĩa vụ nào?"
+    options:
+      - text: Đạt mọi chỉ tiêu do đại hội đồng cổ đông đặt ra.
+        correct: false
+        why: Luật không quy định như vậy. Điều 165 nói về cách thực hiện nhiệm vụ, không hứa kết quả.
+      - text: Làm nhiệm vụ trung thực, cẩn trọng, vì lợi ích công ty, không tư lợi, thông báo lợi ích liên quan.
+        correct: true
+        why: Đúng. Đây là ý chính của Điều 165. Chi tiết cần đọc văn bản gốc.
+      - text: Tự chịu mọi khoản lỗ của công ty.
+        correct: false
+        why: Không đúng. Trách nhiệm cá nhân phát sinh khi vi phạm nghĩa vụ, theo quy định của luật.
