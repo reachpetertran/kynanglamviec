@@ -2,7 +2,7 @@
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
 
-## Trạng thái hiện tại (14/11/2026) – v0.9, ĐANG CHẠY THẬT (7 khóa N1–N7, 64 bài, có logo)
+## Trạng thái hiện tại (14/11/2026) – v1.0, ĐANG CHẠY THẬT (7 khóa N1–N7, 76 bài, đủ 50 ô K1–K10 × Bậc 1–5, có logo)
 - Site: https://kynanglamviec.com và https://www.kynanglamviec.com (Cloudflare Pages, SSL bật). Bản dự phòng: https://kynanglamviec.pages.dev
 - Mã nguồn: https://github.com/reachpetertran/kynanglamviec (public, nhánh `main`). Mỗi lần push lên `main`, Cloudflare tự đăng.
 - Phiên mới: gắn repo (add_repo, quyền push), clone, sửa, `python3 _build/build.py`, commit cả `public/`, push.
@@ -148,12 +148,32 @@ Chuỗi prev/next theo thứ tự trên. Bài 11 có `next: null`.
 - Gắn: biểu tượng ở đầu trang mọi trang, favicon, apple-touch-icon, og:image (logo-1024.png), huy hiệu ở trang chủ.
 - Lỗi check.py có từ trước: bài k5-ghi-viec-va-bao-som có 1 dòng bảng bị đếm là câu 26 chữ (chưa sửa).
 
+## Bài lấp ô trống K × bậc (đăng 14/11/2026, 12 bài, ngoài khóa, order 12–23)
+Rà ma trận 10 kỹ năng × 5 bậc: 12 ô chưa có bài. Nay ô nào cũng có ít nhất 1 bài (trang /ky-nang/ không còn "Chưa có bài ở bậc này").
+Chuỗi A (prev/next, Bậc 1–2, nhóm N2 hoặc N2+N3):
+65. k1-nghe-het-va-nhac-lai – K1 B1 (N2; dẫn sang k1-xac-nhan-chi-dan B2)
+66. k3-noi-ro-cho-vuong-va-nho-giup – K3 B1 (N2; 3 bước khi bị vướng; việc an toàn/tiền/máy lạ thì hỏi ngay)
+67. k6-khi-ke-hoach-thay-doi-nho – K6 B1 (N2; 2 câu hỏi khi kế hoạch đổi; đổi một điểm rồi thử lại; link chéo tamhonkhoe)
+68. k4-hoi-con-cach-nao-khac – K4 B1 (N2; bỏ bớt / gộp, đổi thứ tự / mượn cách; ý tưởng 2 câu)
+69. k9-nhan-vai-nho-trong-nhom – K9 B1 (N2; 3 vai nhỏ; chỉ bạn mới 4 bước)
+70. k10-mat-khau-va-thong-tin-ca-nhan – K10 B1 (N2; mật khẩu, 2FA, OTP; 3 loại thông tin cá nhân giữ kín)
+71. k10-nhan-ra-lua-dao-qua-email-tin-nhan – K10 B2 (N2, N3; 5 dấu hiệu; dừng – kiểm qua kênh khác – báo; hộp "Cập nhật lần cuối")
+72. k6-lam-quen-cong-cu-va-quy-trinh-moi – K6 B2 (N2, N3; 4 bước làm quen cách mới; nhận góp ý 3 bước; link k7-hoc-nhanh-viec-moi)
+73. k4-thu-cach-lam-moi-nho – K4 B2 (N2, N3; phiếu thử nhỏ 4 ô; góp ý 3 dòng)
+74. k9-dieu-phoi-viec-nho-cua-nhom – K9 B2 (N2, N3; đề xuất 3 câu; điều phối 4 bước; next: null)
+Chuỗi K4 nâng cao (nối tiếp chuỗi chính: k4-de-xuat-cai-tien.next = k4-muon-y-tuong-tu-linh-vuc-khac):
+75. k4-muon-y-tuong-tu-linh-vuc-khac – K4 B4 (N4; mượn nguyên lý 3 bước; vòng cải tiến 5 bước, có chuẩn hóa; hộp "Mức bằng chứng")
+76. k4-nuoi-van-hoa-thu-nghiem – K4 B5 (N5, N6; quỹ thử nghiệm 4 điều; chấm ý tưởng 4 tiêu chí; rút kinh nghiệm không đổ lỗi; Edmondson 1999, Camuffo 2020)
+- Không gắn N1 cho bài Bậc 1 (N1 chỉ học 4 chủ đề đã chốt). Các bài này chưa có hình SVG; chỉ có sơ đồ HTML.
+- K10 B2: chỉ dạy nhận diện lừa đảo. Phần "đọc hợp đồng, thỏa thuận thực tập" vẫn HOÃN cùng bài pháp lý N2.
+- [TK] Kênh báo lừa đảo trực tuyến chính thức: nguồn báo chí ghi nhiều tên miền khác nhau (canhbao.khonggianmang.gov.vn / .vn, canhbao.ncsc.gov.vn) và cơ quan chủ quản đã đổi. Bài chưa ghi đường link nào; chỉ hướng dẫn báo IT/quản lý, gọi ngân hàng, trình báo công an. Peter xác minh kênh chính thức rồi bổ sung nếu muốn.
+
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.
 2. (Đã xong 14/11: "Phục vụ khách hàng" và K6 cho N3, trong khóa N3.)
 3. Đủ 5 khóa N1–N5 đã đăng (14/11/2026). N4, N5 chờ Peter duyệt nội dung.
 4. Khóa N7 đã đăng 14/11/2026. Chờ Peter duyệt nội dung N4–N7. Đối chiếu NQ 198/2025, NĐ 20/2026 trên văn bản gốc; khi luật sửa BLLĐ/BHXH được thông qua, cập nhật N7 Bài 6.
-5. Gợi ý tiếp: trang tự đánh giá theo khóa; bài pháp lý hoãn (xem mục 1) khi luật sửa đổi BLLĐ được thông qua.
+5. (Xong 14/11: đủ 50 ô K × bậc.) Gợi ý tiếp: vẽ hình SVG cho 12 bài lấp ô; trang tự đánh giá theo khóa; bài pháp lý hoãn (xem mục 1) khi luật sửa đổi BLLĐ được thông qua.
 
 ## Quy trình thêm bài
 1. Tạo `content/bai-hoc/<slug>.md` (front matter: title, slug, skill, level, group, order, minutes, objectives (đặt trong ngoặc kép), framework_map, prev, next, updated, status) với đúng 9 tiêu đề `## 1. Mục tiêu` … `## 9. Siêu dữ liệu`. Phần 6 và 9 để trống: build tự chèn câu hỏi và bảng siêu dữ liệu.

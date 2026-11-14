@@ -1,0 +1,51 @@
+lesson: k6-khi-ke-hoach-thay-doi-nho
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Bạn đang xếp hàng lên kệ thì được gọi sang quầy thu ngân. Câu hỏi nào cần thiết nhất?"
+    options:
+      - text: "\"Sao lại là em?\""
+        correct: false
+        why: Câu này không giúp bạn nắm việc mới.
+      - text: "\"Thùng hàng đang xếp dở em để đâu, ai làm tiếp ạ?\""
+        correct: true
+        why: Đúng. Hỏi về việc cũ giúp việc dở không bị bỏ quên.
+      - text: Không hỏi gì, đi ngay.
+        correct: false
+        why: Thùng hàng dở có thể nằm giữa lối đi hoặc bị quên.
+  - id: q2
+    prompt: "Bạn chưa hiểu chỉ dẫn mới nhưng thấy quản lý đang vội. Bạn làm gì?"
+    options:
+      - text: Gật đầu cho qua, tự đoán.
+        correct: false
+        why: Tự đoán dễ làm sai, tốn thời gian hơn.
+      - text: "Hỏi ngắn: \"Em chưa rõ phần…, anh nói lại giúp em được không?\""
+        correct: true
+        why: Đúng. Nói ra chỗ bối rối một cách ngắn gọn giúp tránh làm sai.
+      - text: Đứng yên chờ quản lý quay lại.
+        correct: false
+        why: Đứng yên làm chậm công việc. Hỏi ngắn ngay lúc đó tốt hơn.
+  - id: q3
+    prompt: "Bạn gói quà lần đầu bị nhăn giấy. Cách thử lại nào tốt nhất?"
+    options:
+      - text: Gói lại y như lần đầu, cẩn thận hơn.
+        correct: false
+        why: Lặp lại cách cũ thường cho kết quả cũ.
+      - text: Đổi một điểm, ví dụ cắt giấy rộng hơn, rồi thử lại.
+        correct: true
+        why: Đúng. Đổi một điểm giúp bạn biết điểm đó có tác dụng hay không.
+      - text: Đổi giấy, đổi cách gấp, đổi băng dính cùng lúc.
+        correct: false
+        why: Đổi nhiều thứ cùng lúc thì không biết điều gì giúp được.
+  - id: q4
+    prompt: "Bạn đã thử lại 3 lần mà vẫn chưa làm được. Bước tiếp theo là gì?"
+    options:
+      - text: Nói rõ chỗ vướng và nhờ người biết giúp.
+        correct: true
+        why: Đúng. Thử vài lần chưa được thì nên nhờ giúp, như bài trước.
+      - text: Bỏ luôn việc đó.
+        correct: false
+        why: Bỏ việc không giải quyết được vấn đề.
+      - text: Thử tiếp đến hết ca.
+        correct: false
+        why: Loay hoay quá lâu làm mất thời gian. Nên nhờ giúp.

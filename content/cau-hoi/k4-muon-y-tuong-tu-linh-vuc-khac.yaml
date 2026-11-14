@@ -1,0 +1,63 @@
+lesson: k4-muon-y-tuong-tu-linh-vuc-khac
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "\"Đơn hàng online giao chậm vì kho tìm hàng lâu\" viết ở dạng chung là gì?"
+    options:
+      - text: "\"Kho làm việc chậm.\""
+        correct: false
+        why: Đây là nhận xét về người, chưa phải bài toán ở dạng chung.
+      - text: "\"Lấy đúng món trong rất nhiều món, nhanh và ít sai.\""
+        correct: true
+        why: Đúng. Bỏ tên ngành, giữ bản chất. Thư viện hay hiệu thuốc cũng gặp bài toán này.
+      - text: "\"Cần thuê thêm người cho kho.\""
+        correct: false
+        why: Đây là một giải pháp, không phải mô tả bài toán.
+  - id: q2
+    prompt: "Vì sao nên mượn nguyên lý thay vì chép nguyên cách làm của ngành khác?"
+    options:
+      - text: Vì chép là vi phạm bản quyền.
+        correct: false
+        why: Lý do chính không phải bản quyền. Cách làm ở bối cảnh khác thường không hợp.
+      - text: Vì bối cảnh khác nhau; nguyên lý cần được chỉnh cho đội mình.
+        correct: true
+        why: Đúng. Mượn nguyên lý rồi điều chỉnh thì dễ hợp với điều kiện thật.
+      - text: Vì ngành khác luôn làm kém hơn.
+        correct: false
+        why: Không đúng. Ngành khác có thể đã giải bài toán rất tốt.
+  - id: q3
+    prompt: "Vì sao viết giả thuyết có con số trước khi thử?"
+    options:
+      - text: Để không tự điều chỉnh mục tiêu sau khi thấy kết quả.
+        correct: true
+        why: Đúng. Viết trước giúp đánh giá trung thực, kể cả khi kết quả không như mong.
+      - text: Để báo cáo trông chuyên nghiệp hơn.
+        correct: false
+        why: Hình thức không phải mục đích. Mục đích là đánh giá trung thực.
+      - text: Vì luôn phải đạt đúng con số đó.
+        correct: false
+        why: Không bắt buộc đạt. Con số giúp so sánh và quyết định giữ, chỉnh hay bỏ.
+  - id: q4
+    prompt: "Cải tiến thử thành công, nhưng một tháng sau mọi người quay về cách cũ. Bước nào đã bị bỏ qua?"
+    options:
+      - text: Hiện trạng có số.
+        correct: false
+        why: Nếu thiếu bước này thì không biết thử có thành công không.
+      - text: Chuẩn hóa.
+        correct: true
+        why: Đúng. Không viết lại quy trình, không hướng dẫn và không kiểm lại thì cách cũ quay về.
+      - text: Giả thuyết.
+        correct: false
+        why: Giả thuyết giúp đánh giá thử, không giúp giữ cách mới lâu dài.
+  - id: q5
+    prompt: "Tổ trưởng ngại thử cách mới. Cách nào giúp nhiều nhất?"
+    options:
+      - text: Nhờ giám đốc ra lệnh áp dụng.
+        correct: false
+        why: Ra lệnh có thể làm được, nhưng tổ trưởng ít ủng hộ khi gặp khó.
+      - text: Mời tổ trưởng cùng chọn chỉ số đo, nói rõ thử có hạn và quay lại được.
+        correct: true
+        why: Đúng. Người được tham gia thiết kế và thấy rủi ro thấp thì dễ đồng ý thử.
+      - text: Thử ở chuyền khác mà không báo tổ trưởng.
+        correct: false
+        why: Làm sau lưng người liên quan làm mất lòng tin.

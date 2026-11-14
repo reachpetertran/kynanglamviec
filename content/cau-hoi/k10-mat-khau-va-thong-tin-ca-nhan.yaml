@@ -1,0 +1,51 @@
+lesson: k10-mat-khau-va-thong-tin-ca-nhan
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Vì sao không nên dùng chung một mật khẩu cho nhiều tài khoản?"
+    options:
+      - text: Vì khó nhớ.
+        correct: false
+        why: Dùng chung thật ra dễ nhớ hơn. Vấn đề nằm ở rủi ro.
+      - text: Vì một nơi bị lộ thì kẻ xấu thử mật khẩu đó ở các tài khoản khác.
+        correct: true
+        why: Đúng. Dùng chung mật khẩu có thể mất nhiều tài khoản cùng lúc.
+      - text: Vì luật cấm dùng chung mật khẩu.
+        correct: false
+        why: Lý do ở đây là an toàn, không phải vì một điều luật cụ thể.
+  - id: q2
+    prompt: "Một người gọi điện, tự xưng là nhân viên ngân hàng, xin mã OTP để \"mở khóa tài khoản\". Bạn làm gì?"
+    options:
+      - text: Đọc mã vì họ biết tên bạn.
+        correct: false
+        why: Kẻ lừa đảo có thể biết tên bạn. Không ai có lý do chính đáng để xin mã OTP.
+      - text: Không đưa mã, cúp máy, tự gọi số tổng đài in trên thẻ hoặc trong ứng dụng.
+        correct: true
+        why: Đúng. Không đưa OTP cho ai, và tự liên hệ ngân hàng qua kênh chính thức.
+      - text: Đưa mã rồi đổi mật khẩu sau.
+        correct: false
+        why: Có mã OTP, kẻ xấu có thể chuyển tiền ngay lập tức.
+  - id: q3
+    prompt: "Nơi tuyển dụng qua mạng đòi ảnh căn cước hai mặt và 500.000 đồng tiền cọc đồng phục. Bạn nghĩ gì?"
+    options:
+      - text: Bình thường, chỗ nào cũng vậy.
+        correct: false
+        why: Đòi giấy tờ kèm tiền cọc qua tin nhắn là dấu hiệu đáng ngờ.
+      - text: Đáng ngờ; kiểm tra nơi tuyển dụng trước khi gửi gì.
+        correct: true
+        why: Đúng. Chỉ gửi giấy tờ cho nơi tuyển dụng bạn đã kiểm tra.
+      - text: Gửi ảnh căn cước, chỉ không gửi tiền.
+        correct: false
+        why: Ảnh căn cước cũng có thể bị dùng để mở tài khoản đứng tên bạn.
+  - id: q4
+    prompt: "Hết ca ở quầy, bạn nên làm gì với tài khoản phần mềm bán hàng?"
+    options:
+      - text: Để nguyên cho ca sau dùng tiếp.
+        correct: false
+        why: Người ca sau sẽ làm việc dưới tên bạn. Có sai sót thì khó biết ai làm.
+      - text: Đăng xuất tài khoản của mình.
+        correct: true
+        why: Đúng. Đăng xuất giúp mỗi người chỉ làm việc bằng tài khoản của mình.
+      - text: Dán mật khẩu lên màn hình để ca sau đăng nhập.
+        correct: false
+        why: Mật khẩu dán công khai thì ai cũng dùng được tài khoản của bạn.

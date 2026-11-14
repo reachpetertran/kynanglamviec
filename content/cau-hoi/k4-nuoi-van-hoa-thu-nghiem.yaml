@@ -1,0 +1,63 @@
+lesson: k4-nuoi-van-hoa-thu-nghiem
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Quản lý nói \"cứ đề xuất, anh ủng hộ\" nhưng đội không thử gì. Lý do có khả năng nhất là gì?"
+    options:
+      - text: Đội không có ý tưởng.
+        correct: false
+        why: Thường đội có ý tưởng, nhưng thiếu thời gian, tiền và sợ bị trách.
+      - text: Chưa có cơ chế cụ thể về thời gian, tiền, người duyệt.
+        correct: true
+        why: Đúng. Lời khuyến khích chưa đủ. Cần cơ chế rõ để người ta dám bắt đầu.
+      - text: Đội lười.
+        correct: false
+        why: Kết luận về con người mà không xem cơ chế dễ dẫn đến giải pháp sai.
+  - id: q2
+    prompt: "Ý tưởng tốn kém và khó quay lại. Bạn nên làm gì?"
+    options:
+      - text: Duyệt ngay vì tác động lớn.
+        correct: false
+        why: Khó quay lại thì rủi ro cao. Cần bằng chứng mạnh hơn trước.
+      - text: Yêu cầu số liệu hiện trạng và một thử nghiệm nhỏ trước khi đầu tư lớn.
+        correct: true
+        why: Đúng. Ý tưởng khó quay lại cần mức bằng chứng cao hơn.
+      - text: Từ chối luôn.
+        correct: false
+        why: Từ chối ngay có thể bỏ lỡ cơ hội. Hãy tìm cách thử nhỏ để có bằng chứng.
+  - id: q3
+    prompt: "Trong buổi rút kinh nghiệm, câu hỏi nào phù hợp?"
+    options:
+      - text: "\"Ai làm hỏng vụ này?\""
+        correct: false
+        why: Câu hỏi đổ lỗi làm mọi người im lặng, không học được gì.
+      - text: "\"Giả định nào của ta đã sai, và lần sau đổi gì?\""
+        correct: true
+        why: Đúng. Tập trung vào quy trình và giả định giúp cả đội học.
+      - text: "\"Sao không ai báo trước?\""
+        correct: false
+        why: Câu này nghe như trách móc. Hãy hỏi về những gì đã xảy ra.
+  - id: q4
+    prompt: "Vì sao quản lý nên nói trước về sai sót của chính mình trong buổi rút kinh nghiệm?"
+    options:
+      - text: Để đội thấy nói thật về sai sót là an toàn.
+        correct: true
+        why: Đúng. Quản lý làm mẫu thì đội dễ nói thật hơn.
+      - text: Để tự nhận hết trách nhiệm thay đội.
+        correct: false
+        why: Mục đích không phải gánh thay, mà là mở đầu cho trao đổi trung thực.
+      - text: Vì quy định bắt buộc.
+        correct: false
+        why: Không có quy định chung nào như vậy. Đây là cách làm để xây lòng tin.
+  - id: q5
+    prompt: "Quỹ thử nghiệm đã đặt 4 giờ mỗi người mỗi tháng. Tháng này đội bận. Bạn làm gì?"
+    options:
+      - text: Tạm bỏ quỹ cho đến khi hết bận.
+        correct: false
+        why: Bỏ khi bận cho đội thấy thử nghiệm không thật sự được coi trọng.
+      - text: Giữ quỹ, có thể dời lịch trong tháng nhưng không bỏ.
+        correct: true
+        why: Đúng. Giữ con số cả khi bận thì cơ chế mới có giá trị.
+      - text: Tăng gấp đôi để bù tháng sau.
+        correct: false
+        why: Hứa bù dễ không làm được. Giữ đều đặn tốt hơn.

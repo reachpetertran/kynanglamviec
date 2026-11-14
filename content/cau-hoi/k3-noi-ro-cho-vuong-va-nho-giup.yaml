@@ -1,0 +1,51 @@
+lesson: k3-noi-ro-cho-vuong-va-nho-giup
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu nào nói rõ chỗ vướng nhất?"
+    options:
+      - text: "\"Máy này hỏng rồi chị ơi.\""
+        correct: false
+        why: Chưa nói đang làm gì và lỗi xảy ra ở bước nào.
+      - text: "\"Em quét mã sản phẩm thì máy kêu bíp nhưng không hiện giá.\""
+        correct: true
+        why: Đúng. Có việc đang làm và hiện tượng cụ thể, người nghe biết ngay vấn đề.
+      - text: "\"Em không làm được đâu.\""
+        correct: false
+        why: Câu này không cho người giúp biết cần giúp ở đâu.
+  - id: q2
+    prompt: "Bạn thấy mùi khét từ máy pha cà phê mà bạn chưa quen dùng. Bạn làm gì?"
+    options:
+      - text: Tự mở máy ra xem trước khi hỏi.
+        correct: false
+        why: Việc liên quan an toàn và máy lạ thì không tự thử.
+      - text: Báo ngay người phụ trách.
+        correct: true
+        why: Đúng. Việc an toàn thì hỏi ngay, không chờ tự thử.
+      - text: Chờ hết ca rồi báo.
+        correct: false
+        why: Mùi khét có thể nguy hiểm. Cần báo ngay.
+  - id: q3
+    prompt: "Bạn không nhớ cách đặt tên file báo cáo. Hướng dẫn đã gửi trong nhóm chat. Bạn nên làm gì trước?"
+    options:
+      - text: Hỏi ngay quản lý.
+        correct: false
+        why: Hướng dẫn đã có sẵn. Tự tìm trước giúp tiết kiệm thời gian của quản lý.
+      - text: Xem lại tin nhắn hướng dẫn, nếu vẫn chưa rõ mới hỏi.
+        correct: true
+        why: Đúng. Tự thử một lần với tài liệu có sẵn, chưa được thì hỏi.
+      - text: Đặt tên tùy ý.
+        correct: false
+        why: Đặt sai tên làm người khác khó tìm file.
+  - id: q4
+    prompt: "Quản lý đang giải quyết khiếu nại của khách. Việc bạn hỏi không gấp. Bạn làm gì?"
+    options:
+      - text: Chen vào hỏi luôn.
+        correct: false
+        why: Chen vào lúc đang xử lý khách gây gián đoạn. Việc không gấp thì chờ.
+      - text: Chờ quản lý xong việc rồi hỏi.
+        correct: true
+        why: Đúng. Chọn lúc người kia không bận việc gấp.
+      - text: Bỏ qua, không hỏi nữa.
+        correct: false
+        why: Không hỏi thì bạn vẫn vướng. Chỉ cần chọn lúc khác.

@@ -1,0 +1,51 @@
+lesson: k4-thu-cach-lam-moi-nho
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Việc nào phù hợp để tự thử nhỏ mà chưa cần hỏi ai?"
+    options:
+      - text: Đổi cách sắp dụng cụ trên bàn làm việc của mình.
+        correct: true
+        why: Đúng. Việc nằm trong phạm vi của bạn, không ảnh hưởng người khác.
+      - text: Đổi giá bán một món trên menu.
+        correct: false
+        why: Liên quan tiền và khách hàng, phải hỏi người phụ trách trước.
+      - text: Tắt chuông báo cháy vì hay kêu nhầm.
+        correct: false
+        why: Liên quan an toàn. Tuyệt đối không tự thay đổi.
+  - id: q2
+    prompt: "Bạn đổi cả cách xếp hàng, đổi giờ nghỉ và đổi dụng cụ cùng lúc. Vấn đề là gì?"
+    options:
+      - text: Không có vấn đề, càng đổi nhiều càng tốt.
+        correct: false
+        why: Đổi nhiều thứ cùng lúc thì không biết điều gì tạo ra khác biệt.
+      - text: Không biết thay đổi nào tạo ra kết quả.
+        correct: true
+        why: Đúng. Mỗi lần thử chỉ nên đổi một điểm.
+      - text: Thử lâu quá.
+        correct: false
+        why: Vấn đề chính không phải thời gian mà là đổi nhiều thứ một lúc.
+  - id: q3
+    prompt: "Ô \"Đo gì\" nên ghi thế nào?"
+    options:
+      - text: "\"Xem có tốt hơn không.\""
+        correct: false
+        why: Quá chung chung, không so được trước và sau.
+      - text: "\"Số phút để đóng gói 10 đơn.\""
+        correct: true
+        why: Đúng. Một con số dễ đếm, đo được cả trước và sau.
+      - text: "\"Cảm giác của khách.\""
+        correct: false
+        why: Cảm giác khó đo. Cần một con số cụ thể.
+  - id: q4
+    prompt: "Bạn thử cách mới 1 tuần nhưng kết quả không tốt hơn. Bạn nên làm gì?"
+    options:
+      - text: Giấu kết quả đi.
+        correct: false
+        why: Kết quả không tốt vẫn có giá trị cho người khác.
+      - text: Ghi lại kết quả và đề xuất bỏ hoặc thử thay đổi khác.
+        correct: true
+        why: Đúng. Biết cách nào không giúp cũng tiết kiệm thời gian cho cả nhóm.
+      - text: Nói là có tốt hơn để không mất công.
+        correct: false
+        why: Báo sai kết quả làm người khác ra quyết định sai.

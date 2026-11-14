@@ -1,0 +1,63 @@
+lesson: k6-lam-quen-cong-cu-va-quy-trinh-moi
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Chỗ làm đổi mẫu báo cáo. Câu hỏi nào nên hỏi đầu tiên?"
+    options:
+      - text: "\"Sao lại đổi, mẫu cũ vẫn ổn mà?\""
+        correct: false
+        why: Câu này nghe như phản đối. Nên hỏi để hiểu lý do.
+      - text: "\"Mình đổi để giải quyết việc gì ạ?\""
+        correct: true
+        why: Đúng. Hiểu lý do giúp bạn làm đúng nhanh hơn.
+      - text: Không hỏi, tự đoán cách làm.
+        correct: false
+        why: Tự đoán dễ làm sai mẫu mới.
+  - id: q2
+    prompt: "Vì sao nên thử cách mới ở việc ít rủi ro trước?"
+    options:
+      - text: Để nếu sai thì thiệt hại nhỏ, dễ sửa.
+        correct: true
+        why: Đúng. Thử với đơn nhỏ hoặc dữ liệu mẫu giúp bạn quen mà ít rủi ro.
+      - text: Để tránh phải dùng cách mới.
+        correct: false
+        why: Mục đích là làm quen dần, không phải né cách mới.
+      - text: Vì việc lớn không cần làm theo cách mới.
+        correct: false
+        why: Cách mới áp dụng cho mọi việc. Thử nhỏ chỉ là bước làm quen.
+  - id: q3
+    prompt: "Bạn có 5 câu hỏi về phần mềm mới. Người phụ trách đang hướng dẫn cả nhóm. Bạn làm gì?"
+    options:
+      - text: Hỏi từng câu ngay khi nghĩ ra.
+        correct: false
+        why: Hỏi rời rạc làm người phụ trách bị gián đoạn liên tục.
+      - text: Ghi lại, gom và hỏi một lần trong ngày.
+        correct: true
+        why: Đúng. Gom câu hỏi giúp người phụ trách trả lời một lần cho nhiều người.
+      - text: Không hỏi, tự quay về cách cũ.
+        correct: false
+        why: Tự quay về cách cũ có thể làm sai lệch dữ liệu của cả nhóm.
+  - id: q4
+    prompt: "Đang làm, bạn bị nhắc: \"Dán nhãn mặt trên, không phải mặt bên.\" Phản ứng nào tốt nhất?"
+    options:
+      - text: Dừng hẳn, chờ được hướng dẫn lại từ đầu.
+        correct: false
+        why: Góp ý chỉ ở một điểm. Không cần dừng toàn bộ việc.
+      - text: "\"Dạ em cảm ơn chị\", rồi sửa và làm tiếp."
+        correct: true
+        why: Đúng. Nghe, cảm ơn, hỏi rõ nếu cần, sửa và làm tiếp.
+      - text: Giải thích vì sao mình dán mặt bên.
+        correct: false
+        why: Cãi lại làm mất thời gian. Nếu thấy có vấn đề thật, ghi lại rồi báo sau.
+  - id: q5
+    prompt: "Bạn thấy cách mới làm chậm hơn cách cũ. Bạn nên làm gì?"
+    options:
+      - text: Tự quay về cách cũ.
+        correct: false
+        why: Tự ý quay lại làm cả nhóm không thống nhất.
+      - text: Ghi lại việc gì, lúc nào, chậm bao nhiêu, rồi báo người phụ trách.
+        correct: true
+        why: Đúng. Mô tả cụ thể giúp người phụ trách xem xét điều chỉnh.
+      - text: Phàn nàn với đồng nghiệp.
+        correct: false
+        why: Phàn nàn không giúp sửa vấn đề. Hãy báo đúng người.

@@ -1,0 +1,51 @@
+lesson: k9-dieu-phoi-viec-nho-cua-nhom
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu nào nên dùng để kết thúc một đề xuất cho nhóm?"
+    options:
+      - text: "\"Cứ thế mà làm nhé.\""
+        correct: false
+        why: Câu này giống ra lệnh. Nhóm chưa được góp ý.
+      - text: "\"Mọi người thấy được không, hay có cách khác?\""
+        correct: true
+        why: Đúng. Xin ý kiến giúp nhóm cùng quyết và dễ ủng hộ hơn.
+      - text: Không cần kết thúc, nói xong là đi làm.
+        correct: false
+        why: Không hỏi ý kiến thì chưa biết nhóm có đồng ý không.
+  - id: q2
+    prompt: "Giữa chừng, một bạn chưa làm phần của mình. Cách hỏi nào phù hợp?"
+    options:
+      - text: "\"Sao chưa làm, cả nhóm chờ bạn đấy.\""
+        correct: false
+        why: Trách móc làm bạn ấy khó nói thật về chỗ vướng.
+      - text: "\"Phần của bạn đến đâu rồi? Cần mình hỗ trợ gì không?\""
+        correct: true
+        why: Đúng. Hỏi cụ thể và đề nghị hỗ trợ giúp gỡ việc nhanh hơn.
+      - text: Lặng lẽ làm hộ, không nói gì.
+        correct: false
+        why: Làm hộ mà không trao đổi dễ gây trùng việc và không giải quyết gốc.
+  - id: q3
+    prompt: "Việc điều phối liên quan đến tiền quỹ của cửa hàng. Bạn nên làm gì trước?"
+    options:
+      - text: Tự điều phối luôn vì đã được nhóm đồng ý.
+        correct: false
+        why: Việc liên quan tiền ở chỗ làm cần hỏi quản lý trước.
+      - text: Hỏi quản lý trước khi nhận điều phối.
+        correct: true
+        why: Đúng. Việc liên quan khách hàng hay tiền cần người có thẩm quyền đồng ý.
+      - text: Bỏ qua phần tiền, làm phần còn lại.
+        correct: false
+        why: Bỏ dở một phần làm việc chung không hoàn thành.
+  - id: q4
+    prompt: "Vì sao người điều phối nên làm xong phần của mình đúng hạn?"
+    options:
+      - text: Để có lý do chê người khác.
+        correct: false
+        why: Mục đích không phải để chê ai.
+      - text: Vì làm mẫu là cách dẫn dắt dễ thấy nhất, và dễ nhắc người khác.
+        correct: true
+        why: Đúng. Người điều phối trễ hạn thì khó nhắc nhóm giữ hạn.
+      - text: Vì người điều phối được thưởng.
+        correct: false
+        why: Không có thưởng nào ở đây. Lý do là làm mẫu cho nhóm.

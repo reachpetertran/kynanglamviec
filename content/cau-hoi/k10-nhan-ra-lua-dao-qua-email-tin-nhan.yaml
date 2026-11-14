@@ -1,0 +1,51 @@
+lesson: k10-nhan-ra-lua-dao-qua-email-tin-nhan
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Tin nhắn nào có nhiều dấu hiệu lừa đảo nhất?"
+    options:
+      - text: "\"Mai họp lúc 9 giờ ở phòng 2 nhé.\""
+        correct: false
+        why: Tin nhắn bình thường, không xin gì bí mật, không gấp gáp.
+      - text: "\"Tài khoản lương của bạn bị khóa. Gửi mã OTP trong 10 phút để mở lại.\""
+        correct: true
+        why: "Đúng. Có 2 dấu hiệu rõ: gấp gáp và xin mã OTP."
+      - text: "\"Nhớ nộp bảng chấm công trước thứ Sáu.\""
+        correct: false
+        why: Đây là nhắc việc thông thường, không có dấu hiệu lừa đảo.
+  - id: q2
+    prompt: "Sếp nhắn Zalo nhờ chuyển tiền gấp. Cách kiểm tra nào đúng?"
+    options:
+      - text: Nhắn lại hỏi "anh đúng không ạ?" trong cùng cuộc trò chuyện.
+        correct: false
+        why: Kẻ giả danh sẽ trả lời "đúng". Phải kiểm tra qua kênh khác.
+      - text: Gọi số điện thoại của sếp đã lưu từ trước.
+        correct: true
+        why: Đúng. Kiểm tra qua kênh khác, không dùng kênh trong tin nhắn đáng ngờ.
+      - text: Gọi số điện thoại ghi trong tin nhắn.
+        correct: false
+        why: Số trong tin nhắn có thể là số của kẻ lừa đảo.
+  - id: q3
+    prompt: "Bạn lỡ bấm link và nhập mật khẩu email công ty. Bạn làm gì?"
+    options:
+      - text: Giấu đi vì sợ bị trách.
+        correct: false
+        why: Giấu đi làm kẻ xấu có thêm thời gian dùng tài khoản của bạn.
+      - text: Báo ngay quản lý hoặc IT, và đổi mật khẩu.
+        correct: true
+        why: Đúng. Báo sớm và đổi mật khẩu giúp giảm thiệt hại.
+      - text: Chờ xem có chuyện gì xảy ra không.
+        correct: false
+        why: Chờ đợi có thể khiến dữ liệu bị lấy hoặc tài khoản bị chiếm.
+  - id: q4
+    prompt: "Vì sao nên báo cả khi mình không bị lừa?"
+    options:
+      - text: Để được khen.
+        correct: false
+        why: Mục đích là bảo vệ đồng nghiệp, không phải để được khen.
+      - text: Để đồng nghiệp khác được cảnh báo kịp.
+        correct: true
+        why: Đúng. Kẻ lừa đảo thường gửi cùng tin cho nhiều người trong một công ty.
+      - text: Không cần báo nếu mình không bị lừa.
+        correct: false
+        why: Người khác có thể chưa nhận ra. Báo giúp cả công ty an toàn hơn.

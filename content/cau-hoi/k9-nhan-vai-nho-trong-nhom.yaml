@@ -1,0 +1,51 @@
+lesson: k9-nhan-vai-nho-trong-nhom
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Nhóm bạn hay quên đã phân công gì. Vai nào giúp nhất?"
+    options:
+      - text: Người giữ giờ.
+        correct: false
+        why: Giữ giờ giúp họp đúng thời gian, nhưng không giữ lại phân công.
+      - text: Người ghi chép, gửi lại ai làm gì, hạn khi nào.
+        correct: true
+        why: Đúng. Bản ghi gửi lại cho nhóm giúp mọi người nhớ phân công.
+      - text: Không cần vai nào, mỗi người tự nhớ.
+        correct: false
+        why: Tự nhớ chính là lý do nhóm hay quên.
+  - id: q2
+    prompt: "Khi chỉ bạn mới, bước nào nên làm đầu tiên?"
+    options:
+      - text: Làm thật nhanh cho bạn xem.
+        correct: false
+        why: Làm nhanh thì người mới khó theo kịp. Nên làm chậm và nói từng bước.
+      - text: Nói mục đích của việc.
+        correct: true
+        why: Đúng. Biết lý do giúp người mới nhớ cách làm và làm đúng hơn.
+      - text: Để bạn tự mày mò trước.
+        correct: false
+        why: Người mới chưa biết gì thì mày mò dễ làm sai.
+  - id: q3
+    prompt: "Bạn mới làm thử và sai 3 chỗ. Bạn nên phản hồi thế nào?"
+    options:
+      - text: Chỉ ra cả 3 lỗi một lúc.
+        correct: false
+        why: Sửa nhiều điểm cùng lúc, người mới khó nhớ.
+      - text: Khen một điểm làm đúng, sửa điểm quan trọng nhất.
+        correct: true
+        why: Đúng. Mỗi lần sửa một điểm quan trọng, người mới tiến bộ dần.
+      - text: Giành lại làm hộ cho nhanh.
+        correct: false
+        why: Làm hộ thì người mới không học được.
+  - id: q4
+    prompt: "Bạn mới hỏi cách dùng máy cắt giấy công nghiệp. Bạn mới dùng máy này 2 lần. Bạn làm gì?"
+    options:
+      - text: Chỉ luôn theo cách mình nhớ.
+        correct: false
+        why: Việc liên quan an toàn mà mình chưa chắc thì không nên tự dạy.
+      - text: Nhờ người phụ trách máy hướng dẫn bạn ấy.
+        correct: true
+        why: Đúng. Chỉ dạy việc mình biết chắc. Việc an toàn để người phụ trách hướng dẫn.
+      - text: Bảo bạn tự đọc hướng dẫn trên máy.
+        correct: false
+        why: Máy nguy hiểm cần người có kinh nghiệm hướng dẫn trực tiếp.

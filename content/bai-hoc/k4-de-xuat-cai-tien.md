@@ -11,7 +11,7 @@ objectives:
   - "Sau bài này, bạn có thể đề xuất một lần chạy thử nhỏ, có cách đo kết quả."
 framework_map: ["WEF: Creative thinking", "CSfW: 3d Create and innovate", "SkillsFuture CCS: Creative Thinking", "EntreComp"]
 prev: k7-ke-hoach-90-ngay
-next: null
+next: k4-muon-y-tuong-tu-linh-vuc-khac
 updated: 2026-11-14
 status: published
 ---

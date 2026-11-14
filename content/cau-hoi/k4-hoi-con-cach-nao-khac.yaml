@@ -1,0 +1,51 @@
+lesson: k4-hoi-con-cach-nao-khac
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Vì sao nên nghĩ ra ít nhất 3 cách trước khi chọn?"
+    options:
+      - text: Vì ý đầu tiên luôn sai.
+        correct: false
+        why: Ý đầu không luôn sai. Nhưng nó thường là cách quen nhất, chưa chắc tốt nhất.
+      - text: Vì nghĩ thêm cách giúp thấy lựa chọn tốt hơn cách quen.
+        correct: true
+        why: Đúng. Có nhiều lựa chọn thì dễ chọn được cách tốt hơn.
+      - text: Để kéo dài thời gian họp nhóm.
+        correct: false
+        why: Mục đích là có thêm lựa chọn, không phải kéo dài thời gian.
+  - id: q2
+    prompt: "Cách nêu ý tưởng nào phù hợp nhất?"
+    options:
+      - text: "\"Cách của Tuấn dở lắm, làm theo mình đi.\""
+        correct: false
+        why: Chê ý người khác làm nhóm khó nghe và khó hợp tác.
+      - text: "\"Thêm một cách: mình chia việc theo ca. Như vậy không ai phải chờ ai.\""
+        correct: true
+        why: "Đúng. Hai câu: ý tưởng là gì và giúp được gì, không chê ai."
+      - text: Không nói, tự làm theo cách của mình.
+        correct: false
+        why: Tự ý đổi cách làm của nhóm khi chưa ai đồng ý dễ gây rối.
+  - id: q3
+    prompt: "\"Bước nào có thể bỏ mà kết quả vẫn đạt?\" là câu gợi ý nào?"
+    options:
+      - text: Bỏ bớt.
+        correct: true
+        why: Đúng. Câu hỏi này tìm bước thừa trong cách làm.
+      - text: Mượn cách.
+        correct: false
+        why: Mượn cách là xem người khác, nơi khác làm thế nào.
+      - text: Gộp hoặc đổi thứ tự.
+        correct: false
+        why: Gộp là làm hai việc cùng lúc, không phải bỏ bước.
+  - id: q4
+    prompt: "Nhóm chọn cách khác, không chọn ý tưởng của bạn. Bạn nên nghĩ thế nào?"
+    options:
+      - text: Ý tưởng của mình vô ích.
+        correct: false
+        why: Ý tưởng của bạn vẫn giúp nhóm có thêm lựa chọn để so sánh.
+      - text: Mình đã giúp nhóm có thêm lựa chọn; lần sau tiếp tục nêu ý.
+        correct: true
+        why: Đúng. Nêu ý tưởng là đóng góp, dù nhóm chọn cách khác.
+      - text: Lần sau không nêu ý nữa.
+        correct: false
+        why: Im lặng làm nhóm mất đi những ý có thể tốt hơn.

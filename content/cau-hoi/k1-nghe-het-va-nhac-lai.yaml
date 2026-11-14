@@ -1,0 +1,51 @@
+lesson: k1-nghe-het-va-nhac-lai
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Quản lý đang dặn việc thì bạn nghĩ mình đã hiểu. Bạn nên làm gì?"
+    options:
+      - text: Nói ngay "dạ em biết rồi" để tiết kiệm thời gian.
+        correct: false
+        why: Bước quan trọng có thể nằm ở cuối câu. Ngắt lời dễ làm bạn bỏ sót.
+      - text: Chờ người kia nói hết, rồi nhắc lại theo thứ tự.
+        correct: true
+        why: Đúng. Nghe hết rồi nhắc lại giúp cả hai bên kiểm tra là đã hiểu giống nhau.
+      - text: Bỏ đi làm luôn cho nhanh.
+        correct: false
+        why: Bạn chưa nghe hết nên dễ làm thiếu hoặc sai thứ tự.
+  - id: q2
+    prompt: "Vì sao nên nhắc lại chỉ dẫn bằng lời của mình?"
+    options:
+      - text: Để người giao việc thấy mình nói hay.
+        correct: false
+        why: Mục đích không phải là nói hay mà là kiểm tra mình hiểu đúng.
+      - text: Vì phải tự hiểu mới diễn đạt lại được, và người giao nghe được chỗ sai.
+        correct: true
+        why: Đúng. Diễn đạt lại buộc bạn hiểu, và giúp người giao sửa ngay chỗ lệch.
+      - text: Vì nhắc lại nguyên văn là không lịch sự.
+        correct: false
+        why: Nhắc nguyên văn không sai, nhưng chưa cho thấy bạn đã hiểu.
+  - id: q3
+    prompt: "Bạn được dặn: rút điện máy xay rồi mới tháo cối ra rửa. Bạn thấy tháo cối trước thì nhanh hơn. Bạn làm gì?"
+    options:
+      - text: Tự đổi thứ tự vì nhanh hơn.
+        correct: false
+        why: Thứ tự này có thể vì lý do an toàn. Không nên tự đổi.
+      - text: Làm đúng thứ tự, và hỏi lý do nếu thấy chưa hiểu.
+        correct: true
+        why: Đúng. Giữ thứ tự, rồi hỏi để hiểu. Rút điện trước giúp tránh tai nạn.
+      - text: Không làm nữa vì thấy quy định vô lý.
+        correct: false
+        why: Bỏ việc giữa chừng không giải quyết được gì. Hãy hỏi lý do.
+  - id: q4
+    prompt: "Chỉ dẫn có 6 bước. Cách nào giúp bạn không quên?"
+    options:
+      - text: Cố nhớ trong đầu.
+        correct: false
+        why: Nhớ 6 bước trong đầu rất dễ quên, nhất là khi đang bận.
+      - text: Ghi ngay vào sổ tay hoặc ghi chú điện thoại, rồi nhắc lại.
+        correct: true
+        why: Đúng. Chỉ dẫn dài hơn 3 bước nên ghi lại ngay.
+      - text: Làm 3 bước đầu, phần còn lại hỏi sau.
+        correct: false
+        why: Hỏi lại nhiều lần làm mất thời gian của cả hai. Ghi lại ngay từ đầu.
