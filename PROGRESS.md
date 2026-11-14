@@ -2,7 +2,7 @@
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
 
-## Trạng thái hiện tại (14/11/2026) – v0.8, ĐANG CHẠY THẬT (7 khóa N1–N7, 64 bài)
+## Trạng thái hiện tại (14/11/2026) – v0.9, ĐANG CHẠY THẬT (7 khóa N1–N7, 64 bài, có logo)
 - Site: https://kynanglamviec.com và https://www.kynanglamviec.com (Cloudflare Pages, SSL bật). Bản dự phòng: https://kynanglamviec.pages.dev
 - Mã nguồn: https://github.com/reachpetertran/kynanglamviec (public, nhánh `main`). Mỗi lần push lên `main`, Cloudflare tự đăng.
 - Phiên mới: gắn repo (add_repo, quyền push), clone, sửa, `python3 _build/build.py`, commit cả `public/`, push.
@@ -140,6 +140,13 @@ Chuỗi prev/next theo thứ tự trên. Bài 11 có `next: null`.
 - Thử dùng tài khoản Pro thuvienphapluat.vn qua Chrome: site chặn vì "tốc độ Robot" và đòi mã bảo vệ sau vài lượt tra. Đã dừng, KHÔNG tải PDF. Không tự động hóa site này.
 - Số hiệu đã xác định trên thuvienphapluat (chưa đối chiếu ngày hiệu lực): Luật ATVSLĐ 84/2015/QH13; Luật BVDLCN 91/2025/QH15; Luật Trí tuệ nhân tạo 134/2025/QH15; NĐ 145/2020/NĐ-CP; NĐ 337/2025/NĐ-CP (HĐLĐ điện tử); Luật BHXH 41/2024/QH15; Luật Việc làm 74/2025/QH15; Luật Trẻ em 102/2016/QH13; Luật Giáo dục 43/2019/QH14.
 - Luật sửa đổi BLLĐ 2026: chưa có trên thuvienphapluat ngày 14/11/2026; Quốc hội thảo luận 09/11/2026.
+
+## Logo (đăng 14/11/2026)
+- Dựa trên khung huy hiệu logo daynentang (Peter gửi file zip): giữ dáng vòm, mặt trời, núi tuyết, rừng thông, dải băng chữ, thanh "EST. 2026".
+- Đổi màu theo site (teal #14524f/#0f3b39 + vàng #d98a1c); cảnh động vật thay bằng đường zíc-zắc 5 bậc lên đỉnh có cờ, tòa văn phòng, người đeo cặp và người xách cặp.
+- Mã sinh: `_build/art/logo_art.py` -> `_build/static/assets/` logo.svg, logo-khong-chu.svg, logo-icon.svg, favicon.svg, logo-512/1024.png, logo-icon-512.png, apple-touch-icon.png. Chữ đã chuyển thành path (Inter Display, OFL; Poppins thiếu chữ "Ệ").
+- Gắn: biểu tượng ở đầu trang mọi trang, favicon, apple-touch-icon, og:image (logo-1024.png), huy hiệu ở trang chủ.
+- Lỗi check.py có từ trước: bài k5-ghi-viec-va-bao-som có 1 dòng bảng bị đếm là câu 26 chữ (chưa sửa).
 
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.

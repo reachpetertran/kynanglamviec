@@ -86,6 +86,8 @@ def page(path, title, body, desc="", wide=False):
 <meta name="description" content="{e(desc or 'Học miễn phí kỹ năng làm việc theo lộ trình nghề nghiệp, từ học sinh đến quản lý. Không đăng nhập, không theo dõi.')}">
 <link rel="canonical" href="{canon}">
 <link rel="icon" href="{p}assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{p}assets/apple-touch-icon.png">
+<meta property="og:image" content="https://kynanglamviec.com/assets/logo-1024.png">
 <link rel="stylesheet" href="{p}assets/style.css">
 <script src="{p}assets/js-on.js"></script>
 <script src="{p}assets/app.js" defer></script>
@@ -94,7 +96,7 @@ def page(path, title, body, desc="", wide=False):
 <a class="skip" href="#main">Bỏ qua, đến nội dung</a>
 <header class="top">
   <div class="wrap top-in">
-    <a class="brand" href="{p or './'}"><span class="logo" aria-hidden="true">K</span><span>Kỹ Năng<br>Làm Việc</span></a>
+    <a class="brand" href="{p or './'}"><img class="logo" src="{p}assets/logo-icon.svg" alt="" width="40" height="40"><span>Kỹ Năng<br>Làm Việc</span></a>
     <nav class="nav" aria-label="Chính">{nav}</nav>
   </div>
 </header>
@@ -168,7 +170,8 @@ def build_home():
         items = "".join(f'<li>{skill_link(s["code"])}</li>' for s in SKILLS if s["cluster"] == cid)
         by_cluster += f'<div class="cluster"><h3>{cid}. {e(cname)}</h3><ul>{items}</ul></div>'
     body = f"""
-<section class="hero">
+<section class="hero hero-logo">
+  <img class="hero-badge" src="{{{{R}}}}assets/logo.svg" alt="Logo Kỹ Năng Làm Việc: đường 5 bậc lên đỉnh núi" width="180" height="193">
   <h1>Kỹ năng làm việc, học theo lộ trình nghề nghiệp</h1>
   <p class="lead">Từ học sinh khám phá nghề đến người quản lý dẫn dắt đội. Miễn phí, không cần đăng nhập.
   Mỗi bài 10–20 phút, có tình huống tại nơi làm việc Việt Nam và câu hỏi tự kiểm tra.</p>
