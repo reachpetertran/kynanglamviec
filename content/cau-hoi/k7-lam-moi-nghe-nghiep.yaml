@@ -1,0 +1,63 @@
+lesson: k7-lam-moi-nghe-nghiep
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Bạn muốn chuyển nghề nhưng chưa biết mình có hợp không. Bước nào hợp lý nhất?"
+    options:
+      - text: Nghỉ việc ngay để có thời gian học nghề mới.
+        correct: false
+        why: Đây là quyết định khó đảo ngược mà chưa có dữ liệu. Rủi ro cao.
+      - text: Thử nghề mới ở quy mô nhỏ trong vài tháng, có điều cần đo.
+        correct: true
+        why: Đúng. Thử nhỏ cho bạn dữ liệu thật trước một quyết định lớn.
+      - text: Chờ đến khi chắc chắn hoàn toàn mới làm gì.
+        correct: false
+        why: Không thử thì không bao giờ có thêm thông tin để chắc hơn.
+  - id: q2
+    prompt: "Câu nào là bằng chứng tốt cho kỹ năng \"thuyết phục\"?"
+    options:
+      - text: "\"Tôi là người có sức thuyết phục.\""
+        correct: false
+        why: Đây là tự nhận xét, không có việc cụ thể hay kết quả.
+      - text: "\"Đề xuất một trang của tôi được duyệt, giúp giảm 15% thời gian giao hàng sau 2 tháng.\""
+        correct: true
+        why: Đúng. Có việc cụ thể, kết quả đo được và thời gian.
+      - text: "\"Đồng nghiệp hay nghe tôi.\""
+        correct: false
+        why: Mơ hồ, không có tình huống hay kết quả kiểm được.
+  - id: q3
+    prompt: "Ôn trộn: một chỉ tiêu làm nhân viên kết thúc cuộc gọi sớm, khách gọi lại nhiều hơn. Đây là gì?"
+    options:
+      - text: Một vòng lặp trong hệ thống.
+        correct: true
+        why: Đúng. Kết quả cuối tác động ngược về chỗ bắt đầu, làm vấn đề tự lớn dần.
+      - text: Một lỗi cá nhân của nhân viên.
+        correct: false
+        why: Nhân viên đang làm đúng theo chỉ tiêu. Vấn đề nằm ở thiết kế hệ thống.
+      - text: Một quyết định dễ đảo ngược.
+        correct: false
+        why: Câu hỏi nói về vòng tác động, không phải loại quyết định.
+  - id: q4
+    prompt: "Ôn trộn: người bạn kèm đã tự làm tốt một việc nhiều lần. Bạn nên làm gì?"
+    options:
+      - text: Tiếp tục kiểm mọi kết quả trước khi gửi đi.
+        correct: false
+        why: Kiểm mãi làm họ chậm tiến bộ và bạn mất thời gian.
+      - text: Chuyển sang nấc tự làm, họ báo lại sau khi xong.
+        correct: true
+        why: Đúng. Người kèm lùi lại khi người được kèm đã làm được.
+      - text: Làm mẫu thêm để họ làm tốt hơn nữa.
+        correct: false
+        why: Làm mẫu là nấc đầu. Lùi về đó không giúp họ tự chủ hơn.
+  - id: q5
+    prompt: "Ôn trộn: một nghị định mới vừa được ký. Việc đầu tiên khi cập nhật tài liệu nội bộ là gì?"
+    options:
+      - text: Sửa tài liệu ngay theo ngày ký.
+        correct: false
+        why: Ngày ký khác ngày có hiệu lực. Sửa sớm có thể áp dụng sai thời điểm.
+      - text: Mở văn bản gốc, ghi ngày hiệu lực, văn bản bị thay thế và điều chuyển tiếp.
+        correct: true
+        why: Đúng. Biết đúng các mốc thời gian rồi mới lập bảng việc.
+      - text: Đợi có người khác cập nhật trước.
+        correct: false
+        why: Ở vị trí senior, bạn thường là người phải đọc và cập nhật đầu tiên.

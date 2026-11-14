@@ -1,0 +1,63 @@
+lesson: k10-bien-quy-dinh-thanh-viec-lam
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Một nghị định được ký ngày 15/7 và có hiệu lực từ 10/9. Ngày 20/8, quy định nào đang áp dụng?"
+    options:
+      - text: Nghị định mới, vì đã được ký.
+        correct: false
+        why: Ngày ký không phải ngày áp dụng. Văn bản chỉ áp dụng từ ngày có hiệu lực.
+      - text: Văn bản cũ, vì nghị định mới chưa có hiệu lực.
+        correct: true
+        why: Đúng. Trước ngày hiệu lực, văn bản cũ vẫn được áp dụng.
+      - text: Không văn bản nào, vì đang trong giai đoạn chuyển giao.
+        correct: false
+        why: Không có khoảng trống. Văn bản cũ chỉ hết hiệu lực khi văn bản mới có hiệu lực.
+  - id: q2
+    prompt: "Bạn đọc tin: \"Quốc hội đang thảo luận thêm một ngày nghỉ có hưởng lương.\" Bạn nên làm gì với lịch nghỉ của công ty?"
+    options:
+      - text: Thêm ngày nghỉ vào lịch ngay để đi trước.
+        correct: false
+        why: Dự thảo chưa thông qua thì chưa áp dụng, và nội dung còn có thể đổi.
+      - text: Ghi vào danh sách theo dõi, tra lại khi luật được thông qua và có hiệu lực.
+        correct: true
+        why: Đúng. Theo dõi sớm giúp chuẩn bị, nhưng chỉ áp dụng khi văn bản có hiệu lực.
+      - text: Bỏ qua, vì tin chưa chắc chắn.
+        correct: false
+        why: Bỏ qua thì dễ bị bất ngờ. Nên theo dõi để kịp chuẩn bị.
+  - id: q3
+    prompt: "Quy định nội bộ của công ty và một nghị định nói khác nhau về cùng một việc. Bạn xử lý thế nào?"
+    options:
+      - text: Làm theo quy định nội bộ, vì công ty đã ban hành.
+        correct: false
+        why: Quy định nội bộ không được trái pháp luật. Cần đối chiếu và sửa.
+      - text: Làm theo nghị định, báo người phụ trách để sửa quy định nội bộ.
+        correct: true
+        why: Đúng. Báo và sửa tài liệu nội bộ để lần sau không ai làm sai.
+      - text: Chọn bên nào có lợi cho bộ phận mình.
+        correct: false
+        why: Việc tuân thủ không dựa vào lợi ích của bộ phận.
+  - id: q4
+    prompt: "Đồng nghiệp gửi bản tóm tắt một nghị định do AI viết. Bước tiếp theo đúng là gì?"
+    options:
+      - text: Dùng luôn vì AI tóm tắt nhanh và gọn.
+        correct: false
+        why: Bản tóm tắt có thể sai số hiệu, ngày hoặc nội dung. Không dùng làm căn cứ.
+      - text: Mở văn bản gốc từ nguồn chính thức, đối chiếu từng ý, ghi ngày tra.
+        correct: true
+        why: Đúng. Chỉ văn bản gốc mới là căn cứ. Bản tóm tắt chỉ giúp định hướng.
+      - text: Gửi tiếp cho cả phòng để mọi người cùng biết.
+        correct: false
+        why: Lan truyền một bản chưa kiểm có thể làm cả phòng làm sai.
+  - id: q5
+    prompt: "Một vi phạm xảy ra và đã kết thúc trước ngày nghị định mới có hiệu lực. Theo Điều 67 Nghị định 283/2026/NĐ-CP, áp dụng văn bản nào?"
+    options:
+      - text: Nghị định mới, vì phát hiện sau ngày hiệu lực.
+        correct: false
+        why: Ngày phát hiện không quyết định. Điều 67 dựa vào thời điểm thực hiện hành vi.
+      - text: Văn bản có hiệu lực tại thời điểm thực hiện hành vi.
+        correct: true
+        why: Đúng. Đây là quy định chuyển tiếp tại khoản 1 Điều 67.
+      - text: Văn bản nào có mức phạt nhẹ hơn.
+        correct: false
+        why: Điều 67 không quy định như vậy. Đọc đúng điều khoản chuyển tiếp của văn bản.

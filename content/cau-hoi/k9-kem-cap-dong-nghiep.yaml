@@ -1,0 +1,51 @@
+lesson: k9-kem-cap-dong-nghiep
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Mục tiêu kèm cặp nào đo được?"
+    options:
+      - text: "\"Tự tin hơn khi làm việc với khách.\""
+        correct: false
+        why: Tự tin là cảm giác. Hai người có thể đánh giá rất khác nhau.
+      - text: "\"Tự trình bày báo giá cho 3 khách, không cần người đi kèm, trong tháng 2.\""
+        correct: true
+        why: Đúng. Có việc cụ thể, số lần, điều kiện và thời gian, nên kiểm được.
+      - text: "\"Hiểu rõ quy trình bán hàng.\""
+        correct: false
+        why: Hiểu rõ đến đâu thì khó kiểm. Cần nêu việc làm được.
+  - id: q2
+    prompt: "Người được kèm đã làm một việc đúng 3 lần khi bạn ngồi cạnh. Nấc tiếp theo là gì?"
+    options:
+      - text: Làm mẫu lại một lần nữa.
+        correct: false
+        why: Họ đã làm được khi có bạn bên cạnh. Lùi về làm mẫu làm chậm tiến bộ.
+      - text: Quan sát, tức là họ tự làm và bạn xem kết quả trước khi gửi đi.
+        correct: true
+        why: Đúng. Bạn lùi một bước, vẫn chặn được sai sót trước khi đến khách.
+      - text: Giao hẳn, không cần kiểm gì nữa.
+        correct: false
+        why: Nhảy cóc qua nấc quan sát dễ để lỗi lọt ra ngoài.
+  - id: q3
+    prompt: "Người được kèm hỏi: \"Khách đòi giảm giá thêm 5%, em trả lời sao?\" Bạn nên nói gì trước?"
+    options:
+      - text: "\"Em định trả lời khách thế nào?\""
+        correct: true
+        why: Đúng. Hỏi trước giúp họ tự nghĩ. Nếu hướng sai, bạn vẫn kịp chỉnh.
+      - text: "\"Em cứ từ chối là được.\""
+        correct: false
+        why: Trả lời ngay giải quyết việc hôm nay, nhưng họ không học được cách nghĩ.
+      - text: "\"Để anh gọi khách cho.\""
+        correct: false
+        why: Làm thay khiến họ không tiến bộ, và bạn bị ôm thêm việc.
+  - id: q4
+    prompt: "Câu phản hồi nào theo hành vi?"
+    options:
+      - text: "\"Em làm việc thiếu cẩn thận quá.\""
+        correct: false
+        why: Đây là nhận xét tính cách. Người nghe dễ phòng thủ và không biết sửa gì.
+      - text: "\"Báo cáo hôm qua thiếu số liệu tháng 10, nên sếp phải hỏi lại. Lần sau em kiểm danh mục trước khi gửi nhé.\""
+        correct: true
+        why: Đúng. Có điều thấy được, tác động và gợi ý cụ thể cho lần sau.
+      - text: "\"Cố gắng hơn nhé em.\""
+        correct: false
+        why: Câu này không nói rõ cần đổi điều gì.

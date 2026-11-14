@@ -1,0 +1,51 @@
+lesson: k3-quyet-dinh-khi-thieu-thong-tin
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Quyết định nào khó đảo ngược nhất?"
+    options:
+      - text: Đổi giờ họp nhóm hằng tuần.
+        correct: false
+        why: Sai thì đổi lại ngay tuần sau, gần như không tốn gì.
+      - text: Thử một mẫu báo cáo mới trong 2 tuần.
+        correct: false
+        why: Đây là thử nghiệm nhỏ, dừng được bất cứ lúc nào.
+      - text: Thay hóa chất tẩy rửa trên cả dây chuyền sản xuất.
+        correct: true
+        why: Đúng. Sai có thể hỏng hàng, ảnh hưởng an toàn, và khó quay lại nhanh.
+  - id: q2
+    prompt: "\"Tín hiệu đổi ý\" nên được viết khi nào?"
+    options:
+      - text: Trước khi quyết định, khi còn khách quan.
+        correct: true
+        why: Đúng. Viết trước giúp bạn không tự bào chữa khi kết quả bắt đầu xấu.
+      - text: Sau khi thấy kết quả xấu.
+        correct: false
+        why: Lúc đó ta dễ tìm lý do để giữ quyết định cũ.
+      - text: Không cần viết, cứ để cảm giác dẫn đường.
+        correct: false
+        why: Cảm giác dễ bị ảnh hưởng bởi công sức đã bỏ ra, nên khó khách quan.
+  - id: q3
+    prompt: "Khi trình quyết định cho cấp trên, cách nào tốt nhất?"
+    options:
+      - text: Trình như thể mọi thứ đã chắc chắn, để cấp trên yên tâm.
+        correct: false
+        why: Giấu giả định làm cấp trên không thấy rủi ro thật và mất lòng tin khi có sự cố.
+      - text: Tách rõ điều đã biết, điều đang giả định và điều chưa biết.
+        correct: true
+        why: Đúng. Người duyệt thấy rủi ro thật và quyết được mức chấp nhận.
+      - text: Chờ đến khi có đủ mọi thông tin rồi mới trình.
+        correct: false
+        why: Với nhiều quyết định, chờ đủ thông tin thì đã quá muộn.
+  - id: q4
+    prompt: "Bạn phải chọn nhà cung cấp mới cho hợp đồng dài hạn nhưng chưa có dữ liệu. Bước nào hợp lý?"
+    options:
+      - text: Ký luôn vì giá rẻ hơn.
+        correct: false
+        why: Quyết định khó đảo ngược mà dựa trên giả định tự tin thấp là rủi ro lớn.
+      - text: Đặt thử một phần nhỏ, có tín hiệu đổi ý và ngày xem lại.
+        correct: true
+        why: Đúng. Bạn biến quyết định khó quay lại thành bước nhỏ dễ quay lại.
+      - text: Không đổi gì, vì đổi luôn có rủi ro.
+        correct: false
+        why: Không quyết cũng là một quyết định, và cũng có rủi ro riêng.

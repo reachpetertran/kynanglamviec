@@ -1,0 +1,51 @@
+lesson: k2-thuyet-phuc-khong-can-chuc-danh
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Đồng nghiệp nói: \"Tôi không đồng ý dùng mẫu báo cáo mới.\" Câu hỏi nào giúp tìm lợi ích sau lập trường?"
+    options:
+      - text: "\"Sao anh lúc nào cũng phản đối?\""
+        correct: false
+        why: Câu này công kích người, làm họ phòng thủ, không tìm ra điều họ lo.
+      - text: "\"Với mẫu mới, điều gì làm anh lo nhất?\""
+        correct: true
+        why: Đúng. Câu hỏi mở giúp tìm ra lý do thật, nơi thường có giải pháp chung.
+      - text: "\"Sếp đã đồng ý rồi, anh làm theo nhé.\""
+        correct: false
+        why: Dựa vào quyền của người khác có thể ép được hôm nay, nhưng mất sự ủng hộ thật.
+  - id: q2
+    prompt: "Ai nên được nghe đề xuất trước cuộc họp?"
+    options:
+      - text: Không ai, để giữ bất ngờ.
+        correct: false
+        why: Người bị tác động nghe lần đầu trong họp dễ phản đối để tự bảo vệ.
+      - text: Người bị tác động nhiều nhất.
+        correct: true
+        why: Đúng. Góp ý của họ giúp sửa đề xuất, và họ dễ ủng hộ hơn.
+      - text: Chỉ người có quyền quyết.
+        correct: false
+        why: Người quyết quan trọng, nhưng người bị tác động có thể làm đề xuất thất bại khi triển khai.
+  - id: q3
+    prompt: "Phần cuối của đề xuất một trang nên là gì?"
+    options:
+      - text: Một lời cảm ơn và hy vọng được xem xét.
+        correct: false
+        why: Không có đề nghị cụ thể thì đề xuất dễ bị để đó.
+      - text: Danh sách mọi lợi ích có thể có.
+        correct: false
+        why: Danh sách dài làm loãng ý. Người quyết cần biết phải làm gì.
+      - text: Ai cần quyết điều gì, trước ngày nào.
+        correct: true
+        why: Đúng. Đề nghị cụ thể biến đề xuất thành một việc có người và hạn.
+  - id: q4
+    prompt: "Khi nghe góp ý, bạn nhận ra đề xuất của mình có lỗi lớn. Bạn nên làm gì?"
+    options:
+      - text: Sửa hoặc rút đề xuất, và nói rõ đã học được gì.
+        correct: true
+        why: Đúng. Đổi ý khi có bằng chứng làm chuyên môn của bạn đáng tin hơn.
+      - text: Giữ nguyên để không mất mặt.
+        correct: false
+        why: Đề xuất lỗi được duyệt sẽ gây hại, và làm bạn mất uy tín lâu dài.
+      - text: Trình tiếp nhưng không nhắc tới lỗi đó.
+        correct: false
+        why: Giấu điểm yếu đã biết là thiếu trung thực, và rủi ro vẫn còn đó.

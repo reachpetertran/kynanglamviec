@@ -1,0 +1,51 @@
+lesson: k5-du-an-gon-nhe
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Dòng nào là một mốc tốt?"
+    options:
+      - text: Họp với phòng mua hàng.
+        correct: false
+        why: Đây là hoạt động. Họp xong vẫn có thể chưa có kết quả gì.
+      - text: Phòng mua hàng chốt danh sách 3 nhà cung cấp, trước 15/12.
+        correct: true
+        why: Đúng. Mốc là kết quả nhìn thấy được, có hạn, nên biết đã đạt hay chưa.
+      - text: Làm việc chăm chỉ trong tháng 12.
+        correct: false
+        why: Không đo được và không có kết quả cụ thể.
+  - id: q2
+    prompt: "Vì sao trang dự án cần ô \"không làm\"?"
+    options:
+      - text: Để chặn việc dự án phình ra thêm yêu cầu mới.
+        correct: true
+        why: Đúng. Ghi rõ điều không làm giúp cả nhóm và người giao việc hiểu cùng một phạm vi.
+      - text: Để có lý do từ chối mọi đề nghị.
+        correct: false
+        why: Phạm vi vẫn đổi được, nhưng phải có người có quyền quyết và điều chỉnh hạn.
+      - text: Không cần, vì ai cũng biết phạm vi.
+        correct: false
+        why: Mỗi người thường hiểu phạm vi một kiểu. Viết ra mới thống nhất được.
+  - id: q3
+    prompt: "Một việc có ba người cùng \"chịu trách nhiệm\". Rủi ro là gì?"
+    options:
+      - text: Việc xong nhanh hơn vì có nhiều người.
+        correct: false
+        why: Nhiều người cùng chịu trách nhiệm thường dẫn tới mỗi người chờ người khác.
+      - text: Không ai thật sự đứng ra, việc dễ bị bỏ sót.
+        correct: true
+        why: Đúng. Mỗi việc nên có đúng một người chịu trách nhiệm, người khác góp ý hoặc hỗ trợ.
+      - text: Không có rủi ro gì.
+        correct: false
+        why: Trách nhiệm chia đều thường là trách nhiệm không của ai.
+  - id: q4
+    prompt: "Tuần 5, bạn thấy mốc 3 sẽ trễ 2 tuần. Bạn nên làm gì?"
+    options:
+      - text: Chờ đến hạn rồi báo, biết đâu kịp.
+        correct: false
+        why: Báo muộn làm người quyết mất cơ hội điều chỉnh.
+      - text: "Báo ngay người có quyền, kèm ba lựa chọn: lùi hạn, bớt phạm vi, thêm nguồn lực."
+        correct: true
+        why: Đúng. Báo sớm kèm lựa chọn giúp người quyết hành động kịp.
+      - text: Bảo cả nhóm làm thêm giờ, không cần báo ai.
+        correct: false
+        why: Có thể gây quá tải, và người giao việc không biết rủi ro thật.

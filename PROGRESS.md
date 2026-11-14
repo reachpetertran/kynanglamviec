@@ -74,6 +74,20 @@ Chuỗi prev/next theo thứ tự trên. Bài 11 có `next: null`.
 - build.py: thêm COURSES["n3"]; trang nhóm N2 và N3 cùng hiện Bản đồ khóa. 11 bài chuỗi chính cũ có N3 hiện ở "Bài học thêm".
 - Chỗ trống: bài "Hợp đồng, thử việc và nội quy" (K10, N3) – HOÃN tới khi luật sửa đổi BLLĐ được biểu quyết.
 
+## Khóa N4 "Senior, chuyên gia" (soạn 14/11/2026, 8 bài, chuỗi riêng, order 51–58)
+33. k3-nhin-van-de-theo-he-thong – K3 B4 (Bài 1, Tờ 1 Sơ đồ tác động; vòng lặp, độ trễ, điểm đòn bẩy)
+34. k3-quyet-dinh-khi-thieu-thong-tin – K3 B4 (Bài 2, Tờ 2 Phiếu quyết định)
+35. k2-thuyet-phuc-khong-can-chuc-danh – K2 B4 (Bài 3, Tờ 3 Bản đồ các bên + đề xuất một trang; lập trường/lợi ích)
+36. k8-go-bat-dong-chuyen-mon – K8 B4 (Bài 4, Tờ 4; nghe phản biện K1)
+37. k9-kem-cap-dong-nghiep – K9 B4 (Bài 5, Tờ 5; 4 nấc giao việc)
+38. k5-du-an-gon-nhe – K5 B4 (Bài 6, Tờ 6 Một trang dự án; gồm "thử nhỏ" của K4)
+39. k10-bien-quy-dinh-thanh-viec-lam – K10 B4 (Bài 7, Tờ 7; dẫn NĐ 283/2026/NĐ-CP Điều 66–67, NĐ 293/2025/NĐ-CP Điều 3–5, Luật BHVBQPPL 64/2025/QH15 sửa đổi 87/2025/QH15 theo 54/VBHN-VPQH Điều 4, 53, 57, 58, 65 – đối chiếu file gốc trong thư mục luật của Peter)
+40. k7-lam-moi-nghe-nghiep – K7 B4 (Bài 8, ôn tập trộn 7 câu + Tờ 8 Kế hoạch nghề 1–3 năm)
+- Sợi chỉ: Sổ công cụ chuyên gia (8 tờ). Mẫu in `content/trang/n4-mau-in.md` → /tai-nguyen/n4/ (#to-1 … #to-8).
+- Hình: `_build/art/n4_art.py` sinh 8 SVG vào `_build/static/assets/img/n4/`.
+- build.py: COURSES["n4"]; trang /lo-trinh/n4/ hiện Bản đồ khóa.
+- Nguồn luật: thư mục "Danh mục văn bản pháp luật" trên máy Peter (Luật Lao động - BHXH, ATVSLĐ, PCCC, Môi trường). Bản .md là OCR, mức tiền dễ sai: không chép số tiền, dẫn điều khoản.
+
 ## Nguồn pháp luật (14/11/2026)
 - Thử dùng tài khoản Pro thuvienphapluat.vn qua Chrome: site chặn vì "tốc độ Robot" và đòi mã bảo vệ sau vài lượt tra. Đã dừng, KHÔNG tải PDF. Không tự động hóa site này.
 - Số hiệu đã xác định trên thuvienphapluat (chưa đối chiếu ngày hiệu lực): Luật ATVSLĐ 84/2015/QH13; Luật BVDLCN 91/2025/QH15; Luật Trí tuệ nhân tạo 134/2025/QH15; NĐ 145/2020/NĐ-CP; NĐ 337/2025/NĐ-CP (HĐLĐ điện tử); Luật BHXH 41/2024/QH15; Luật Việc làm 74/2025/QH15; Luật Trẻ em 102/2016/QH13; Luật Giáo dục 43/2019/QH14.
@@ -82,7 +96,7 @@ Chuỗi prev/next theo thứ tự trên. Bài 11 có `next: null`.
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.
 2. (Đã xong 14/11: "Phục vụ khách hàng" và K6 cho N3, trong khóa N3.)
-3. N1, N2, N3 đã đăng (N3 chờ Peter duyệt). Tiếp theo: khóa N4, rồi N5.
+3. N1, N2, N3 đã đăng. N4 đã soạn 14/11 (chờ Peter duyệt). Tiếp theo: khóa N5.
 
 ## Quy trình thêm bài
 1. Tạo `content/bai-hoc/<slug>.md` (front matter: title, slug, skill, level, group, order, minutes, objectives (đặt trong ngoặc kép), framework_map, prev, next, updated, status) với đúng 9 tiêu đề `## 1. Mục tiêu` … `## 9. Siêu dữ liệu`. Phần 6 và 9 để trống: build tự chèn câu hỏi và bảng siêu dữ liệu.

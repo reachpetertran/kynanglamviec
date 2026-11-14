@@ -1,0 +1,51 @@
+lesson: k3-nhin-van-de-theo-he-thong
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Cửa hàng thưởng nhân viên theo số đơn bán được. Sau 2 tháng, số đơn bị trả lại tăng mạnh. Cách nhìn nào mang tính hệ thống?"
+    options:
+      - text: Nhắc nhân viên tư vấn kỹ hơn.
+        correct: false
+        why: Cách này chỉ nhắc người, không xử lý cách thưởng đang đẩy nhân viên bán ép.
+      - text: Xem chỉ tiêu thưởng có đang làm tăng đơn bán ép và đơn trả lại không.
+        correct: true
+        why: Đúng. Chỉ tiêu là một ô trong hệ thống. Nó có thể tạo ra chính vấn đề.
+      - text: Bỏ hẳn chính sách đổi trả hàng.
+        correct: false
+        why: Cách này giấu triệu chứng và làm khách mất lòng tin, tác động dây chuyền xấu hơn.
+  - id: q2
+    prompt: "Đâu là một vòng lặp?"
+    options:
+      - text: Mưa làm đường trơn, đường trơn làm xe chạy chậm.
+        correct: false
+        why: Đây là chuỗi thẳng. Xe chạy chậm không tác động ngược lại cơn mưa.
+      - text: Việc tồn đọng làm đội làm thêm giờ, mệt nên sai nhiều, sửa sai lại thêm việc tồn đọng.
+        correct: true
+        why: Đúng. Ô cuối tác động ngược về ô đầu, nên vấn đề tự lớn dần.
+      - text: Khách đặt hàng, kho xuất hàng, khách nhận hàng.
+        correct: false
+        why: Đây là một quy trình thẳng, không có tác động quay lại.
+  - id: q3
+    prompt: "Đề xuất của bạn có hiệu quả sau khoảng 3 tuần. Bạn nên làm gì khi trình?"
+    options:
+      - text: Không nhắc, để tránh bị hỏi khó.
+        correct: false
+        why: Nếu tuần đầu chưa thấy kết quả, mọi người dễ bỏ giải pháp tốt.
+      - text: Nói trước về độ trễ, và hẹn ngày đo lại.
+        correct: true
+        why: Đúng. Nêu độ trễ giúp mọi người kiên nhẫn và biết khi nào đánh giá.
+      - text: Hứa sẽ có kết quả ngay tuần đầu.
+        correct: false
+        why: Hứa điều mình biết là sai làm mất lòng tin khi kết quả chưa đến.
+  - id: q4
+    prompt: "Điểm đòn bẩy thường nằm ở đâu?"
+    options:
+      - text: Ở việc nhắc nhở người trực tiếp làm.
+        correct: false
+        why: Nhắc nhở ít khi đổi được hệ thống. Vấn đề thường quay lại.
+      - text: Ở chỉ tiêu, luồng thông tin hoặc quy tắc làm việc.
+        correct: true
+        why: Đúng. Đổi những thứ này có thể làm gãy vòng lặp với chi phí nhỏ.
+      - text: Ở việc thêm người và thêm tiền.
+        correct: false
+        why: Thêm nguồn lực có khi cần, nhưng thường tốn và không làm gãy vòng lặp.

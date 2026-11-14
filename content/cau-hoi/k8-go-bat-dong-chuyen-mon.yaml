@@ -1,0 +1,51 @@
+lesson: k8-go-bat-dong-chuyen-mon
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Đồng nghiệp phản biện kế hoạch của bạn trong họp. Câu nào là bước đầu tốt nhất?"
+    options:
+      - text: "\"Không phải vậy, để tôi giải thích lại.\""
+        correct: false
+        why: Cãi ngay làm người kia thấy không được nghe, và họ sẽ phản đối mạnh hơn.
+      - text: "\"Ý chị là kế hoạch này dễ trễ vì thiếu người. Tôi hiểu đúng chưa?\""
+        correct: true
+        why: Đúng. Nhắc lại ý và hỏi xác nhận cho thấy bạn đã hiểu, rồi mới phản hồi.
+      - text: "\"Mình bàn chuyện này sau nhé.\""
+        correct: false
+        why: Hoãn mà không hẹn lại khiến phản biện bị bỏ qua, rủi ro vẫn còn.
+  - id: q2
+    prompt: "Câu nào là sự kiện, không phải diễn giải?"
+    options:
+      - text: "\"Nhà cung cấp này làm ăn cẩu thả.\""
+        correct: false
+        why: Đây là nhận xét. Hai người có thể hiểu khác nhau.
+      - text: "\"Ba trong mười lô hàng tháng này giao trễ hơn một ngày.\""
+        correct: true
+        why: Đúng. Đây là điều đếm được, hai bên có thể cùng kiểm.
+      - text: "\"Đội kho không quan tâm tới khách.\""
+        correct: false
+        why: Đây là suy đoán về thái độ, không kiểm được trực tiếp.
+  - id: q3
+    prompt: "Hai bên vẫn khác ý sau khi thống nhất tiêu chí. Thử nghiệm không làm được. Bạn nên làm gì?"
+    options:
+      - text: Chọn bên mình thấy đúng và thông báo cho nhóm.
+        correct: false
+        why: Bạn không có quyền quyết. Làm vậy biến bạn thành một bên của bất đồng.
+      - text: Đưa người có quyền quyết, kèm hai phương án và tiêu chí đã thống nhất.
+        correct: true
+        why: Đúng. Người quyết có đủ thông tin, hai bên thấy quá trình công bằng.
+      - text: Để hai bên tự giải quyết với nhau.
+        correct: false
+        why: Bất đồng kéo dài làm chậm việc và dễ thành chuyện cá nhân.
+  - id: q4
+    prompt: "Bất đồng giữa hai tổ liên quan đến việc tháo che chắn an toàn của máy để chạy nhanh hơn. Cách nào đúng?"
+    options:
+      - text: Thương lượng để mỗi bên nhường một ít.
+        correct: false
+        why: An toàn không phải chuyện thỏa hiệp. Nhường một ít vẫn có thể gây tai nạn.
+      - text: Thử tháo che chắn một ca để xem tốc độ tăng bao nhiêu.
+        correct: false
+        why: Thử nghiệm không được tạo ra rủi ro an toàn cho người lao động.
+      - text: Không thương lượng. Báo ngay người phụ trách an toàn.
+        correct: true
+        why: Đúng. Vấn đề an toàn và quy định phải chuyển lên ngay, không hòa giải.

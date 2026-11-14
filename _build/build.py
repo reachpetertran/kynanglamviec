@@ -215,7 +215,7 @@ def build_groups():
         modules = "".join(f"<li>{e(m)}</li>" for m in g["modules"])
         note = f'<p class="note">{e(g["note"])}</p>' if g.get("note") else ""
         extra = ""
-        if g["code"] in ("N2", "N3"):
+        if g["code"] in ("N2", "N3", "N4"):
             extra = course_map(g["slug"])
         if g["code"] == "N1":
             extra = course_map("n1") + """<div class="note"><b>Dành cho phụ huynh và giáo viên.</b> Các bài N1 được viết để người lớn
@@ -346,6 +346,10 @@ COURSES = {
            "guide_label": "Mẫu in của khóa", "strip_label": "Mẫu in",
            "thread": "Một sợi chỉ nối cả khóa: <b>Sổ tay 90 ngày</b>, gồm 6 tờ dùng hằng ngày ở chỗ làm. Bài cuối gom các tờ thành hồ sơ cho buổi đánh giá.",
            "after": '<p class="note"><b>Học thêm:</b> các bài N3 ở mục bên dưới (kế hoạch 90 ngày, báo cáo tiến độ, xin phản hồi, dùng AI an toàn, đề xuất cải tiến) bổ sung cho khóa. <b>Sắp có:</b> bài "Hợp đồng, thử việc và nội quy", viết sau khi Quốc hội biểu quyết luật sửa đổi Bộ luật Lao động.</p>'},
+    "n4": {"title": "Khóa Senior, chuyên gia (N4)", "home": "lo-trinh/n4/", "guide": "tai-nguyen/n4/",
+           "guide_label": "Mẫu in của khóa", "strip_label": "Mẫu in",
+           "thread": "Một sợi chỉ nối cả khóa: <b>Sổ công cụ chuyên gia</b>, gồm 8 tờ dùng với việc thật. Bài cuối ôn trộn cả khóa và lập kế hoạch nghề 1–3 năm.",
+           "after": '<p class="note"><b>Lưu ý:</b> Bài 7 dạy cách đọc và áp dụng văn bản quy định, không phải tư vấn pháp lý. Nguồn pháp luật trong bài ghi rõ ngày tra.</p>'},
 }
 
 
@@ -486,8 +490,11 @@ Hãy in hoặc lưu PDF định kỳ.</p>
 <p><a class="btn" href="{{R}}tai-nguyen/n2/">Mở mẫu in N2</a></p>
 <h2>Mẫu in khóa 90 ngày đầu (N3)</h2>
 <p>Bảy mẫu cho Sổ tay 90 ngày: bảng việc tuần, trang ghi họp, phiếu yêu cầu khách hàng, phiếu sự cố, phiếu rút kinh nghiệm, bản đồ phối hợp, hồ sơ buổi đánh giá.</p>
-<p><a class="btn" href="{{R}}tai-nguyen/n3/">Mở mẫu in N3</a></p>""")
-    for code, fn in (("n1", "n1-huong-dan.md"), ("n2", "n2-mau-in.md"), ("n3", "n3-mau-in.md")):
+<p><a class="btn" href="{{R}}tai-nguyen/n3/">Mở mẫu in N3</a></p>
+<h2>Mẫu in khóa Senior, chuyên gia (N4)</h2>
+<p>Tám mẫu cho Sổ công cụ chuyên gia: sơ đồ tác động, phiếu quyết định, bản đồ các bên và đề xuất một trang, phiếu gỡ bất đồng, kế hoạch kèm cặp, một trang dự án, phiếu theo dõi quy định, kế hoạch nghề 1–3 năm.</p>
+<p><a class="btn" href="{{R}}tai-nguyen/n4/">Mở mẫu in N4</a></p>""")
+    for code, fn in (("n1", "n1-huong-dan.md"), ("n2", "n2-mau-in.md"), ("n3", "n3-mau-in.md"), ("n4", "n4-mau-in.md")):
         gp = ROOT / "content/trang" / fn
         if not gp.exists():
             continue
