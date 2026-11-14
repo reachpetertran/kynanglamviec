@@ -1,0 +1,51 @@
+lesson: k7-tu-chuyen-vien-thanh-quan-ly
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Một trưởng nhóm mới vẫn tự làm phần khó nhất của mọi dự án. Hệ quả dễ thấy nhất là gì?"
+    options:
+      - text: Đội học nhanh hơn vì được xem người giỏi làm.
+        correct: false
+        why: Xem thì có học, nhưng đội không được tự làm. Họ vẫn phụ thuộc vào trưởng nhóm.
+      - text: Đội chờ trưởng nhóm, còn việc quản lý như giao việc, 1-1 bị bỏ trống.
+        correct: true
+        why: Đúng. Thời gian của trưởng nhóm có hạn. Ôm việc chuyên môn thì việc quản lý bị lấn mất.
+      - text: Không có hệ quả gì nếu dự án vẫn xong đúng hạn.
+        correct: false
+        why: Xong đúng hạn lần này, nhưng đội không lớn lên. Khi trưởng nhóm vắng, việc sẽ tắc.
+  - id: q2
+    prompt: "Việc nào nên xếp vào cột \"Giữ\" của Bản chuyển vai?"
+    options:
+      - text: Mọi việc mà mình làm nhanh hơn người khác.
+        correct: false
+        why: Nếu giữ mọi việc mình làm nhanh hơn, cột Buông sẽ trống.
+      - text: Một việc chỉ mình làm tốt lúc này, có ghi ngày dự kiến giao lại.
+        correct: true
+        why: Đúng. Cột Giữ nên ít và có hạn, để việc đó dần chuyển sang người khác.
+      - text: Việc mình thích nhất, để giữ động lực.
+        correct: false
+        why: Thích là chuyện dễ hiểu, nhưng tiêu chí chọn là đội cần gì, không phải mình thích gì.
+  - id: q3
+    prompt: "Bạn muốn biết đội nghĩ gì về cách mình quản lý. Cách nào dễ có câu trả lời thật nhất?"
+    options:
+      - text: Hỏi giữa cuộc họp đông người "Mọi người thấy tôi thế nào?"
+        correct: false
+        why: Trước mặt mọi người và trước sếp, ít ai dám góp ý thật.
+      - text: Phát phiếu 3 câu (tiếp tục, bắt đầu, dừng), không ghi tên.
+        correct: true
+        why: Đúng. Câu hỏi cụ thể và cách trả lời an toàn giúp người ta dám nói thật.
+      - text: Chờ đến kỳ đánh giá cuối năm của công ty.
+        correct: false
+        why: Chờ quá lâu. Bạn mất nhiều tháng có thể đã sửa được.
+  - id: q4
+    prompt: "Nhiều phiếu viết \"nên dừng: sửa bài của em trước mặt khách\". Bạn làm gì trước tiên?"
+    options:
+      - text: Giải thích rằng mình làm vậy vì muốn bảo vệ chất lượng.
+        correct: false
+        why: Giải thích ngay dễ nghe như bào chữa. Người góp ý sẽ thấy nói ra cũng vô ích.
+      - text: Cảm ơn đội, nói rõ mình sẽ đổi cách làm, rồi làm đúng như đã nói.
+        correct: true
+        why: Đúng. Cảm ơn và hành động cho đội thấy góp ý có tác dụng. Lần sau họ sẽ tiếp tục nói thật.
+      - text: Tìm xem ai đã viết câu đó để nói chuyện riêng.
+        correct: false
+        why: Truy tìm người viết phá vỡ lời hứa không ghi tên. Đội sẽ không bao giờ góp ý thật nữa.

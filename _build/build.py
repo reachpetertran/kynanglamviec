@@ -215,7 +215,7 @@ def build_groups():
         modules = "".join(f"<li>{e(m)}</li>" for m in g["modules"])
         note = f'<p class="note">{e(g["note"])}</p>' if g.get("note") else ""
         extra = ""
-        if g["code"] in ("N2", "N3", "N4"):
+        if g["code"] in ("N2", "N3", "N4", "N5"):
             extra = course_map(g["slug"])
         if g["code"] == "N1":
             extra = course_map("n1") + """<div class="note"><b>Dành cho phụ huynh và giáo viên.</b> Các bài N1 được viết để người lớn
@@ -350,6 +350,10 @@ COURSES = {
            "guide_label": "Mẫu in của khóa", "strip_label": "Mẫu in",
            "thread": "Một sợi chỉ nối cả khóa: <b>Sổ công cụ chuyên gia</b>, gồm 8 tờ dùng với việc thật. Bài cuối ôn trộn cả khóa và lập kế hoạch nghề 1–3 năm.",
            "after": '<p class="note"><b>Lưu ý:</b> Bài 7 dạy cách đọc và áp dụng văn bản quy định, không phải tư vấn pháp lý. Nguồn pháp luật trong bài ghi rõ ngày tra.</p>'},
+    "n5": {"title": "Khóa Quản lý, trưởng nhóm (N5)", "home": "lo-trinh/n5/", "guide": "tai-nguyen/n5/",
+           "guide_label": "Mẫu in của khóa", "strip_label": "Mẫu in",
+           "thread": "Một sợi chỉ nối cả khóa: <b>Sổ tay quản lý</b>, gồm 8 tờ dùng với đội thật. Bài cuối ôn trộn cả khóa và lập bảng phân bổ cho quý tới.",
+           "after": '<p class="note"><b>Lưu ý:</b> Bài 5 dạy kỹ năng nói chuyện, không thay quy trình kỷ luật của đơn vị. Bài 7 không tư vấn pháp lý; nguồn luật ghi rõ ngày tra. <b>Nên học trước:</b> bài <a href="{{R}}bai-hoc/k9-kem-cap-dong-nghiep/">Kèm cặp đồng nghiệp</a> của khóa N4.</p>'},
 }
 
 
@@ -493,8 +497,11 @@ Hãy in hoặc lưu PDF định kỳ.</p>
 <p><a class="btn" href="{{R}}tai-nguyen/n3/">Mở mẫu in N3</a></p>
 <h2>Mẫu in khóa Senior, chuyên gia (N4)</h2>
 <p>Tám mẫu cho Sổ công cụ chuyên gia: sơ đồ tác động, phiếu quyết định, bản đồ các bên và đề xuất một trang, phiếu gỡ bất đồng, kế hoạch kèm cặp, một trang dự án, phiếu theo dõi quy định, kế hoạch nghề 1–3 năm.</p>
-<p><a class="btn" href="{{R}}tai-nguyen/n4/">Mở mẫu in N4</a></p>""")
-    for code, fn in (("n1", "n1-huong-dan.md"), ("n2", "n2-mau-in.md"), ("n3", "n3-mau-in.md"), ("n4", "n4-mau-in.md")):
+<p><a class="btn" href="{{R}}tai-nguyen/n4/">Mở mẫu in N4</a></p>
+<h2>Mẫu in khóa Quản lý, trưởng nhóm (N5)</h2>
+<p>Tám mẫu cho Sổ tay quản lý: bản chuyển vai, mục tiêu đội một trang, phiếu giao việc, trang 1-1, phiếu chuẩn bị đối thoại khó, thỏa thuận làm việc của đội, kế hoạch thay đổi và quy tắc dùng AI, bảng phân bổ quý.</p>
+<p><a class="btn" href="{{R}}tai-nguyen/n5/">Mở mẫu in N5</a></p>""")
+    for code, fn in (("n1", "n1-huong-dan.md"), ("n2", "n2-mau-in.md"), ("n3", "n3-mau-in.md"), ("n4", "n4-mau-in.md"), ("n5", "n5-mau-in.md")):
         gp = ROOT / "content/trang" / fn
         if not gp.exists():
             continue

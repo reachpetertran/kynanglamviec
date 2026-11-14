@@ -1,0 +1,51 @@
+lesson: k8-doi-thoai-kho
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu mở đầu nào tốt nhất cho cuộc nói chuyện về báo cáo nộp trễ?"
+    options:
+      - text: "\"Dạo này em làm việc rất tốt, chỉ có một chuyện nhỏ thôi…\""
+        correct: false
+        why: Khen vòng vo trước làm người nghe bối rối, và lời khen sau này cũng bị nghi ngờ.
+      - text: "\"Anh muốn nói về ba báo cáo tuần nộp trễ trong tháng này.\""
+        correct: true
+        why: Đúng. Câu ngắn, nói thẳng chủ đề, dựa trên sự kiện có thể kiểm tra.
+      - text: "\"Em có biết em đang vô trách nhiệm lắm không?\""
+        correct: false
+        why: Đây là nhận xét tính cách. Người nghe sẽ phòng thủ thay vì tìm cách sửa.
+  - id: q2
+    prompt: "Hai nhân viên xung đột. Bạn nên làm gì trước?"
+    options:
+      - text: Gọi cả hai vào phòng ngay để nói cho rõ.
+        correct: false
+        why: Gặp chung ngay khi còn nóng dễ thành cãi nhau tiếp, mỗi người chỉ lo bảo vệ mình.
+      - text: Gặp riêng từng người, nghe hết, không hứa bênh ai.
+        correct: true
+        why: Đúng. Gặp riêng giúp mỗi người nói thật và bớt căng, trước khi gặp chung.
+      - text: Chờ một tuần để hai người tự hết giận.
+        correct: false
+        why: Né thì xung đột thường lớn dần và ảnh hưởng cả đội.
+  - id: q3
+    prompt: "Trong 1-1, một nhân viên kể bị đồng nghiệp nhắn tin quấy rối. Bạn làm gì?"
+    options:
+      - text: Hẹn hai người gặp nhau để hòa giải.
+        correct: false
+        why: Quấy rối nằm trong vùng không hòa giải. Bắt hai người gặp nhau có thể gây thêm tổn thương.
+      - text: Cảm ơn họ đã nói, bảo vệ người bị ảnh hưởng và báo theo quy trình của đơn vị.
+        correct: true
+        why: Đúng. Đây là việc cần xử lý theo quy trình, có người có thẩm quyền, không phải chuyện hòa giải.
+      - text: Khuyên họ bỏ qua cho êm.
+        correct: false
+        why: Bỏ qua khiến người bị quấy rối không được bảo vệ, và hành vi có thể tiếp diễn.
+  - id: q4
+    prompt: "Cuộc nói chuyện nóng lên, bạn thấy mình sắp to tiếng. Cách nào hợp lý?"
+    options:
+      - text: Nói to hơn để giữ quyền kiểm soát.
+        correct: false
+        why: To tiếng làm cuộc nói chuyện căng thêm, và người kia khó nghe bạn nói gì.
+      - text: Nói chậm lại, tóm ý người kia, hoặc hẹn nói tiếp vào một giờ cụ thể.
+        correct: true
+        why: Đúng. Tạm dừng có hẹn giờ giúp hai bên bình tĩnh mà việc không bị bỏ lửng.
+      - text: Kết thúc và không nhắc lại chuyện này nữa.
+        correct: false
+        why: Bỏ lửng thì vấn đề vẫn còn đó, và lần sau còn khó nói hơn.

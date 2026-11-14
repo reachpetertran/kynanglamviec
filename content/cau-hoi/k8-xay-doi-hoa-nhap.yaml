@@ -1,0 +1,51 @@
+lesson: k8-xay-doi-hoa-nhap
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Ai nên viết Thỏa thuận làm việc của đội?"
+    options:
+      - text: Quản lý viết rồi gửi cho đội làm theo.
+        correct: false
+        why: Quy tắc do một người viết thường bỏ sót vướng mắc thật của người khác, và ít được giữ.
+      - text: Cả đội cùng viết, quản lý dẫn dắt.
+        correct: true
+        why: Đúng. Đội cùng viết thì quy tắc sát thực tế hơn, và mọi người có lý do để giữ.
+      - text: Bộ phận nhân sự viết chung cho cả công ty.
+        correct: false
+        why: Quy định chung của công ty vẫn cần. Nhưng cách làm việc của từng đội phải do đội thỏa thuận.
+  - id: q2
+    prompt: "Trong họp, quản lý thường nói ý kiến của mình đầu tiên. Vấn đề là gì?"
+    options:
+      - text: Không có vấn đề gì, quản lý nói trước cho nhanh.
+        correct: false
+        why: Nhanh nhưng mất ý kiến khác. Nhiều người sẽ không dám nói trái ý sếp.
+      - text: Người khác dễ im lặng hoặc nói theo, nên đội mất các ý kiến khác.
+        correct: true
+        why: Đúng. Mời người khác nói trước, quản lý nói sau cùng, giúp đội nghe được nhiều ý hơn.
+      - text: Quản lý sẽ mất uy tín.
+        correct: false
+        why: Vấn đề không nằm ở uy tín, mà ở việc đội không nghe được đủ ý kiến.
+  - id: q3
+    prompt: "Việc pha trà, ghi biên bản luôn được giao cho người nữ trẻ nhất đội. Cách sửa hợp lý?"
+    options:
+      - text: Giữ nguyên, vì bạn ấy làm việc này giỏi.
+        correct: false
+        why: Mặc định giao việc không tên theo giới tính hay tuổi là không công bằng. Người đó mất thời gian cho việc chính.
+      - text: Luân phiên việc không tên cho mọi người theo lịch rõ ràng.
+        correct: true
+        why: Đúng. Luân phiên giúp chia đều, và mọi người thấy việc nhỏ cũng là việc của cả đội.
+      - text: Bỏ hẳn việc ghi biên bản.
+        correct: false
+        why: Biên bản vẫn cần để giữ quyết định. Vấn đề là ai làm, không phải có làm hay không.
+  - id: q4
+    prompt: "Đội tranh luận gay gắt về cách triển khai dự án. Điều này có nghĩa là gì?"
+    options:
+      - text: Đội không hòa nhập, cần dừng tranh luận ngay.
+        correct: false
+        why: Hòa nhập không có nghĩa là ai cũng đồng ý. Tranh luận về việc có thể giúp ra quyết định tốt hơn.
+      - text: Có thể là dấu hiệu tốt, miễn là tranh luận về ý tưởng, không công kích con người.
+        correct: true
+        why: Đúng. Đội dám tranh luận về việc là đội an toàn để nói. Quản lý giữ cho nó không thành công kích cá nhân.
+      - text: Quản lý nên quyết luôn để khỏi mất thời gian.
+        correct: false
+        why: Quyết vội có thể bỏ qua ý hay. Hãy nghe đủ, rồi mới chốt theo tiêu chí chung.

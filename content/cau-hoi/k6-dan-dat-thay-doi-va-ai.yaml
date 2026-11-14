@@ -1,0 +1,51 @@
+lesson: k6-dan-dat-thay-doi-va-ai
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Khi thông báo thay đổi, vì sao nên nói rõ cả phần \"giữ nguyên\"?"
+    options:
+      - text: Để bản thông báo dài và đầy đủ hơn.
+        correct: false
+        why: Mục đích không phải độ dài. Người nghe cần biết điều gì vẫn ổn định.
+      - text: Để mọi người biết điều gì vẫn ổn định, bớt lo và dễ chấp nhận phần đổi.
+        correct: true
+        why: Đúng. Khi biết phần không đổi, người ta tập trung vào phần cần học thay vì lo mọi thứ.
+      - text: Để cấp trên thấy thay đổi nhỏ, dễ duyệt.
+        correct: false
+        why: Phần giữ nguyên là thông tin cho đội, không phải để làm nhẹ đi khi xin duyệt.
+  - id: q2
+    prompt: "Đội sắp đổi quy trình đóng gói. Cách triển khai nào hợp lý?"
+    options:
+      - text: Áp dụng cho cả xưởng từ thứ Hai, ai chưa quen thì học dần.
+        correct: false
+        why: Làm cả xưởng ngay thì lỗi lan rộng, và lo ngại dễ thành chống đối.
+      - text: Thử một chuyền trong 2 tuần, đo lỗi và thời gian, rồi mới mở rộng.
+        correct: true
+        why: Đúng. Thử nhỏ giúp tìm lỗi sớm với chi phí thấp, và có số liệu để thuyết phục.
+      - text: Chờ đến khi mọi người đều đồng ý.
+        correct: false
+        why: Chờ mọi người đồng ý có thể không bao giờ đến. Thử nhỏ có đo là cách tiến lên an toàn.
+  - id: q3
+    prompt: "Một nhân viên muốn dán bảng lương của phòng vào công cụ AI miễn phí để tính tổng. Bạn nói gì?"
+    options:
+      - text: "\"Được, miễn là em xóa đi sau khi dùng.\""
+        correct: false
+        why: Xóa sau không lấy lại được dữ liệu đã gửi đi. Bảng lương là dữ liệu cá nhân, cần được bảo vệ.
+      - text: "\"Không đưa bảng lương vào công cụ chưa được duyệt. Dùng bảng tính của công ty.\""
+        correct: true
+        why: Đúng. Theo dòng Dữ liệu và Công cụ của quy tắc, dữ liệu cá nhân chỉ xử lý bằng công cụ được phép.
+      - text: "\"Tùy em, miễn kết quả đúng.\""
+        correct: false
+        why: Kết quả đúng không bù được rủi ro lộ dữ liệu của người lao động.
+  - id: q4
+    prompt: "Bản báo cáo do AI soạn có một số liệu sai và đã gửi cho khách. Ai chịu trách nhiệm?"
+    options:
+      - text: Công cụ AI, vì nó tạo ra số sai.
+        correct: false
+        why: Công cụ không chịu trách nhiệm thay người. Quy tắc của đội nói rõ người gửi chịu trách nhiệm.
+      - text: Người gửi báo cáo, vì phải kiểm tra trước khi gửi.
+        correct: true
+        why: Đúng. Theo dòng Kiểm tra và Trách nhiệm của quy tắc, người dùng đọc lại, kiểm số liệu và chịu trách nhiệm.
+      - text: Không ai, vì đây là lỗi kỹ thuật.
+        correct: false
+        why: Lỗi đã đến tay khách. Phải có người nhận, sửa và báo lại cho khách.

@@ -1,0 +1,51 @@
+lesson: k2-noi-ro-muc-tieu-doi
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Kết quả nào nên đưa vào Mục tiêu đội một trang?"
+    options:
+      - text: "\"Cả đội cố gắng làm việc chuyên nghiệp hơn.\""
+        correct: false
+        why: Chuyên nghiệp hơn là bao nhiêu thì không ai biết. Đội không tự kiểm tra được.
+      - text: "\"Giảm hàng trả về do đóng gói sai từ 4% xuống 1% trước 30/6.\""
+        correct: true
+        why: Đúng. Có số hiện tại, số cần đạt và hạn. Ai cũng biết đội đang ở đâu.
+      - text: "Một danh sách 9 kết quả, để không bỏ sót việc gì."
+        correct: false
+        why: Chín kết quả thì đội khó nhớ và dễ dàn trải. Chọn 2–3 kết quả quan trọng nhất.
+  - id: q2
+    prompt: "Vì sao Tờ 2 có phần \"Không làm\"?"
+    options:
+      - text: Để đội có lý do từ chối mọi việc phát sinh.
+        correct: false
+        why: Phần này nêu một vài việc cụ thể tạm dừng, không phải để từ chối mọi thứ.
+      - text: Để đội biết dồn sức vào đâu và dừng việc gì khi bị quá tải.
+        correct: true
+        why: Đúng. Nói rõ việc không làm giúp đội chọn đúng khi thời gian có hạn.
+      - text: Để cấp trên thấy đội đang làm ít việc.
+        correct: false
+        why: Mục đích là tập trung, không phải để báo cáo ít việc.
+  - id: q3
+    prompt: "Cách nào kiểm tra tốt nhất xem đội đã hiểu mục tiêu?"
+    options:
+      - text: Hỏi "Mọi người hiểu chưa?" và chờ ai đó hỏi lại.
+        correct: false
+        why: Câu này gần như luôn nhận được "hiểu rồi", kể cả khi chưa hiểu.
+      - text: Nhờ hai người nói lại ưu tiên của họ tuần này và lý do.
+        correct: true
+        why: Đúng. Nghe họ nói lại bằng lời của mình, bạn thấy ngay chỗ hiểu lệch.
+      - text: Gửi file mục tiêu qua email và yêu cầu đọc kỹ.
+        correct: false
+        why: Gửi file không cho bạn biết người đọc hiểu đến đâu.
+  - id: q4
+    prompt: "Hai người nói lại mục tiêu sai theo cùng một kiểu. Bạn nên nghĩ gì trước?"
+    options:
+      - text: Hai người này chưa tập trung khi nghe.
+        correct: false
+        why: Khi nhiều người hiểu sai giống nhau, nguyên nhân thường nằm ở cách nói.
+      - text: Cách mình nói chưa rõ, cần sửa câu chữ hoặc thêm ví dụ.
+        correct: true
+        why: Đúng. Hiểu sai là tín hiệu để bạn sửa cách truyền đạt, không phải để trách người nghe.
+      - text: Mục tiêu này quá khó, nên bỏ.
+        correct: false
+        why: Hiểu sai không có nghĩa là mục tiêu sai. Hãy làm rõ trước khi đổi mục tiêu.

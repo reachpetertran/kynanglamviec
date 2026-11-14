@@ -1,0 +1,51 @@
+lesson: k1-lang-nghe-de-coaching
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Nhân viên mở đầu 1-1: \"Em bị khách phàn nàn hoài.\" Câu nào hợp với bước đầu tiên?"
+    options:
+      - text: "\"Lần sau em nói chuyện nhẹ nhàng hơn là được.\""
+        correct: false
+        why: Đây là lời khuyên, không phải câu hỏi. Bạn chưa biết họ muốn gì từ buổi này.
+      - text: "\"Hôm nay em muốn ra về với điều gì về chuyện này?\""
+        correct: true
+        why: Đúng. Bước Mục tiêu giúp người được coaching nói rõ điều họ cần.
+      - text: "\"Khách nào phàn nàn? Đưa anh xem tin nhắn.\""
+        correct: false
+        why: Đi thẳng vào chi tiết, bạn dễ giành quyền dẫn câu chuyện và bắt đầu tự giải quyết thay.
+  - id: q2
+    prompt: "Nhân viên vừa trả lời xong và im lặng. Bạn nên làm gì?"
+    options:
+      - text: Nói ngay ý kiến của mình để buổi gặp không bị trôi.
+        correct: false
+        why: Lấp khoảng lặng quá nhanh có thể làm mất ý quan trọng họ sắp nói.
+      - text: Chờ thêm vài giây, rồi hỏi "còn gì nữa không?"
+        correct: true
+        why: Đúng. Ý quan trọng thường đến sau khoảng lặng hoặc sau câu hỏi "còn gì nữa".
+      - text: Chuyển sang chủ đề khác vì họ đã nói xong.
+        correct: false
+        why: Câu trả lời đầu tiên ít khi là toàn bộ câu chuyện.
+  - id: q3
+    prompt: "Trường hợp nào nên chỉ dẫn trực tiếp thay vì coaching?"
+    options:
+      - text: Nhân viên muốn tìm hướng phát triển nghề nghiệp.
+        correct: false
+        why: Đây là lúc rất hợp để coaching. Lộ trình do chính họ chọn thì họ mới theo.
+      - text: Một công nhân mới định vận hành máy cắt mà chưa khóa nguồn khi vệ sinh.
+        correct: true
+        why: Đúng. Việc liên quan an toàn và người mới chưa có kiến thức nền. Chỉ dẫn ngay, coaching sau.
+      - text: Nhân viên muốn cải thiện cách trình bày trong cuộc họp.
+        correct: false
+        why: Việc không gấp, không rủi ro an toàn. Coaching giúp họ tự tìm cách hợp với mình.
+  - id: q4
+    prompt: "Cuối buổi 1-1, ai nên chọn bước tiếp theo?"
+    options:
+      - text: Quản lý, vì quản lý có kinh nghiệm hơn.
+        correct: false
+        why: Bước do người khác chọn thì dễ bị làm cho có.
+      - text: Nhân viên chọn, quản lý nói rõ mình sẽ hỗ trợ gì.
+        correct: true
+        why: Đúng. Người tự chọn bước tiếp thì chủ động hơn. Quản lý cam kết phần hỗ trợ của mình.
+      - text: Không cần bước tiếp, nói chuyện được là tốt rồi.
+        correct: false
+        why: Không có bước tiếp thì buổi 1-1 khó tạo ra thay đổi.

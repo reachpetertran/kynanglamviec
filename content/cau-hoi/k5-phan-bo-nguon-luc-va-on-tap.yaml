@@ -1,0 +1,63 @@
+lesson: k5-phan-bo-nguon-luc-va-on-tap
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Đội 4 người, mỗi người 60 ngày làm việc trong quý. Sức thật của đội nên tính thế nào?"
+    options:
+      - text: 240 ngày công, vì 4 nhân 60.
+        correct: false
+        why: Con số này coi như ai cũng làm việc chính 100% thời gian. Thực tế còn nghỉ phép, họp, đào tạo, việc phát sinh.
+      - text: Lấy 240 trừ nghỉ phép, họp, đào tạo và việc phát sinh.
+        correct: true
+        why: Đúng. Sức thật là thời gian còn lại cho việc chính. Tính dư sẽ khiến đội luôn trễ.
+      - text: Cộng thêm giờ làm thêm để đủ việc.
+        correct: false
+        why: Kế hoạch dựa vào làm thêm giờ kéo dài sẽ làm đội kiệt sức.
+  - id: q2
+    prompt: "Một việc đang chạy không gắn với kết quả nào trong mục tiêu đội. Bạn làm gì?"
+    options:
+      - text: Đưa vào danh sách dừng, rồi báo cấp trên trước khi dừng.
+        correct: true
+        why: Đúng. Việc không gắn mục tiêu là ứng viên để dừng. Báo trước để cấp trên biết và có thể phản đối.
+      - text: Âm thầm dừng, không cần báo ai.
+        correct: false
+        why: Dừng trong im lặng có thể làm người cần việc đó bất ngờ, và làm mất lòng tin.
+      - text: Giữ lại, vì đã làm lâu rồi.
+        correct: false
+        why: Đã làm lâu không phải lý do để tiếp tục. Thời gian đó có thể dành cho việc quan trọng hơn.
+  - id: q3
+    prompt: "(Ôn Bài 3) Bạn giao một nhân viên mới chọn nhà cung cấp, hợp đồng lớn. Mức tự quyết nào hợp lý?"
+    options:
+      - text: Tự quyết hoàn toàn.
+        correct: false
+        why: Việc tốn nhiều tiền và người nhận còn mới. Sai thì khó sửa.
+      - text: Đề xuất phương án, chờ duyệt rồi làm.
+        correct: true
+        why: Đúng. Người mới vẫn được tự tìm hiểu và so sánh, quyết định tốn tiền thì có người duyệt.
+      - text: Tự làm rồi báo lại sau.
+        correct: false
+        why: Báo sau thì đã ký hợp đồng. Mức này hợp với việc quen, rủi ro thấp.
+  - id: q4
+    prompt: "(Ôn Bài 4 và 5) Nhân viên kể trong 1-1: đồng nghiệp gửi tin nhắn đe dọa. Bạn nên làm gì?"
+    options:
+      - text: Hỏi tiếp theo 4 bước coaching để họ tự tìm cách.
+        correct: false
+        why: Đe dọa thuộc vùng không hòa giải, cần quy trình. Đây không phải lúc coaching.
+      - text: Cảm ơn họ, bảo vệ người bị ảnh hưởng và báo theo quy trình của đơn vị.
+        correct: true
+        why: Đúng. Việc liên quan an toàn thì chỉ dẫn và xử lý theo quy trình, có người có thẩm quyền.
+      - text: Gọi hai người vào hòa giải ngay.
+        correct: false
+        why: Hòa giải không dùng cho đe dọa, quấy rối. Người bị ảnh hưởng có thể gặp thêm nguy hiểm.
+  - id: q5
+    prompt: "(Ôn Bài 7) Phòng bắt đầu dùng AI. Lo ngại lớn nhất của đội là bị cắt việc. Bạn nên làm gì?"
+    options:
+      - text: Không nhắc đến, để mọi người tự quen.
+        correct: false
+        why: Lo ngại không được nghe sẽ thành chống đối ngầm.
+      - text: Ghi lại lo ngại, trả lời công khai điều bạn biết chắc, và nói rõ phần nào vẫn giữ nguyên.
+        correct: true
+        why: Đúng. Trả lời công khai, trung thực giúp đội tin. Chỉ hứa điều bạn biết chắc.
+      - text: Hứa không ai bị ảnh hưởng, kể cả khi chưa biết.
+        correct: false
+        why: Hứa điều chưa chắc sẽ làm mất lòng tin nếu sau này khác đi.

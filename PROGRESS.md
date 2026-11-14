@@ -2,7 +2,7 @@
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
 
-## Trạng thái hiện tại (14/11/2026) – v0.5, ĐANG CHẠY THẬT
+## Trạng thái hiện tại (14/11/2026) – v0.6, ĐANG CHẠY THẬT (đủ 5 khóa N1–N5)
 - Site: https://kynanglamviec.com và https://www.kynanglamviec.com (Cloudflare Pages, SSL bật). Bản dự phòng: https://kynanglamviec.pages.dev
 - Mã nguồn: https://github.com/reachpetertran/kynanglamviec (public, nhánh `main`). Mỗi lần push lên `main`, Cloudflare tự đăng.
 - Phiên mới: gắn repo (add_repo, quyền push), clone, sửa, `python3 _build/build.py`, commit cả `public/`, push.
@@ -88,6 +88,19 @@ Chuỗi prev/next theo thứ tự trên. Bài 11 có `next: null`.
 - build.py: COURSES["n4"]; trang /lo-trinh/n4/ hiện Bản đồ khóa.
 - Nguồn luật: thư mục "Danh mục văn bản pháp luật" trên máy Peter (Luật Lao động - BHXH, ATVSLĐ, PCCC, Môi trường). Bản .md là OCR, mức tiền dễ sai: không chép số tiền, dẫn điều khoản.
 
+## Khóa N5 "Quản lý, trưởng nhóm" (đăng 14/11/2026, 8 bài, chuỗi riêng, order 61–68)
+41. k7-tu-chuyen-vien-thanh-quan-ly – K7 B5 (Bài 1, Tờ 1 Bản chuyển vai: buông/giữ/mới; 3 câu phản hồi nhiều chiều)
+42. k2-noi-ro-muc-tieu-doi – K2 B5 (Bài 2, Tờ 2 Mục tiêu đội một trang; kiểm hiểu bằng nhờ nói lại)
+43. k9-giao-viec-va-theo-doi – K9 B5 (Bài 3, Tờ 3 Phiếu giao việc 6 ô; 4 mức tự quyết; phản hồi kịp thời/định kỳ)
+44. k1-lang-nghe-de-coaching – K1 B5 (Bài 4, Tờ 4 Trang 1-1; 4 bước kiểu GROW, câu hỏi tự viết)
+45. k8-doi-thoai-kho – K8 B4 (Bài 5, Tờ 5; 6 bước chuẩn bị; hòa giải gặp riêng rồi gặp chung; vùng không hòa giải)
+46. k8-xay-doi-hoa-nhap – K8 B5 (Bài 6, Tờ 6 Thỏa thuận làm việc; việc không tên; link chéo trachnhiemxahoi)
+47. k6-dan-dat-thay-doi-va-ai – K6 B5 (Bài 7, Tờ 7 Kế hoạch thay đổi + Quy tắc AI 5 dòng; dẫn Luật BVDLCN 91/2025/QH15 hiệu lực 01/01/2026, Luật Trí tuệ nhân tạo 134/2025/QH15 hiệu lực 01/3/2026 – chỉ nêu tên, ngày, không diễn giải điều khoản)
+48. k5-phan-bo-nguon-luc-va-on-tap – K5 B5 (Bài 8, ôn trộn 7 câu + Tờ 8 Bảng phân bổ quý, Danh sách không làm)
+- Sợi chỉ: Sổ tay quản lý (8 tờ). Mẫu in `content/trang/n5-mau-in.md` → /tai-nguyen/n5/ (#to-1 … #to-8).
+- Hình: `_build/art/n5_art.py` sinh 8 SVG vào `_build/static/assets/img/n5/`; aria-label lấy tự động từ alt trong bài.
+- build.py: COURSES["n5"]; trang nhóm N5 hiện Bản đồ khóa.
+
 ## Nguồn pháp luật (14/11/2026)
 - Thử dùng tài khoản Pro thuvienphapluat.vn qua Chrome: site chặn vì "tốc độ Robot" và đòi mã bảo vệ sau vài lượt tra. Đã dừng, KHÔNG tải PDF. Không tự động hóa site này.
 - Số hiệu đã xác định trên thuvienphapluat (chưa đối chiếu ngày hiệu lực): Luật ATVSLĐ 84/2015/QH13; Luật BVDLCN 91/2025/QH15; Luật Trí tuệ nhân tạo 134/2025/QH15; NĐ 145/2020/NĐ-CP; NĐ 337/2025/NĐ-CP (HĐLĐ điện tử); Luật BHXH 41/2024/QH15; Luật Việc làm 74/2025/QH15; Luật Trẻ em 102/2016/QH13; Luật Giáo dục 43/2019/QH14.
@@ -96,7 +109,8 @@ Chuỗi prev/next theo thứ tự trên. Bài 11 có `next: null`.
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.
 2. (Đã xong 14/11: "Phục vụ khách hàng" và K6 cho N3, trong khóa N3.)
-3. N1, N2, N3 đã đăng. N4 đã soạn 14/11 (chờ Peter duyệt). Tiếp theo: khóa N5.
+3. Đủ 5 khóa N1–N5 đã đăng (14/11/2026). N4, N5 chờ Peter duyệt nội dung.
+4. Gợi ý tiếp: trang tự đánh giá theo khóa; bài pháp lý hoãn (xem mục 1) khi luật sửa đổi BLLĐ được thông qua.
 
 ## Quy trình thêm bài
 1. Tạo `content/bai-hoc/<slug>.md` (front matter: title, slug, skill, level, group, order, minutes, objectives (đặt trong ngoặc kép), framework_map, prev, next, updated, status) với đúng 9 tiêu đề `## 1. Mục tiêu` … `## 9. Siêu dữ liệu`. Phần 6 và 9 để trống: build tự chèn câu hỏi và bảng siêu dữ liệu.

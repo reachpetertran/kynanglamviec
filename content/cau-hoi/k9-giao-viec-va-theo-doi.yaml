@@ -1,0 +1,51 @@
+lesson: k9-giao-viec-va-theo-doi
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Bạn giao: \"Em làm báo cáo tồn kho nhé.\" Ô nào của Phiếu giao việc còn thiếu?"
+    options:
+      - text: Chỉ thiếu hạn chót.
+        correct: false
+        why: Còn thiếu nhiều hơn thế. Người nhận chưa biết báo cáo dùng cho ai, đạt khi nào, được tự quyết đến đâu.
+      - text: Thiếu gần hết. Mới có tên việc, chưa có kết quả, tiêu chuẩn, hạn, mức tự quyết, nguồn lực, mốc kiểm.
+        correct: true
+        why: Đúng. Tên việc chưa phải là giao việc. Người nhận sẽ phải đoán.
+      - text: Không thiếu gì, người có kinh nghiệm tự biết.
+        correct: false
+        why: Người có kinh nghiệm vẫn không đọc được ý bạn. Mỗi lần giao, nhu cầu có thể khác.
+  - id: q2
+    prompt: "Một nhân viên mới được giao chọn nhà cung cấp in ấn cho hội chợ, hợp đồng 80 triệu đồng. Mức tự quyết nào hợp lý?"
+    options:
+      - text: Mức 4, tự quyết hoàn toàn, để nhân viên mới học nhanh.
+        correct: false
+        why: Việc tốn nhiều tiền và người nhận còn mới. Sai thì khó sửa.
+      - text: Mức 2, đề xuất phương án rồi chờ duyệt.
+        correct: true
+        why: Đúng. Nhân viên vẫn tự tìm hiểu và so sánh, còn quyết định tốn tiền thì có người duyệt.
+      - text: Không giao, quản lý tự làm cho chắc.
+        correct: false
+        why: Tự làm thì nhân viên không học được. Mức 2 vừa an toàn vừa giúp họ tiến bộ.
+  - id: q3
+    prompt: "Đã hẹn mốc kiểm vào thứ Năm. Thứ Hai, bạn muốn nhắn hỏi tiến độ. Khi nào nên hỏi?"
+    options:
+      - text: Hỏi mỗi ngày, cho chắc.
+        correct: false
+        why: Hỏi quá dày khiến người nhận thấy không được tin. Họ cũng mất thời gian báo cáo.
+      - text: Chỉ hỏi trước mốc khi có tín hiệu rủi ro, như khách đổi yêu cầu.
+        correct: true
+        why: Đúng. Mốc đã hẹn là để hai bên yên tâm. Ngoài mốc, chỉ can thiệp khi có lý do.
+      - text: Không bao giờ hỏi trước mốc, kể cả khi có rủi ro.
+        correct: false
+        why: Có tín hiệu rủi ro mà im lặng thì có thể muộn. Mốc là lịch chính, không phải lệnh cấm hỏi.
+  - id: q4
+    prompt: "Câu ghi nhận nào giúp người nghe biết nên lặp lại điều gì?"
+    options:
+      - text: "\"Tuyệt vời, cảm ơn em nhiều!\""
+        correct: false
+        why: Câu này ấm áp nhưng không nói rõ điều gì đã làm tốt.
+      - text: "\"Em gửi bản nháp trước một ngày, nên mình kịp sửa giá trước khi khách xem.\""
+        correct: true
+        why: Đúng. Có hành động cụ thể và tác động. Người nghe biết nên làm vậy lần sau.
+      - text: "\"Em giỏi lắm, cứ thế phát huy.\""
+        correct: false
+        why: Khen tính cách hoặc chung chung. Người nghe không biết phát huy điều gì.
