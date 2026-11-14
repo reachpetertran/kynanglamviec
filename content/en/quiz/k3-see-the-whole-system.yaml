@@ -1,0 +1,51 @@
+lesson: k3-see-the-whole-system
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "A shop pays staff a bonus per item sold. After 2 months, returns rise sharply. Which view is a systems view?"
+    options:
+      - text: Remind staff to advise customers more carefully.
+        correct: false
+        why: This only reminds people. It does not deal with the bonus that pushes staff to oversell.
+      - text: Check whether the bonus target is increasing pushy sales and returns.
+        correct: true
+        why: Correct. The target is one box in the system. It may be creating the problem.
+      - text: Remove the returns policy completely.
+        correct: false
+        why: This hides the symptom and loses customer trust, a worse knock-on effect.
+  - id: q2
+    prompt: "Which of these is a loop?"
+    options:
+      - text: Rain makes roads slippery, and slippery roads make traffic slow.
+        correct: false
+        why: This is a straight chain. Slow traffic does not affect the rain.
+      - text: A backlog makes the team work overtime, tired people make more errors, and fixing errors adds to the backlog.
+        correct: true
+        why: Correct. The last box feeds back into the first, so the problem grows by itself.
+      - text: A customer orders, the warehouse ships, the customer receives the goods.
+        correct: false
+        why: This is a straight process with no feedback.
+  - id: q3
+    prompt: "Your proposal will take about 3 weeks to show results. What should you do when you present it?"
+    options:
+      - text: Do not mention it, to avoid hard questions.
+        correct: false
+        why: If nothing changes in week one, people may drop a good solution.
+      - text: Warn about the delay and set a date to measure again.
+        correct: true
+        why: Correct. Naming the delay helps people stay patient and know when to judge.
+      - text: Promise results in the first week.
+        correct: false
+        why: Promising something you know is false costs trust when results are slow.
+  - id: q4
+    prompt: "Where is a leverage point usually found?"
+    options:
+      - text: In reminding the people who do the work.
+        correct: false
+        why: Reminders rarely change a system. The problem usually comes back.
+      - text: In targets, information flows or working rules.
+        correct: true
+        why: Correct. Changing these can break a loop at low cost.
+      - text: In adding more people and more money.
+        correct: false
+        why: Extra resources are sometimes needed, but they are costly and often do not break the loop.

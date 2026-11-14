@@ -1,0 +1,51 @@
+lesson: k3-decide-with-incomplete-information
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which decision is hardest to reverse?"
+    options:
+      - text: Moving the weekly team meeting to another time.
+        correct: false
+        why: If it is wrong, you change it back next week at almost no cost.
+      - text: Trying a new report template for 2 weeks.
+        correct: false
+        why: This is a small test you can stop at any time.
+      - text: Changing the cleaning chemical on a whole production line.
+        correct: true
+        why: Correct. A mistake could damage products, affect safety and be hard to undo quickly.
+  - id: q2
+    prompt: "When should you write your change-your-mind signals?"
+    options:
+      - text: Before you decide, while you are still objective.
+        correct: true
+        why: Correct. Writing them first stops you from making excuses when results turn bad.
+      - text: After you see bad results.
+        correct: false
+        why: By then it is easy to find reasons to keep the old decision.
+      - text: Never. Let your instinct guide you.
+        correct: false
+        why: Instinct is easily swayed by the effort you have already put in.
+  - id: q3
+    prompt: "What is the best way to present a decision to your manager?"
+    options:
+      - text: Present it as if everything is certain, so your manager feels reassured.
+        correct: false
+        why: Hiding assumptions hides the real risk and costs trust when something goes wrong.
+      - text: Separate what you know, what you assume and what you do not know.
+        correct: true
+        why: Correct. The approver sees the real risk and can decide how much to accept.
+      - text: Wait until you have all the information.
+        correct: false
+        why: For many decisions, waiting for full information means deciding too late.
+  - id: q4
+    prompt: "You must choose a new supplier for a long contract but have no data on them. What is a sensible step?"
+    options:
+      - text: Sign now because the price is lower.
+        correct: false
+        why: A hard-to-reverse decision based on a low-confidence assumption is a big risk.
+      - text: Place a small trial order, with change-your-mind signals and a review date.
+        correct: true
+        why: Correct. You turn a hard-to-reverse decision into a small step you can undo.
+      - text: Change nothing, because change always has risk.
+        correct: false
+        why: Not deciding is also a decision, and it has its own risks.

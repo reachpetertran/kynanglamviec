@@ -1,0 +1,63 @@
+lesson: k7-renew-your-career
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "You want to change careers but do not know if it will suit you. What is the most sensible step?"
+    options:
+      - text: Quit now so you have time to learn the new job.
+        correct: false
+        why: This is a hard-to-reverse decision made without data. The risk is high.
+      - text: Try the new job on a small scale for a few months, with something to measure.
+        correct: true
+        why: Correct. A small test gives you real data before a big decision.
+      - text: Wait until you are completely sure before doing anything.
+        correct: false
+        why: Without testing, you never get the information you need to be surer.
+  - id: q2
+    prompt: "Which is good evidence of the skill \"persuading\"?"
+    options:
+      - text: "\"I am a persuasive person.\""
+        correct: false
+        why: This is a self-description with no concrete task or result.
+      - text: "\"My one-page proposal was approved and cut delivery time by 15% after 2 months.\""
+        correct: true
+        why: Correct. It has a concrete task, a measured result and a time period.
+      - text: "\"Colleagues often listen to me.\""
+        correct: false
+        why: This is vague, with no situation or checkable result.
+  - id: q3
+    prompt: "Mixed review: a target makes staff end calls early, so customers call back more. What is this?"
+    options:
+      - text: A loop in the system.
+        correct: true
+        why: Correct. The final result feeds back to the start, so the problem grows by itself.
+      - text: An individual mistake by staff.
+        correct: false
+        why: Staff are doing exactly what the target asks. The problem is in the system design.
+      - text: An easy-to-reverse decision.
+        correct: false
+        why: The question is about a chain of effects, not a type of decision.
+  - id: q4
+    prompt: "Mixed review: the person you mentor has done a task well on their own many times. What should you do?"
+    options:
+      - text: Keep checking every result before it goes out.
+        correct: false
+        why: Endless checking slows their progress and costs you time.
+      - text: Move to the do-alone rung, where they report back after finishing.
+        correct: true
+        why: Correct. The mentor steps back once the learner can do it.
+      - text: Demonstrate again so they get even better.
+        correct: false
+        why: Demonstrating is the first rung. Going back does not make them more independent.
+  - id: q5
+    prompt: "Mixed review: a new decree has just been signed. What is the first step when updating internal documents?"
+    options:
+      - text: Update the documents at once, from the signing date.
+        correct: false
+        why: The signing date is not the effective date. Updating early may apply it at the wrong time.
+      - text: Open the original and record the effective date, what it replaces and the transitional rules.
+        correct: true
+        why: Correct. Get the dates right first, then make the task table.
+      - text: Wait for someone else to update them first.
+        correct: false
+        why: In a senior role, you are often the one expected to read and update first.

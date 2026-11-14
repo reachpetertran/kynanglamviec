@@ -1,0 +1,51 @@
+lesson: k5-run-a-lean-project
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which line is a good milestone?"
+    options:
+      - text: Meet the purchasing team.
+        correct: false
+        why: This is an activity. A meeting can end with no result at all.
+      - text: Purchasing agrees a shortlist of 3 suppliers, by 15 December.
+        correct: true
+        why: Correct. A milestone is a visible result with a date, so you know whether it is reached.
+      - text: Work hard during December.
+        correct: false
+        why: This cannot be measured and has no concrete result.
+  - id: q2
+    prompt: "Why does a one-page project need an \"out of scope\" box?"
+    options:
+      - text: To stop the project growing with new requests.
+        correct: true
+        why: Correct. Writing what is out helps the team and the sponsor share the same scope.
+      - text: To have a reason to refuse every request.
+        correct: false
+        why: Scope can still change, but someone with authority must decide and adjust the dates.
+      - text: It is not needed, because everyone knows the scope.
+        correct: false
+        why: People usually understand scope differently. Writing it down creates agreement.
+  - id: q3
+    prompt: "Three people are all \"responsible\" for one task. What is the risk?"
+    options:
+      - text: The task is done faster because there are more people.
+        correct: false
+        why: When many people share responsibility, each one often waits for the others.
+      - text: Nobody really takes it on, so it is easily missed.
+        correct: true
+        why: Correct. Each task should have exactly one responsible person, with others consulted or helping.
+      - text: There is no risk.
+        correct: false
+        why: Responsibility shared by everyone often belongs to no one.
+  - id: q4
+    prompt: "In week 5, you see that milestone 3 will be 2 weeks late. What should you do?"
+    options:
+      - text: Wait until the deadline, then report. You might still make it.
+        correct: false
+        why: Reporting late takes away the decision-maker's chance to adjust.
+      - text: "Tell the person with authority now, with three choices: move the date, cut scope, add resources."
+        correct: true
+        why: Correct. Early warning with choices lets the decision-maker act in time.
+      - text: Ask the whole team to work overtime without telling anyone.
+        correct: false
+        why: This may overload people, and the sponsor does not see the real risk.

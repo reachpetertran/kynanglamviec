@@ -70,6 +70,22 @@ COURSES = {
            "guide_label": "Course templates", "strip_label": "Templates",
            "thread": "One thread runs through the course: your <b>90-day notebook</b>, with 6 sheets you use every day at work. The last lesson turns them into a file for your review.",
            "after": '<p class="note"><b>More to learn:</b> the N3 lessons further down this page (90-day plan, progress reports, feedback, using AI safely, proposing improvements) add to the course. <b>Coming later:</b> a lesson on contracts, probation and workplace rules.</p>'},
+    "n4": {"title": "Senior and Specialist course (N4)", "home": "paths/n4/", "guide": "resources/n4/",
+           "guide_label": "Course templates", "strip_label": "Templates",
+           "thread": "One thread runs through the course: your <b>specialist toolkit</b>, with 8 sheets you use on real work. The last lesson reviews the whole course and builds a 1–3 year career plan.",
+           "after": '<p class="note"><b>Note:</b> Lesson 7 teaches how to read and apply regulations. It is not legal advice. Its legal examples come from Vietnam, with the date they were checked.</p>'},
+    "n5": {"title": "Manager and Team Leader course (N5)", "home": "paths/n5/", "guide": "resources/n5/",
+           "guide_label": "Course templates", "strip_label": "Templates",
+           "thread": "One thread runs through the course: your <b>manager's handbook</b>, with 8 sheets you use with a real team. The last lesson reviews the whole course and builds a resource plan for next quarter.",
+           "after": '<p class="note"><b>Note:</b> Lesson 5 teaches conversation skills. It does not replace your organisation\'s disciplinary process. Lesson 7 is not legal advice; its legal examples come from Vietnam, with the date they were checked. <b>Take first:</b> <a href="{{R}}en/lessons/k9-coach-a-colleague/">Mentor a colleague</a> from the N4 course.</p>'},
+    "n6": {"title": "Senior Leadership course (N6)", "home": "paths/n6/", "guide": "resources/n6/",
+           "guide_label": "Course templates", "strip_label": "Templates",
+           "thread": "One thread runs through the course: your <b>executive handbook</b>, with 8 sheets you use with a real organisation. The last lesson reviews the whole course and builds a succession map.",
+           "after": '<p class="note"><b>Note:</b> Lesson 7 is not legal advice; its legal examples come from Vietnam, with the date they were checked. Each tool states its level of evidence: research, recommended practice, or this site\'s proposal. <b>Take first:</b> the <a href="{{R}}en/paths/n5/">Manager and Team Leader course (N5)</a>.</p>'},
+    "n7": {"title": "Founder and Start-up course (N7)", "home": "paths/n7/", "guide": "resources/n7/",
+           "guide_label": "Course templates", "strip_label": "Templates",
+           "thread": "One thread runs through the course: your <b>founder\'s handbook</b>, with 8 sheets you use with a real business. The evidence on Sheets 1–2 and the numbers on Sheet 4 are reused in your pitch on Sheet 7.",
+           "after": '<p class="note"><b>Note:</b> Lessons 5, 6 and 8 are not legal advice, and Lesson 4 is not accounting or tax advice. Their legal examples come from Vietnam, with the date they were checked. Each lesson has a "Level of evidence" box. <b>Also useful:</b> <a href="{{R}}en/lessons/k9-delegate-and-follow-up/">Delegate and follow up</a> (N5) once your team starts to grow.</p>'},
 }
 
 NAV = [("paths/", "Paths"), ("skills/", "Skills"), ("lessons/", "Lessons"),
@@ -506,7 +522,7 @@ Print it or save it as a PDF regularly.</p>
 <p class="noprint"><a class="btn ghost" href="{{{{R}}}}assets/task-list.csv" download>Download as a spreadsheet (.csv)</a>
 <button type="button" class="btn" data-action="print">Print this page</button></p>
 {guides}
-<p class="muted small">Templates for the other courses (N1, N4–N7) are on the <a href="{RV}tai-nguyen/" lang="vi">Vietnamese resources page</a>.</p>""")
+<p class="muted small">Templates for the N1 course (for parents and teachers) are on the <a href="{RV}tai-nguyen/" lang="vi">Vietnamese resources page</a>.</p>""")
 
     for code, (m, b) in PAGES_MD.items():
         page(f"en/resources/{code}/", m["title"],

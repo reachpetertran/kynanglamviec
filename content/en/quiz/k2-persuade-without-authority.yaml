@@ -1,0 +1,51 @@
+lesson: k2-persuade-without-authority
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "A colleague says: \"I don't agree with the new report template.\" Which question helps you find the interest behind the position?"
+    options:
+      - text: "\"Why do you always object?\""
+        correct: false
+        why: This attacks the person and makes them defensive. It does not reveal what worries them.
+      - text: "\"With the new template, what worries you most?\""
+        correct: true
+        why: Correct. An open question reveals the real reason, where a shared solution usually lies.
+      - text: "\"The boss has already agreed, so please go along with it.\""
+        correct: false
+        why: Leaning on someone else's authority may work today, but you lose real support.
+  - id: q2
+    prompt: "Who should hear your proposal before the meeting?"
+    options:
+      - text: Nobody, to keep the surprise.
+        correct: false
+        why: Affected people who hear it first in a meeting often object to protect themselves.
+      - text: The people most affected by it.
+        correct: true
+        why: Correct. Their feedback improves the proposal, and they are more likely to support it.
+      - text: Only the person who decides.
+        correct: false
+        why: The decision-maker matters, but affected people can make the change fail in practice.
+  - id: q3
+    prompt: "What should the last part of a one-page proposal be?"
+    options:
+      - text: A thank-you and a hope that it will be considered.
+        correct: false
+        why: Without a concrete request, a proposal is easily left on the shelf.
+      - text: A list of every possible benefit.
+        correct: false
+        why: A long list dilutes the message. The decision-maker needs to know what to do.
+      - text: Who needs to decide what, by which date.
+        correct: true
+        why: Correct. A concrete request turns the proposal into a task with an owner and a deadline.
+  - id: q4
+    prompt: "While collecting feedback, you realise your proposal has a major flaw. What should you do?"
+    options:
+      - text: Fix or withdraw the proposal, and say what you learned.
+        correct: true
+        why: Correct. Changing your mind in the face of evidence makes your expertise more credible.
+      - text: Keep it as it is to save face.
+        correct: false
+        why: A flawed proposal that gets approved causes harm and damages your reputation long term.
+      - text: Present it anyway without mentioning the flaw.
+        correct: false
+        why: Hiding a known weakness is dishonest, and the risk is still there.

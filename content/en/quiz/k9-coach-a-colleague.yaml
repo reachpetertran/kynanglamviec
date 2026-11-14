@@ -1,0 +1,51 @@
+lesson: k9-coach-a-colleague
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Which mentoring goal is measurable?"
+    options:
+      - text: "\"Feel more confident with clients.\""
+        correct: false
+        why: Confidence is a feeling. Two people could judge it very differently.
+      - text: "\"Present quotes to 3 clients without anyone else present, during February.\""
+        correct: true
+        why: Correct. It has a task, a number, a condition and a time, so it can be checked.
+      - text: "\"Understand the sales process well.\""
+        correct: false
+        why: How well is hard to check. Name what the person will be able to do.
+  - id: q2
+    prompt: "The learner has done a task correctly 3 times with you beside them. What is the next rung?"
+    options:
+      - text: Demonstrate it again.
+        correct: false
+        why: They can already do it with you there. Going back to demonstrating slows progress.
+      - text: Observe, meaning they do it alone and you check the result before it goes out.
+        correct: true
+        why: Correct. You step back but can still catch errors before they reach the client.
+      - text: Hand it over completely, with no more checks.
+        correct: false
+        why: Skipping the observe rung lets errors slip out.
+  - id: q3
+    prompt: "The learner asks: \"The client wants another 5% off. What should I say?\" What should you say first?"
+    options:
+      - text: "\"How were you planning to answer?\""
+        correct: true
+        why: Correct. Asking first makes them think. If they are on the wrong track, you can still correct it.
+      - text: "\"Just say no.\""
+        correct: false
+        why: Answering at once solves today's problem, but they do not learn how to think it through.
+      - text: "\"Let me call the client for you.\""
+        correct: false
+        why: Doing it for them stops their progress and adds to your own workload.
+  - id: q4
+    prompt: "Which feedback is about behaviour?"
+    options:
+      - text: "\"You're far too careless.\""
+        correct: false
+        why: This is a comment on personality. The listener gets defensive and does not know what to change.
+      - text: "\"Yesterday's report was missing October's figures, so the manager had to ask again. Next time, check the list before you send it.\""
+        correct: true
+        why: Correct. It has what was seen, its effect and a concrete suggestion.
+      - text: "\"Try harder, OK?\""
+        correct: false
+        why: This does not say what needs to change.

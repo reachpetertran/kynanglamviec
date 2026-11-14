@@ -1,0 +1,63 @@
+lesson: k10-turn-rules-into-practice
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "A decree is signed on 15 July and enters into force on 10 September. On 20 August, which rule applies?"
+    options:
+      - text: The new decree, because it has been signed.
+        correct: false
+        why: The signing date is not the start date. A rule applies only from its effective date.
+      - text: The old rule, because the new decree is not yet in force.
+        correct: true
+        why: Correct. Until the effective date, the old rule still applies.
+      - text: Neither, because it is a transition period.
+        correct: false
+        why: There is no gap. The old rule ends only when the new one takes effect.
+  - id: q2
+    prompt: "You read: \"Parliament is discussing an extra paid public holiday.\" What should you do with the company's leave calendar?"
+    options:
+      - text: Add the day to the calendar now, to be ahead.
+        correct: false
+        why: A draft that has not passed does not apply, and its content may still change.
+      - text: Add it to a watch list, and check again when the law is passed and in force.
+        correct: true
+        why: Correct. Watching early helps you prepare, but you apply it only when it is in force.
+      - text: Ignore it, because the news is not certain.
+        correct: false
+        why: Ignoring it may leave you unprepared. Keep watching so you can act in time.
+  - id: q3
+    prompt: "An internal company policy and a decree say different things about the same matter. What do you do?"
+    options:
+      - text: Follow the internal policy, because the company issued it.
+        correct: false
+        why: Internal policies must not conflict with the law. They need to be checked and fixed.
+      - text: Follow the decree, and tell the policy owner so the internal policy is fixed.
+        correct: true
+        why: Correct. Reporting and fixing the document stops others from making the same mistake.
+      - text: Choose whichever helps your department.
+        correct: false
+        why: Compliance does not depend on what suits your department.
+  - id: q4
+    prompt: "A colleague sends you an AI-written summary of a decree. What is the right next step?"
+    options:
+      - text: Use it, because the AI summary is quick and clear.
+        correct: false
+        why: A summary may have the wrong number, date or content. Do not use it as the basis.
+      - text: Open the original from an official source, check each point, and note the date you checked.
+        correct: true
+        why: Correct. Only the original text is the basis. A summary is just a guide.
+      - text: Forward it to the whole department.
+        correct: false
+        why: Spreading an unchecked summary may lead the whole department to act wrongly.
+  - id: q5
+    prompt: "A violation took place and ended before the new decree took effect. Under Article 67 of Decree 283/2026/ND-CP, which rule applies?"
+    options:
+      - text: The new decree, because it was discovered after the effective date.
+        correct: false
+        why: The discovery date does not decide it. Article 67 looks at when the act took place.
+      - text: The rule in force when the act took place.
+        correct: true
+        why: Correct. This is the transitional rule in Article 67(1).
+      - text: Whichever rule has the lighter penalty.
+        correct: false
+        why: Article 67 does not say this. Read the regulation's own transitional provisions.

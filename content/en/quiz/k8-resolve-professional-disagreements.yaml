@@ -1,0 +1,51 @@
+lesson: k8-resolve-professional-disagreements
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "A colleague challenges your plan in a meeting. Which response is the best first step?"
+    options:
+      - text: "\"That's not right. Let me explain again.\""
+        correct: false
+        why: Arguing at once makes the other person feel unheard, and they will push back harder.
+      - text: "\"You mean this plan could slip because we're short of people. Have I got that right?\""
+        correct: true
+        why: Correct. Restating and checking shows you have understood before you respond.
+      - text: "\"Let's discuss this later.\""
+        correct: false
+        why: Postponing without a set time means the challenge is ignored and the risk remains.
+  - id: q2
+    prompt: "Which statement is a fact, not an interpretation?"
+    options:
+      - text: "\"This supplier is careless.\""
+        correct: false
+        why: This is a judgement. Two people could read it differently.
+      - text: "\"Three of ten shipments this month arrived more than a day late.\""
+        correct: true
+        why: Correct. This can be counted, and both sides can check it.
+      - text: "\"The warehouse team doesn't care about customers.\""
+        correct: false
+        why: This is a guess about attitude and cannot be checked directly.
+  - id: q3
+    prompt: "Both sides still disagree after agreeing on criteria. A test is not possible. What should you do?"
+    options:
+      - text: Pick the side you think is right and tell the team.
+        correct: false
+        why: You do not have the authority to decide. This makes you one side of the disagreement.
+      - text: Take two options and the agreed criteria to the person with authority to decide.
+        correct: true
+        why: Correct. The decision-maker has full information, and both sides see a fair process.
+      - text: Leave the two sides to sort it out themselves.
+        correct: false
+        why: Long disagreements slow work down and easily become personal.
+  - id: q4
+    prompt: "Two teams disagree about removing a machine guard so the machine runs faster. What is the right approach?"
+    options:
+      - text: Negotiate so each side gives a little.
+        correct: false
+        why: Safety is not a matter for compromise. Giving a little can still cause an accident.
+      - text: Remove the guard for one shift to see how much faster it runs.
+        correct: false
+        why: A test must never create a safety risk for workers.
+      - text: Do not negotiate. Tell the person responsible for safety at once.
+        correct: true
+        why: Correct. Safety and legal issues must be escalated immediately, not mediated.
