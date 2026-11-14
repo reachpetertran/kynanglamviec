@@ -215,8 +215,8 @@ def build_groups():
         modules = "".join(f"<li>{e(m)}</li>" for m in g["modules"])
         note = f'<p class="note">{e(g["note"])}</p>' if g.get("note") else ""
         extra = ""
-        if g["code"] == "N2":
-            extra = course_map("n2")
+        if g["code"] in ("N2", "N3"):
+            extra = course_map(g["slug"])
         if g["code"] == "N1":
             extra = course_map("n1") + """<div class="note"><b>Dành cho phụ huynh và giáo viên.</b> Các bài N1 được viết để người lớn
 dẫn trẻ học. Không có trắc nghiệm chọn nghề. Site không thu dữ liệu của trẻ.
@@ -342,6 +342,10 @@ COURSES = {
            "guide_label": "Mẫu in của khóa", "strip_label": "Mẫu in",
            "thread": "Một sợi chỉ nối cả khóa: <b>Hồ sơ sẵn sàng đi làm</b>, gồm 6 tờ. Mỗi bài làm xong một tờ. Bài cuối kiểm tra chéo cả hồ sơ.",
            "after": '<p class="note"><b>Sắp có:</b> bài "Quyền và an toàn khi đi làm thêm, thực tập". Bài sẽ viết sau khi Quốc hội biểu quyết luật sửa đổi Bộ luật Lao động, để dẫn đúng văn bản đang có hiệu lực.</p>'},
+    "n3": {"title": "Khóa 90 ngày đầu (N3)", "home": "lo-trinh/n3/", "guide": "tai-nguyen/n3/",
+           "guide_label": "Mẫu in của khóa", "strip_label": "Mẫu in",
+           "thread": "Một sợi chỉ nối cả khóa: <b>Sổ tay 90 ngày</b>, gồm 6 tờ dùng hằng ngày ở chỗ làm. Bài cuối gom các tờ thành hồ sơ cho buổi đánh giá.",
+           "after": '<p class="note"><b>Học thêm:</b> các bài N3 ở mục bên dưới (kế hoạch 90 ngày, báo cáo tiến độ, xin phản hồi, dùng AI an toàn, đề xuất cải tiến) bổ sung cho khóa. <b>Sắp có:</b> bài "Hợp đồng, thử việc và nội quy", viết sau khi Quốc hội biểu quyết luật sửa đổi Bộ luật Lao động.</p>'},
 }
 
 
@@ -479,8 +483,11 @@ Hãy in hoặc lưu PDF định kỳ.</p>
 <p><a class="btn" href="{{R}}tai-nguyen/n1/">Mở hướng dẫn N1</a></p>
 <h2>Mẫu in khóa Chuẩn bị đi làm (N2)</h2>
 <p>Bảy mẫu cho Hồ sơ sẵn sàng đi làm: bản đồ hướng đi, phiếu đọc tin tuyển dụng, khung CV, phiếu phỏng vấn, sổ tay tuần đầu, trang quy trình, bảng kiểm.</p>
-<p><a class="btn" href="{{R}}tai-nguyen/n2/">Mở mẫu in N2</a></p>""")
-    for code, fn in (("n1", "n1-huong-dan.md"), ("n2", "n2-mau-in.md")):
+<p><a class="btn" href="{{R}}tai-nguyen/n2/">Mở mẫu in N2</a></p>
+<h2>Mẫu in khóa 90 ngày đầu (N3)</h2>
+<p>Bảy mẫu cho Sổ tay 90 ngày: bảng việc tuần, trang ghi họp, phiếu yêu cầu khách hàng, phiếu sự cố, phiếu rút kinh nghiệm, bản đồ phối hợp, hồ sơ buổi đánh giá.</p>
+<p><a class="btn" href="{{R}}tai-nguyen/n3/">Mở mẫu in N3</a></p>""")
+    for code, fn in (("n1", "n1-huong-dan.md"), ("n2", "n2-mau-in.md"), ("n3", "n3-mau-in.md")):
         gp = ROOT / "content/trang" / fn
         if not gp.exists():
             continue

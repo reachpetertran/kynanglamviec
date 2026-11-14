@@ -1,0 +1,63 @@
+lesson: k7-chuan-bi-danh-gia-90-ngay
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Cấp trên hỏi: \"90 ngày qua em làm được gì?\" Câu trả lời nào tốt nhất?"
+    options:
+      - text: "\"Dạ em thấy mọi thứ ổn ạ.\""
+        correct: false
+        why: Không có bằng chứng, cấp trên khó ghi nhận.
+      - text: "\"Em tìm ra nguyên nhân 18 cuộc gọi lặp lại, đề xuất sửa kịch bản, tháng sau còn 5.\""
+        correct: true
+        why: Đúng. Ví dụ có tình huống, hành động và kết quả bằng số.
+      - text: "\"Em làm rất chăm, hôm nào cũng về muộn.\""
+        correct: false
+        why: Thời gian làm không cho thấy kết quả bạn tạo ra.
+  - id: q2
+    prompt: "Điểm cần tiến bộ nào được trình bày tốt?"
+    options:
+      - text: "\"Em hơi cầu toàn quá.\""
+        correct: false
+        why: Câu này né tránh, nghe như khoe. Không có kế hoạch cụ thể.
+      - text: "\"Em ước lượng thời gian thiếu khoảng 30%, em đang ghi thời gian thực tế mỗi tuần để chỉnh.\""
+        correct: true
+        why: Đúng. Điểm thật, có số, kèm việc đang làm để cải thiện.
+      - text: "\"Em chưa có điểm gì cần tiến bộ.\""
+        correct: false
+        why: Ai cũng có điểm cần tiến bộ. Câu này làm buổi đánh giá kém hữu ích.
+  - id: q3
+    prompt: "Ôn tập trộn: hai đồng nghiệp cùng giao việc gấp, trùng hạn. Bạn làm gì?"
+    options:
+      - text: Hỏi quản lý trực tiếp, nêu hai việc, giới hạn và đề xuất thứ tự.
+        correct: true
+        why: Đúng. Đây là cách ở Bài 1. Người có quyền quyết thứ tự.
+      - text: Làm việc của người nhắn trước.
+        correct: false
+        why: Thứ tự nhận việc không phản ánh ảnh hưởng và hạn.
+      - text: Âm thầm làm cả hai đến khuya.
+        correct: false
+        why: Dễ giảm chất lượng, và không ai biết bạn đang quá tải.
+  - id: q4
+    prompt: "Ôn tập trộn: sau một sự cố, việc nào là sửa gốc?"
+    options:
+      - text: Làm lại phần bị hỏng ngay hôm đó.
+        correct: false
+        why: Đó là sửa tạm, cần làm nhưng chưa ngăn lặp lại.
+      - text: Đổi bước trong quy trình đã gây ra lỗi, rồi kiểm lại sau 2 tuần.
+        correct: true
+        why: Đúng. Sửa ở nguyên nhân, có bước kiểm lại. Đây là cách ở Bài 4.
+      - text: Nhắc nhở người làm sai.
+        correct: false
+        why: Nhắc nhở không đổi điều làm lỗi dễ xảy ra.
+  - id: q5
+    prompt: "Ôn tập trộn: khách đòi đổi hàng, bạn chưa có quyền duyệt. Bạn nói gì?"
+    options:
+      - text: "\"Dạ được, em đổi cho chị.\""
+        correct: false
+        why: Hứa ngoài quyền hạn có thể không làm được, mất lòng tin hơn.
+      - text: "\"Em chuyển quản lý duyệt, 16:00 hôm nay em gọi báo chị.\""
+        correct: true
+        why: Đúng. Phương án trong quyền hạn, kèm hẹn báo lại. Đây là cách ở Bài 3.
+      - text: "\"Chị liên hệ tổng đài giúp em.\""
+        correct: false
+        why: Khách phải kể lại từ đầu, và không ai theo dõi đến khi xong.

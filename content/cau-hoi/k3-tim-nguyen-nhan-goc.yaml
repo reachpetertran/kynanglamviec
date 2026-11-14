@@ -1,0 +1,51 @@
+lesson: k3-tim-nguyen-nhan-goc
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Quán cà phê liên tục hết sữa tươi vào chiều thứ Bảy. Việc nào là sửa gốc?"
+    options:
+      - text: Chạy ra siêu thị mua thêm sữa mỗi lần hết.
+        correct: false
+        why: Đây là sửa tạm. Chặn hậu quả hôm nay nhưng tuần sau vẫn hết.
+      - text: Xem số ly bán theo ngày, rồi đổi lượng đặt sữa cho thứ Bảy.
+        correct: true
+        why: Đúng. Dùng số liệu để sửa cách đặt hàng, nên sự cố không lặp lại.
+      - text: Nhắc nhân viên pha ít sữa hơn.
+        correct: false
+        why: Cách này đổi chất lượng đồ uống, không xử lý chuyện đặt thiếu.
+  - id: q2
+    prompt: "Câu hỏi nào giúp đi tới nguyên nhân gốc tốt hơn?"
+    options:
+      - text: "\"Ai nhập sai số liệu?\""
+        correct: false
+        why: Câu hỏi về người thường dừng ở việc trách, không tìm ra chỗ sửa.
+      - text: "\"Vì sao số liệu dễ bị nhập sai ở bước này?\""
+        correct: true
+        why: Đúng. Hỏi về quy trình giúp tìm ra điều có thể sửa để không lặp lại.
+      - text: "\"Lỗi này có nghiêm trọng không?\""
+        correct: false
+        why: Câu này đánh giá mức độ, không giúp tìm nguyên nhân.
+  - id: q3
+    prompt: "Bạn đoán lỗi in hóa đơn do máy cũ. Bước tiếp theo nên là gì?"
+    options:
+      - text: Đề nghị mua máy mới ngay.
+        correct: false
+        why: Đây mới là giả thuyết. Chưa kiểm thì có thể tốn tiền mà lỗi vẫn còn.
+      - text: Kiểm số liệu, ví dụ lỗi chỉ xảy ra ở máy đó hay ở mọi máy.
+        correct: true
+        why: Đúng. Số liệu xác nhận hoặc loại bỏ giả thuyết trước khi quyết định.
+      - text: Ghi vào phiếu là nguyên nhân gốc rồi đóng phiếu.
+        correct: false
+        why: Chưa kiểm thì chưa chắc là nguyên nhân gốc.
+  - id: q4
+    prompt: "Bạn là người mới, chưa có quyền đổi quy trình. Bạn làm gì với nguyên nhân gốc tìm được?"
+    options:
+      - text: Không làm gì, vì không phải việc của mình.
+        correct: false
+        why: Bạn vẫn có thể đề xuất. Đây là cách cho thấy năng lực ở Bậc 3.
+      - text: Tự đổi quy trình luôn cho nhanh.
+        correct: false
+        why: Đổi khi chưa có quyền có thể gây xung đột hoặc lỗi khác.
+      - text: Viết phiếu sự cố và đề xuất sửa gốc cho người phụ trách.
+        correct: true
+        why: Đúng. Người có quyền quyết dựa trên phiếu có số liệu của bạn.

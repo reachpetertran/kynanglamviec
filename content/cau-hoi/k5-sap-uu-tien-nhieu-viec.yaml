@@ -1,0 +1,51 @@
+lesson: k5-sap-uu-tien-nhieu-viec
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Bạn có 3 việc: báo giá cho khách hạn 11:00; dọn hộp thư; học khóa an toàn thông tin hạn cuối tháng. Việc nào làm trước?"
+    options:
+      - text: Dọn hộp thư, vì nhanh nhất.
+        correct: false
+        why: Việc nhanh chưa chắc quan trọng. Dọn hộp thư ảnh hưởng nhỏ, hạn xa.
+      - text: Báo giá cho khách.
+        correct: true
+        why: Đúng. Ảnh hưởng tới khách và hạn gần, nên nằm ở ô 1.
+      - text: Khóa an toàn thông tin, vì công ty bắt buộc.
+        correct: false
+        why: Việc này quan trọng nhưng hạn còn xa. Hãy xếp lịch cho nó, không làm ngay.
+  - id: q2
+    prompt: "Trưởng nhóm và một trưởng phòng khác cùng giao việc gấp, hạn trùng nhau. Bạn nên làm gì?"
+    options:
+      - text: Làm việc của người có chức vụ cao hơn, không cần báo.
+        correct: false
+        why: Người kia sẽ bất ngờ khi việc trễ. Thứ tự nên do quản lý trực tiếp quyết.
+      - text: Nhắn quản lý trực tiếp, nêu hai việc, giới hạn và đề xuất thứ tự.
+        correct: true
+        why: Đúng. Quản lý trực tiếp có quyền quyết. Đề xuất sẵn giúp họ trả lời nhanh.
+      - text: Làm cả hai, thức khuya để kịp.
+        correct: false
+        why: Cách này dễ làm giảm chất lượng cả hai việc, và không bền lâu.
+  - id: q3
+    prompt: "Bạn ước lượng một việc mới làm lần đầu mất 3 giờ. Nên ghi bao nhiêu vào bảng?"
+    options:
+      - text: 3 giờ, đúng như ước lượng.
+        correct: false
+        why: Việc chưa làm bao giờ thường mất lâu hơn dự kiến.
+      - text: Khoảng 4 giờ, cộng thêm phần dự phòng.
+        correct: true
+        why: Đúng. Cộng thêm khoảng một phần ba giúp kế hoạch thực tế hơn.
+      - text: 2 giờ, để tạo áp lực làm nhanh.
+        correct: false
+        why: Ước lượng thấp làm bạn nhận thêm việc rồi trễ hạn.
+  - id: q4
+    prompt: "Câu nào là thương lượng lại phạm vi?"
+    options:
+      - text: "\"Em không làm kịp đâu ạ.\""
+        correct: false
+        why: Câu này chỉ báo khó, không có đề xuất.
+      - text: "\"Em gửi số liệu chính trước 15:00, phần biểu đồ sáng mai được không ạ?\""
+        correct: true
+        why: Đúng. Bạn chia việc thành phần cần gấp và phần gửi sau, rồi xin đồng ý.
+      - text: "\"Anh giao việc này cho người khác nhé.\""
+        correct: false
+        why: Từ chối hẳn mà không có phương án thường không phải bước đầu tiên.

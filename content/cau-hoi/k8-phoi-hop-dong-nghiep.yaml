@@ -1,0 +1,51 @@
+lesson: k8-phoi-hop-dong-nghiep
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Câu nào nêu bất đồng theo cách tập trung vào công việc?"
+    options:
+      - text: "\"Cách làm của anh cũ quá rồi.\""
+        correct: false
+        why: Câu này nhắm vào người và cách làm của họ, dễ gây phòng thủ.
+      - text: "\"Tuần này có 3 đơn trễ vì thiếu mã hàng. Mình thử thêm ô bắt buộc 2 tuần nhé?\""
+        correct: true
+        why: Đúng. Có điều quan sát, có số liệu, có đề xuất thử trong thời gian ngắn.
+      - text: "\"Ai cũng thấy cách này không ổn.\""
+        correct: false
+        why: Nói thay người khác, không có số liệu, không có đề xuất.
+  - id: q2
+    prompt: "Dòng nào trên bản đồ phối hợp giúp đồng nghiệp sẵn lòng hỗ trợ bạn nhất?"
+    options:
+      - text: Điều mình cần từ họ.
+        correct: false
+        why: Cần thiết, nhưng chỉ một chiều. Họ cũng cần điều gì đó từ bạn.
+      - text: Điều họ cần từ mình.
+        correct: true
+        why: Đúng. Làm tốt điều họ cần thì việc phối hợp hai chiều dễ hơn.
+      - text: Chức danh của họ.
+        correct: false
+        why: Biết chức danh có ích, nhưng không cho biết cách phối hợp.
+  - id: q3
+    prompt: "Bạn sắp nghỉ phép và bàn giao việc. Tin bàn giao cần 3 dòng nào?"
+    options:
+      - text: Đã làm, còn lại, lưu ý.
+        correct: true
+        why: Đúng. Người nhận biết kết quả ở đâu, phải làm gì, và điều dễ sai.
+      - text: Lý do nghỉ, ngày nghỉ, ngày quay lại.
+        correct: false
+        why: Đây là thông tin xin nghỉ, chưa giúp người nhận làm tiếp việc.
+      - text: Chỉ cần gửi đường dẫn thư mục.
+        correct: false
+        why: Thiếu hạn và lưu ý, người nhận dễ làm sai hoặc trễ.
+  - id: q4
+    prompt: "Đồng nghiệp đang quá tải nhờ bạn giúp. Việc ô 1 của bạn hạn chiều nay. Bạn nên làm gì?"
+    options:
+      - text: Nhận giúp ngay, việc mình làm tối.
+        correct: false
+        why: Có thể làm trễ việc quan trọng của bạn. Thức khuya cũng không bền.
+      - text: Từ chối thẳng vì không phải việc của mình.
+        correct: false
+        why: Từ chối không kèm phương án làm mất cơ hội hỗ trợ nhau.
+      - text: Nói rõ việc của mình, hỏi quản lý nếu cần chọn ưu tiên, hẹn giúp sau.
+        correct: true
+        why: Đúng. Bạn vẫn hỗ trợ, nhưng không làm hỏng việc đang gấp.

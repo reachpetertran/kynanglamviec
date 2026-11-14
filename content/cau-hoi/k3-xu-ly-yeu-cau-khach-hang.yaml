@@ -1,0 +1,51 @@
+lesson: k3-xu-ly-yeu-cau-khach-hang
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Khách đang bực, kể dài về đơn hàng giao trễ. Bạn làm gì trước?"
+    options:
+      - text: Giải thích ngay là do đơn vị vận chuyển.
+        correct: false
+        why: Giải thích sớm dễ bị hiểu là bào chữa. Khách cần được nghe trước.
+      - text: Nghe hết, rồi tóm tắt lại vấn đề và điều khách muốn.
+        correct: true
+        why: Đúng. Nghe hết và xác nhận giúp khách thấy mình được hiểu.
+      - text: Chuyển ngay cho quản lý.
+        correct: false
+        why: Chưa rõ vấn đề mà chuyển thì khách phải kể lại từ đầu.
+  - id: q2
+    prompt: "Khách đòi giảm giá 20% vì giao trễ. Bạn chưa có quyền duyệt giảm giá. Câu nào phù hợp?"
+    options:
+      - text: "\"Dạ được, em giảm cho anh.\""
+        correct: false
+        why: Hứa ngoài quyền hạn có thể không thực hiện được, làm mất lòng tin hơn.
+      - text: "\"Em chuyển đề nghị lên quản lý, 15:00 hôm nay em báo anh kết quả.\""
+        correct: true
+        why: Đúng. Bạn chỉ hứa điều mình làm được, kèm thời điểm báo lại.
+      - text: "\"Công ty không giảm giá đâu ạ.\""
+        correct: false
+        why: Bạn chưa hỏi người có quyền, nên chưa thể trả lời thay.
+  - id: q3
+    prompt: "Ai là khách hàng nội bộ của một nhân viên kho?"
+    options:
+      - text: Nhân viên bán hàng cần biết hàng còn hay hết.
+        correct: true
+        why: Đúng. Đồng nghiệp cần kết quả công việc của bạn là khách hàng nội bộ.
+      - text: Chỉ người mua hàng đến lấy hàng.
+        correct: false
+        why: Đó là khách bên ngoài. Bài này dùng 4 bước cho cả hai loại.
+      - text: Không có, vì kho không bán hàng.
+        correct: false
+        why: Mọi vị trí đều có người cần kết quả từ mình.
+  - id: q4
+    prompt: "Đến giờ hẹn báo lại, việc của khách vẫn chưa xong. Bạn nên làm gì?"
+    options:
+      - text: Chờ xong rồi mới gọi, cho có tin tốt.
+        correct: false
+        why: Im lặng quá hẹn làm khách lo và mất lòng tin.
+      - text: Gọi đúng hẹn, báo tình trạng và hẹn mốc mới.
+        correct: true
+        why: Đúng. Báo đúng hẹn, kể cả tin chậm, giữ được lòng tin.
+      - text: Nhờ đồng nghiệp gọi thay để tránh khó xử.
+        correct: false
+        why: Khách sẽ phải giải thích lại. Bạn là người đã hứa thì nên gọi.

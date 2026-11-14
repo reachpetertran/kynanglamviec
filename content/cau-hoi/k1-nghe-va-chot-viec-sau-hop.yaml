@@ -1,0 +1,51 @@
+lesson: k1-nghe-va-chot-viec-sau-hop
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Dòng ghi nào đủ để là một việc trong ô Việc?"
+    options:
+      - text: "\"Làm lại slide cho khách.\""
+        correct: false
+        why: Thiếu người làm và hạn. Dễ thành việc không ai nhận.
+      - text: "\"Minh làm lại slide cho khách, gửi trước 17:00 thứ Năm.\""
+        correct: true
+        why: Đúng. Có đủ ai, làm gì, hạn khi nào.
+      - text: "\"Slide: cần sửa gấp.\""
+        correct: false
+        why: Có độ gấp nhưng thiếu người làm và hạn cụ thể.
+  - id: q2
+    prompt: "Trong họp, trưởng nhóm nói: \"Em lo vụ khảo sát nhé.\" Bạn nên làm gì ngay?"
+    options:
+      - text: Gật đầu, họp xong sẽ tự tìm hiểu.
+        correct: false
+        why: Sau họp khó hỏi lại đủ người. Hỏi ngay thì nhanh và rõ hơn.
+      - text: "Hỏi lại: \"Dạ, khảo sát bao nhiêu người, hạn khi nào ạ?\""
+        correct: true
+        why: Đúng. Câu hỏi biến lời giao việc chung chung thành kết quả và hạn rõ ràng.
+      - text: Ghi vào ô Quyết định.
+        correct: false
+        why: Đây là giao việc, nên ghi vào ô Việc, kèm ai và hạn.
+  - id: q3
+    prompt: "Tin nhắn tóm tắt họp nên gửi khi nào?"
+    options:
+      - text: Trong vòng 24 giờ sau họp.
+        correct: true
+        why: Đúng. Mọi người còn nhớ, nên dễ sửa chỗ sai và lộ vướng mắc sớm.
+      - text: Khi sắp đến hạn của các việc.
+        correct: false
+        why: Lúc đó có hiểu sai thì đã muộn để sửa.
+      - text: Chỉ khi có người hỏi.
+        correct: false
+        why: Thường không ai hỏi, cho đến khi việc bị trễ.
+  - id: q4
+    prompt: "Cuộc họp bàn về giá bán mới, chưa công bố. Bạn gửi tóm tắt cho ai?"
+    options:
+      - text: Cả nhóm chat chung của công ty cho tiện.
+        correct: false
+        why: Giá chưa công bố là thông tin nội bộ. Chỉ gửi cho người dự họp.
+      - text: Người dự họp, qua kênh công ty đang dùng.
+        correct: true
+        why: Đúng. Đủ người cần biết, không lộ thông tin ra ngoài.
+      - text: Gửi qua tài khoản cá nhân để lưu lại cho mình.
+        correct: false
+        why: Kênh cá nhân có thể vi phạm quy định bảo mật của công ty.

@@ -1,0 +1,51 @@
+lesson: k6-khi-viec-khong-nhu-ke-hoach
+updated: 2026-11-14
+questions:
+  - id: q1
+    prompt: "Bạn phát hiện mình gửi nhầm báo giá cũ cho khách. Tin báo nào tốt nhất?"
+    options:
+      - text: "\"Em xin lỗi chị rất nhiều, em thật sự sơ suất quá.\""
+        correct: false
+        why: Có lời xin lỗi nhưng thiếu ảnh hưởng và việc đang làm để khắc phục.
+      - text: "\"Em gửi nhầm báo giá cũ cho khách A, chênh 5%. Em đã gọi báo khách và gửi bản đúng lúc 10:15.\""
+        correct: true
+        why: Đúng. Đủ 3 ý, có số liệu, và cho thấy bạn đã khắc phục.
+      - text: Lặng lẽ gửi bản đúng, không báo ai.
+        correct: false
+        why: Nếu khách đã dùng bản cũ, quản lý cần biết để xử lý tiếp.
+  - id: q2
+    prompt: "Câu trả lời nào phù hợp cho câu hỏi \"Lần sau làm gì?\""
+    options:
+      - text: "\"Cẩn thận hơn.\""
+        correct: false
+        why: Quá chung chung. Không ai kiểm được bạn đã làm hay chưa.
+      - text: "\"Đối chiếu ngày trên báo giá với hệ thống trước khi gửi.\""
+        correct: true
+        why: Đúng. Một bước cụ thể, làm được và kiểm được.
+      - text: "\"Không làm việc này nữa.\""
+        correct: false
+        why: Né việc không giúp bạn tiến bộ, và thường không thực tế.
+  - id: q3
+    prompt: "Trưởng nhóm đổi hạn dự án sớm hơn một tuần. Bạn làm gì trước?"
+    options:
+      - text: Hỏi lý do, rồi cập nhật bảng việc và báo người đang chờ kết quả của bạn.
+        correct: true
+        why: Đúng. Hiểu lý do giúp chọn đúng việc cần cắt hoặc lùi.
+      - text: Phàn nàn với đồng nghiệp rằng kế hoạch thay đổi liên tục.
+        correct: false
+        why: Không giúp việc tiến lên, và dễ ảnh hưởng không khí nhóm.
+      - text: Bỏ bước kiểm tra cuối để kịp hạn mới.
+        correct: false
+        why: Bỏ kiểm tra dễ gây lỗi lớn hơn. Hãy xin cắt phạm vi thay vì bỏ kiểm tra.
+  - id: q4
+    prompt: "Khi trả lời \"Vì sao khác?\", bạn nên tìm ở đâu?"
+    options:
+      - text: Ở tính cách của mình, ví dụ \"mình hậu đậu\".
+        correct: false
+        why: Tự trách không chỉ ra được điều gì để làm khác đi.
+      - text: Ở cách làm, ví dụ dùng danh sách nào, thiếu bước kiểm nào.
+        correct: true
+        why: Đúng. Cách làm thì sửa được, nên lần sau kết quả khác.
+      - text: Ở người khác đã giao việc không rõ.
+        correct: false
+        why: Có thể đúng một phần, nhưng nên tìm thêm phần mình làm khác được.

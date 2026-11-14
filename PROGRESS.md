@@ -2,7 +2,7 @@
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
 
-## Trạng thái hiện tại (14/11/2026) – v0.4, ĐANG CHẠY THẬT
+## Trạng thái hiện tại (14/11/2026) – v0.5, ĐANG CHẠY THẬT
 - Site: https://kynanglamviec.com và https://www.kynanglamviec.com (Cloudflare Pages, SSL bật). Bản dự phòng: https://kynanglamviec.pages.dev
 - Mã nguồn: https://github.com/reachpetertran/kynanglamviec (public, nhánh `main`). Mỗi lần push lên `main`, Cloudflare tự đăng.
 - Phiên mới: gắn repo (add_repo, quyền push), clone, sửa, `python3 _build/build.py`, commit cả `public/`, push.
@@ -61,10 +61,28 @@ Chuỗi prev/next theo thứ tự trên. Bài 11 có `next: null`.
 - 7 bài N2 cũ (chuỗi chính) hiện ở mục "Bài học thêm cho nhóm" trên /lo-trinh/n2/.
 - Chỗ trống: bài pháp lý "Quyền và an toàn khi đi làm thêm, thực tập" — thêm vào khóa N2 (Bài 3 hoặc cuối) sau khi luật sửa đổi BLLĐ được biểu quyết. Bản đồ khóa đang có hộp "Sắp có".
 
+## Khóa N3 "90 ngày đầu" (đăng 14/11/2026, 7 bài, chuỗi riêng, order 41–47)
+26. k5-sap-uu-tien-nhieu-viec – K5 B3 (Bài 1, Tờ 1 Bảng việc tuần; ma trận ảnh hưởng × hạn)
+27. k1-nghe-va-chot-viec-sau-hop – K1 B3 (Bài 2, Tờ 2 Trang ghi họp)
+28. k3-xu-ly-yeu-cau-khach-hang – K3 B3 (Bài 3, Tờ 3; học phần "Phục vụ khách hàng nội bộ và bên ngoài")
+29. k3-tim-nguyen-nhan-goc – K3 B3 (Bài 4, Tờ 4 Phiếu sự cố; sửa tạm / sửa gốc)
+30. k6-khi-viec-khong-nhu-ke-hoach – K6 B3 (Bài 5, Tờ 5; link chéo tamhonkhoe)
+31. k8-phoi-hop-dong-nghiep – K8 B3 (Bài 6, Tờ 6 Bản đồ phối hợp)
+32. k7-chuan-bi-danh-gia-90-ngay – K7 B3 (Bài 7, ôn tập trộn + Tờ 7; dẫn BLLĐ hợp nhất 18/VBHN-VPQH Điều 25, k1 Điều 27)
+- Sợi chỉ: Sổ tay 90 ngày (6 tờ + Tờ 7). Mẫu in `content/trang/n3-mau-in.md` → /tai-nguyen/n3/ (#to-1 … #to-7).
+- Hình: `_build/art/n3_art.py` (import helper từ n2_art.py) sinh 7 SVG vào `_build/static/assets/img/n3/`.
+- build.py: thêm COURSES["n3"]; trang nhóm N2 và N3 cùng hiện Bản đồ khóa. 11 bài chuỗi chính cũ có N3 hiện ở "Bài học thêm".
+- Chỗ trống: bài "Hợp đồng, thử việc và nội quy" (K10, N3) – HOÃN tới khi luật sửa đổi BLLĐ được biểu quyết.
+
+## Nguồn pháp luật (14/11/2026)
+- Thử dùng tài khoản Pro thuvienphapluat.vn qua Chrome: site chặn vì "tốc độ Robot" và đòi mã bảo vệ sau vài lượt tra. Đã dừng, KHÔNG tải PDF. Không tự động hóa site này.
+- Số hiệu đã xác định trên thuvienphapluat (chưa đối chiếu ngày hiệu lực): Luật ATVSLĐ 84/2015/QH13; Luật BVDLCN 91/2025/QH15; Luật Trí tuệ nhân tạo 134/2025/QH15; NĐ 145/2020/NĐ-CP; NĐ 337/2025/NĐ-CP (HĐLĐ điện tử); Luật BHXH 41/2024/QH15; Luật Việc làm 74/2025/QH15; Luật Trẻ em 102/2016/QH13; Luật Giáo dục 43/2019/QH14.
+- Luật sửa đổi BLLĐ 2026: chưa có trên thuvienphapluat ngày 14/11/2026; Quốc hội thảo luận 09/11/2026.
+
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.
-2. Bài còn thiếu theo học phần: "Phục vụ khách hàng nội bộ và bên ngoài" (N3), K6 cho N3.
-3. N1 và N2 đã đăng (chờ Peter duyệt nội dung). Tiếp theo: N3 thành khóa, rồi N4, N5.
+2. (Đã xong 14/11: "Phục vụ khách hàng" và K6 cho N3, trong khóa N3.)
+3. N1, N2, N3 đã đăng (N3 chờ Peter duyệt). Tiếp theo: khóa N4, rồi N5.
 
 ## Quy trình thêm bài
 1. Tạo `content/bai-hoc/<slug>.md` (front matter: title, slug, skill, level, group, order, minutes, objectives (đặt trong ngoặc kép), framework_map, prev, next, updated, status) với đúng 9 tiêu đề `## 1. Mục tiêu` … `## 9. Siêu dữ liệu`. Phần 6 và 9 để trống: build tự chèn câu hỏi và bảng siêu dữ liệu.
