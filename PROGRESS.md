@@ -169,6 +169,18 @@ Chuỗi K4 nâng cao (nối tiếp chuỗi chính: k4-de-xuat-cai-tien.next = k4
 - K10 B2: chỉ dạy nhận diện lừa đảo. Phần "đọc hợp đồng, thỏa thuận thực tập" vẫn HOÃN cùng bài pháp lý N2.
 - Kênh báo lừa đảo: bài K10 B2 dẫn tinnhiemmang.vn (Trung tâm An ninh mạng Quốc gia vận hành; có tra cứu website và tin cảnh báo lừa đảo; kiểm tra 14/11/2026) để tra cứu, KHÔNG phải kênh nhận báo cáo. Email tinnhiemmang@ais.gov.vn Peter gửi: chưa xác minh được là kênh nhận báo cáo lừa đảo, không thấy trên trang chủ tinnhiemmang.vn, chưa đưa vào bài. [TK] Nếu Peter có văn bản chính thức nêu kênh nhận phản ánh, bổ sung sau.
 
+## Bản tiếng Anh /en/ (đợt 1, đăng 14/11/2026)
+- Peter chọn (14/11/2026): làm thử rồi làm hết; URL `/en/` + slug tiếng Anh; **quốc tế hóa ví dụ** (tên, nơi chốn đổi sang bối cảnh chung; luật VN chỉ nêu làm ví dụ, ghi nguồn). Bản tiếng Việt là bản gốc.
+- Đã có: /en/ (trang chủ), /en/paths/ + 7 nhóm, /en/skills/ + 10 kỹ năng (150 câu "I can…"), /en/lessons/ (7 bài khóa N2), /en/self-assessment/, /en/journal/, /en/resources/ + /en/resources/n2/ (7 mẫu in, neo #sheet-1 … #sheet-7), /en/frameworks/, /en/about/.
+- Nguồn: `content/en/data/` (skills, levels, groups – cùng mã), `content/en/lessons/*.md` (front matter `vi:` = slug bài gốc), `content/en/quiz/`, `content/en/pages/n2-templates.md` (`vi: n2`).
+- Bài N2 tiếng Anh: k7-know-yourself-choose-a-direction, k7-read-a-job-ad, k2-write-your-first-cv, k2-prepare-your-first-interview, k2-communicate-in-your-first-week, k7-learn-a-new-task-fast, k7-review-your-job-ready-file.
+- Mã: `_build/build_en.py` (gọi từ build.py; `alt_map()` nối trang VI↔EN). Header VI có nút "English" (trỏ tới trang tương ứng, không có thì /en/); EN có nút "Tiếng Việt". Có `hreflang`. app.js đổi chữ theo `<html lang>`; tự đánh giá dùng chung câu trả lời hai ngôn ngữ.
+- Hình: `_build/art/n2_art_en.py` → `_build/static/assets/img/en/n2/` (7 SVG). `assets/task-list.csv` tiếng Anh.
+- `check.py` kiểm cả bài EN (câu ≤25 từ, phần 3 <400 từ, ảnh, liên kết, `vi:` trỏ đúng bài gốc).
+- Trang nhóm chưa có khóa EN thì ghi chú và dẫn sang khóa tiếng Việt. Bài EN dẫn bài VI chưa dịch kèm "(in Vietnamese)".
+- [TK] trachnhiemxahoi.com có bản /en/ chưa? Hiện footer EN ghi "(in Vietnamese)". [TK] Peter duyệt văn phong và mức quốc tế hóa trước khi làm tiếp N3–N7, N1, 12 bài lẻ, 11 bài chuỗi chính.
+- Việc tiếp: đợt 2 = khóa N3 (7 bài) + 11 bài chuỗi chính; đợt 3 = N4–N7; N1 cuối (bài cho phụ huynh, cần cân nhắc bối cảnh).
+
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.
 2. (Đã xong 14/11: "Phục vụ khách hàng" và K6 cho N3, trong khóa N3.)
