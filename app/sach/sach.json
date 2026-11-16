@@ -1,0 +1,269 @@
+{
+ "title": "Cuốn sổ bìa xanh",
+ "sub": "Hai anh em, hai con đường nghề, một cuốn sổ chung",
+ "author": "Liêm",
+ "parts": {
+  "1": {
+   "name": "Phần một · Người anh",
+   "color": "#2c5d8a",
+   "light": "#dce8f2",
+   "intro": [
+    "Mười một truyện. Người anh đi trước.",
+    "Từ bờ kênh quê nội đến công ty của riêng mình."
+   ]
+  },
+  "2": {
+   "name": "Phần hai · Người em",
+   "color": "#8f6311",
+   "light": "#f6e7c4",
+   "intro": [
+    "Mười một chương vừa rồi kể về người anh.",
+    "Nhưng trong mỗi chương ấy luôn có một người em. Người đã vẽ nước lên trang đầu cuốn sổ. Người chỉ tưới đúng một cốc. Người bảo anh đổi một thứ thôi.",
+    "Giờ ta quay lại buổi sáng ở cổng trường, năm người anh mười một tuổi. Lần này, ta đứng ở phía bàn tay bé hơn."
+   ]
+  },
+  "3": {
+   "name": "Chương cuối · Hai anh em",
+   "color": "#5b4b7a",
+   "light": "#e6e0f0",
+   "intro": [
+    "Hai đầu cuốn sổ gặp nhau ở trang giữa."
+   ]
+  }
+ },
+ "chapters": [
+  {
+   "n": 1,
+   "title": "Cuốn sổ bìa xanh và buổi sáng đi săn nghề",
+   "part": 1,
+   "lesson": "k7-nghe-nghiep-quanh-em",
+   "lesson_title": "Nghề nghiệp quanh em",
+   "skill": "K7 · Tự học và phát triển nghề nghiệp · Bậc 1 Làm quen",
+   "where": "Việt Nam",
+   "who": "Vĩ",
+   "opener": ""
+  },
+  {
+   "n": 2,
+   "title": "Vườn rau trên ban công",
+   "part": 1,
+   "lesson": "k8-cung-nhau-hoan-thanh-nhiem-vu",
+   "lesson_title": "Cùng nhau hoàn thành nhiệm vụ",
+   "skill": "K8 · Làm việc nhóm và tôn trọng khác biệt · Bậc 1 Làm quen",
+   "where": "Việt Nam",
+   "who": "Vĩ",
+   "opener": ""
+  },
+  {
+   "n": 3,
+   "title": "Hai câu hỏi ở ngôi trường mới",
+   "part": 1,
+   "lesson": "k6-khi-ke-hoach-thay-doi-nho",
+   "lesson_title": "Khi kế hoạch đổi: nói ra chỗ bối rối và tiếp tục làm",
+   "skill": "K6 · Thích ứng và bền bỉ · Bậc 1 Làm quen",
+   "where": "Perth",
+   "who": "Vĩ",
+   "opener": ""
+  },
+  {
+   "n": 4,
+   "title": "Mảng đất trắng giữa đồng lúa mì",
+   "part": 1,
+   "lesson": "k7-phong-van-nguoi-lam-nghe",
+   "lesson_title": "Phỏng vấn người làm nghề",
+   "skill": "K7 · Tự học và phát triển nghề nghiệp · Bậc 1 Làm quen",
+   "where": "Tây Úc",
+   "who": "Vĩ",
+   "opener": ""
+  },
+  {
+   "n": 5,
+   "title": "Ba vòng tròn trên trang giấy",
+   "part": 1,
+   "lesson": "k7-hieu-minh-chon-huong",
+   "lesson_title": "Hiểu mình để chọn hướng thử bằng ba vòng",
+   "skill": "K7 · Tự học và phát triển nghề nghiệp · Bậc 2 Bắt đầu",
+   "where": "Perth",
+   "who": "Vĩ",
+   "opener": ""
+  },
+  {
+   "n": 6,
+   "title": "Ba điều chưa hỏi",
+   "part": 1,
+   "lesson": "k1-xac-nhan-chi-dan",
+   "lesson_title": "Nhận chỉ dẫn và xác nhận lại trước khi làm",
+   "skill": "K1 · Lắng nghe và hiểu đúng · Bậc 2 Bắt đầu",
+   "where": "Bình Dương",
+   "who": "Vĩ",
+   "opener": ""
+  },
+  {
+   "n": 7,
+   "title": "Năm lần hỏi vì sao ở cuối chuyền may",
+   "part": 1,
+   "lesson": "k3-tim-nguyen-nhan-goc",
+   "lesson_title": "Tìm nguyên nhân gốc trước khi sửa",
+   "skill": "K3 · Giải quyết vấn đề và ra quyết định · Bậc 3 Vững vàng",
+   "where": "Đồng Nai",
+   "who": "Vĩ",
+   "opener": ""
+  },
+  {
+   "n": 8,
+   "title": "Cái vòng tròn trên cánh đồng bông",
+   "part": 1,
+   "lesson": "k3-nhin-van-de-theo-he-thong",
+   "lesson_title": "Nhìn vấn đề trong cả hệ thống",
+   "skill": "K3 · Giải quyết vấn đề và ra quyết định · Bậc 4 Thành thạo",
+   "where": "Ấn Độ",
+   "who": "Vĩ",
+   "opener": ""
+  },
+  {
+   "n": 9,
+   "title": "Tờ giấy dán cạnh bình nước",
+   "part": 1,
+   "lesson": "k10-bien-quy-dinh-thanh-viec-lam",
+   "lesson_title": "Đọc quy định mới và biến nó thành việc cần làm",
+   "skill": "K10 · Năng lực số, AI và quy tắc nơi làm việc · Bậc 4 Thành thạo",
+   "where": "Đồng Nai",
+   "who": "Vĩ",
+   "opener": ""
+  },
+  {
+   "n": 10,
+   "title": "Mười cuộc trò chuyện bên bờ kênh",
+   "part": 1,
+   "lesson": "k1-kham-pha-khach-hang",
+   "lesson_title": "Từ ý tưởng đến giả thuyết: khám phá khách hàng",
+   "skill": "K1 · Lắng nghe và hiểu đúng · Bậc 4 Thành thạo",
+   "where": "Đồng bằng sông Cửu Long",
+   "who": "Vĩ",
+   "opener": ""
+  },
+  {
+   "n": 11,
+   "title": "Bốn câu hỏi trước khi ký tên",
+   "part": 1,
+   "lesson": "k10-phap-ly-khoi-su",
+   "lesson_title": "Pháp lý khởi sự",
+   "skill": "K10 · Năng lực số, AI và quy tắc nơi làm việc · Bậc 3 Vững vàng",
+   "where": "TP.HCM",
+   "who": "Vĩ",
+   "opener": ""
+  },
+  {
+   "n": 12,
+   "title": "Trong khi đó: cậu bé hay hỏi vì sao",
+   "part": 2,
+   "lesson": "k7-ai-cung-co-the-lam-nghe-nay",
+   "lesson_title": "Ai cũng có thể làm nghề này",
+   "skill": "K7 · Tự học và phát triển nghề nghiệp · Bậc 1 Làm quen",
+   "where": "Perth",
+   "who": "Sơn",
+   "opener": "<p class=\"muse\"><i>Mười một chương vừa rồi kể về người anh.</i></p><p class=\"muse\"><i>Nhưng trong mỗi chương ấy luôn có một người em. Người đã vẽ nước lên trang đầu cuốn sổ. Người chỉ tưới đúng một cốc. Người bảo anh đổi một thứ thôi.</i></p><p class=\"muse\"><i>Giờ ta quay lại buổi sáng ở cổng trường, năm người anh mười một tuổi. Lần này, ta đứng ở phía bàn tay bé hơn.</i></p>"
+  },
+  {
+   "n": 13,
+   "title": "Thứ Ba và thứ Năm của Amina",
+   "part": 2,
+   "lesson": "k5-nhan-viec-va-giu-hen",
+   "lesson_title": "Nhận việc và giữ hẹn",
+   "skill": "K5 · Lập kế hoạch và giữ cam kết công việc · Bậc 1 Làm quen",
+   "where": "Perth",
+   "who": "Sơn",
+   "opener": ""
+  },
+  {
+   "n": 14,
+   "title": "Một trang giấy không có chữ nào nói quá",
+   "part": 2,
+   "lesson": "k2-viet-cv-dau-tien",
+   "lesson_title": "Viết CV một trang khi chưa có kinh nghiệm",
+   "skill": "K2 · Trình bày và viết rõ ràng · Bậc 2 Bắt đầu",
+   "where": "Perth",
+   "who": "Sơn",
+   "opener": ""
+  },
+  {
+   "n": 15,
+   "title": "Tấm bảng dưới gốc thốt nốt",
+   "part": 2,
+   "lesson": "k1-nghe-va-chot-viec-sau-hop",
+   "lesson_title": "Nghe trong cuộc họp và chốt việc",
+   "skill": "K1 · Lắng nghe và hiểu đúng · Bậc 3 Vững vàng",
+   "where": "Campuchia",
+   "who": "Sơn",
+   "opener": ""
+  },
+  {
+   "n": 16,
+   "title": "Hai cánh cửa ở ngôi trường giữa nắng",
+   "part": 2,
+   "lesson": "k2-thuyet-phuc-khong-can-chuc-danh",
+   "lesson_title": "Thuyết phục khi không có chức danh",
+   "skill": "K2 · Trình bày và viết rõ ràng · Bậc 4 Thành thạo",
+   "where": "Ấn Độ",
+   "who": "Sơn",
+   "opener": ""
+  },
+  {
+   "n": 17,
+   "title": "Người nói sau cùng",
+   "part": 2,
+   "lesson": "k8-xay-doi-hoa-nhap",
+   "lesson_title": "Xây đội có vai trò rõ, ai cũng được đóng góp",
+   "skill": "K8 · Làm việc nhóm và tôn trọng khác biệt · Bậc 5 Dẫn dắt",
+   "where": "Kenya",
+   "who": "Sơn",
+   "opener": ""
+  },
+  {
+   "n": 18,
+   "title": "Hai tuần không ai nói với ai",
+   "part": 2,
+   "lesson": "k8-doi-thoai-kho",
+   "lesson_title": "Xử lý xung đột và đối thoại khó",
+   "skill": "K8 · Làm việc nhóm và tôn trọng khác biệt · Bậc 4 Thành thạo",
+   "where": "TP.HCM",
+   "who": "Sơn",
+   "opener": ""
+  },
+  {
+   "n": 19,
+   "title": "Cái hộp ở cuối phòng học",
+   "part": 2,
+   "lesson": "k1-nghe-tin-hieu-yeu",
+   "lesson_title": "Nghe tín hiệu yếu và giúp tin xấu đi lên",
+   "skill": "K1 · Lắng nghe và hiểu đúng · Bậc 5 Dẫn dắt",
+   "where": "Campuchia",
+   "who": "Sơn",
+   "opener": ""
+  },
+  {
+   "n": 20,
+   "title": "Ngôi trường bên bờ kênh",
+   "part": 3,
+   "lesson": "k3-quyet-dinh-chien-luoc-theo-nhom",
+   "lesson_title": "Quyết định chiến lược theo nhóm",
+   "skill": "K3 · Giải quyết vấn đề và ra quyết định · Bậc 5 Dẫn dắt",
+   "where": "Đồng bằng sông Cửu Long",
+   "who": "Vĩ và Sơn",
+   "opener": ""
+  }
+ ],
+ "sources": [
+  "<b>Bài học.</b> kynanglamviec.com, các bài ghi ở trang mở mỗi chương. Tra cứu tháng 11/2026.",
+  "<b>Nhiệt độ ở xưởng may (ch. 7).</b> ILO/Better Work, IFC và Đại học Cornell, <i>The Heat is On</i>, 2025.",
+  "<b>Đất mặn ở Tây Úc (ch. 4).</b> Sở Công nghiệp Cơ bản và Phát triển Vùng Tây Úc (DPIRD), cập nhật 2022; CSIRO và DPIRD, bản đồ vệ tinh, 2022.",
+  "<b>Trường học ở Tây Úc (ch. 3, 12, 13).</b> Sở Giáo dục Tây Úc; Cancer Council WA, hướng dẫn chống nắng cho trường học, 2/2024.",
+  "<b>Đất suy thoái ở Ấn Độ (ch. 8).</b> Space Applications Centre, ISRO, <i>Desertification and Land Degradation Atlas of India</i>, 6/2021.",
+  "<b>Nhà vệ sinh trường học (ch. 16).</b> WHO/UNICEF JMP, báo cáo 2024; Adukia, A. (2017), <i>American Economic Journal: Applied Economics</i> 9(2).",
+  "<b>Trẻ em chưa đọc hiểu (ch. 15, 17).</b> Ngân hàng Thế giới, Learning Poverty Briefs, 4/2024.",
+  "<b>Học bằng phần mềm thích ứng (ch. 19).</b> Muralidharan, Singh và Ganimian (2019), <i>American Economic Review</i> 109(4).",
+  "<b>Tâm lý an toàn (ch. 19).</b> Edmondson, A. (1999), <i>Administrative Science Quarterly</i> 44(2).",
+  "<b>Góc nhìn bên ngoài và khám nghiệm trước (ch. 20).</b> Flyvbjerg (2006), <i>Project Management Journal</i> 37(3); Klein (2007), <i>Harvard Business Review</i>.",
+  "<b>Pháp luật Việt Nam (ch. 9).</b> Luật An toàn, vệ sinh lao động số 84/2015/QH13. Tình trạng ghi theo thời điểm viết sách, tháng 11/2026."
+ ]
+}

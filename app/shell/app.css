@@ -77,6 +77,54 @@ article.lesson .flow *,article.lesson .steps *,article.lesson .finish p,article.
 .app-wipe{min-height:48px;padding:8px 14px;border:1px solid var(--line);border-radius:10px;background:transparent;color:var(--muted);font-size:15px}
 .app-wipe.armed{border-color:var(--no);color:var(--no);font-weight:700}
 
+/* ---------- Sách "Cuốn sổ bìa xanh" ---------- */
+.app-booklink,.app-bookcard{display:block;text-decoration:none;font-family:system-ui,-apple-system,Roboto,sans-serif}
+.app-booklink{margin:8px 0 4px;padding:10px 14px;border-radius:12px;border:1px solid var(--line);border-left:6px solid #2c5d8a;background:var(--card);color:var(--ink)}
+.app-booklink small{display:block;color:var(--muted);font-size:14px}
+.app-bookcard{border-left:6px solid #2c5d8a}
+.sach-cover{margin:12px auto 8px;max-width:260px}
+.sach-cover img,.sach-plate img{display:block;width:100%;height:auto;border-radius:12px;background:var(--line)}
+.sach-plate{margin:14px 0 18px}
+.sach-plate figcaption,.sach-label{font-size:14px;color:var(--muted);font-family:system-ui,-apple-system,Roboto,sans-serif}
+.sach-plate figcaption{margin-top:6px}
+.sach-label{font-style:italic;margin:0 0 6px}
+.sach-chapter .eyebrow,.sach-cover+.eyebrow{color:var(--pa,#2c5d8a);font-family:system-ui,-apple-system,Roboto,sans-serif;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;margin:14px 0 0}
+.sach-chapter h1{color:var(--pa,#2c5d8a)}
+.sach-facts{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0 0 22px;padding:12px 14px;border-radius:12px;background:var(--card);border:1px solid var(--line);font-family:system-ui,-apple-system,Roboto,sans-serif;font-size:15px}
+.sach-facts dt{color:var(--pa,#2c5d8a);font-weight:700}.sach-facts dd{margin:0}
+.sach-text p{font-family:Georgia,"Noto Serif","Droid Serif",serif;font-size:1.08em;line-height:1.75;margin:0 0 .9em;text-wrap:pretty}
+.sach-text p.first::first-letter{font-size:1.5em;font-weight:700;color:var(--pa,#2c5d8a)}
+.sach-text p.sep{text-align:center;color:var(--pa,#2c5d8a);letter-spacing:.4em;margin:1.3em 0}
+.sach-text p.muse{font-style:italic}
+.sach-opener{margin:12px 0;padding:14px 16px;border-radius:12px;background:#f6e7c4;color:#3d2c08}
+.sach-opener p{font-family:Georgia,"Noto Serif",serif;font-style:italic;margin:0 0 .6em}
+.sach-notebook{margin:26px 0;padding:16px;border-radius:14px;background:#f6efe0;color:#26221c;border:1px solid #e2dccf}
+.sach-notebook .spot{display:block;width:150px;height:auto;margin:0 auto 6px}
+.sach-notebook .eyebrow{text-align:center;color:#2c5d8a!important}
+.sach-notebook h2{text-align:center;border:0;margin:.2em 0 .6em;color:#26221c}
+.sach-notebook ul{list-style:none;padding:0;margin:0}
+.sach-notebook li{padding-left:10px;border-left:3px solid #dce8f2;margin:0 0 8px;font-family:Georgia,"Noto Serif",serif}
+.sach-adult,.sach-talk,.sach-do{margin:22px 0;padding:14px 16px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.sach-adult{border-top:5px solid var(--pa,#2c5d8a)}
+.sach-adult h2,.sach-talk h2,.sach-do h2{border:0;margin:.1em 0 .5em;padding:0}
+.sach-skill{font-family:system-ui,-apple-system,Roboto,sans-serif;font-weight:700;color:var(--pa,#2c5d8a);font-size:15px}
+.sach-chapter h3.sub{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}
+.sach-chapter .hint{font-style:italic;color:var(--muted)}
+.sach-more{display:flex;flex-direction:column;gap:6px;margin-top:12px}
+.sach-pager{display:flex;flex-direction:column;gap:10px;margin:18px 0}
+.sach-part{color:var(--pa);border-top:4px solid var(--pa);padding-top:10px}
+.sach-intro{font-family:Georgia,"Noto Serif",serif;font-style:italic;color:var(--muted);margin:0 0 .5em}
+a.card.sach-card{display:flex;gap:12px;align-items:center;margin:0 0 10px;text-decoration:none;color:var(--ink)}
+.sach-card img{width:72px;height:107px;object-fit:cover;border-radius:8px;flex:none}
+.sach-card strong{display:block;font-size:17px;line-height:1.3;margin-top:4px}
+.sach-src{margin:24px 0}.sach-src summary{min-height:48px;display:flex;align-items:center;font-weight:600;cursor:pointer}
+.sach-src p{font-size:15px}
+html[data-dark] .sach-chapter,html[data-dark] .sach-part{--pa:#9cc3e6!important}
+html[data-dark] .sach-opener{background:#2a2214;color:var(--ink)}
+html[data-dark] .sach-notebook{background:#22201a;color:var(--ink);border-color:#3a3528}
+html[data-dark] .sach-notebook h2{color:var(--ink)}
+html[data-dark] .sach-notebook .eyebrow{color:#9cc3e6!important}
+
 /* Vùng chạm tối thiểu 48dp */
 .btn,.opt,.course-strip li a{min-height:48px}
 .btn{display:inline-flex;align-items:center;justify-content:center}

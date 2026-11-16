@@ -26,18 +26,20 @@ SITE = "https://kynanglamviec.com"
 APP_NAME = "Kỹ Năng Làm Việc"
 KEY = "klv.app.v1"  # khóa riêng của app; dữ liệu học của site vẫn dùng tiền tố "klv:"
 
+SACH = ROOT / "sach"  # sinh bằng tools/gen_sach.py từ bộ nguồn sách
 SKIP_FILES = {"_headers", "robots.txt", "sitemap.xml", "404.html"}
 
 ICONS = {
     "home": '<path d="M3 11.5 12 4l9 7.5M5.5 10v9.5h13V10"/>',
     "path": '<circle cx="6" cy="18" r="2"/><circle cx="18" cy="6" r="2"/><path d="M8 18h6a3.5 3.5 0 0 0 0-7h-4a3.5 3.5 0 0 1 0-7h6"/>',
+    "sach": '<path d="M6 3.5h11.5a1 1 0 0 1 1 1V20a.5.5 0 0 1-.5.5H6.5A2 2 0 0 1 4.5 18.5v-13a2 2 0 0 1 1.5-2Z"/><path d="M4.5 18.5a2 2 0 0 1 2-2h12M9 3.5v7l2-1.4 2 1.4v-7"/>',
     "skill": '<rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/>',
     "book": '<path d="M4 5.5c2.5-1 5.5-1 8 .5 2.5-1.5 5.5-1.5 8-.5v13c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5zM12 6v13"/>',
     "mine": '<circle cx="12" cy="8.5" r="3.6"/><path d="M4.5 20c1-4 4-5.5 7.5-5.5s6.5 1.5 7.5 5.5"/>',
 }
 TABS = {
     "vi": [("home", "Trang chủ", "/index.html"), ("path", "Lộ trình", "/lo-trinh/index.html"),
-           ("skill", "Kỹ năng", "/ky-nang/index.html"), ("book", "Bài học", "/bai-hoc/index.html"),
+           ("sach", "Sách", "/sach/index.html"), ("book", "Bài học", "/bai-hoc/index.html"),
            ("mine", "Của tôi", "/cua-toi/index.html")],
     "en": [("home", "Home", "/en/index.html"), ("path", "Paths", "/en/paths/index.html"),
            ("skill", "Skills", "/en/skills/index.html"), ("book", "Lessons", "/en/lessons/index.html"),
@@ -68,6 +70,10 @@ def tab_of(rel: str) -> str:
     r = rel[3:] if rel.startswith("en/") else rel
     if r == "index.html":
         return "home"
+    if rel.startswith("sach/"):
+        return "sach"
+    if rel.startswith("ky-nang/"):  # bản tiếng Việt không có tab Kỹ năng (nhường chỗ cho tab Sách)
+        return "path"
     for key, pres in (("path", ("lo-trinh/", "paths/", "tai-nguyen/", "resources/")), ("skill", ("ky-nang/", "skills/")),
                       ("book", ("bai-hoc/", "lessons/")), ("mine", ("cua-toi/", "mine/", "tu-danh-gia/", "self-assessment/", "nhat-ky/", "journal/"))):
         if r.startswith(pres):
@@ -177,20 +183,67 @@ MINE = {
     "vi": ("Của tôi", "Mọi thứ ở đây chỉ nằm trên máy của bạn. App không gửi dữ liệu đi đâu."),
     "en": ("My learning", "Everything here stays on your phone. The app sends no data anywhere."),
 }
-EXTRA = {"cua-toi/index.html": "vi", "en/mine/index.html": "en"}
+EXTRA = {"cua-toi/index.html": "vi", "en/mine/index.html": "en"}  # trang riêng của app (sách thêm vào lúc chạy)
+
+
+def shell_page(lang: str, title: str, main_html: str, other: str, up: int = 1) -> str:
+    """Trang riêng của app: lấy khung (head, footer) từ trang chủ cùng ngôn ngữ, thay phần main. Trang nằm sâu hơn trang chủ một cấp."""
+    home = (SRC / ("en/index.html" if lang == "en" else "index.html")).read_text(encoding="utf-8")
+    home = re.sub(r'(href|src)="(?!https?:|/|#|mailto:)([^"]*)"', lambda m: f'{m.group(1)}="{"../" * up}{m.group(2)}"', home)
+    home = re.sub(r"<main.*?</main>", lambda m: f'<main id="main" class="wrap">\n{main_html}\n</main>', home, count=1, flags=re.S)
+    home = re.sub(r"<title>.*?</title>", f"<title>{html.escape(title)} · {APP_NAME}</title>", home, count=1)
+    return re.sub(r'<a class="lang" href="[^"]*"', f'<a class="lang" href="{other}"', home, count=1)
 
 
 def mine_page(lang: str) -> str:
-    """Trang Của tôi: lấy khung (head, footer) từ trang chủ cùng ngôn ngữ, thay phần main."""
-    home = (SRC / ("en/index.html" if lang == "en" else "index.html")).read_text(encoding="utf-8")
     h1, lead = MINE[lang]
-    # trang chủ nằm cao hơn trang Của tôi một cấp: thêm "../" vào mọi link tương đối
-    home = re.sub(r'(href|src)="(?!https?:|/|#|mailto:)([^"]*)"', lambda m: f'{m.group(1)}="../{m.group(2)}"', home)
-    main = f'<main id="main" class="wrap">\n<h1>{h1}</h1>\n<p class="lead">{lead}</p>\n<div id="app-mine"></div>\n</main>'
-    home = re.sub(r"<main.*?</main>", lambda m: main, home, count=1, flags=re.S)
-    home = re.sub(r"<title>.*?</title>", f"<title>{h1} · {APP_NAME}</title>", home, count=1)
-    other = "/en/mine/" if lang == "vi" else "/cua-toi/"
-    return re.sub(r'<a class="lang" href="[^"]*"', f'<a class="lang" href="{other}"', home, count=1)
+    return shell_page(lang, h1, f'<h1>{h1}</h1>\n<p class="lead">{lead}</p>\n<div id="app-mine"></div>', "/en/mine/" if lang == "vi" else "/cua-toi/")
+
+
+def load_sach():
+    f = SACH / "sach.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
+
+
+def sach_pages(book):
+    """Trang mục lục /sach/ và 20 trang chương /sach/chuong-NN/ (chỉ tiếng Việt)."""
+    pages, chs = {}, book["chapters"]
+    rows, cur = [], None
+    for c in chs:
+        if c["part"] != cur:
+            cur = c["part"]
+            pt = book["parts"][str(cur)]
+            rows.append(f'<h2 class="sach-part" style="--pa:{pt["color"]}">{html.escape(pt["name"])}</h2>'
+                        + "".join(f'<p class="sach-intro">{html.escape(x)}</p>' for x in pt["intro"]))
+        rows.append(f'<a class="card sach-card" href="/sach/chuong-{c["n"]:02d}/"><img src="/sach/tranh/c{c["n"]:02d}.webp" alt="" width="72" height="107" loading="lazy">'
+                    f'<span><span class="tag">Chương {c["n"]} · {html.escape(c["where"])} · {html.escape(c["skill"].split(" · ")[0])}</span>'
+                    f'<strong>{html.escape(c["title"])}</strong></span></a>')
+    src = "".join(f"<p>{x}</p>" for x in book["sources"])
+    index = f"""<figure class="sach-cover"><img src="/sach/tranh/bia.webp" alt="" width="900" height="1334"></figure>
+<p class="eyebrow">Sách cho cả nhà · {html.escape(book["author"])} kể</p>
+<h1>{html.escape(book["title"])}</h1>
+<p class="lead">{html.escape(book["sub"])}. Hai mươi chương, mỗi chương dẫn tới một bài học trong app.</p>
+<p class="small muted">Truyện hư cấu. Nơi chốn và vấn đề là thật; tổ chức và nhân vật phụ do tác giả đặt ra. Chữ và tranh có AI hỗ trợ; tranh không phải chân dung người thật.</p>
+{chr(10).join(rows)}
+<details class="sach-src"><summary>Nguồn dữ kiện trong Góc người lớn</summary>{src}</details>
+"""
+    pages["sach/index.html"] = shell_page("vi", book["title"], index, "/en/")
+    for i, c in enumerate(chs):
+        n = c["n"]
+        body = (SACH / f"c{n:02d}.html").read_text(encoding="utf-8")
+        if c.get("opener"):
+            body = f'<div class="sach-opener">{c["opener"]}</div>\n' + body
+        nav = ""
+        if i > 0:
+            nav += f'<a class="prev" href="/sach/chuong-{chs[i-1]["n"]:02d}/">← Chương {chs[i-1]["n"]}</a>'
+        if i < len(chs) - 1:
+            nav += f'<a class="next" href="/sach/chuong-{chs[i+1]["n"]:02d}/">Chương {chs[i+1]["n"]}: {html.escape(chs[i+1]["title"])} →</a>'
+        else:
+            nav += '<a class="next" href="/sach/">Về mục lục sách</a>'
+        main = (f'<article class="sach-chapter" data-slug="sach-c{n:02d}" data-title="Chương {n}. {html.escape(c["title"])}" '
+                f'style="--pa:{book["parts"][str(c["part"])]["color"]}">\n{body}<nav class="pager sach-pager">{nav}</nav>\n</article>')
+        pages[f"sach/chuong-{n:02d}/index.html"] = shell_page("vi", f'Chương {n}. {c["title"]}', main, "/en/", up=2)
+    return pages
 
 
 def strip(s: str) -> str:
@@ -282,15 +335,29 @@ def main():
             n += 1
         else:
             shutil.copy2(f, dst)
-    for rel, lang in EXTRA.items():
+    book = load_sach()
+    extra = {rel: mine_page(lang) for rel, lang in EXTRA.items()}
+    if book:
+        sp = sach_pages(book)
+        EXTRA.update({rel: "vi" for rel in sp})
+        extra.update(sp)
+        (OUT / "sach" / "tranh").mkdir(parents=True, exist_ok=True)
+        for img in SACH.glob("*.webp"):
+            shutil.copy2(img, OUT / "sach" / "tranh" / img.name)
+    for rel, text in extra.items():
         dst = OUT / rel
         dst.parent.mkdir(parents=True, exist_ok=True)
-        dst.write_text(transform(mine_page(lang), rel, missing), encoding="utf-8")
+        dst.write_text(transform(text, rel, missing), encoding="utf-8")
         n += 1
 
     courses = course_index()
     lessons = lesson_list()
-    data = dict(courses=courses, lessons=lessons, pages=other_pages("vi") + other_pages("en"))
+    if book:  # sách = một "khóa" tiếng Việt: dùng chung tiến độ, đọc tiếp, tìm kiếm
+        chs = [[f'/sach/chuong-{c["n"]:02d}/', f'Chương {c["n"]}. {c["title"]}', f'sach-c{c["n"]:02d}', c["lesson"]] for c in book["chapters"]]
+        courses.append(dict(p="/sach/", t=book["title"], g="vi", code="SACH", book=1, l=[x[:3] for x in chs]))
+        lessons += [[x[0], x[1], f'{book["title"]} · ' + x[1].split(".")[0], x[2], "vi"] for x in chs]
+    data = dict(courses=courses, lessons=lessons, pages=other_pages("vi") + other_pages("en"),
+                book={x[3]: [x[0], x[1]] for x in chs} if book else {})
     (OUT / "app").mkdir(exist_ok=True)
     (OUT / "app" / "index.js").write_text("window.KLV=" + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";", encoding="utf-8")
     for name in ("app.css", "app.js"):

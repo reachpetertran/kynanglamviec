@@ -221,8 +221,10 @@ Chuỗi K4 nâng cao (nối tiếp chuỗi chính: k4-de-xuat-cai-tien.next = k4
 - Icon, màn hình chờ: từ `public/assets/logo-icon.svg` (bỏ dải đất ở lớp trước), nguồn ở `app/assets/`.
 - Workflow `.github/workflows/app-android.yml`: push nhánh `app` → APK bản thử (artifact `ky-nang-lam-viec-ban-thu`). Lần chạy đầu 14/11/2026 UTC: thành công, APK 6,8 MB, đã gửi Peter.
 - Đã kiểm: 0 link hỏng trong www, 0 lỗi JS (Playwright 390 px), chụp sáng/tối. Chưa thử trên máy thật.
+- (16/11/2026) Thêm sách "Cuốn sổ bìa xanh" vào app: 20 chương + 21 tranh, tab Sách thay tab Kỹ năng (bản VI). Bản gia đình, tên thật Vĩ và Sơn (Peter chọn). Nguồn: zip "cuon-so-bia-xanh-chu-va-ma" trong thư mục In Sach\\Cuon So Bia Xanh; sinh lại bằng `app/tools/gen_sach.py`. App ~11 MB nội dung.
+- Peter chốt (16/11/2026): tên Play Store "Kỹ Năng Làm Việc – Lộ trình"; khai báo app cho người lớn (từ 18 tuổi); thử APK trên 2–3 máy trước khi mở tài khoản Google Play.
 - Khi site đổi nội dung: merge `main` vào `app` rồi push để build lại APK.
-- Việc chờ Peter: thử APK trên máy thật; chốt tên trên Play Store (≤30 ký tự); quyết đối tượng mục tiêu (người lớn / có N1 cho phụ huynh); trang chính sách quyền riêng tư cho app; tài khoản Google Play (25 USD, chạy thử kín ≥12 người ≥14 ngày) – việc tốn tiền, Peter quyết.
+- Việc chờ Peter: thử APK trên 2–3 máy thật; trang chính sách quyền riêng tư cho app; tài khoản Google Play (25 USD, chạy thử kín ≥12 người ≥14 ngày) – việc tốn tiền, Peter quyết.
 
 ## Việc tiếp theo
 1. Bài pháp lý K10 "Quyền và an toàn khi đi làm thêm, thực tập" (N2): HOÃN. Luật sửa đổi BLLĐ đang được Quốc hội khóa XVI xem xét tại Kỳ họp thứ 2. Tra lại kết quả biểu quyết trước khi viết; dẫn 18/VBHN-VPQH (12/02/2026) nếu luật chưa có hiệu lực.

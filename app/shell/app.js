@@ -4,16 +4,16 @@
   var KEY = 'klv.app.v1', NS = 'klv:', D = window.KLV || { courses: [], lessons: [], pages: [] };
   var EN = document.documentElement.lang === 'en', LG = EN ? 'en' : 'vi';
   var L = EN ? {
-    save: 'Save this lesson', saved: 'Saved ✓', lessonOf: 'Lesson', of: 'of', cont: 'Continue reading',
-    prog: 'lessons done', start: 'Start', goon: 'Continue', finished: 'Course finished. Remember to review on schedule.', now: 'Courses in progress',
+    save: 'Save this lesson', chapOf: 'Chapter', inBook: 'Story in the book', read: 'Mark as read', isread: 'Read ✓', book: 'Book', saved: 'Saved ✓', lessonOf: 'Lesson', of: 'of', cont: 'Continue reading',
+    prog: 'lessons done', progB: 'chapters read', start: 'Start', goon: 'Continue', finished: 'Course finished. Remember to review on schedule.', now: 'Courses in progress',
     week: 'This week', days: 'days of learning', savedH: 'Saved lessons', none: 'Nothing here yet.',
     journal: 'Evidence journal', jn: 'entries', sa: 'Self-assessment', san: 'statements answered',
     wipe: 'Delete all my data on this phone', wipe2: 'Tap again to delete everything', noRes: 'No results.',
     search: 'Search lessons, courses and skills', ph: 'e.g. email, feedback, interview', course: 'Course', lesson: 'Lesson', page: 'Page',
     allC: 'All courses', dn: ['M', 'T', 'W', 'T', 'F', 'S', 'S']
   } : {
-    save: 'Lưu bài này', saved: 'Đã lưu ✓', lessonOf: 'Bài', of: 'trên', cont: 'Đọc tiếp',
-    prog: 'bài đã xong', start: 'Bắt đầu', goon: 'Học tiếp', finished: 'Bạn đã học xong khóa này. Nhớ ôn theo lịch.', now: 'Khóa đang học',
+    save: 'Lưu bài này', chapOf: 'Chương', inBook: 'Truyện minh họa trong sách', read: 'Đánh dấu đã đọc', isread: 'Đã đọc ✓', book: 'Sách', saved: 'Đã lưu ✓', lessonOf: 'Bài', of: 'trên', cont: 'Đọc tiếp',
+    prog: 'bài đã xong', progB: 'chương đã đọc', start: 'Bắt đầu', goon: 'Học tiếp', finished: 'Bạn đã học xong khóa này. Nhớ ôn theo lịch.', now: 'Khóa đang học',
     week: 'Tuần này', days: 'ngày có học', savedH: 'Bài đã lưu', none: 'Chưa có gì ở đây.',
     journal: 'Nhật ký bằng chứng', jn: 'ghi chép', sa: 'Tự đánh giá', san: 'câu đã trả lời',
     wipe: 'Xóa mọi dữ liệu của tôi trên máy này', wipe2: 'Bấm lần nữa để xóa hết', noRes: 'Không tìm thấy.',
@@ -86,17 +86,18 @@
   function courseCard(c) {
     var n = count(c), nx = nextOf(c);
     return '<a class="app-course" href="' + href(nx ? nx[0] : c.p) + '"><strong>' + esc(c.t) + '</strong>' + bar(n, c.l.length) +
-      '<small>' + n + '/' + c.l.length + ' ' + L.prog + (nx ? ' · ' + L.goon + ': ' + esc(nx[1]) : ' · ' + L.finished) + '</small></a>';
+      '<small>' + n + '/' + c.l.length + ' ' + (c.book ? L.progB : L.prog) + (nx ? ' · ' + L.goon + ': ' + esc(nx[1]) : ' · ' + L.finished) + '</small></a>';
   }
   function active() { return COURSES.filter(function (c) { var n = count(c); return n > 0 && n < c.l.length; }); }
 
   var main = document.querySelector('main');
-  var lesson = document.querySelector('article.lesson');
-  var title = lesson ? lesson.getAttribute('data-title') : (document.querySelector('h1') || {}).textContent;
+  var lesson = document.querySelector('article.lesson'), chap = document.querySelector('article.sach-chapter');
+  var title = lesson ? lesson.getAttribute('data-title') : chap ? chap.getAttribute('data-title') : (document.querySelector('h1') || {}).textContent;
+  var BOOK = D.book || {};
 
   // ---------- Bài học ----------
-  if (lesson) {
-    var slug = lesson.getAttribute('data-lesson');
+  if (lesson || chap) {
+    var art = lesson || chap, slug = lesson ? lesson.getAttribute('data-lesson') : chap.getAttribute('data-slug');
     st.days[ymd()] = 1;
     st.last = { p: path, t: title, y: (st.last && st.last.p === path) ? st.last.y : 0 }; save();
     if (st.last.y > 200) requestAnimationFrame(function () { window.scrollTo(0, st.last.y); });
@@ -107,24 +108,43 @@
     }, { passive: true });
 
     if (idx >= 0) {
-      var crumb = el('a', 'app-crumb', '<small>' + esc(course.t) + ' · ' + L.lessonOf + ' ' + (idx + 1) + ' ' + L.of + ' ' + course.l.length + '</small>' + bar(count(course), course.l.length));
+      var crumb = el('a', 'app-crumb', '<small>' + esc(course.t) + ' · ' + (course.book ? L.chapOf : L.lessonOf) + ' ' + (idx + 1) + ' ' + L.of + ' ' + course.l.length + '</small>' + bar(count(course), course.l.length));
       crumb.href = href(course.p);
-      lesson.insertBefore(crumb, lesson.firstChild);
+      art.insertBefore(crumb, art.firstChild);
     }
-    var fin = lesson.querySelector('.finish');
+    // Bài có chương sách minh họa: dẫn sang chương
+    if (lesson && BOOK[slug]) {
+      var bk = el('a', 'app-booklink', '<small>' + L.inBook + '</small>' + esc(BOOK[slug][1]));
+      bk.href = href(BOOK[slug][0]);
+      var anchor = lesson.querySelector('.meta') || lesson.querySelector('h1');
+      if (anchor) anchor.parentNode.insertBefore(bk, anchor.nextSibling);
+    }
+    // Chương sách: nút đánh dấu đã đọc (lưu như bài đã học, tiền tố klv:done:)
+    var fin = lesson ? lesson.querySelector('.finish') : null;
+    if (chap) {
+      fin = el('section', 'finish card app-read');
+      var rb = el('button', 'btn'); rb.type = 'button';
+      var pr = function () { var d = isDone(slug); rb.textContent = d ? L.isread : L.read; rb.setAttribute('aria-pressed', d); };
+      rb.addEventListener('click', function () {
+        try { if (isDone(slug)) localStorage.removeItem(NS + 'done:' + slug); else localStorage.setItem(NS + 'done:' + slug, JSON.stringify(new Date().toISOString())); } catch (e) {}
+        st.days[ymd()] = 1; save(); pr();
+      });
+      pr(); fin.appendChild(rb);
+      var pg = chap.querySelector('.sach-pager'); chap.insertBefore(fin, pg);
+    }
     var sb = el('button', 'btn ghost app-save'); sb.type = 'button';
     var paint = function () { var s = !!st.saved[path]; sb.textContent = s ? L.saved : L.save; sb.setAttribute('aria-pressed', s); };
     sb.addEventListener('click', function () { if (st.saved[path]) delete st.saved[path]; else st.saved[path] = title; save(); paint(); });
     paint();
-    if (fin) fin.appendChild(sb); else lesson.appendChild(sb);
+    if (fin) fin.appendChild(sb); else art.appendChild(sb);
     // Bấm "Đánh dấu đã học" của site: ghi ngày có học
-    lesson.addEventListener('click', function (e) { if (e.target.closest('[data-action="done"]')) { st.days[ymd()] = 1; save(); } });
+    art.addEventListener('click', function (e) { if (e.target.closest('[data-action="done"]')) { st.days[ymd()] = 1; save(); } });
   }
 
   // ---------- Trang nhóm có khóa: thanh tiến độ và nút học tiếp ----------
   if (course && idx < 0 && main && course.l.length) {
     var n = count(course), nx = nextOf(course);
-    var card = el('div', 'app-progress', '<strong>' + esc(course.t) + ': ' + n + '/' + course.l.length + ' ' + L.prog + '</strong>' + bar(n, course.l.length) +
+    var card = el('div', 'app-progress', '<strong>' + esc(course.t) + ': ' + n + '/' + course.l.length + ' ' + (course.book ? L.progB : L.prog) + '</strong>' + bar(n, course.l.length) +
       (nx ? '<a class="btn" href="' + href(nx[0]) + '">' + (n ? L.goon : L.start) + ': ' + esc(nx[1]) + '</a>' : '<p>' + L.finished + '</p>'));
     var lead = main.querySelector('.lead');
     if (lead) lead.parentNode.insertBefore(card, lead.nextSibling); else main.insertBefore(card, main.firstChild);
@@ -133,8 +153,11 @@
   // ---------- Trang chủ: đọc tiếp, khóa đang học ----------
   if ((path === '/' || path === '/en/') && main) {
     var top = el('div', 'app-home');
-    if (st.last && st.last.p.indexOf(EN ? '/en/' : '/bai-hoc/') === 0) top.innerHTML += '<a class="app-continue" href="' + href(st.last.p) + '"><small>' + L.cont + '</small><strong>' + esc(st.last.t) + '</strong></a>';
+    if (st.last && (EN ? st.last.p.indexOf('/en/') === 0 : /^\/(bai-hoc|sach)\//.test(st.last.p))) top.innerHTML += '<a class="app-continue" href="' + href(st.last.p) + '"><small>' + L.cont + '</small><strong>' + esc(st.last.t) + '</strong></a>';
     active().slice(0, 3).forEach(function (c) { top.innerHTML += courseCard(c); });
+    var bc = COURSES.filter(function (c) { return c.book; })[0];
+    if (bc && !(count(bc) > 0 && count(bc) < bc.l.length)) top.innerHTML += '<a class="app-course app-bookcard" href="' + href(bc.p) + '"><small>' + L.book + ' · ' + bc.l.length + ' ' + L.chapOf.toLowerCase() + '</small><strong>' + esc(bc.t) + '</strong>' +
+      (count(bc) ? bar(count(bc), bc.l.length) : '') + '</a>';
     if (top.innerHTML) main.insertBefore(top, main.firstChild);
   }
 
@@ -196,9 +219,10 @@
 
   // ---------- Dấu ✓ cạnh link tới bài đã xong (ngoài thẻ bài và bản đồ khóa, nơi site đã tự đánh dấu) ----------
   if (main) [].forEach.call(main.querySelectorAll('a[href]'), function (x) {
-    if (x.closest('.app-home,.app-list,.app-crumb,.app-progress,.lesson-card,.coursemap,.course-strip,.pager,.app-course')) return;
+    if (x.closest('.app-home,.app-list,.app-crumb,.app-progress,.lesson-card,.coursemap,.course-strip,.pager,.app-course,.sach-more')) return;
     var p = x.pathname.replace(/index\.html$/, '');
-    if (!/\/(bai-hoc|lessons)\/[^\/]+\/$/.test(p) || p === path) return;
-    if (isDone(slugOf(p))) x.insertAdjacentHTML('beforeend', ' <span class="app-tick" aria-label="✓">✓</span>');
+    var sc = p.match(/^\/sach\/chuong-(\d+)\/$/);
+    if ((!sc && !/\/(bai-hoc|lessons)\/[^\/]+\/$/.test(p)) || p === path) return;
+    if (isDone(sc ? 'sach-c' + sc[1] : slugOf(p))) x.insertAdjacentHTML('beforeend', ' <span class="app-tick" aria-label="✓">✓</span>');
   });
 })();
